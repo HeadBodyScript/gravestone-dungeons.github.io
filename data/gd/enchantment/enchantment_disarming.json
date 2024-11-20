@@ -1,0 +1,25 @@
+{
+	"description": "Disarming",
+	"supported_items": "#minecraft:enchantable/weapon",
+	"slots": ["hand"],
+	"weight": 100,
+	"anvil_cost": 0,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 10,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:tick": [{
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "gd:enchantments/disarming/disarming"
+			}
+
+		}]
+	}
+}

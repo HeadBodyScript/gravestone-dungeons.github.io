@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 100000
+      }
+    }
+  },{
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Empty Offhand + Right Click: Harvest",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Seeds in Offhand + Right Click: Refill",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Crouch + Right Click: Switch Seed Type",
+        "color": "gray",
+        "italic": true
+      },
+      {
+        "text": "Crouch: Plant Selected Seed Type",
+        "color": "gray",
+        "italic": true
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b,lore:1b}"
+  }
+]

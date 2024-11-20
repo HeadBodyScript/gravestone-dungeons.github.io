@@ -1,0 +1,3 @@
+##Agility0
+
+execute as @p run say Sadly it acquired just ordinary agility...

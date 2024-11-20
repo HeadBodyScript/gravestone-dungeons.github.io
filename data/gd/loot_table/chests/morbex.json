@@ -1,0 +1,77 @@
+{
+  "pools": [
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 100,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":true,\"text\":\"Void Sphere Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Maces\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a void orb\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"that pulls targets in.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 400/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 10,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_void_sphere": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/tomes",
+          "weight": 3,
+          "quality": 1
+        },{
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/stone_runes",
+          "weight": 1,
+          "quality": 2
+        }
+      ]
+    },{
+      "rolls": {
+        "min": 6,
+        "max": 12
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/lingering_potions",
+          "weight": 3,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/potions",
+          "weight": 2,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/special_arrows",
+          "weight": 1,
+          "quality": 2
+        }
+      ]
+    }
+  ]
+}

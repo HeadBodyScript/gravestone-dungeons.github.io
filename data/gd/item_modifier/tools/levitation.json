@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Magicka Cost: 8/s",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b,lore:1b}"
+  }
+]

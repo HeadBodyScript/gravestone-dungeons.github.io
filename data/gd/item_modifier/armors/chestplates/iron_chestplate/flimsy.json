@@ -1,0 +1,45 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Flimsy",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "+6 Armor",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "6468c825-9534-4060-b533-07877e4d598f",
+        "attribute": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "6468c825-9534-4060-b533-07877e4d598f",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

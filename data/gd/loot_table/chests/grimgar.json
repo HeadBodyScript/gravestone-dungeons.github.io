@@ -1,0 +1,87 @@
+{
+  "pools": [
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 100,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Evoker Fangs Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures aggressive\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"fangs around the caster.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 100/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_evoker_fangs": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },{
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/tomes",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    },{
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    },{
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/end_city_treasure",
+          "weight": 3,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/chests/shipwreck_treasure",
+          "weight": 1,
+          "quality": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Elder Tome\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 1,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:fortune": 3
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Ancient Scriptures\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 2,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:looting": 3
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Hoary Scrolls\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 3,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:power": 5
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Cursed Writings\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 4,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:protection": 4
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Dusty Notices\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 5,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:sharpness": 5
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Arcane Grimoire\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 11,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:efficiency": 5
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Obscure Scrolls\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 12,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:luck_of_the_sea": 3
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Veiled Chronicles\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 13,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:unbreaking": 3
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Wicked Manuscripts\"}",
+                "minecraft:lore": [
+                  "[\"\"]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Encrusted with the knowledge of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ancient sorcery, these tomes once\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"guided powerful wizards in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"bending magic to their will.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Within their worn pages lies the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power to control the arcane.\"}]"
+                ],
+           	"minecraft:max_stack_size": 3,
+                "minecraft:custom_model_data": 14,
+                "minecraft:custom_data": "{elder_tome:1b}",
+                "minecraft:stored_enchantments": {
+                  "minecraft:thorns": 3
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

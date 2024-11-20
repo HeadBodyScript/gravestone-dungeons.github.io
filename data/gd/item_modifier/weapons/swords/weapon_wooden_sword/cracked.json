@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Cracked",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "-30% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "3 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "-150% Attack Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "d482d64b-9c61-47f3-8eee-75a2a528a802",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.03,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "d482d64b-9c61-47f3-8eee-75a2a528a802",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "d482d64b-9c61-47f3-8eee-75a2a528a802",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

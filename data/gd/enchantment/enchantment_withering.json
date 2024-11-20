@@ -1,0 +1,26 @@
+{
+	"description": "Withering",
+	"supported_items": "#gd:ranged_sharp",
+	"slots": ["hand"],
+	"weight": 10,
+	"anvil_cost": 5,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 11
+	},
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 11
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "gd:enchantments/withering"
+			}
+		}]
+	}
+}

@@ -1,0 +1,161 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#aa5000\",\"italic\":true,\"text\":\"Ale\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"A traditional beer brewed from\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"malted barley, hops, yeast, and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"water.\"}]"
+                ],
+                "minecraft:custom_model_data": 10,
+                "minecraft:potion_contents": {
+                  "custom_color": 16365915,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 2,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": true,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#660033\",\"italic\":true,\"text\":\"Mulled Wine\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"A warm and spiced beverage made\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"by simmering red wine with\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"cinnamon sticks, cloves, star\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"anise, orange peel, and sugar.\"}]"
+                ],
+                "minecraft:custom_model_data": 12,
+                "minecraft:potion_contents": {
+                  "custom_color": 6684723,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 1200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:health_boost",
+                      "amplifier": 0,
+                      "duration": 1200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": true,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#cc9900\",\"italic\":true,\"text\":\"Mead\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"An ancient fermented honey\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"drink, varies in sweetness and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"dryness. Often featuring herbs or\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"spices for added flavor.\"}]"
+                ],
+                "minecraft:custom_model_data": 11,
+                "minecraft:potion_contents": {
+                  "custom_color": 13408512,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 2,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 0,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": true,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 1,
+                      "duration": 1800,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

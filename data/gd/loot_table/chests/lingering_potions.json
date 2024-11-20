@@ -1,0 +1,713 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"dark_gray\",\"italic\":true,\"text\":\"Lingering Potion of Minor Withering\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of a wither\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"rose, it poisons the mind of every\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"creature.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8026746,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"dark_gray\",\"italic\":true,\"text\":\"Lingering Potion of Withering\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of a wither\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"rose, it poisons the mind of every\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"creature.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8026746,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"dark_gray\",\"italic\":true,\"text\":\"Lingering Potion of Plentiful Withering\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of a wither\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"rose, it poisons the mind of every\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"creature.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8026746,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 2,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"dark_gray\",\"italic\":true,\"text\":\"Lingering Potion of Vigorous Withering\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of a wither\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"rose, it poisons the mind of every\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"creature.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8026746,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 3,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#FF2E2E\",\"italic\":true,\"text\":\"Lingering Potion of Minor Despair\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the essence of a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"fermented spider eye, it causes weakness\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and despair on creatures.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 16723502,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#FF2E2E\",\"italic\":true,\"text\":\"Lingering Potion of Despair\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the essence of a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"fermented spider eye, it causes weakness\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and despair on creatures.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 16723502,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#FF2E2E\",\"italic\":true,\"text\":\"Lingering Potion of Plentiful Despair\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the essence of a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"fermented spider eye, it causes weakness\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and despair on creatures.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 16723502,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 2,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 2,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#FF2E2E\",\"italic\":true,\"text\":\"Lingering Potion of Vigorous Despair\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the essence of a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"fermented spider eye, it causes weakness\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and despair on creatures.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 16723502,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 3,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:blindness",
+                      "amplifier": 0,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 3,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Lingering Potion of Minor Floating\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the remains of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a shulker, it causes the victims\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"to levitate high up in the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 80,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:levitation",
+                      "amplifier": 3,
+                      "duration": 100,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Lingering Potion of Floating\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the remains of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a shulker, it causes the victims\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"to levitate high up in the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 80,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:levitation",
+                      "amplifier": 3,
+                      "duration": 140,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Lingering Potion of Plentiful Floating\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the remains of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a shulker, it causes the victims\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"to levitate high up in the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 1,
+                      "duration": 80,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:levitation",
+                      "amplifier": 3,
+                      "duration": 180,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Lingering Potion of Vigorous Floating\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the remains of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a shulker, it causes the victims\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"to levitate high up in the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 1,
+                      "duration": 80,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:levitation",
+                      "amplifier": 3,
+                      "duration": 220,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#8932b8\",\"italic\":true,\"text\":\"Lingering Potion of Minor Invincibility\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it causes the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"affected to become invincible\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short duration, but\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prevents them from dealing damage.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8991416,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 5,
+                      "duration": 140,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 5,
+                      "duration": 140,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 2,
+                      "duration": 140,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#8932b8\",\"italic\":true,\"text\":\"Lingering Potion of Invincibility\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it causes the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"affected to become invincible\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short duration, but\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prevents them from dealing damage.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8991416,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 5,
+                      "duration": 180,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 5,
+                      "duration": 180,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 2,
+                      "duration": 180,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#8932b8\",\"italic\":true,\"text\":\"Lingering Potion of Plentiful Invincibility\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it causes the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"affected to become invincible\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short duration, but\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prevents them from dealing damage.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8991416,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 5,
+                      "duration": 220,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 5,
+                      "duration": 220,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 2,
+                      "duration": 220,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#8932b8\",\"italic\":true,\"text\":\"Lingering Potion of Vigorous Invincibility\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the roots of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it causes the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"affected to become invincible\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short duration, but\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prevents them from dealing damage.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+           	"minecraft:max_stack_size": 6,
+                "minecraft:potion_contents": {
+                  "custom_color": 8991416,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 5,
+                      "duration": 260,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 5,
+                      "duration": 260,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 2,
+                      "duration": 260,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

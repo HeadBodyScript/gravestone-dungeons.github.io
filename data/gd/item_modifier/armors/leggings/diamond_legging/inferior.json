@@ -1,0 +1,69 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Inferior",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "+6 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "-1 Health",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-10% Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "1710875f-b958-4873-9c3b-bb934c5b0aef",
+        "attribute": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "1710875f-b958-4873-9c3b-bb934c5b0aef",
+        "attribute": "minecraft:generic.max_health",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "1710875f-b958-4873-9c3b-bb934c5b0aef",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.01,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "1710875f-b958-4873-9c3b-bb934c5b0aef",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

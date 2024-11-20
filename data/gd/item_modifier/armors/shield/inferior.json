@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Inferior",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "-2 Armor",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-20% Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "f2d4df66-e3b0-4b5c-90e2-b0a9fae96792",
+        "attribute": "minecraft:generic.armor",
+        "amount": -2,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "f2d4df66-e3b0-4b5c-90e2-b0a9fae96792",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.02,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

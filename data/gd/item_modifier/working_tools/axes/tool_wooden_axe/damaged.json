@@ -1,0 +1,94 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Damaged",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "-25% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "5 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "-60% Interaction Range",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-50% Efficiency",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-25% Range",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "a116278a-18dc-441c-9546-80ac0a99859a",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.025,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "a116278a-18dc-441c-9546-80ac0a99859a",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "a116278a-18dc-441c-9546-80ac0a99859a",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3.2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ea116278a-18dc-441c-9546-80ac0a99859a",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": -2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "a116278a-18dc-441c-9546-80ac0a99859a",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "a116278a-18dc-441c-9546-80ac0a99859a",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
+
+

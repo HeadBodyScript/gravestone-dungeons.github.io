@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 8,
+        "operation": "addition",
+        "id": "96db19a3-e96e-454a-957f-c91019a303cc",
+        "slot": "chest"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "",
+        "amount": 2,
+        "operation": "addition",
+        "id": "c88d6129-1252-4417-b8e8-a5fc5c177c8a",
+        "slot": "chest"
+      }
+    ]
+  }
+]

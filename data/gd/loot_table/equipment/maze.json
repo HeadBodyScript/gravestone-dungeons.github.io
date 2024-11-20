@@ -1,0 +1,1231 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },{
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },{
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:leather_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 5
+        }
+      ],
+      "rolls": 1.0
+    },{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },{
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },{
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:chainmail_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    },{
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:rib"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },{
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:iron",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:snout"
+                          }
+                        },
+                        "function": "minecraft:set_components"
+                      },
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 4
+        },{
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:fire_protection": 3.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_helmet"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 2.0,
+                          "minecraft:protection": 1.0,
+                          "minecraft:thorns": 1.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_chestplate"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:protection": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_leggings"
+                  }
+                ],
+                "rolls": 1.0
+              },
+              {
+                "bonus_rolls": 0.0,
+                "conditions": [
+                  {
+                    "chance": 0.6,
+                    "condition": "minecraft:random_chance"
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "functions": [
+                      {
+                        "add": false,
+                        "enchantments": {
+                          "minecraft:projectile_protection": 3.0,
+                          "minecraft:thorns": 2.0
+                        },
+                        "function": "minecraft:set_enchantments"
+                      }
+                    ],
+                    "name": "minecraft:iron_boots"
+                  }
+                ],
+                "rolls": 1.0
+              }
+            ]
+          },
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "gd:equipment/maze"
+}

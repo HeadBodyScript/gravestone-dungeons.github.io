@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Sharp",
+        "color": "#33ccff",
+        "italic": false
+      },
+      {
+        "text": "9 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+100% Attack Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "fb0c39a4-53aa-46a5-bd07-dbfe239749a5",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 9,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "fb0c39a4-53aa-46a5-bd07-dbfe239749a5",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -1.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

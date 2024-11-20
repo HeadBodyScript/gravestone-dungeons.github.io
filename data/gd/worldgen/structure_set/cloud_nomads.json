@@ -1,0 +1,15 @@
+{
+  
+  "structures": [
+    {
+      "structure": "gd:cloud_nomads",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 120,
+    "separation": 80,
+    "salt": 376594451
+  }
+}

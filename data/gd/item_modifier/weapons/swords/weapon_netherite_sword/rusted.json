@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Rusted",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "-20% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "8 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "-50% Attack Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "75838e26-f7a5-4f77-ab48-b33c3bd2dfdd",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.02,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "75838e26-f7a5-4f77-ab48-b33c3bd2dfdd",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "75838e26-f7a5-4f77-ab48-b33c3bd2dfdd",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

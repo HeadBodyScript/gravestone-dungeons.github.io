@@ -1,0 +1,42 @@
+{
+  "values": [
+
+#temperate
+	"minecraft:dark_forest",
+	"minecraft:swamp",
+	"minecraft:mangrove_swamp",
+    {
+      "id": "terralith:brushland",
+      "required": false
+    },
+    {
+      "id": "terralith:orchid_swamp",
+      "required": false
+    },
+
+#tropical
+	"minecraft:jungle",
+	"minecraft:sparse_jungle",
+	"minecraft:bamboo_jungle",
+    {
+      "id": "terralith:tropical_jungle",
+      "required": false
+    },
+
+#arid
+	"minecraft:savanna",
+    {
+      "id": "terralith:fractured_savanna",
+      "required": false
+    },
+    {
+      "id": "terralith:hot_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:shrubland",
+      "required": false
+    }
+
+  ]
+}

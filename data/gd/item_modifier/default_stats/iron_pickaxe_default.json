@@ -1,0 +1,22 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "e8e66d24-7323-4869-9a33-c71ee74ec644",
+        "attribute": "minecraft:generic.armor",
+        "amount": 4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "e8e66d24-7323-4869-9a33-c71ee74ec644",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "mode": "insert"
+  }
+]

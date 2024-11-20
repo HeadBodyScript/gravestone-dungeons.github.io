@@ -1,0 +1,45 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Flimsy",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "+8 Armor",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "a7f7008f-d5a7-490b-8625-a9f773da8624",
+        "attribute": "minecraft:generic.armor",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "a7f7008f-d5a7-490b-8625-a9f773da8624",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

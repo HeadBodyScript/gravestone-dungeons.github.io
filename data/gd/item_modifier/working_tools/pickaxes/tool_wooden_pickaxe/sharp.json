@@ -1,0 +1,51 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Sharp",
+        "color": "#33ccff",
+        "italic": false
+      },
+      {
+        "text": "+50% Efficiency",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "b0ca381e-7468-4cb7-aa96-51bc5547dd62",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "b0ca381e-7468-4cb7-aa96-51bc5547dd62",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "b0ca381e-7468-4cb7-aa96-51bc5547dd62",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

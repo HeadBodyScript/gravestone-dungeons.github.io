@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "name": "",
+      "amount": 5,
+      "operation": "addition",
+      "id": "ab9c75a3-76a1-4c57-80cb-489a492c1082",
+      "slot": "legs"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 8,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/potions"
+        },{
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/lingering_potions"
+        }
+      ]
+    }
+  ]
+}
+

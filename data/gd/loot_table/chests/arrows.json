@@ -1,0 +1,377 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 80,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#cc99ff\",\"italic\":true,\"text\":\"Amethyst Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Causes the victim to bleed\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 13408767,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 1,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 40,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#FF7045\",\"italic\":true,\"text\":\"Copper Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+35% Damage to living victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16740421,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 0,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 40,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#FF7045\",\"italic\":true,\"text\":\"Infused Copper Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+35% Damage to undead victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16740421,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 0,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 30,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#eeeeee\",\"italic\":true,\"text\":\"Iron Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+60% Damage to living victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 13750737,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 1,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 30,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#eeeeee\",\"italic\":true,\"text\":\"Infused Iron Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+60% Damage to undead victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 13750737,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 1,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 20,
+          "quality": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33ffff\",\"italic\":true,\"text\":\"Diamond Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+80% Damage to living victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 7202793,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 2,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 20,
+          "quality": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33ffff\",\"italic\":true,\"text\":\"Infused Diamond Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+80% Damage to undead victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 7202793,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 2,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 10,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#660000\",\"italic\":true,\"text\":\"Netherite Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+90% Damage to living victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 6233100,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 3,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 10,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#660000\",\"italic\":true,\"text\":\"Infused Netherite Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"+90% Damage to undead victims\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 6233100,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 3,
+                      "duration": 10,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 9
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

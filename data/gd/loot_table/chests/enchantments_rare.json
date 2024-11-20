@@ -1,0 +1,241 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Bleeding Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a bleed gauge, dealing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"heavy damage to all targets.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_bleeding": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Poisoning Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a poison gauge, dealing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"poison damage to living targets.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_poisoning": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Blessing Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a blessing gauge, dealing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"holy damage to undead targets.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_blessing": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Freezing Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a freeze gauge, freezing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"targets and dealing damage over time.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_freezing": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Floating Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a float gauge, which\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"causes targets to levitate.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_floating": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Magma Walker Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Foot Armor\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Allows you to walk over lava,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"causing it to cool into basalt.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4/block\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_magma_walker": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Levitation Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Shields\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides levitation when sneaking.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4/s\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_levitation": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Knife Pouch Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Swords\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides throwing knives that\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"refill over time, when in hand.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_knife_pouch": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Lightning Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Ranged Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Sometimes casts lightning\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"bolts at targets.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_lightning_bow": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Fire Burst Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Shields\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Creates a large fire burst, that\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"deals heavy fire damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Activates when crouching.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_fire_burst": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Deflect Projectiles Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Deflects physical and magical\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"projectiles once activated.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 30/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 8,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_deflect_projectiles": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

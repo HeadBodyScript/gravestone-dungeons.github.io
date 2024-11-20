@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Bonecaller Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Conjures a skull around the caster,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which deals heavy wither damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 60/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_bonecaller": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Evoker Fangs Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures aggressive\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"fangs around the caster.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 100/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_evoker_fangs": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Star Shard Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a star shard\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which attacks the nearest target.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 40/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd:enchantment_star_shard": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

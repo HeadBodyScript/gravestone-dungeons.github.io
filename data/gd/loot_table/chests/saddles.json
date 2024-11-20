@@ -1,0 +1,120 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 41,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#996633\",\"italic\":true,\"text\":\"Leather Saddle\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Leather Saddle is a simple yet\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"reliable choice for horse riders.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"It provides the basic comfort and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"stability needed for a comfortable\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ride, ensuring a pleasant journey\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"through the lands beyond.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:custom_data": "{saddle_1:1b}"
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 31,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#8FCAE3\",\"italic\":true,\"text\":\"Racing Saddle\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed II\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Racing Saddle is a specially\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"crafted saddle designed for speed\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"enthusiasts. It enhances the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"horse\'s natural swiftness, granting\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"it an additional level of speed and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"making it a prime choice for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"thrilling races and swift journeys.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:custom_data": "{saddle_2:1b}"
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 21,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#C5FF3D\",\"italic\":true,\"text\":\"Superior Saddle\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed III\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Superior Saddle is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"masterfully crafted piece that\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"takes horse speed to new heights.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"With a remarkable increase in speed,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"it propels your steed to\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"unparalleled swiftness, making it\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the ultimate choice for races and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"expeditions.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:custom_data": "{saddle_3:1b}"
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 11,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#ffcc00\",\"italic\":true,\"text\":\"Mastercrafted Saddle\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed IV\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Mastercrafted Saddle is a work\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of true artistry and engineering\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"excellence. It bestows upon your\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"loyal companion an extraordinary\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"speed boost, propelling it to\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"unmatched velocities.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:custom_data": "{saddle_4:1b}"
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 1,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9900cc\",\"italic\":true,\"text\":\"Divine Saddle\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed V\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"A saddle glowing with divine\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"light, imbued with celestial\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"power that grants your horse\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"unparalleled speed. It feels as\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"if the steed is propelled by\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"otherworldly forces, allowing it\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"to glide effortlessly over the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"ground, transcending the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"boundaries of the natural world.\"}]"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:custom_data": "{saddle_5:1b}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

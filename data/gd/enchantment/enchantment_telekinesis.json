@@ -1,0 +1,25 @@
+{
+	"description": "Telekinesis",
+	"supported_items": "#minecraft:enchantable/mining_loot",
+	"slots": ["hand"],
+	"weight": 1,
+	"anvil_cost": 12,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:tick": [{
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "gd:enchantments/telekinesis/telekinesis"
+			}
+
+		}]
+	}
+}

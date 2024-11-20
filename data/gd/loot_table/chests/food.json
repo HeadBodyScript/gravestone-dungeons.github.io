@@ -1,0 +1,232 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#990000\",\"italic\":true,\"text\":\"Beef Stew\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Haste I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Strength I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"A hearty dish made with chunks of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"beef, root vegetables like carrots,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"onions, and potatoes, simmered in a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"savory broth seasoned with herbs\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and spices.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:suspicious_stew_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "duration": 14400
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "duration": 14400
+                  },
+                  {
+                    "id": "minecraft:slowness",
+                    "duration": 2400
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 3600
+                  }
+                ]
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#999900\",\"italic\":true,\"text\":\"Chicken and Vegetable Stew\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Regeneration I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"A comforting stew made with tender\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"chicken pieces, assorted vegetables\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"such as celery, peas, and turnips,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"cooked together in a flavorful\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"chicken broth.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:suspicious_stew_effects": [
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:speed",
+                    "duration": 7200
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "duration": 7200
+                  }
+                ]
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#993366\",\"italic\":true,\"text\":\"Lamb and Barley Stew\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Healthboost I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"A rich and satisfying stew\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"featuring tender pieces of lamb,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"barley grains, and vegetables like\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"carrots, onions, and leeks, cooked\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"slowly until the flavors meld together.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:suspicious_stew_effects": [
+                  {
+                    "id": "minecraft:resistance",
+                    "duration": 6000
+                  },
+                  {
+                    "id": "minecraft:health_boost",
+                    "duration": 7200
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 300
+                  }
+                ]
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#003366\",\"italic\":true,\"text\":\"Fisherman's Stew\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Dolphin\'s Grace I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"A rustic seafood stew made with a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"variety of fish and shellfish such\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"as cod, shrimp, mussels, and clams,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"simmered in a tomato-based broth\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"with aromatic herbs and garlic.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:suspicious_stew_effects": [
+                  {
+                    "id": "minecraft:dolphins_grace",
+                    "duration": 14400
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 2400
+                  }
+                ]
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#cc3300\",\"italic\":true,\"text\":\"Bean and Sausage Stew\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"A hearty stew made with white beans,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"smoked sausage or bacon, and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"seasonal vegetables, simmered\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"together until the beans are tender\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and the flavors are well blended.\"}]"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:suspicious_stew_effects": [
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:mining_fatigue",
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:speed",
+                    "duration": 12000
+                  },
+                  {
+                    "id": "minecraft:jump_boost",
+                    "duration": 12000
+                  }
+                ]
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#990033\",\"italic\":true,\"text\":\"Venison Stew\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Strength I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"A robust stew made with lean\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"venison meat, root vegetables, and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"mushrooms, simmered in a rich red\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"wine broth flavored with juniper\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"berries, thyme, and bay leaves.\"}]"
+                ],
+                "minecraft:custom_model_data": 6,
+                "minecraft:suspicious_stew_effects": [
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "duration": 9600
+                  },
+                  {
+                    "id": "minecraft:resistance",
+                    "duration": 7200
+                  },
+                  {
+                    "id": "minecraft:slowness",
+                    "duration": 1200
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

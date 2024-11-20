@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 6,
+        "operation": "addition",
+        "id": "ccf3e91b-d808-4fa3-8aad-3acb45ff7456",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "name": "",
+        "amount": 2,
+        "operation": "addition",
+        "id": "d23e85f6-d023-4589-83c2-e1fce91e678e",
+        "slot": "legs"
+      }
+    ]
+  }
+]

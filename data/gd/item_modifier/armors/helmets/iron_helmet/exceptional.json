@@ -1,0 +1,81 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Exceptional",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+2 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+3 Health",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+5% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+100% Oxygen",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "90246477-3f21-4800-b865-4cf46f5e3db5",
+        "attribute": "minecraft:generic.armor",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "90246477-3f21-4800-b865-4cf46f5e3db5",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "90246477-3f21-4800-b865-4cf46f5e3db5",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.005,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "90246477-3f21-4800-b865-4cf46f5e3db5",
+        "attribute": "minecraft:generic.oxygen_bonus",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "90246477-3f21-4800-b865-4cf46f5e3db5",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

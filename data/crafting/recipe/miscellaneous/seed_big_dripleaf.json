@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:wheat_seeds"
+    },
+    "result": {
+        "id": "minecraft:big_dripleaf",
+        "count": 1
+    }
+}

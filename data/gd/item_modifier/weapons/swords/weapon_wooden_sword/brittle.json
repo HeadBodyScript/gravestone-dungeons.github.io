@@ -1,0 +1,68 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Brittle",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "-10% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "5 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "-30% Interaction Range",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "1d7ecc07-f936-4067-9705-619cd67957db",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.015,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "1d7ecc07-f936-4067-9705-619cd67957db",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "1d7ecc07-f936-4067-9705-619cd67957db",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "1d7ecc07-f936-4067-9705-619cd67957db",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

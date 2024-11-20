@@ -1,0 +1,32 @@
+{
+	"description": "Warpstrike",
+	"supported_items": "minecraft:trident",
+	"slots": ["mainhand"],
+	"weight": 1,
+	"anvil_cost": 12,
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:hit_block": [{
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "gd:enchantments/warpstrike/warpstrike"
+			}
+
+		}],		
+		"minecraft:tick": [{
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "gd:enchantments/warpstrike/warpstrike_tag"
+			}
+
+		}]
+	}
+}

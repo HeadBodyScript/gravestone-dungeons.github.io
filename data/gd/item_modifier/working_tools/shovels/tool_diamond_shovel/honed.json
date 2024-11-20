@@ -1,0 +1,51 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Honed",
+        "color": "#33ccff",
+        "italic": false
+      },
+      {
+        "text": "+5% Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "99e98230-0d73-44db-8913-f8b1a2c1cdb5",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.005,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "99e98230-0d73-44db-8913-f8b1a2c1cdb5",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 5.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "99e98230-0d73-44db-8913-f8b1a2c1cdb5",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

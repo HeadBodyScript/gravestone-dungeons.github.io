@@ -1,0 +1,97 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Legendary",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "+30% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "17 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+25% Attack Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+75% Sweeping",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+30% Interaction Range",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+50% Water Movement Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "5853f739-5a1f-4871-8583-932020240f5c",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.03,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "5853f739-5a1f-4871-8583-932020240f5c",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 17,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "5853f739-5a1f-4871-8583-932020240f5c",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "5853f739-5a1f-4871-8583-932020240f5c",
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "amount": 0.75,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "5853f739-5a1f-4871-8583-932020240f5c",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "5853f739-5a1f-4871-8583-932020240f5c",
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

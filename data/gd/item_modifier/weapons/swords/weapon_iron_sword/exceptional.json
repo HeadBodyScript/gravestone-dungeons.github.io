@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Exceptional",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+20% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "13 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+50% Attack Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "f54c1508-a7a3-4f96-940d-d447f912711e",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.02,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "f54c1508-a7a3-4f96-940d-d447f912711e",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 13,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ef54c1508-a7a3-4f96-940d-d447f912711e",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -1.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

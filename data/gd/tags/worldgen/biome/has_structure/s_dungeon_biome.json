@@ -1,0 +1,79 @@
+{
+  "values": [
+
+#temperate
+	"minecraft:plains",
+	"minecraft:sunflower_plains",
+	"minecraft:meadow",
+	"minecraft:cherry_grove",
+	"minecraft:windswept_hills",
+	"minecraft:windswept_gravelly_hills",
+	"minecraft:windswept_forest",
+	"minecraft:forest",
+	"minecraft:flower_forest",
+	"minecraft:taiga",
+	"minecraft:old_growth_pine_taiga",
+	"minecraft:old_growth_spruce_taiga",
+	"minecraft:birch_forest",
+	"minecraft:old_growth_birch_forest",
+	"minecraft:dark_forest",
+	"minecraft:swamp",
+	"minecraft:mangrove_swamp",
+    {
+      "id": "terralith:birch_taiga",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "terralith:brushland",
+      "required": false
+    },
+    {
+      "id": "terralith:cloud_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:lush_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:moonlight_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:orchid_swamp",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:shield_clearing",
+      "required": false
+    },
+    {
+      "id": "terralith:shield",
+      "required": false
+    },
+    {
+      "id": "terralith:steppe",
+      "required": false
+    },
+    {
+      "id": "terralith:valley_clearing",
+      "required": false
+    },
+    {
+      "id": "terralith:yosemite_lowlands",
+      "required": false
+    }
+  ]
+}

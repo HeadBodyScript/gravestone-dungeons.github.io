@@ -1,0 +1,1409 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#99FF33\",\"italic\":true,\"text\":\"Potion of Minor Luck\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Lifts up the adventurer\\'s mood.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better loot can be found in chests\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and barrels.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 10092339,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 0,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#99FF33\",\"italic\":true,\"text\":\"Potion of Luck\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Lifts up the adventurer\\'s mood.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better loot can be found in chests\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and barrels.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 10092339,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 2,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#99FF33\",\"italic\":true,\"text\":\"Potion of Plentiful Luck\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Lifts up the adventurer\\'s mood.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better loot can be found in chests\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and barrels.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 10092339,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 4,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#99FF33\",\"italic\":true,\"text\":\"Potion of Vigorous Luck\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Lifts up the adventurer\\'s mood.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better loot can be found in chests\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"and barrels.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 10092339,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:luck",
+                      "amplifier": 6,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#0091FF\",\"italic\":true,\"text\":\"Potion of Minor Aqua Affinity\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides faster swimming in water.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Tastes like old fish...\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Maybe spoiled.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 37375,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#0091FF\",\"italic\":true,\"text\":\"Potion of Aqua Affinity\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides faster swimming in water.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Tastes like old fish...\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Maybe spoiled.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 37375,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#0091FF\",\"italic\":true,\"text\":\"Potion of Plentiful Aqua Affinity\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides faster swimming in water.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Tastes like old fish...\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Maybe spoiled.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 37375,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 0,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 0,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#0091FF\",\"italic\":true,\"text\":\"Potion of Vigorous Aqua Affinity\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides faster swimming in water.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Tastes like old fish...\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Maybe spoiled.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 37375,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 0,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:water_breathing",
+                      "amplifier": 0,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#BF0000\",\"italic\":true,\"text\":\"Potion of Minor Bull Strength\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Burns like fire, but providing\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a lot of strength and resistance.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 12517376,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 1,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 0,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 2400,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#BF0000\",\"italic\":true,\"text\":\"Potion of Bull Strength\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Burns like fire, but providing\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a lot of strength and resistance.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 12517376,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 2,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 1,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 2400,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#BF0000\",\"italic\":true,\"text\":\"Potion of Plentiful Bull Strength\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Burns like fire, but providing\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a lot of strength and resistance.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 12517376,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 3,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 2,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:absorption",
+                      "amplifier": 1,
+                      "duration": 2400,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#BF0000\",\"italic\":true,\"text\":\"Potion of Vigorous Bull Strength\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Burns like fire, but providing\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a lot of strength and resistance.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 12517376,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 4,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 3,
+                      "duration": 3600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:absorption",
+                      "amplifier": 2,
+                      "duration": 2400,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#94E0C7\",\"italic\":true,\"text\":\"Potion of Minor Endurance\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Operates like purgative,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"but speeds you up.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 9756871,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#94E0C7\",\"italic\":true,\"text\":\"Potion of Endurance\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Operates like purgative,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"but speeds you up.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 9756871,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#94E0C7\",\"italic\":true,\"text\":\"Potion of Plentiful Endurance\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Operates like purgative,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"but speeds you up.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 9756871,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 1,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 1,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#94E0C7\",\"italic\":true,\"text\":\"Potion of Vigorous Endurance\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Operates like purgative,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"but speeds you up.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 9756871,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 1,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 1,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 12000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B57124\",\"italic\":true,\"text\":\"Potion of Minor Hardening\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the leaves of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it imparts\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the strenght of an oak.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 11890980,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 1,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B57124\",\"italic\":true,\"text\":\"Potion of Hardening\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the leaves of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it imparts\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the strenght of an oak.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 11890980,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 1,
+                      "duration": 2400,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 2,
+                      "duration": 2400,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B57124\",\"italic\":true,\"text\":\"Potion of Plentiful Hardening\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the leaves of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it imparts\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the strenght of an oak.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 11890980,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 2,
+                      "duration": 1800,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 3,
+                      "duration": 1800,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B57124\",\"italic\":true,\"text\":\"Potion of Vigorous Hardening\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Brewed from the leaves of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Atta Aikhjarto, it imparts\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the strenght of an oak.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 11890980,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 3,
+                      "duration": 1200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:slowness",
+                      "amplifier": 4,
+                      "duration": 1200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Potion of Minor Lightness\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Greatly decreases your body mass\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short time to rise high up\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"into the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 3,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:weakness",
+                      "amplifier": 4,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Potion of Lightness\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Greatly decreases your body mass\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short time to rise high up\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"into the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 7,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:weakness",
+                      "amplifier": 3,
+                      "duration": 2400,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Potion of Plentiful Lightness\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Greatly decreases your body mass\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short time to rise high up\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"into the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 11,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:weakness",
+                      "amplifier": 2,
+                      "duration": 1800,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#33cccc\",\"italic\":true,\"text\":\"Potion of Vigorous Lightness\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Greatly decreases your body mass\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"for a short time to rise high up\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"into the sky.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 2216424,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 14,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:weakness",
+                      "amplifier": 1,
+                      "duration": 1200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#F2EB0C\",\"italic\":true,\"text\":\"Potion of Minor Mining\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Smells like beer, tastes like honey.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speeds up the work in the mines.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 15919884,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:night_vision",
+                      "amplifier": 0,
+                      "duration": 3000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:darkness",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#F2EB0C\",\"italic\":true,\"text\":\"Potion of Mining\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Smells like beer, tastes like honey.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speeds up the work in the mines.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 15919884,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:night_vision",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:darkness",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#F2EB0C\",\"italic\":true,\"text\":\"Potion of Plentiful Mining\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Smells like beer, tastes like honey.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speeds up the work in the mines.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 15919884,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 1,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:night_vision",
+                      "amplifier": 0,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:darkness",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#F2EB0C\",\"italic\":true,\"text\":\"Potion of Vigorous Mining\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Smells like beer, tastes like honey.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Speeds up the work in the mines.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 15919884,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 2,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:night_vision",
+                      "amplifier": 0,
+                      "duration": 9000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:darkness",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 7,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#D974F2\",\"italic\":true,\"text\":\"Potion of Minor Charisma\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Loosens your tongue.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better prices at traders.\"}]"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:potion_contents": {
+                  "custom_color": 14251250,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hero_of_the_village",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:unluck",
+                      "amplifier": 0,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#D974F2\",\"italic\":true,\"text\":\"Potion of Charisma\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Loosens your tongue.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better prices at traders.\"}]"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:potion_contents": {
+                  "custom_color": 14251250,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hero_of_the_village",
+                      "amplifier": 2,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:unluck",
+                      "amplifier": 1,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#D974F2\",\"italic\":true,\"text\":\"Potion of Plentiful Charisma\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Loosens your tongue.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better prices at traders.\"}]"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:potion_contents": {
+                  "custom_color": 14251250,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hero_of_the_village",
+                      "amplifier": 4,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:unluck",
+                      "amplifier": 2,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#D974F2\",\"italic\":true,\"text\":\"Potion of Vigorous Charisma\"}",
+                "minecraft:lore": [
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Loosens your tongue.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Better prices at traders.\"}]"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:potion_contents": {
+                  "custom_color": 14251250,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hero_of_the_village",
+                      "amplifier": 6,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:unluck",
+                      "amplifier": 3,
+                      "duration": 6000,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },{
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 300,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

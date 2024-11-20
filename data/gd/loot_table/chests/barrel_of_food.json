@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/food"
+        },{
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/food_items"
+        },{
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/food_items_raw_fish"
+        },{
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/food_items_raw_meat"
+        },{
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/food_items_vegetables"
+        }
+      ]
+    }
+  ]
+}
+

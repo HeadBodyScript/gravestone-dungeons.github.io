@@ -1,0 +1,521 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 80,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#660000\",\"italic\":true,\"text\":\"Stunning Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Effective against strong opponents.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 4862479,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 6,
+                      "duration": 200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "amplifier": 1,
+                      "duration": 160,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 80,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#009900\",\"italic\":true,\"text\":\"Poisoning Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Effective against armor,\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"slowly but surely.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 1552679,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 3,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 1,
+                      "duration": 600,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 80,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#66ccff\",\"italic\":true,\"text\":\"Levitating Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"What goes up, always comes down.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 1815505,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 2,
+                      "duration": 200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 1,
+                      "duration": 200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 80,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"dark_gray\",\"italic\":true,\"text\":\"Withering Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Puts the curse of withering on\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"enemies.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 3485748,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 4,
+                      "duration": 240,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:darkness",
+                      "amplifier": 0,
+                      "duration": 240,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"dark_red\",\"italic\":true,\"text\":\"Cursed Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"One can\'t describe this...\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{cursed_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 10035746,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 20,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#ffff00\",\"italic\":true,\"text\":\"Bonfire Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Summons a shower of arrows\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"at landing place.\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{bonfire_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 16771584,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 0,
+                      "duration": 20,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#ff6600\",\"italic\":true,\"text\":\"Fire Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"With a bag of incendiary gunpowder\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"attached to the shaft, it spreads\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"fire at landing place.\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{fire_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 15240492,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "amplifier": 0,
+                      "duration": 20,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#095c52\",\"italic\":true,\"text\":\"Ender Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Teleports you to landing place.\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{ender_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 613458,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 20,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#66ccff\",\"italic\":true,\"text\":\"Freezing Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Traps enemies in an icy jail.\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{freezing_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 10876671,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 6,
+                      "duration": 200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    },{
+                      "id": "minecraft:resistance",
+                      "amplifier": 6,
+                      "duration": 200,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#ccffff\",\"italic\":true,\"text\":\"Lightning Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Summons lightning upon the enemy.\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{lightning_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 14483455,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:unluck",
+                      "amplifier": 0,
+                      "duration": 20,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#009933\",\"italic\":true,\"text\":\"Transforming Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Transforms enemies into plants.\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{transforming_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 2031457,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:bad_omen",
+                      "amplifier": 0,
+                      "duration": 20,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 40,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#9933ff\",\"italic\":true,\"text\":\"Hypnotizing Arrow\"}",
+                "minecraft:lore": [
+                  "[{\"text\":\"Turns lower enemies into companions.\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"Must be held with offhand.\",\"italic\":false,\"color\":\"gray\"}]"
+                ],
+           	"minecraft:max_stack_size": 16,
+		"minecraft:custom_data": "{hypnotizing_arrow:1b}",
+		"minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "custom_color": 11616969,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 0,
+                      "duration": 20,
+                      "ambient": false,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

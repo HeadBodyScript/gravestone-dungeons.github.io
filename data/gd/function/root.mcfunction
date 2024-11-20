@@ -1,0 +1,1 @@
+execute as @a[advancements={gd:root=true},tag=!root] at @s run function gd:initial_execute

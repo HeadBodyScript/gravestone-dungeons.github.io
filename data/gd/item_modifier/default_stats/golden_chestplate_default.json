@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "name": "",
+      "amount": 5,
+      "operation": "addition",
+      "id": "271b64e5-d391-4d57-9a63-25ce2c5200cb",
+      "slot": "chest"
+    }
+  ]
+}

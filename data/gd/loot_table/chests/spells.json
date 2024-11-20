@@ -1,0 +1,285 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:allay_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 2,
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "NoGravity": true,
+                  "Invulnerable": true,
+                  "Small": true,
+                  "Marker": true,
+                  "Invisible": true,
+                  "NoBasePlate": true,
+                  "PersistenceRequired": true,
+                  "Tags": [
+                    "spell",
+                    "forcefield"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#33ccff",
+                  "italic": true,
+                  "text": "Single Use Forcefield Spell"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Pushes back enemies in a small area."
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Lasts for 30 seconds."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },{
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:zoglin_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 2,
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "NoGravity": true,
+                  "Invulnerable": true,
+                  "Small": true,
+                  "Marker": true,
+                  "Invisible": true,
+                  "NoBasePlate": true,
+                  "PersistenceRequired": true,
+                  "Tags": [
+                    "spell",
+                    "emberfield"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#ff9933",
+                  "italic": true,
+                  "text": "Single Use Emberfield Spell"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Sets enemies on fire in a small area."
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Lasts for 30 seconds."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },{
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:snow_golem_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 2,
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "NoGravity": true,
+                  "Invulnerable": true,
+                  "Small": true,
+                  "Marker": true,
+                  "Invisible": true,
+                  "NoBasePlate": true,
+                  "PersistenceRequired": true,
+                  "Tags": [
+                    "spell",
+                    "icefield"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#99ffff",
+                  "italic": true,
+                  "text": "Single Use Icefield Spell"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Freezes and damages enemies a small area."
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Lasts for 30 seconds."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },{
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:polar_bear_spawn_egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 2,
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "NoGravity": true,
+                  "Invulnerable": true,
+                  "Small": true,
+                  "Marker": true,
+                  "Invisible": true,
+                  "NoBasePlate": true,
+                  "PersistenceRequired": true,
+                  "Tags": [
+                    "spell",
+                    "thunderfield"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "#eeeeee",
+                  "italic": true,
+                  "text": "Single Use Thundefield Spell"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Summons the force of nature"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "on enemies in a small area."
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Lasts for 30 seconds."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+
+
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{warp_book:1b}",
+                "minecraft:custom_model_data": 1,
+                "minecraft:custom_name": "{\"text\":\"Alarics Teleportation Scroll\",\"italic\":true,\"color\":\"#006666\"}",
+                "minecraft:lore": ["{\"text\":\"Single Use Teleportation Spell\",\"italic\":false,\"color\":\"gray\"}"],
+                "minecraft:written_book_content": {
+                  "title": "Book Title",
+                  "author": "Alaric Stormweaver",
+                  "generation": 1,
+                  "pages": [
+                    "[\"Teleportation Spell\\n\\n           ۩\\n\\n\\n\",{\"text\":\"Create location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd:spells/spells/warp_book_create\"},\"underlined\":true},\"\\n\\n\\n\\n\",{\"text\":\"Teleport to location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd:spells/spells/warp_book_warp\"},\"underlined\":true}]",
+                    "[\"Use it without leaving this world, otherwise the saved location will be deleted.\"]"
+                  ],
+                  "resolved": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Cracked",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "-3 Armor",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-30% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-50% Jump Strength",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "fad8db6c-a2f7-4c7e-a6ac-4f9c0c8212c9",
+        "attribute": "minecraft:generic.armor",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "fad8db6c-a2f7-4c7e-a6ac-4f9c0c8212c9",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.03,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "fad8db6c-a2f7-4c7e-a6ac-4f9c0c8212c9",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": -0.1,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
