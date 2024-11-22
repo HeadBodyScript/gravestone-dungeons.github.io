@@ -1,0 +1,65 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Decent",
+        "color": "#33ccff",
+        "italic": false
+      },
+      {
+        "text": "+10% Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+50% Jump Strength",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+1 Block Step Height",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "94dde363-97f0-4415-9ca4-76d5b62368e2",
+        "attribute": "minecraft:generic.armor",
+        "amount": 0.1,
+        "operation": "add_multiplied_base",
+        "slot": "mainhand"
+      },
+      {
+        "id": "94dde363-97f0-4415-9ca4-76d5b62368e2",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "94dde363-97f0-4415-9ca4-76d5b62368e2",
+        "attribute": "minecraft:generic.step_height",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
+
+
+

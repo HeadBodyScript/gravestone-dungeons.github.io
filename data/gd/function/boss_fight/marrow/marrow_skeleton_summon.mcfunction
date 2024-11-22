@@ -1,5 +1,5 @@
 #####skeleton_summon
-execute store result score @a randomnumber_2 run random value 1..8
+execute store result score .INT0 number run random value 1..8
 
 execute as @a[scores={randomnumber_2=1}] run summon skeleton ~ ~ ~ {CustomName:'[{"text":"Undead Servant","color":"#50A100"}]',Health:16,Tags:["marrow_servant"],HandItems:[{id:iron_axe,count:1}],HandDropChances:[0f],ArmorItems:[{},{},{id:leather_chestplate,Count:1},{id:leather_helmet,Count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:16f}]}
 

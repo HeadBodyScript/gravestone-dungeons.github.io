@@ -1,5 +1,5 @@
 ####Fight
-scoreboard objectives add randomnumber_1 dummy
+scoreboard objectives add randomnumber dummy
 scoreboard objectives add randomnumber_2 dummy
 scoreboard objectives add randomnumber_3 dummy
 
@@ -32,11 +32,11 @@ execute as @a[scores={morbex1=1..}] run scoreboard objectives remove morbex_intr
 
 execute as @a[scores={morbex2=10}] at @e[type=armor_stand,tag=spawnmorbexbox] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 
-execute as @a[scores={morbex2=10}] store result score @p randomnumber_1 run random value 0..20
+execute as @a[scores={morbex2=10}] store result score @p randomnumber run random value 0..20
 
-execute as @a[scores={morbex2=241,randomnumber_1=0..10}] at @e[type=armor_stand,tag=spawnmorbexbox] run summon hoglin ~ ~ ~ {IsImmuneToZombification:1,Health:50f,Tags:["morbex_summon"],Team:"morbex",HandItems:[{id:"minecraft:iron_sword",count:1,components:{"minecraft:enchantments":{levels:{"gd:enchantment_bleeding":1}}}},{}],HandDropChances:[0F,0F],attributes:[{id:"minecraft:generic.max_health",base:50}]}
+execute as @a[scores={morbex2=241,randomnumber=0..10}] at @e[type=armor_stand,tag=spawnmorbexbox] run summon hoglin ~ ~ ~ {IsImmuneToZombification:1,Health:50f,Tags:["morbex_summon"],Team:"morbex",HandItems:[{id:"minecraft:iron_sword",count:1,components:{"minecraft:enchantments":{levels:{"gd:enchantment_bleeding":1}}}},{}],HandDropChances:[0F,0F],attributes:[{id:"minecraft:generic.max_health",base:50}]}
 
-execute as @a[scores={morbex2=241,randomnumber_1=11..20}] at @e[type=armor_stand,tag=spawnmorbexbox] run summon hoglin ~ ~ ~ {IsImmuneToZombification:1,Health:50f,Tags:["morbex_summon"],Team:"morbex",HandItems:[{id:"minecraft:iron_sword",count:1,components:{"minecraft:enchantments":{levels:{"gd:enchantment_bleeding":1}}}},{}],HandDropChances:[0F,0F],attributes:[{id:"minecraft:generic.max_health",base:70}]}
+execute as @a[scores={morbex2=241,randomnumber=11..20}] at @e[type=armor_stand,tag=spawnmorbexbox] run summon hoglin ~ ~ ~ {IsImmuneToZombification:1,Health:50f,Tags:["morbex_summon"],Team:"morbex",HandItems:[{id:"minecraft:iron_sword",count:1,components:{"minecraft:enchantments":{levels:{"gd:enchantment_bleeding":1}}}},{}],HandDropChances:[0F,0F],attributes:[{id:"minecraft:generic.max_health",base:70}]}
 
 execute as @a[scores={morbex2=243}] run scoreboard players set @a morbex2 0
 

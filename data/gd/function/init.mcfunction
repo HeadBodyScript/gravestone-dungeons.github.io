@@ -1,13 +1,24 @@
-# REMOVE SCOREBOARD
+scoreboard objectives remove dialogue
+scoreboard objectives remove magicka
+scoreboard objectives remove mana
+scoreboard objectives remove DIMI
+scoreboard objectives remove arrow
+scoreboard objectives remove tick
+scoreboard objectives remove tick_talk_0
+scoreboard objectives remove number
+scoreboard objectives remove number
+scoreboard objectives remove reset_player
+scoreboard objectives remove mana_max
+scoreboard objectives remove mana_boost
+scoreboard objectives remove talked_to_villager
+scoreboard objectives remove traded_with_villager
+scoreboard objectives remove dummy_magicka
+scoreboard objectives remove effect_gauge
+scoreboard objectives remove hunger_bar
+scoreboard objectives remove time_trader_reset
 scoreboard objectives remove sneak_fire_burst
 scoreboard objectives remove sneak_levitation
-scoreboard objectives remove sneak_replant_sneaks
-scoreboard objectives remove dummy_datapack_start
-scoreboard objectives remove quest_villager
-scoreboard objectives remove ysembert_start_time1
 scoreboard objectives remove warp_book
-scoreboard objectives remove tick_talk_0
-scoreboard objectives remove tick_talk_1
 scoreboard objectives remove convert1
 scoreboard objectives remove wither_skull_time
 scoreboard objectives remove knife_pouch_time
@@ -23,32 +34,25 @@ scoreboard objectives remove light_wave_time
 scoreboard objectives remove dummy_telekinesis
 scoreboard objectives remove iceblock_time
 scoreboard objectives remove fireblock_time
-scoreboard objectives remove earthblock_time
+scoreboard objectives remove sneak_replant_sneak
 
-
-# ADD SCOREBOARD
-# Personal reset trigger to reset player specific stats
-# scoreboard objectives add tick_talk_0 dummy
-# scoreboard objectives add tick_talk_1 dummy
-scoreboard objectives add reset_player trigger
-scoreboard objectives add ysembert_start_time1 dummy
-scoreboard objectives add randomnumber_1 dummy
-scoreboard objectives add randomnumber_2 dummy
-scoreboard objectives add randomnumber_3 dummy
-scoreboard objectives add randomnumber_4 dummy
+scoreboard objectives add dialogue trigger
 scoreboard objectives add magicka dummy
+scoreboard objectives add mana dummy
+scoreboard objectives add DIMI dummy
+scoreboard objectives add arrow minecraft.used:minecraft.bow
+scoreboard objectives add tick dummy
+scoreboard objectives add tick_talk_0 dummy
+scoreboard objectives add number dummy
+scoreboard objectives add reset_player trigger
 scoreboard objectives add mana_max dummy
 scoreboard objectives add mana_boost dummy
-scoreboard objectives add quest_villager minecraft.custom:minecraft.traded_with_villager
-
+scoreboard objectives add talked_to_villager minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add traded_with_villager minecraft.custom:minecraft.traded_with_villager
 scoreboard objectives add dummy_magicka dummy
 scoreboard objectives add effect_gauge dummy
 scoreboard objectives add hunger_bar food
 scoreboard objectives add time_trader_reset minecraft.custom:minecraft.play_time
-scoreboard objectives add arrow minecraft.used:minecraft.bow
-scoreboard objectives add check minecraft.custom:minecraft.play_time
-scoreboard objectives add dummy_datapack_start dummy
-scoreboard objectives add time_datapack_start minecraft.custom:minecraft.play_time
 
 # forceload remove all tags
 tag @a remove warp_spell
@@ -95,12 +99,6 @@ kill @e[type=armor_stand,tag=fireblock]
 kill @e[type=minecraft:item_display,tag=fireblock]
 kill @e[type=armor_stand,tag=earthblock]
 kill @e[type=minecraft:item_display,tag=earthblock]
-
-# SCOREBOARD SET
-# scoreboard players set @a time_trader_reset 11
-# scoreboard players add @a quest_villager 0
-
-# scoreboard players add @a dummy_datapack_start 0
 
 # FUNCTION
 function gd:root

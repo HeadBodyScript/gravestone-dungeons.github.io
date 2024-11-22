@@ -5,7 +5,7 @@ scoreboard players add @a dummy_witch 0
 scoreboard players add @e[type=#gd:companion,tag=companion] companion 2
 
 scoreboard objectives add devil_playerdeath minecraft.custom:minecraft.deaths
-execute at @p run scoreboard objectives add randomnumber_1 dummy
+execute at @p run scoreboard objectives add randomnumber dummy
 execute at @p run scoreboard objectives add randomnumber_2 dummy
 
 kill @e[type=blaze,tag=!Boss_Devil,tag=!companion]
@@ -31,9 +31,9 @@ execute at @e[type=armor_stand,tag=devil_wall] run particle falling_dust{block_s
 #####Phase1
 execute as @a[scores={devil2=10}] at @e[type=armor_stand,tag=spawndevilbox] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 
-execute as @a[scores={devil2=10}] store result score @p randomnumber_1 run random value 0..20
-execute as @a[scores={devil2=241..243,randomnumber_1=0..10}] at @e[type=armor_stand,tag=spawndevilbox] run summon silverfish ~ ~ ~ {HasVisualFire:1b,Health:5f,Tags:["devil_flame"],HandItems:[{id:"minecraft:golden_sword",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:fire_aspect":1}}}},{}],HandDropChances:[0.000F,0.085F],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:generic.max_health",base:5}]}
-execute as @a[scores={devil2=241..243,randomnumber_1=11..20}] at @e[type=armor_stand,tag=spawndevilbox] run summon phantom ~ ~ ~ {HasVisualFire:1b,Health:5f,Tags:["devil_flame"],HandItems:[{id:"minecraft:golden_sword",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:fire_aspect":1}}}},{}],HandDropChances:[0.000F,0.085F],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:generic.max_health",base:5}]}
+execute as @a[scores={devil2=10}] store result score @p randomnumber run random value 0..20
+execute as @a[scores={devil2=241..243,randomnumber=0..10}] at @e[type=armor_stand,tag=spawndevilbox] run summon silverfish ~ ~ ~ {HasVisualFire:1b,Health:5f,Tags:["devil_flame"],HandItems:[{id:"minecraft:golden_sword",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:fire_aspect":1}}}},{}],HandDropChances:[0.000F,0.085F],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:generic.max_health",base:5}]}
+execute as @a[scores={devil2=241..243,randomnumber=11..20}] at @e[type=armor_stand,tag=spawndevilbox] run summon phantom ~ ~ ~ {HasVisualFire:1b,Health:5f,Tags:["devil_flame"],HandItems:[{id:"minecraft:golden_sword",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:fire_aspect":1}}}},{}],HandDropChances:[0.000F,0.085F],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:generic.max_health",base:5}]}
 
 execute as @a[scores={devil2=243}] run scoreboard players set @a devil2 0
 
@@ -42,12 +42,12 @@ execute as @e[type=minecraft:blaze,tag=Boss_Devil,limit=1,sort=nearest] store re
 execute if score @e[type=minecraft:blaze,tag=Boss_Devil,limit=1,sort=nearest] devil_health matches ..40 run scoreboard objectives add devil_charge minecraft.custom:minecraft.play_time
 
 
-execute as @a[scores={devil_phase1=40}] store result score @p randomnumber_1 run random value 1..15
-execute as @a[scores={devil_phase1=45}] if score @p randomnumber_1 matches 1..8 run function gd:boss_fight/devil/devil_flamedart
-execute as @a[scores={devil_phase1=45}] if score @p randomnumber_1 matches 6..11 run function gd:boss_fight/devil/devil_fire_wave
-execute as @a[scores={devil_phase1=45}] if score @p randomnumber_1 matches 10..12 run function gd:boss_fight/devil/devil_summon_magma
-execute as @a[scores={devil_phase1=45}] if score @p randomnumber_1 matches 12..14 run function gd:boss_fight/devil/devil_summon_fire
-execute as @a[scores={devil_phase1=45}] if score @p randomnumber_1 matches 14..15 run function gd:boss_fight/devil/devil_flame_summon
+execute as @a[scores={devil_phase1=40}] store result score @p randomnumber run random value 1..15
+execute as @a[scores={devil_phase1=45}] if score @p randomnumber matches 1..8 run function gd:boss_fight/devil/devil_flamedart
+execute as @a[scores={devil_phase1=45}] if score @p randomnumber matches 6..11 run function gd:boss_fight/devil/devil_fire_wave
+execute as @a[scores={devil_phase1=45}] if score @p randomnumber matches 10..12 run function gd:boss_fight/devil/devil_summon_magma
+execute as @a[scores={devil_phase1=45}] if score @p randomnumber matches 12..14 run function gd:boss_fight/devil/devil_summon_fire
+execute as @a[scores={devil_phase1=45}] if score @p randomnumber matches 14..15 run function gd:boss_fight/devil/devil_flame_summon
 
 
 execute as @a[scores={devil_flamedart_time=1..}] run function gd:boss_fight/devil/devil_flamedart

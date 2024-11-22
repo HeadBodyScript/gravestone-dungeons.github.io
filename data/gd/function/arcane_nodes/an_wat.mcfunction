@@ -3,8 +3,8 @@ scoreboard objectives add an1 dummy
 scoreboard objectives add an2 dummy
 execute as @a[scores={an2=40..}] run scoreboard objectives remove an2
 
-scoreboard objectives add randomnumber_1 dummy
-execute if score @p an matches 50 store result score @p randomnumber_1 run random value 1..10
+scoreboard objectives add randomnumber dummy
+execute if score @p an matches 50 store result score @p randomnumber run random value 1..10
 
 execute at @e[type=minecraft:armor_stand,tag=an_wat] run function gd:signs/dark_blue_spiral
 execute at @e[type=minecraft:armor_stand,tag=an_wat] run tp @e[type=minecraft:armor_stand,tag=an_wat] ~ ~ ~ ~10 ~
@@ -34,13 +34,13 @@ execute as @e[scores={an=50}] run scoreboard players set @p magicka_boost_time 0
 execute as @e[scores={an=50}] at @p run playsound minecraft:block.fire.extinguish master @p ~ ~ ~ 1 2
 execute as @e[scores={an1=300}] at @p run playsound minecraft:ambient.soul_sand_valley.mood master @a ~ ~ ~ 20
 
-execute as @e[scores={an=50, randomnumber_1=..9}] at @e[type=minecraft:armor_stand,tag=an_wat] run title @p[distance=..6] actionbar [{"text":"You walk under the sign of water breathing.","color":"blue"}]
-execute as @e[scores={an=50, randomnumber_1=..9}] at @p run particle minecraft:sculk_charge_pop ~ ~ ~ .5 2 .5 0.001 50 force
-execute as @e[scores={an=50, randomnumber_1=..9}] at @e[type=minecraft:armor_stand,tag=an_wat] run effect give @p[distance=..6] minecraft:water_breathing 1200 0 true
+execute as @e[scores={an=50, randomnumber=..9}] at @e[type=minecraft:armor_stand,tag=an_wat] run title @p[distance=..6] actionbar [{"text":"You walk under the sign of water breathing.","color":"blue"}]
+execute as @e[scores={an=50, randomnumber=..9}] at @p run particle minecraft:sculk_charge_pop ~ ~ ~ .5 2 .5 0.001 50 force
+execute as @e[scores={an=50, randomnumber=..9}] at @e[type=minecraft:armor_stand,tag=an_wat] run effect give @p[distance=..6] minecraft:water_breathing 1200 0 true
 
-execute as @e[scores={an=50, randomnumber_1=10}] at @e[type=minecraft:armor_stand,tag=an_wat] run title @p[distance=..6] actionbar [{"text":"The wrath of the gods be upon thee, for thy actions displease them.","color":"gray"}]
-execute as @e[scores={an=50, randomnumber_1=10}] at @e[type=minecraft:armor_stand,tag=an_wat] run effect clear @p[distance=..6] minecraft:water_breathing
-execute as @e[scores={an=50, randomnumber_1=10}] at @e[type=minecraft:armor_stand,tag=an_wat] run effect give @p[distance=..6] minecraft:nausea 60 0 true
+execute as @e[scores={an=50, randomnumber=10}] at @e[type=minecraft:armor_stand,tag=an_wat] run title @p[distance=..6] actionbar [{"text":"The wrath of the gods be upon thee, for thy actions displease them.","color":"gray"}]
+execute as @e[scores={an=50, randomnumber=10}] at @e[type=minecraft:armor_stand,tag=an_wat] run effect clear @p[distance=..6] minecraft:water_breathing
+execute as @e[scores={an=50, randomnumber=10}] at @e[type=minecraft:armor_stand,tag=an_wat] run effect give @p[distance=..6] minecraft:nausea 60 0 true
 
 
 

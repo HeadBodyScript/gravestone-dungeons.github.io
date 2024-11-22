@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.mainhand": {
+          "items": [
+            "minecraft:leather_leggings",
+            "minecraft:golden_leggings",
+            "minecraft:iron_leggings",
+            "minecraft:chainmail_leggings",
+            "minecraft:diamond_leggings",
+            "minecraft:netherite_leggings"
+          ]
+        }
+      }
+    }
+  }
+  

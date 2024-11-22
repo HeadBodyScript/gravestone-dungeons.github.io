@@ -2,7 +2,7 @@
 
 scoreboard players add @s light_wave_time 0
 
-execute unless items entity @p weapon.offhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/light_wave
+execute unless items entity @p weapon.offhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/light_wave
 
 execute as @s[scores={check=20,magicka=199}] run playsound minecraft:entity.illusioner.prepare_blindness ambient @a[distance=..10] ~ ~ ~ 20 .1
 execute as @s[scores={check=20,magicka=200..}] run particle minecraft:end_rod ^ ^.5 ^ 0.2 0.5 0.2 .05 5

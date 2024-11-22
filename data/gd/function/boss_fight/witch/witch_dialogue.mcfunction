@@ -1,7 +1,7 @@
 #####witch_dialogue#####
 scoreboard objectives add randomnumber_2 dummy
 
-execute as @a[scores={witch_phase1=1..,witch_time1=10}] store result score @s randomnumber_2 run random value 0..20
+execute as @a[scores={witch_phase1=1..,witch_time1=10}] store result score .INT1 number run random value 0..20
 
 execute as @a[scores={witch_phase1=1..,witch_time1=10,randomnumber_2=1..2}] as @e[type=witch,tag=Boss_Witch] run say Feel the fury of the wild coursing through your veins!
 execute as @a[scores={witch_phase1=1..,witch_time1=10,randomnumber_2=3..4}] as @e[type=witch,tag=Boss_Witch] run say Your defiance only fuels my rage. I'll tear you limb from limb!

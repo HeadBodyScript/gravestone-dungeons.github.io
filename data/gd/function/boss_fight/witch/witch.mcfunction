@@ -3,7 +3,7 @@ scoreboard objectives add dummy_witch dummy
 scoreboard players add @a dummy_witch 0
 
 scoreboard objectives add witch_playerdeath minecraft.custom:minecraft.deaths
-execute at @p run scoreboard objectives add randomnumber_1 dummy
+execute at @p run scoreboard objectives add randomnumber dummy
 
 kill @e[type=witch,tag=!Boss_Witch]
 
@@ -41,21 +41,21 @@ execute as @a[scores={witch1=1}] run kill @e[type=armor_stand,tag=spawnwitch,lim
 execute as @e[scores={witch1=1}] at @e[type=armor_stand,tag=spawnwitchbox] run effect give @a[distance=..20] minecraft:slowness 24 3 true
 execute as @e[scores={witch1=1}] at @e[type=armor_stand,tag=spawnwitchbox] run effect give @a[distance=..40] minecraft:mining_fatigue 999 2 true
 
-execute as @a[scores={witch1=1}] store result score @p randomnumber_1 run random value 0..20
+execute as @a[scores={witch1=1}] store result score @p randomnumber run random value 0..20
 
 execute as @e[scores={witch1=10}] at @e[type=armor_stand,tag=spawnwitchbox] at @a[distance=..30,limit=1,sort=nearest] run say Here we go again...
 
-execute as @a[scores={witch1=60,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawnwitchbox] run say Look who the cat dragged in...
-execute as @a[scores={witch1=60,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawnwitchbox] run say I smell fear on you, little one. Turn back now, or face the fury of nature's wrath.
-execute as @a[scores={witch1=160,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawnwitchbox] run say Begone, intruder! The woods belong to me!
-execute as @a[scores={witch1=160,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawnwitchbox] run say Let's spend some time toghether. HA HA HA HA
+execute as @a[scores={witch1=60,randomnumber=0..10}] as @e[type=armor_stand,tag=spawnwitchbox] run say Look who the cat dragged in...
+execute as @a[scores={witch1=60,randomnumber=11..20}] as @e[type=armor_stand,tag=spawnwitchbox] run say I smell fear on you, little one. Turn back now, or face the fury of nature's wrath.
+execute as @a[scores={witch1=160,randomnumber=0..10}] as @e[type=armor_stand,tag=spawnwitchbox] run say Begone, intruder! The woods belong to me!
+execute as @a[scores={witch1=160,randomnumber=11..20}] as @e[type=armor_stand,tag=spawnwitchbox] run say Let's spend some time toghether. HA HA HA HA
 execute as @e[scores={witch1=60}] at @e[type=armor_stand,tag=spawnwitchbox] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..40] ~ ~ ~ 20 1
 execute as @e[scores={witch1=160}] at @e[type=armor_stand,tag=spawnwitchbox] run playsound minecraft:entity.evoker.celebrate ambient @a[distance=..40] ~ ~ ~ 20 1.6
 
 execute as @a[scores={witch1=190}] as @e[type=armor_stand,tag=spawnwitchbox] run playsound minecraft:godrick_the_crafted_witch record @a[distance=..30] ~ ~1 ~ 25 1
 
-execute as @a[scores={witch1=290,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawnwitchbox] run say Prepare to feel the sting of my vengeance.
-execute as @a[scores={witch1=290,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawnwitchbox] run say Let's see how tough you are, little mouse. HA HA HA HA
+execute as @a[scores={witch1=290,randomnumber=0..10}] as @e[type=armor_stand,tag=spawnwitchbox] run say Prepare to feel the sting of my vengeance.
+execute as @a[scores={witch1=290,randomnumber=11..20}] as @e[type=armor_stand,tag=spawnwitchbox] run say Let's see how tough you are, little mouse. HA HA HA HA
 
 execute as @e[scores={witch1=160}] at @e[type=armor_stand,tag=spawnwitchbox] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..40] ~ ~ ~ 20 1
 execute as @e[scores={witch1=289}] at @e[type=armor_stand,tag=spawnwitchbox] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..40] ~ ~ ~ 20 1

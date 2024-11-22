@@ -2,7 +2,7 @@
 
 scoreboard players add @p dummy_telekinesis 1
 
-execute unless items entity @p weapon.offhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/telekinesis
+execute unless items entity @p weapon.offhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/telekinesis
 
 execute if score @s dummy_telekinesis matches 1 at @s run playsound minecraft:entity.shulker.teleport block @p ~ ~ ~ 80 .5
 execute if score @s dummy_telekinesis matches 1 at @s run particle minecraft:firework ~ ~0.1 ~ 1 .2 1 0.01 10

@@ -1,5 +1,5 @@
 #####guard_summon
-execute store result score @a randomnumber_3 run random value 1..4
+execute store result score .INT2 number run random value 1..4
 
 execute as @a[scores={randomnumber_3=1}] run summon husk ~ ~ ~ {CustomName:'[{"text":"Hrafnir","color":"#912C2C"}]',Health:120,Tags:["marrow_servant"],HandItems:[{id:"minecraft:iron_axe",count:1},{id:shield,count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:iron_chestplate,Count:1},{id:chainmail_chestplate,Count:1},{id:iron_chestplate,Count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:120f},{id:"generic.armor",base:15f},{id:"minecraft:generic.scale",base:1.3}]}
 

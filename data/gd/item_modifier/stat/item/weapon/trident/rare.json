@@ -1,0 +1,93 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Rare",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+10% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "13 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+25% Sweeping",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+30% Interaction Range",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Water Movement Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.01,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 13,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

@@ -3,7 +3,7 @@ scoreboard objectives add dummy_witch dummy
 scoreboard players add @a dummy_witch 0
 
 scoreboard objectives add devil_playerdeath minecraft.custom:minecraft.deaths
-execute at @p run scoreboard objectives add randomnumber_1 dummy
+execute at @p run scoreboard objectives add randomnumber dummy
 
 kill @e[type=blaze,tag=!Boss_Devil]
 
@@ -29,12 +29,12 @@ execute as @a[scores={devil1=1}] run kill @e[type=armor_stand,tag=spawndevil]
 execute as @e[scores={devil1=1}] at @e[type=armor_stand,tag=spawndevilbox] run effect give @a[distance=..30] minecraft:slowness 30 3 true
 execute as @e[scores={devil1=1}] at @e[type=armor_stand,tag=spawndevilbox] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 
-execute as @a[scores={devil1=1}] store result score @p randomnumber_1 run random value 0..20
+execute as @a[scores={devil1=1}] store result score @p randomnumber run random value 0..20
 
 execute as @e[scores={devil1=10}] at @e[type=armor_stand,tag=spawndevilbox] at @a[distance=..60,limit=1,sort=nearest] run say NO, not that feeling again...
 
-execute as @a[scores={devil1=40,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawndevilbox] run say Someone sneaked into my realm. Looking for a near end?
-execute as @a[scores={devil1=40,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawndevilbox] run say Looks like my home is infested with rat scum...
+execute as @a[scores={devil1=40,randomnumber=0..10}] as @e[type=armor_stand,tag=spawndevilbox] run say Someone sneaked into my realm. Looking for a near end?
+execute as @a[scores={devil1=40,randomnumber=11..20}] as @e[type=armor_stand,tag=spawndevilbox] run say Looks like my home is infested with rat scum...
 
 
 
@@ -77,11 +77,11 @@ execute as @e[scores={devil1=350}] at @e[type=armor_stand,tag=devil_wall] run se
 
 
 
-execute as @a[scores={devil1=200,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawndevilbox] run say Are you sure you want to stay any longer? 
-execute as @a[scores={devil1=200,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawndevilbox] run say Leave or I'll burn your bones! 
+execute as @a[scores={devil1=200,randomnumber=0..10}] as @e[type=armor_stand,tag=spawndevilbox] run say Are you sure you want to stay any longer? 
+execute as @a[scores={devil1=200,randomnumber=11..20}] as @e[type=armor_stand,tag=spawndevilbox] run say Leave or I'll burn your bones! 
 
-execute as @a[scores={devil1=350,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawndevilbox] run say Let's see if you're fireproof. 
-execute as @a[scores={devil1=350,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawndevilbox] run say I will make sure you disappear from this realm.
+execute as @a[scores={devil1=350,randomnumber=0..10}] as @e[type=armor_stand,tag=spawndevilbox] run say Let's see if you're fireproof. 
+execute as @a[scores={devil1=350,randomnumber=11..20}] as @e[type=armor_stand,tag=spawndevilbox] run say I will make sure you disappear from this realm.
 
 
 execute as @e[scores={devil1=200}] at @e[type=armor_stand,tag=spawndevilbox] run playsound minecraft:entity.blaze.ambient ambient @a[distance=..40] ~ ~ ~ 20 1

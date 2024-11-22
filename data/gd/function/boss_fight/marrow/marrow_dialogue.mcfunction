@@ -1,7 +1,7 @@
 #####Marrow_dialogue#####
 scoreboard objectives add randomnumber_2 dummy
 
-execute as @a[scores={marrow2=1..marrow_time1=10}] store result score @s randomnumber_2 run random value 0..20
+execute as @a[scores={marrow2=1..marrow_time1=10}] store result score .INT1 number run random value 0..20
 
 execute as @a[scores={marrow2=1..marrow_time1=10,randomnumber_2=0..3}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Get him! I want this warrior dead.
 execute as @a[scores={marrow2=1..marrow_time1=10,randomnumber_2=4..7}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Jump and dodge like a cat. How about a real fight? Stop running away!

@@ -1,8 +1,11 @@
 # INFO: All functions in this file are executed as the player so the selector will now be @s for multiplayer compatability
 # enchantments
 
-execute as @s[scores={wither_skull_time1=0..}] at @s run function gd:enchantments/bonecaller/wither_skull_staff
+# mercenary
 execute as @s[scores={knife_pouch_time=0..}] at @s run function gd:enchantments/knife_pouch/knife_pouch_regulator
+
+# wizard
+execute as @s[scores={wither_skull_time1=0..}] at @s run function gd:enchantments/bonecaller/wither_skull_staff
 execute as @s[scores={star_shard_time=0..}] at @s run function gd:enchantments/star_shard/star_shard_regulator
 execute as @s[scores={star_shower_time=0..}] at @s run function gd:enchantments/star_shower/star_shower_regulator
 execute as @s[scores={void_sphere_time=0..}] at @s run function gd:enchantments/void_sphere/void_sphere_regulator
@@ -24,18 +27,20 @@ execute if items entity @s weapon.mainhand minecraft:clock[minecraft:custom_data
 
 # stats
 # INFO: Now uses @ s to enable multiplayer compatability
-execute if items entity @s weapon.mainhand #gd:stat_item unless items entity @s weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b}] unless items entity @s weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run function gd:weaponstats/weaponstatssplit
+execute if items entity @s weapon.mainhand #gd:stat_item unless items entity @s weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b}] unless items entity @s weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run function gd:stat/item/check
 
 # armor effect
-# now works in multiplayer, would break before because it would choose 1 player so the effect would run out in multiplayer
-execute if items entity @s armor.* minecraft:leather_helmet if items entity @s armor.* minecraft:leather_chestplate if items entity @s armor.* minecraft:leather_leggings if items entity @s armor.* minecraft:leather_boots run effect give @s speed 5 0 true
-execute if items entity @s armor.* minecraft:chainmail_helmet if items entity @s armor.* minecraft:chainmail_chestplate if items entity @s armor.* minecraft:chainmail_leggings if items entity @s armor.* minecraft:chainmail_boots run effect give @s saturation 5 0 true
-execute if items entity @s armor.* minecraft:iron_helmet if items entity @s armor.* minecraft:iron_chestplate if items entity @s armor.* minecraft:iron_leggings if items entity @s armor.* minecraft:iron_boots run effect give @s strength 5 0 true
-execute if items entity @s armor.* minecraft:golden_helmet if items entity @s armor.* minecraft:golden_chestplate if items entity @s armor.* minecraft:golden_leggings if items entity @s armor.* minecraft:golden_boots run effect give @s haste 5 0 true
-execute if items entity @s armor.* minecraft:diamond_helmet if items entity @s armor.* minecraft:diamond_chestplate if items entity @s armor.* minecraft:diamond_leggings if items entity @s armor.* minecraft:diamond_boots run effect give @s resistance 5 0 true
-execute if items entity @s armor.* minecraft:netherite_helmet if items entity @s armor.* minecraft:netherite_chestplate if items entity @s armor.* minecraft:netherite_leggings if items entity @s armor.* minecraft:netherite_boots run effect give @s health_boost 5 0 true
+# now works in multiplayer, would break before because it would choose 1 player so the effect would run out in multiplayer + predicate
+execute if predicate gd:armor_iron run effect give @s haste 5 0 true
+execute if predicate gd:armor_gold run effect give @s luck 5 0 true
+execute if predicate gd:armor_diamond run effect give @s resistance 5 0 true
+execute if predicate gd:armor_netherite run effect give @s health_boost 5 0 true
+
+scoreboard players enable @s dialogue
+execute as @a[scores={dialogue=1..}] at @s run function gd:dialogue/trigger
 
 # No clue
+# multiply counters x4 then remoce effect_gauge
 scoreboard players add @s effect_gauge 1
 
 execute as @s[scores={effect_gauge=4..,freezing_counter=1..}] run scoreboard players remove @s freezing_counter 1

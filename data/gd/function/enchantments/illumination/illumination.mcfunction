@@ -3,7 +3,7 @@
 scoreboard objectives add dummy_illumination dummy
 scoreboard players add @s dummy_illumination 0
 
-execute unless items entity @p weapon.offhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/illumination
+execute unless items entity @p weapon.offhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/illumination
 
 execute if score @s check matches 10 if score @s dummy_illumination matches 100 run particle minecraft:electric_spark ~ ~1 ~ .2 .5 .2 .1 1
 execute if score @s check matches 30 if score @s dummy_illumination matches 100 run particle minecraft:electric_spark ~ ~1 ~ .2 .5 .2 .1 1

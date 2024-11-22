@@ -1,0 +1,86 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Legendary",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "+30% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+200% Jump Strength",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "15 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+100% Knockback",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Attack Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "ba50e8cc-5ba5-462e-9cd5-b216b02e7158",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.03,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ba50e8cc-5ba5-462e-9cd5-b216b02e7158",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ba50e8cc-5ba5-462e-9cd5-b216b02e7158",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 15,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ba50e8cc-5ba5-462e-9cd5-b216b02e7158",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "e8e66d24-7323-4869-9a33-c71ee74ec644",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3.2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

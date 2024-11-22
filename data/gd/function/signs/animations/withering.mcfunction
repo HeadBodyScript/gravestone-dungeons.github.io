@@ -3,7 +3,7 @@ scoreboard objectives add withering dummy
 scoreboard players add @p withering 1
 scoreboard objectives add randomnumber_2 dummy
 
-execute as @a[scores={withering=1}] store result score @s randomnumber_2 run random value 1..5
+execute as @a[scores={withering=1}] store result score .INT1 number run random value 1..5
 
 execute as @a[scores={withering=8..}] at @e[type=armor_stand,tag=withering] run tp @e[type=armor_stand,tag=withering] ^ ^ ^ facing entity @p feet
 

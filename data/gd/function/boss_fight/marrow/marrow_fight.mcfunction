@@ -1,5 +1,5 @@
 ####Fight
-scoreboard objectives add randomnumber_1 dummy
+scoreboard objectives add randomnumber dummy
 
 scoreboard players add @e[type=#gd:companion,tag=companion] companion 2
 
@@ -48,12 +48,12 @@ execute as @a[scores={husk_kill=1..}] run scoreboard players set @a husk_kill 0
 execute as @a[scores={marrow2=10}] at @e[type=armor_stand,tag=spawnmarrowbox] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 execute as @e[scores={marrow2=1..}] run effect give @e[type=minecraft:wither_skeleton,tag=Boss_Marrow,limit=1] instant_damage 10 0 true
 
-execute as @a[scores={marrow2=40}] store result score @p randomnumber_1 run random value 1..17
-execute as @a[scores={marrow2=45,randomnumber_1=1..14}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
-execute as @a[scores={marrow2=45,randomnumber_1=1..14,marrow_phase1=30..}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
-execute as @a[scores={marrow2=45,randomnumber_1=1..14,marrow_phase1=40..}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
-execute as @a[scores={marrow2=45,randomnumber_1=13..15}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/guard_skeleton_summon
-execute as @a[scores={marrow2=45,randomnumber_1=13..15,marrow_phase1=35..}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/guard_skeleton_summon
+execute as @a[scores={marrow2=40}] store result score @p randomnumber run random value 1..17
+execute as @a[scores={marrow2=45,randomnumber=1..14}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
+execute as @a[scores={marrow2=45,randomnumber=1..14,marrow_phase1=30..}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
+execute as @a[scores={marrow2=45,randomnumber=1..14,marrow_phase1=40..}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
+execute as @a[scores={marrow2=45,randomnumber=13..15}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/guard_skeleton_summon
+execute as @a[scores={marrow2=45,randomnumber=13..15,marrow_phase1=35..}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/guard_skeleton_summon
 
 execute as @a[scores={marrow_phase1=0}] run bossbar set fight_marrow max 500
 execute as @a[scores={marrow_phase1=2}] run bossbar set fight_marrow max 520
@@ -95,13 +95,13 @@ execute as @a[scores={marrow2=105..}] run scoreboard players set @a marrow2 1
 
 execute as @a[scores={marrow4=10}] at @e[type=minecraft:wither_skeleton,tag=Boss_Marrow] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 
-execute as @a[scores={marrow4=40}] store result score @p randomnumber_1 run random value 1..17
-execute as @a[scores={marrow4=45,randomnumber_1=1..6}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
-execute as @a[scores={marrow4=45,randomnumber_1=3..4}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/guard_skeleton_summon
-execute as @a[scores={marrow4=45,randomnumber_1=4..8}] run function gd:boss_fight/marrow/marrow_leap
-execute as @a[scores={marrow4=45,randomnumber_1=8..11}] run function gd:boss_fight/marrow/marrow_throw_weapon
-execute as @a[scores={marrow4=45,randomnumber_1=11..12}] at @e[type=minecraft:wither_skeleton,tag=Boss_Marrow,limit=1] run function gd:boss_fight/marrow/marrow_teleport
-execute as @a[scores={marrow4=45,randomnumber_1=15..16}] at @e[type=minecraft:wither_skeleton,tag=Boss_Marrow,limit=1] run function gd:boss_fight/marrow/marrow_weaken_shout
+execute as @a[scores={marrow4=40}] store result score @p randomnumber run random value 1..17
+execute as @a[scores={marrow4=45,randomnumber=1..6}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/marrow_skeleton_summon
+execute as @a[scores={marrow4=45,randomnumber=3..4}] at @e[type=armor_stand,tag=marrowguard,limit=1,sort=random] run function gd:boss_fight/marrow/guard_skeleton_summon
+execute as @a[scores={marrow4=45,randomnumber=4..8}] run function gd:boss_fight/marrow/marrow_leap
+execute as @a[scores={marrow4=45,randomnumber=8..11}] run function gd:boss_fight/marrow/marrow_throw_weapon
+execute as @a[scores={marrow4=45,randomnumber=11..12}] at @e[type=minecraft:wither_skeleton,tag=Boss_Marrow,limit=1] run function gd:boss_fight/marrow/marrow_teleport
+execute as @a[scores={marrow4=45,randomnumber=15..16}] at @e[type=minecraft:wither_skeleton,tag=Boss_Marrow,limit=1] run function gd:boss_fight/marrow/marrow_weaken_shout
 
 execute as @a[scores={marrow4=155..}] run scoreboard players set @a marrow4 1
 

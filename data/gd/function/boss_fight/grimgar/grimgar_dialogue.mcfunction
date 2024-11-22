@@ -1,7 +1,7 @@
 #####Grimgar_dialogue#####
 scoreboard objectives add randomnumber_2 dummy
 
-execute as @a[scores={grimgar2=1..,grimgar_time1=10}] store result score @s randomnumber_2 run random value 0..20
+execute as @a[scores={grimgar2=1..,grimgar_time1=10}] store result score .INT1 number run random value 0..20
 
 execute as @a[scores={grimgar2=1..,grimgar_time1=10,randomnumber_2=0..5}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Seems my minions are too strong for you little mouse. 
 execute as @a[scores={grimgar2=1..,grimgar_time1=10,randomnumber_2=6..10}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Try to escape, coward. Oh, I forgot. It is too late! Ahhhahaha!

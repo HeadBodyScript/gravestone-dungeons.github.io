@@ -41,7 +41,7 @@ execute if score @p Wart matches ..-1 run scoreboard players set @p Wart 0
 
 execute if score @p seed_title matches 6.. run scoreboard players set @p seed_title 0
 
-execute unless items entity @p weapon.offhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/sickle1
+execute unless items entity @p weapon.offhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/sickle1
 
 execute if score @p replant_sneak matches 2.. run scoreboard players set @p replant_sneak 0
 

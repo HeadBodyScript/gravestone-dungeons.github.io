@@ -1,6 +1,6 @@
 #####Spawn
 scoreboard objectives add morbex_playerdeath minecraft.custom:minecraft.deaths
-execute at @p run scoreboard objectives add randomnumber_1 dummy
+execute at @p run scoreboard objectives add randomnumber dummy
 scoreboard objectives add morbex_void_time dummy
 
 

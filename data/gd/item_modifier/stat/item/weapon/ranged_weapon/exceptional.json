@@ -1,0 +1,62 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Exceptional",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+20% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+10% Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+100% Jump Strength",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "3bef1ad5-ef7a-44f3-854c-a78e1297c339",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.02,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "3bef1ad5-ef7a-44f3-854c-a78e1297c339",
+        "attribute": "minecraft:generic.armor",
+        "amount": 0.10,
+        "operation": "add_multiplied_base",
+        "slot": "mainhand"
+      },
+      {
+        "id": "3bef1ad5-ef7a-44f3-854c-a78e1297c339",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.15,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

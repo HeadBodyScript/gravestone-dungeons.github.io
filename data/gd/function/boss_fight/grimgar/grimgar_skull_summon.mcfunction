@@ -1,9 +1,9 @@
-execute store result score @p randomnumber_1 run random value 1..4
+execute store result score @p randomnumber run random value 1..4
 
-execute as @a[scores={randomnumber_1=1}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Oh oh, now it gets interesting. Muahahahaha!
-execute as @a[scores={randomnumber_1=2}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Something is chasing you... and you can't run away!
-execute as @a[scores={randomnumber_1=3}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Take that! 
-execute as @a[scores={randomnumber_1=4}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Do you feel the cold breath? The Grim Reaper is on his way to you.
+execute as @a[scores={randomnumber=1}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Oh oh, now it gets interesting. Muahahahaha!
+execute as @a[scores={randomnumber=2}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Something is chasing you... and you can't run away!
+execute as @a[scores={randomnumber=3}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Take that! 
+execute as @a[scores={randomnumber=4}] as @e[type=minecraft:evoker,tag=Boss_Grimgar] run say Do you feel the cold breath? The Grim Reaper is on his way to you.
 
 execute at @e[type=minecraft:evoker,tag=Boss_Grimgar] run particle minecraft:large_smoke ~ ~1 ~ 0.1 0.1 0.1 0.07 50
 

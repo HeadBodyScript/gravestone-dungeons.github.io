@@ -1,0 +1,74 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Rusted",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "-20% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "8 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "-10% Attack Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-25% Water Movement Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "7d567470-480a-43a1-940a-78060474390f",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.02,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7d567470-480a-43a1-940a-78060474390f",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7d567470-480a-43a1-940a-78060474390f",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7d567470-480a-43a1-940a-78060474390f",
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "amount": -0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

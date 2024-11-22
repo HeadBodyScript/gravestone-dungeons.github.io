@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Common",
+        "color": "white",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function": "minecraft:toggle_tooltips",
+    "toggles": {
+      "minecraft:attribute_modifiers": false
+    }
+  }
+]

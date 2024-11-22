@@ -8,9 +8,6 @@ execute as @a[scores={companion_time=200..}] run scoreboard objectives remove co
 
 ####Trader####
 
-execute if entity @e[type=villager,tag=villager,sort=nearest,limit=1] run function gd:trader/trader
-execute as @a[scores={time_trader_reset=10}] run function gd:trader/merchant_split
-execute as @a[scores={time_trader_reset=300..}] run scoreboard players set @a time_trader_reset 0
 
 
 #####Bossfight start#####
@@ -32,6 +29,4 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:paper",tag:{arena_ticket:1b}}}]
 execute unless entity @e[type=#gd:mobs,tag=target_freezing] run kill @e[type=minecraft:item_display,tag=freezing_arrow_block]
 execute unless entity @e[type=#gd:mobs,tag=target_freezing] run kill @e[type=armor_stand,tag=freezing_arrow_stand]
 
-# scoreboard objectives remove sneak_fire_burst
-# scoreboard objectives remove sneak_levitation
-# scoreboard objectives remove sneak_replant_sneak
+scoreboard players set .TICK tick 0

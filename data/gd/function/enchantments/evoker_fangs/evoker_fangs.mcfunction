@@ -4,7 +4,7 @@ scoreboard players add @s dummy_evoker_fangs1 1
 
 execute if score @s dummy_evoker_fangs1 matches 1 run scoreboard players remove @s magicka 100
 
-execute unless items entity @p weapon.offhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/evoker_fangs
+execute unless items entity @p weapon.offhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/evoker_fangs
 
 execute if score @s check matches 20 if score @s magicka matches 100.. run particle minecraft:crit ~ ~.5 ~ .2 .4 .2 0.01 5
 execute if score @s check matches 20 if score @s magicka matches 99 run playsound minecraft:entity.ravager.roar ambient @a[distance=..10] ~ ~ ~ 20 1

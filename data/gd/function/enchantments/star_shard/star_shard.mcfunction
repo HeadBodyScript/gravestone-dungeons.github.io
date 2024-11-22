@@ -2,7 +2,7 @@
 
 scoreboard players add @s star_shard_time 0
 
-execute unless items entity @p weapon.offhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/star_shard
+execute unless items entity @p weapon.offhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/star_shard
 
 execute as @s[scores={check=20,magicka=39}] run playsound minecraft:block.amethyst_block.hit ambient @a[distance=..10] ~ ~ ~ 20 .1
 execute if score @s magicka matches 40.. if score @s check matches 20 at @s run particle minecraft:firework ^ ^.5 ^.2 0.1 0.1 0.1 .1 5

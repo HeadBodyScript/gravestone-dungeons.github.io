@@ -1,0 +1,86 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Exceptional",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+15% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "14 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+10% Attack Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Sweeping",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Water Movement Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "97e70b2e-137d-44e4-bb43-e2b8f24becc1",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.015,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "97e70b2e-137d-44e4-bb43-e2b8f24becc1",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 14,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "97e70b2e-137d-44e4-bb43-e2b8f24becc1",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "97e70b2e-137d-44e4-bb43-e2b8f24becc1",
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "97e70b2e-137d-44e4-bb43-e2b8f24becc1",
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

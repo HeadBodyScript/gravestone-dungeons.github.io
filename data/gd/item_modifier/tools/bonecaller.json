@@ -13,7 +13,7 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": "Magicka Cost: 60",
+        "text": " ■ Magicka Cost: 60",
         "color": "gray",
         "italic": false
       },{
@@ -26,7 +26,7 @@
         "italic": true
       }
     ],
-    "mode": "insert"
+    "mode": "replace_all"
   },
   {
     "function": "minecraft:set_custom_data",

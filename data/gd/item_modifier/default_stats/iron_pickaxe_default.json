@@ -17,6 +17,7 @@
         "slot": "mainhand"
       }
     ],
-    "mode": "insert"
+    "replace": true,
+    "mode": "replace_all"
   }
 ]

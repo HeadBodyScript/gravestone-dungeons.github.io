@@ -2,18 +2,17 @@
 execute as @a run function gd:exe_player
 # NOTE: For all future markers (replace armorstand with marker)
 execute as @e[type=minecraft:marker,tag=GD] run function gd:marker
-# NOTE: Non important ticks VVV (old checktick)
-execute as @a[scores={check=100}] run function gd:exe_other
-execute as @e[type=#gd:rideable] run function gd:exe_rideable
-execute as @e[type=#gd:entity_stat,tag=!stats] run function gd:entitystat/entitystatsplit
+execute as @e[type=#gd:entity_stat,tag=!stats] at @s run function gd:stat/entity/check
 
-############################## tickcheck ##############################
-execute as @a[scores={check=20}] run function gd:checktick
-execute as @a[scores={check=101..}] run scoreboard players set @a check 0
+# tick
+# !COMBINE into 1 later
+execute if score .TICK tick matches 40 run function gd:exe_other
+execute if score .TICK tick matches 40 run function gd:exe_rideable
+execute if score .TICK tick matches 40 run function gd:checktick
+scoreboard players add .TICK tick 1
 
-execute as @a[scores={tick_talk_0=2..}] run function gd:trader/delivery
-execute as @a[scores={tick_talk_1=2..}] run function gd:trader/delivery
-
+execute as @a[scores={talked_to_villager=1..}] run function gd:dialogue/player
+execute as @a[tag=talking_to_villager] at @s run function gd:check/villager_manual
 
 ############################## Animations ##############################
 execute if entity @e[type=armor_stand,tag=animation] run function gd:signs/animations/animation_split

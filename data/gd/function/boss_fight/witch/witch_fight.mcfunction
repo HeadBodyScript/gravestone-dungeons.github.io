@@ -1,5 +1,5 @@
 ####Fight
-scoreboard objectives add randomnumber_1 dummy
+scoreboard objectives add randomnumber dummy
 
 scoreboard players add @e[type=#gd:companion,tag=companion] companion 2
 
@@ -30,12 +30,12 @@ execute as @a[scores={dummy_witch=2,witch2=441}] at @e[type=armor_stand,tag=spaw
 execute as @a[scores={witch2=441}] run scoreboard players set @a witch2 0
 
 
-execute as @a[scores={witch_phase1=40}] store result score @p randomnumber_1 run random value 1..17
-execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber_1 matches 1..8 run function gd:boss_fight/witch/witch_poisondart
-execute as @a[scores={witch_phase1=45}] if score @p randomnumber_1 matches 6..11 run function gd:boss_fight/witch/witch_potion
-execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber_1 matches 11..12 run function gd:boss_fight/witch/witch_invisible
-execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber_1 matches 12..14 run function gd:boss_fight/witch/witch_summon
-execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber_1 matches 15 run function gd:boss_fight/witch/witch_morph
+execute as @a[scores={witch_phase1=40}] store result score @p randomnumber run random value 1..17
+execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber matches 1..8 run function gd:boss_fight/witch/witch_poisondart
+execute as @a[scores={witch_phase1=45}] if score @p randomnumber matches 6..11 run function gd:boss_fight/witch/witch_potion
+execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber matches 11..12 run function gd:boss_fight/witch/witch_invisible
+execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber matches 12..14 run function gd:boss_fight/witch/witch_summon
+execute as @a[scores={witch_phase1=45..46}] if score @p randomnumber matches 15 run function gd:boss_fight/witch/witch_morph
 
 
 execute as @a[scores={witch_potion_time1=0..}] run function gd:boss_fight/witch/witch_potion

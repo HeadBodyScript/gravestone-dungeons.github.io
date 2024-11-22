@@ -1,7 +1,7 @@
 #####devil_dialogue#####
 scoreboard objectives add randomnumber_2 dummy
 
-execute as @a[scores={devil_phase1=1..,devil_time1=10}] store result score @s randomnumber_2 run random value 1..20
+execute as @a[scores={devil_phase1=1..,devil_time1=10}] store result score .INT1 number run random value 1..20
 
 execute as @a[scores={devil_phase1=1..,devil_time1=10,randomnumber_2=1..3}] as @e[type=blaze,tag=Boss_Devil] run say There is no place to hide from me little mouse!
 execute as @a[scores={devil_phase1=1..,devil_time1=10,randomnumber_2=4..6}] as @e[type=blaze,tag=Boss_Devil] run say Yei, jump and dodge. JUMP AND DODGE! 

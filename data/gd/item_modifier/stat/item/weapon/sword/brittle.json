@@ -1,0 +1,72 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Brittle",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "-10% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "8 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "-30% Interaction Range",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "0053f017-d8d8-4954-ac10-16b33140f920",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.015,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "0053f017-d8d8-4954-ac10-16b33140f920",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "0053f017-d8d8-4954-ac10-16b33140f920",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "0053f017-d8d8-4954-ac10-16b33140f920",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function": "minecraft:toggle_tooltips",
+    "toggles": {
+      "attribute_modifiers": false
+    }
+  }
+]

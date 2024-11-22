@@ -1,6 +1,6 @@
 #####Spawn
 scoreboard objectives add marrow_playerdeath minecraft.custom:minecraft.deaths
-execute at @p run scoreboard objectives add randomnumber_1 dummy
+execute at @p run scoreboard objectives add randomnumber dummy
 
 kill @e[type=wither_skeleton,tag=!Boss_Marrow]
 
@@ -29,23 +29,23 @@ execute as @a[scores={marrow1=1}] run kill @e[type=armor_stand,tag=spawnmarrow]
 execute as @a[scores={marrow1=1}] at @e[type=armor_stand,tag=spawnmarrowbox] run effect give @a[distance=..30] minecraft:slowness 20 2 true
 execute as @a[scores={marrow1=1}] at @e[type=armor_stand,tag=spawnmarrowbox] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 
-execute as @a[scores={marrow1=1}] store result score @p randomnumber_1 run random value 0..20
+execute as @a[scores={marrow1=1}] store result score @p randomnumber run random value 0..20
 
 
 
-execute as @a[scores={marrow1=10,randomnumber_1=0..10}] at @e[type=armor_stand,tag=spawnmarrowbox] at @a[distance=..60,limit=1,sort=nearest] run say Hmm. I'm feeling weak.. what's going on here?
-execute as @a[scores={marrow1=10,randomnumber_1=11..20}] at @e[type=armor_stand,tag=spawnmarrowbox] at @a[distance=..60,limit=1,sort=nearest] run say Such an interesting place..
+execute as @a[scores={marrow1=10,randomnumber=0..10}] at @e[type=armor_stand,tag=spawnmarrowbox] at @a[distance=..60,limit=1,sort=nearest] run say Hmm. I'm feeling weak.. what's going on here?
+execute as @a[scores={marrow1=10,randomnumber=11..20}] at @e[type=armor_stand,tag=spawnmarrowbox] at @a[distance=..60,limit=1,sort=nearest] run say Such an interesting place..
 
 execute as @a[scores={marrow1=60}] run playsound minecraft:entity.wither_skeleton.ambient master @a[distance=..30] ~ ~ ~ 10 0.5
 execute as @a[scores={marrow1=100}] run playsound minecraft:entity.zombie.death master @a[distance=..30] ~ ~ ~ 10 0.5
 
-execute as @a[scores={marrow1=100,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawnmarrowbox] run say A challenger? Terrific!  Why do you disturb my everlasting watch?
-execute as @a[scores={marrow1=100,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Don't disturb my everlasting watch! Otherwise I will crush your bones.
+execute as @a[scores={marrow1=100,randomnumber=0..10}] as @e[type=armor_stand,tag=spawnmarrowbox] run say A challenger? Terrific!  Why do you disturb my everlasting watch?
+execute as @a[scores={marrow1=100,randomnumber=11..20}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Don't disturb my everlasting watch! Otherwise I will crush your bones.
 
 execute as @a[scores={marrow1=120}] run playsound minecraft:entity.ravager.stunned ambient @a[distance=..30] ~ ~ ~ 50 0.5
 
-execute as @a[scores={marrow1=200,randomnumber_1=0..10}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Are you sure you want to challenge me, little guy?
-execute as @a[scores={marrow1=200,randomnumber_1=11..20}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Leave. NOW! Otherwise, I will ensure that you remain here forever as my servant in eternity.
+execute as @a[scores={marrow1=200,randomnumber=0..10}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Are you sure you want to challenge me, little guy?
+execute as @a[scores={marrow1=200,randomnumber=11..20}] as @e[type=armor_stand,tag=spawnmarrowbox] run say Leave. NOW! Otherwise, I will ensure that you remain here forever as my servant in eternity.
 
 
 execute as @e[scores={marrow1=120}] at @e[type=minecraft:armor_stand,tag=spawnmarrowbox] run setblock ~ ~5 ~13 soul_lantern replace

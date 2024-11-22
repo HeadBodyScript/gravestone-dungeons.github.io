@@ -7,7 +7,7 @@ scoreboard players add @s dummy_knife_pouch1 0
 
 scoreboard players add @s knife_pouch_time 0
 
-execute unless items entity @p weapon.offhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/knife_pouch
+execute unless items entity @p weapon.offhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] unless items entity @p weapon.mainhand gd:stat_item_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s weapon.mainhand gd:tools/knife_pouch
 
 execute if score @s check matches 20 if score @s dummy_knife_pouch1 matches ..5 run scoreboard players add @s dummy_knife_pouch 1
 

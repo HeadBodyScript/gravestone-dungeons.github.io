@@ -1,5 +1,5 @@
 ####Fight
-scoreboard objectives add randomnumber_1 dummy
+scoreboard objectives add randomnumber dummy
 scoreboard objectives add randomnumber_2 dummy
 scoreboard objectives add randomnumber_3 dummy
 
@@ -42,10 +42,10 @@ execute as @a[scores={skeleton_kill=1..}] run scoreboard players set @a skeleton
 execute as @a[scores={grimgar2=10}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 execute as @e[scores={grimgar2=10}] run effect give @e[type=minecraft:evoker,tag=Boss_Grimgar] regeneration 10 6 true
 
-execute as @a[scores={grimgar2=40}] store result score @p randomnumber_1 run random value 1..17
-execute as @a[scores={grimgar2=45,randomnumber_1=1..8}] at @e[type=armor_stand,tag=spawngrimgar_summon,limit=2,sort=random] run function gd:boss_fight/grimgar/grimgar_skeleton_summon
-execute as @a[scores={grimgar2=45,randomnumber_1=5..12}] run function gd:boss_fight/grimgar/grimgar_evoker_fangs
-execute as @a[scores={grimgar2=45,randomnumber_1=8..14}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_silverfish_summon
+execute as @a[scores={grimgar2=40}] store result score @p randomnumber run random value 1..17
+execute as @a[scores={grimgar2=45,randomnumber=1..8}] at @e[type=armor_stand,tag=spawngrimgar_summon,limit=2,sort=random] run function gd:boss_fight/grimgar/grimgar_skeleton_summon
+execute as @a[scores={grimgar2=45,randomnumber=5..12}] run function gd:boss_fight/grimgar/grimgar_evoker_fangs
+execute as @a[scores={grimgar2=45,randomnumber=8..14}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_silverfish_summon
 
 execute as @a[scores={grimgar_phase1=1}] run bossbar set fight_grimgar max 319
 execute as @a[scores={grimgar_phase1=2}] run bossbar set fight_grimgar max 337
@@ -88,15 +88,15 @@ execute as @a[scores={grimgar4=10}] at @e[type=minecraft:evoker,tag=Boss_Grimgar
 execute as @e[scores={grimgar4=1}] run effect give @e[type=minecraft:evoker,tag=Boss_Grimgar] regeneration 60 6 true
 
 
-execute as @a[scores={grimgar4=40}] store result score @p randomnumber_1 run random value 1..17
-execute as @a[scores={grimgar4=45,randomnumber_1=1..6}] at @e[type=armor_stand,tag=spawngrimgar_summon,limit=2,sort=random] run function gd:boss_fight/grimgar/grimgar_skeleton_summon
-execute as @a[scores={grimgar4=45,randomnumber_1=4..10}] run function gd:boss_fight/grimgar/grimgar_evoker_fangs
-execute as @a[scores={grimgar4=45,randomnumber_1=8..10}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_silverfish_summon
-execute as @a[scores={grimgar4=45,randomnumber_1=10..15}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_skull_summon
-execute as @a[scores={grimgar4=45,randomnumber_1=11..16}] run effect give @e[type=wither_skeleton,tag=grimgar_deathlord] minecraft:speed 3 2 true
+execute as @a[scores={grimgar4=40}] store result score @p randomnumber run random value 1..17
+execute as @a[scores={grimgar4=45,randomnumber=1..6}] at @e[type=armor_stand,tag=spawngrimgar_summon,limit=2,sort=random] run function gd:boss_fight/grimgar/grimgar_skeleton_summon
+execute as @a[scores={grimgar4=45,randomnumber=4..10}] run function gd:boss_fight/grimgar/grimgar_evoker_fangs
+execute as @a[scores={grimgar4=45,randomnumber=8..10}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_silverfish_summon
+execute as @a[scores={grimgar4=45,randomnumber=10..15}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_skull_summon
+execute as @a[scores={grimgar4=45,randomnumber=11..16}] run effect give @e[type=wither_skeleton,tag=grimgar_deathlord] minecraft:speed 3 2 true
 
-execute as @a[scores={grimgar4=45,randomnumber_1=15..16}] run effect give @e[type=wither_skeleton,tag=grimgar_deathlord] minecraft:instant_damage 1 3 true
-execute as @a[scores={grimgar4=45,randomnumber_1=15..16}] at @e[type=wither_skeleton,tag=grimgar_deathlord] run playsound minecraft:item.goat_horn.sound.2 ambient @a[distance=..15] ~ ~ ~ 10 0.5
+execute as @a[scores={grimgar4=45,randomnumber=15..16}] run effect give @e[type=wither_skeleton,tag=grimgar_deathlord] minecraft:instant_damage 1 3 true
+execute as @a[scores={grimgar4=45,randomnumber=15..16}] at @e[type=wither_skeleton,tag=grimgar_deathlord] run playsound minecraft:item.goat_horn.sound.2 ambient @a[distance=..15] ~ ~ ~ 10 0.5
 
 
 execute as @e[type=minecraft:armor_stand,tag=skull_grimgar] run function gd:boss_fight/grimgar/grimgar_skull_hit
@@ -120,14 +120,14 @@ execute as @a[scores={grimgar4=105..}] run scoreboard players set @a grimgar4 1
 
 execute as @a[scores={grimgar6=10}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run effect give @a[distance=..60] minecraft:mining_fatigue 999 2 true
 
-execute as @a[scores={grimgar6=40}] store result score @p randomnumber_1 run random value 1..17
-execute as @a[scores={grimgar6=45,randomnumber_1=1..4}] at @e[type=armor_stand,tag=spawngrimgar_summon,limit=3,sort=random] run function gd:boss_fight/grimgar/grimgar_skeleton_summon
-execute as @a[scores={grimgar6=45,randomnumber_1=4..10}] run function gd:boss_fight/grimgar/grimgar_evoker_fangs
-execute as @a[scores={grimgar6=45,randomnumber_1=8..10}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_silverfish_summon
-execute as @a[scores={grimgar6=45,randomnumber_1=12}] run function gd:boss_fight/grimgar/grimgar_warp
-execute as @a[scores={grimgar6=45,randomnumber_1=9..13}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_skull_summon
-execute as @a[scores={grimgar6=45,randomnumber_1=11..14}] run effect give @e[type=minecraft:evoker,tag=Boss_Grimgar] minecraft:invisibility 10 0 true
-execute as @a[scores={grimgar6=45,randomnumber_1=15..16}] run effect give @e[type=minecraft:evoker,tag=Boss_Grimgar] minecraft:regeneration 5 3 true
+execute as @a[scores={grimgar6=40}] store result score @p randomnumber run random value 1..17
+execute as @a[scores={grimgar6=45,randomnumber=1..4}] at @e[type=armor_stand,tag=spawngrimgar_summon,limit=3,sort=random] run function gd:boss_fight/grimgar/grimgar_skeleton_summon
+execute as @a[scores={grimgar6=45,randomnumber=4..10}] run function gd:boss_fight/grimgar/grimgar_evoker_fangs
+execute as @a[scores={grimgar6=45,randomnumber=8..10}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_silverfish_summon
+execute as @a[scores={grimgar6=45,randomnumber=12}] run function gd:boss_fight/grimgar/grimgar_warp
+execute as @a[scores={grimgar6=45,randomnumber=9..13}] at @e[type=minecraft:evoker,tag=Boss_Grimgar] run function gd:boss_fight/grimgar/grimgar_skull_summon
+execute as @a[scores={grimgar6=45,randomnumber=11..14}] run effect give @e[type=minecraft:evoker,tag=Boss_Grimgar] minecraft:invisibility 10 0 true
+execute as @a[scores={grimgar6=45,randomnumber=15..16}] run effect give @e[type=minecraft:evoker,tag=Boss_Grimgar] minecraft:regeneration 5 3 true
 
 execute as @a[scores={grimgar6=105..}] run scoreboard players set @a grimgar6 1
 

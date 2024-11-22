@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.mainhand": {
+          "items": [
+            "minecraft:turtle_helmet",
+            "minecraft:leather_helmet",
+            "minecraft:golden_helmet",
+            "minecraft:iron_helmet",
+            "minecraft:chainmail_helmet",
+            "minecraft:diamond_helmet",
+            "minecraft:netherite_helmet"
+          ]
+        }
+      }
+    }
+  }
+  

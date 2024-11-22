@@ -1,7 +1,7 @@
 #####morbex_dialogue#####
 scoreboard objectives add randomnumber_2 dummy
 
-execute as @a[scores={morbex_phase1=1..,morbex_time1=10}] store result score @s randomnumber_2 run random value 0..20
+execute as @a[scores={morbex_phase1=1..,morbex_time1=10}] store result score .INT1 number run random value 0..20
 
 execute as @a[scores={morbex_phase1=1..,morbex_time1=10,randomnumber_2=0..2}] as @e[type=armor_stand,tag=spawnmorbexbox] run say Your feeble attempts at resistance only serve to amuse me. Embrace your fate.
 execute as @a[scores={morbex_phase1=1..,morbex_time1=10,randomnumber_2=3..5}] as @e[type=armor_stand,tag=spawnmorbexbox] run say Your defeat is inevitable.

@@ -1,0 +1,93 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": " ■ Rare",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+6 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+2 Health",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+5% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Jump Strength",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+10% Water Movement Speed",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "701d4a62-aaca-4c8b-a322-439e946f454c",
+        "attribute": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "701d4a62-aaca-4c8b-a322-439e946f454c",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "701d4a62-aaca-4c8b-a322-439e946f454c",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.005,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "701d4a62-aaca-4c8b-a322-439e946f454c",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.05,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "701d4a62-aaca-4c8b-a322-439e946f454c",
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "701d4a62-aaca-4c8b-a322-439e946f454c",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{stats:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
