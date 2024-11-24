@@ -1,18 +1,15 @@
 # NEW !IMPORTANT || player || entity
-execute as @a run function gd:exe_player
+execute as @a at @s run function gd:exe_player
 # NOTE: For all future markers (replace armorstand with marker)
-execute as @e[type=minecraft:marker,tag=GD] run function gd:marker
-execute as @e[type=#gd:entity_stat,tag=!stats] at @s run function gd:stat/entity/check
+
+execute as @e[type=minecraft:villager] at @s on target run say hi
 
 # tick
 # !COMBINE into 1 later
 execute if score .TICK tick matches 40 run function gd:exe_other
-execute if score .TICK tick matches 40 run function gd:exe_rideable
 execute if score .TICK tick matches 40 run function gd:checktick
 scoreboard players add .TICK tick 1
 
-execute as @a[scores={talked_to_villager=1..}] run function gd:dialogue/player
-execute as @a[tag=talking_to_villager] at @s run function gd:check/villager_manual
 
 ############################## Animations ##############################
 execute if entity @e[type=armor_stand,tag=animation] run function gd:signs/animations/animation_split

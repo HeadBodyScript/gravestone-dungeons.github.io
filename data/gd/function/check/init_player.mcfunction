@@ -6,3 +6,6 @@ scoreboard players set @s traded_with_villager 0
 scoreboard players set @s talked_with_villager 0
 scoreboard players set @s tick_talk_0 0
 scoreboard players set @s DIMI 0
+scoreboard players enable @s dialogue
+
+tellraw @s "Stats Loaded"

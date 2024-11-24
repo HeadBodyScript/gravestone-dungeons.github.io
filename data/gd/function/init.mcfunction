@@ -42,7 +42,7 @@ scoreboard objectives add mana dummy
 scoreboard objectives add DIMI dummy
 scoreboard objectives add arrow minecraft.used:minecraft.bow
 scoreboard objectives add tick dummy
-scoreboard objectives add tick_talk_0 dummy
+scoreboard objectives add tick_talk dummy
 scoreboard objectives add number dummy
 scoreboard objectives add reset_player trigger
 scoreboard objectives add mana_max dummy

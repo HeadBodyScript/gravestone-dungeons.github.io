@@ -1,36 +1,36 @@
-Put advancepents in sub-folders
-advancements
-    ->boss
-    ->class
-    ->click
-
 use clear tags
 tags involving spells
 spell_spellID
 boss_bossID
 
 
-root -> execute when new player joins || initial_execute
-initial_execute -> summons the villager and gives base stats on scoreboard for the player
-init -> 
+# BUGS
+✓ Item stats would re-apply on everyones main hand when a player would hold an item that didn't have stats yet
+NOTE: This allowed for items such as food or blocks to have stats
+FIX: Now executes as a player on itself + changed the item_modifier to replace the stat [This migh be useful for when you make an option to re-apply the stats]
 
-fixed that the starting villager only spawns once per location + only talks to the player that is talking to him
-Fix that it leaves early
-fix that it asks questions
-make a built in time out for the break / when he leaves instead of when a player is done + doesn't leave if player is within range
+✓ Ysembert talks to everyone on the server + it spawns multiple times in an area
+FIX: Ysembert only spawns once per 32 blocks + only talks to the player that is talking to him [makes use of predicate looking_at]
 
+✓ Ysembert leaves early
+FIX: Now sets the timer back to 500t each time you ask a question
+
+✓ Ysembert doesn't work in survival
+FIX: Uses trigger instead of function so it is survival friendly + only executes as the player
+
+# TO-DO
 make all dialog into mine
 ✓ better rng system
-stat pitty system
-PITY based on usefullness
-
-
-
-Make an enchantment that stores up node buffs
-Nerf base mana regen
-Fix arcane = mana regen
-
+✓ stat pitty system
+✓  ┗ PITY based on usefullness
 do all the entity stuff
+● Nerf base mana regen
+● Fix arcane = mana regen
+
+
+# IDEAS
+● Make an enchantment that stores up node buffs
+
 
 
 Buy/unlock ultimate abilities per class
@@ -73,4 +73,4 @@ Builder
 
 
 Regen only out of combat 
-When entering a new dungeon, show title
+When entering a new dungeon, show title of the dungeon

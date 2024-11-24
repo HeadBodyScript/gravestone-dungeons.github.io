@@ -36,8 +36,6 @@ execute if predicate gd:armor_gold run effect give @s luck 5 0 true
 execute if predicate gd:armor_diamond run effect give @s resistance 5 0 true
 execute if predicate gd:armor_netherite run effect give @s health_boost 5 0 true
 
-scoreboard players enable @s dialogue
-execute as @a[scores={dialogue=1..}] at @s run function gd:dialogue/trigger
 
 # No clue
 # multiply counters x4 then remoce effect_gauge
@@ -51,3 +49,8 @@ execute as @s[scores={effect_gauge=4..,tongue_of_fire_counter=1..}] run scoreboa
 execute as @s[scores={effect_gauge=4..,withering_counter=1..}] run scoreboard players remove @s withering_counter 1
 
 execute as @s[scores={effect_gauge=4..}] run scoreboard players set @s effect_gauge 0
+
+# dialog
+execute as @s[scores={dialogue=1..}] run function gd:dialogue/trigger
+execute as @s[scores={talked_to_villager=1..}] run function gd:dialogue/init
+execute as @s[tag=talking_to_villager] run function gd:dialogue/tick
