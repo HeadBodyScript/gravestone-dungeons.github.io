@@ -1,4 +1,4 @@
-execute if entity @s[type=horse] run function gd:stat/entity/horses/check
-# execute if entity @s[type=donkey,nbt={Tame:1b}] run function gd:stat/entity/donkeys/.check
-# execute if entity @s[type=mule,nbt={Tame:1b}] run function gd:stat/entity/mules/.check
-# execute if entity @s[type=camel] run function gd:stat/entity/camels/.check
+execute if entity @s[type=horse] run function gd:stat/entity/horse/check
+execute if entity @s[type=donkey] run function gd:stat/entity/donkey/check
+execute if entity @s[type=mule] run function gd:stat/entity/mule/check
+# execute if entity @s[type=camel] run function gd:stat/entity/camel/check
