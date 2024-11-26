@@ -3,6 +3,8 @@ tags involving spells
 spell_spellID
 boss_bossID
 
+# INFO
+Predicates use less recources aka computing power
 
 # BUGS
 ✓ Item stats would re-apply on everyones main hand when a player would hold an item that didn't have stats yet

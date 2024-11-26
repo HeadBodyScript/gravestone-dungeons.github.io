@@ -1,4 +1,5 @@
 # INFO: now uses the @s selector for multiplayer compatability
+#   └ uses predicate for grouped items to make it more efficient [readme]
 # TYPE: armor
 execute if predicate gd:weapon_mainhand_helmet run function gd:stat/item/armor/helmet
 execute if predicate gd:weapon_mainhand_chestplate run function gd:stat/item/armor/chestplate
@@ -12,7 +13,6 @@ execute if predicate gd:weapon_mainhand_hoe run function gd:stat/item/tool/hoe
 execute if predicate gd:weapon_mainhand_pickaxe run function gd:stat/item/tool/pickaxe
 execute if predicate gd:weapon_mainhand_axe run function gd:stat/item/tool/axe
 
-# NOTE: Changed based on predicate. This allowes to test for any type of item from a list so it doesn't have to check 6 times per item like your old way
 # TYPE: weapon
 execute if predicate gd:weapon_mainhand_sword run function gd:stat/item/weapon/sword
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:bow"}}] run function gd:stat/item/weapon/bow_crossbow

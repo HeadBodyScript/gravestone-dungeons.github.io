@@ -1,3 +1,4 @@
+# NOTE: this file is the building block for the datapack if you edit something here it will apply everywhere
 # NOTE: all base stats from scoreboards
 # maximum pity for the random modifier
 scoreboard players set MP.bow_crossbow DIMI 30

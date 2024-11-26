@@ -1,5 +1,3 @@
-#####Music#####
-
 execute if items entity @p weapon.offhand minecraft:paper run stopsound @a record minecraft:toss_a_coin_the_witcher
 execute if items entity @p weapon.offhand minecraft:paper run stopsound @a record minecraft:nucklelavee_the_bard
 execute if items entity @p weapon.offhand minecraft:paper run stopsound @a record minecraft:john_barleycorn_stronghold

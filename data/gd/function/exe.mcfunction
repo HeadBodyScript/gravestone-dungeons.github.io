@@ -1,10 +1,11 @@
 # NEW !IMPORTANT || player || entity
+# NOTE: runs every tick since the player is an important entity
 execute as @a at @s run function gd:exe_player
+function gd:exe_tick
 # NOTE: For all future markers (replace armorstand with marker)
 
-execute as @e[type=minecraft:villager] at @s on target run say hi
-
 # tick
+# NOTE: replaced checktick with the ones below for more efficient computing
 # !COMBINE into 1 later
 execute if score .TICK tick matches 40 run function gd:exe_other
 execute if score .TICK tick matches 40 run function gd:checktick
@@ -15,10 +16,6 @@ scoreboard players add .TICK tick 1
 execute if entity @e[type=armor_stand,tag=animation] run function gd:signs/animations/animation_split
 
 execute if items entity @p weapon.mainhand minecraft:sentry_armor_trim_smithing_template at @p run function gd:tool/booster/attribute_stat
-
-############################## Arcane Nodes ##############################
-
-execute if entity @e[type=minecraft:armor_stand,tag=arcane_nodes] run function gd:arcane_nodes/arcane_nodes_test
 
 ############################## Arrows ##############################
 

@@ -38,15 +38,19 @@ scoreboard objectives remove sneak_replant_sneak
 
 scoreboard objectives add dialogue trigger
 scoreboard objectives add magicka dummy
-scoreboard objectives add mana dummy
 scoreboard objectives add DIMI dummy
 scoreboard objectives add arrow minecraft.used:minecraft.bow
 scoreboard objectives add tick dummy
 scoreboard objectives add tick_talk dummy
 scoreboard objectives add number dummy
 scoreboard objectives add reset_player trigger
+scoreboard objectives add mana dummy
 scoreboard objectives add mana_max dummy
 scoreboard objectives add mana_boost dummy
+scoreboard objectives add tick_arcane_node dummy
+
+# scoreboard objectives add count_arcane_node dummy
+
 scoreboard objectives add talked_to_villager minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add traded_with_villager minecraft.custom:minecraft.traded_with_villager
 scoreboard objectives add dummy_magicka dummy
@@ -134,7 +138,5 @@ advancement revoke @s only gd:right_click_telekinesis
 execute at @e[type=armor_stand,tag=star_shower] if block ~ ~ ~ glowstone run setblock ~ ~ ~ air
 kill @e[tag=ROOT]
 summon minecraft:marker 0 255 0 {Tags:["ROOT"]}
-
-
 # unless stat = 1 or higher set stat 0
 # if stat 0 run function check init stats

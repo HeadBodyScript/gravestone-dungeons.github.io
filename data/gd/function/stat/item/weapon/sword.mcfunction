@@ -1,3 +1,4 @@
+# NOTE: uses static fake players to hold a scoreboard. this means less unnecessary data is being stored in the save file
 execute store result score .INT0 number run random value 1..200
 execute store result score .INT1 number run random value 1..3
 

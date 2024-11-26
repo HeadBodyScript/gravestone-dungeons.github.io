@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=arcane_nodes] at @s if entity @a[distance=..6] run function gd:structure/arcane/tick
