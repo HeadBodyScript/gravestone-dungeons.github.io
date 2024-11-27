@@ -1,0 +1,1 @@
+execute as @s[tag=marker_ability_frost] run function gd:class/wizard/ability/frost/tick

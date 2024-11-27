@@ -20,6 +20,13 @@ FIX: Now sets the timer back to 500t each time you ask a question
 ✓ Ysembert doesn't work in survival
 FIX: Uses trigger instead of function so it is survival friendly + only executes as the player
 
+✓ Rune will be consumed even if the player already has a rune active that is the same or greater
+Fix: Now only executes if the player has a weaker version
+        Also added a dynamic limit per player
+        If the max_health rune has a max of 5, a player can combine 5x1 or 2x2 + 1x1 
+
+✓ spell particles would only display on 1 spell at the time dispite multiple spells being placed
+
 # TO-DO
 make all dialog into mine
 ✓ better rng system
@@ -28,7 +35,9 @@ make all dialog into mine
 do all the entity stuff
 ● Nerf base mana regen
 ● Fix arcane = mana regen
-
+Fix companions
+ ┗ companions can be summoned by anyone, 1 at the time
+ ┗ ?some companions are class exclusive but can be traded
 
 # IDEAS
 ● Make an enchantment that stores up node buffs

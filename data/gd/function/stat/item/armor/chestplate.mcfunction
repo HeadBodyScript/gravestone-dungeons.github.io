@@ -1,4 +1,4 @@
-execute store result score .0 number run random value 1..200
+execute store result score .INT0 number run random value 1..200
 execute store result score .INT1 number run random value 1..3
 
 execute unless score @s DIMI = MP.chestplate DIMI if score .INT0 number matches 1..10 if score .INT1 number matches 1 run item modify entity @s weapon.mainhand gd:stat/item/armor/chestplate/cracked

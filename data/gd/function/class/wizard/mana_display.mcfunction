@@ -1,6 +1,7 @@
 # NOTE: Patch because you didn't link the texture pack so it looks weird / gives no information on how much "magicka" the user has
-title @s actionbar ["",{"score":{"name":"@s","objective":"magicka"}},{"text":" Magicka"}]
+title @s actionbar ["",{"score":{"name":"@s","objective":"mana"}},{"text":" Mana"}]
 
+# use my % calc to make this a % based calc
 # execute if score @s magicka matches 400.. run title @s actionbar [{"text":"\uF82B\uF82A\uF825"},{"text":"\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000"}]
 # execute if score @s magicka matches 380..399 run title @s actionbar [{"text":"\uF82B\uF82A\uF825"},{"text":"\uE001\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000"}]
 # execute if score @s magicka matches 360..379 run title @s actionbar [{"text":"\uF82B\uF82A\uF825"},{"text":"\uE002\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000\uF802\uE000"}]

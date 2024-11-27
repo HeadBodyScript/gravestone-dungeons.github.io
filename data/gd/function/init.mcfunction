@@ -11,7 +11,6 @@ scoreboard objectives remove reset_player
 scoreboard objectives remove mana_max
 scoreboard objectives remove mana_boost
 scoreboard objectives remove talked_to_villager
-scoreboard objectives remove traded_with_villager
 scoreboard objectives remove dummy_magicka
 scoreboard objectives remove effect_gauge
 scoreboard objectives remove hunger_bar
@@ -49,13 +48,22 @@ scoreboard objectives add mana_max dummy
 scoreboard objectives add mana_boost dummy
 scoreboard objectives add tick_arcane_node dummy
 
-# scoreboard objectives add count_arcane_node dummy
+# ABILITIES
+scoreboard objectives add cooldown.frost dummy
 
+# RUNES
+scoreboard objectives add rune_block_interaction_range dummy
+scoreboard objectives add rune_max_health dummy
+scoreboard objectives add rune_max_mana dummy
+scoreboard objectives add rune_oxygen_bonus dummy
+scoreboard objectives add rune_safe_fall dummy
+
+# OTHER
+scoreboard objectives add used.carrot_on_a_stick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add talked_to_villager minecraft.custom:minecraft.talked_to_villager
-scoreboard objectives add traded_with_villager minecraft.custom:minecraft.traded_with_villager
-scoreboard objectives add dummy_magicka dummy
+
+# NO CLUE
 scoreboard objectives add effect_gauge dummy
-scoreboard objectives add hunger_bar food
 scoreboard objectives add time_trader_reset minecraft.custom:minecraft.play_time
 
 # forceload remove all tags
@@ -106,7 +114,7 @@ kill @e[type=minecraft:item_display,tag=earthblock]
 
 # FUNCTION
 function gd:root
-function gd:tool/book
+function gd:misc/library_books
 
 # BOSS RESET || CLEAN
 gamerule doMobLoot false

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:tool/booster/right_click_test"
+    "function": "gd:misc/rune/check"
   }
 }

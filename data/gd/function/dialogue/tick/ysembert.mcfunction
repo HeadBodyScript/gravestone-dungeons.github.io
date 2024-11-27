@@ -31,7 +31,7 @@ tellraw @s[scores={tick_talk=500}] {"text":"⇨ How strong are horses from the L
 tellraw @s[scores={tick_talk=500}] {"text":"⇨ What about the black smiths here? Are they good?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 10"}}
 
 tag @s[scores={tick_talk=500}] add pause
-tag @s[scores={tick_talk=500,traded_with_villager=1..}] remove pause
+tag @s[scores={tick_talk=500,advancements={gd:other/villager_trade=true}}] remove pause
 tellraw @s[scores={tick_talk=500}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I'm happy, that you found a class for you."}]
 execute as @s[scores={tick_talk=500}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.yes player @p ~ ~ ~ 80
 

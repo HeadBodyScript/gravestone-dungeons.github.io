@@ -1,7 +1,8 @@
 execute store result score .INT0 number run random value 1..200
 execute store result score .INT1 number run random value 1..3
 
-execute unless score @s DIMI = MP.boots DIMI if score .INT0 number matches 1..10 if score .INT1 number matches 1 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/crackedexecute unless score @s DIMI = MP.boots DIMI if score .INT0 number matches 1..10 if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/damaged
+execute unless score @s DIMI = MP.boots DIMI if score .INT0 number matches 1..10 if score .INT1 number matches 1 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/cracked
+execute unless score @s DIMI = MP.boots DIMI if score .INT0 number matches 1..10 if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/damaged
 execute unless score @s DIMI = MP.boots DIMI if score .INT0 number matches 1..10 if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/inferior
 
 execute unless score @s DIMI = MP.boots DIMI if score .INT0 number matches 11..25 if score .INT1 number matches 1 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/weak

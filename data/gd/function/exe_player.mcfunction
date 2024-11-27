@@ -22,9 +22,6 @@ execute if entity @s[advancements={gd:class/archer=true}] run function gd:class/
 execute if entity @s[advancements={gd:class/wizard=true}] run function gd:class/wizard
 execute if entity @s[advancements={gd:class/mercenary=true}] run function gd:class/mercenary
 
-# fair clock
-execute if items entity @s weapon.mainhand minecraft:clock[minecraft:custom_data={fair_clock:1b}] run function gd:tool/fair_clock
-
 # stats
 # INFO: Now uses @ s to enable multiplayer compatability
 execute if items entity @s weapon.mainhand #gd:stat_item unless items entity @s weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b}] unless items entity @s weapon.mainhand #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run function gd:stat/item/check
@@ -36,6 +33,8 @@ execute if predicate gd:armor_gold run effect give @s luck 5 0 true
 execute if predicate gd:armor_diamond run effect give @s resistance 5 0 true
 execute if predicate gd:armor_netherite run effect give @s health_boost 5 0 true
 
+# class active
+execute if score @s used.carrot_on_a_stick matches 1.. run function gd:misc/class
 
 # No clue
 # multiply counters x4 then remoce effect_gauge

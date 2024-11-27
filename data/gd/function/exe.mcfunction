@@ -15,8 +15,6 @@ scoreboard players add .TICK tick 1
 ############################## Animations ##############################
 execute if entity @e[type=armor_stand,tag=animation] run function gd:signs/animations/animation_split
 
-execute if items entity @p weapon.mainhand minecraft:sentry_armor_trim_smithing_template at @p run function gd:tool/booster/attribute_stat
-
 ############################## Arrows ##############################
 
 execute as @e[type=#gd:mobs,tag=target_freezing] at @s run function gd:arrows/freezing_arrow_effect
@@ -24,8 +22,6 @@ execute as @e[type=#gd:companion,tag=target_hypnotizing] at @s run function gd:a
 
 ############################## Items ##############################
 
-###Evasive Shard #F#
-execute if items entity @p weapon.offhand minecraft:echo_shard[minecraft:custom_data={artifact_2:1b}] at @p run function gd:tool/evasive_shard
 ##Mystical Heart #F#
 execute if entity @e[type=#gd:convert,tag=convert] at @e[type=#gd:convert,tag=convert] run function gd:entities/convert
 
@@ -35,7 +31,7 @@ execute as @e[tag=freezing_me,scores={freezing_me_dummy=0..}] at @e[tag=freezing
 
 ############################## Spells ##############################
 
-execute if entity @e[type=armor_stand,tag=spell] run function gd:spells/spells/spell_split
+execute if entity @e[type=armor_stand,tag=spell] run function gd:class/wizard/ability/check
 execute as @a[scores={warp_book=0..}] run function gd:spells/spells/warp_book_warp
 
 ############################## Mobs ##############################
