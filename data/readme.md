@@ -27,6 +27,7 @@ Fix: Now only executes if the player has a weaker version
 
 ✓ spell particles would only display on 1 spell at the time dispite multiple spells being placed
 
+
 # TO-DO
 make all dialog into mine
 ✓ better rng system
@@ -38,7 +39,8 @@ do all the entity stuff
 Fix companions
  ┗ companions can be summoned by anyone, 1 at the time
  ┗ ?some companions are class exclusive but can be traded
-FIX STATS WITH BOW/CROSSBOW
+✓ FIX STATS WITH BOW/CROSSBOW
+FIX TELEPORT SPELL
 
 # IDEAS
 ● Make an enchantment that stores up node buffs

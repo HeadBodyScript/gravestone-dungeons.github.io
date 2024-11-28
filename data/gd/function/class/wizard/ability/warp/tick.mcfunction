@@ -2,6 +2,7 @@ scoreboard players add @s tick 1
 execute if entity @s[scores={tick=1}] store result score .INT0 number run random value 1..255
 execute if entity @s[scores={tick=1}] run scoreboard players operation @s ability.link = .INT0 number
 
+execute as @s[scores={tick=1}] as @e[type=minecraft:marker,distance=..5,limit=1,sort=nearest,tag=marker_ability_warp] run function gd:class/wizard/ability/warp/set_marker
 execute as @a[distance=..6] unless score @s ability.link = @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=marker_ability_warp] ability.link run function gd:class/wizard/ability/warp/effect0
 
 execute as @s[scores={tick=1}] run playsound minecraft:block.amethyst_block.hit master @p ~ ~ ~ 20

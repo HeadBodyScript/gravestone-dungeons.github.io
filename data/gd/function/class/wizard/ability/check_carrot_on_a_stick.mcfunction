@@ -27,7 +27,7 @@
 # say hi
 # if item player is holding = name or tag
 # execute anchored feet if predicate gd:is_on_ground run summon armor_stand ~ ~-1.15 ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["icefield","ability","rotate_clockwise"],ArmorItems:[{},{},{},{id:golden_sword,components:{custom_model_data:1234},count:1}],ArmorDropChances:[0f,0f,0f,0f]}
-execute as @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{icefield:1b}}}] if predicate gd:is_on_ground run function gd:class/wizard/ability/frost/summon
+execute as @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{frost:1b}}}] if predicate gd:is_on_ground run function gd:class/wizard/ability/frost/summon
 
 execute as @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{warp:1b}}}] unless predicate gd:is_sneaking if predicate gd:is_on_ground run function gd:class/wizard/ability/warp/summon
 execute as @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{warp:1b}}}] if predicate gd:is_sneaking if predicate gd:is_on_ground run function gd:class/wizard/ability/warp/set_point
