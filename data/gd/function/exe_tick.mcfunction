@@ -3,6 +3,7 @@ execute as @e[type=minecraft:armor_stand,tag=arcane_nodes] at @s if entity @a[di
 execute as @a if items entity @s weapon.offhand minecraft:echo_shard[minecraft:custom_data={artifact_2:1b}] run function gd:misc/evasive_shard
 execute as @e[type=minecraft:armor_stand,tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~
 execute as @e[type=minecraft:armor_stand,tag=ability] at @s run function gd:class/wizard/ability/tick
+execute as @e[type=minecraft:armor_stand,tag=spell] at @s run function gd:class/wizard/ability/tick
 
 # replace tag from existng spells with new one
 # delete once all spells have been replaced with the new version (COAS)

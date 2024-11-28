@@ -18,7 +18,7 @@ execute as @s[scores={light_wave_time=0..}] at @s run function gd:enchantments/l
 execute if entity @s[advancements={gd:class/farmer=true}] run function gd:class/farmer
 execute if entity @s[advancements={gd:class/miner=true}] run function gd:class/miner
 execute if entity @s[advancements={gd:class/equestrian=true}] run function gd:class/equestrian
-execute if entity @s[advancements={gd:class/archer=true}] run function gd:class/archer
+execute if entity @s[advancements={gd:class/ranger=true}] run function gd:class/ranger
 execute if entity @s[advancements={gd:class/wizard=true}] run function gd:class/wizard
 execute if entity @s[advancements={gd:class/mercenary=true}] run function gd:class/mercenary
 

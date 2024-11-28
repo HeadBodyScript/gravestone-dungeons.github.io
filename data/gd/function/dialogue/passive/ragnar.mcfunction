@@ -13,7 +13,7 @@ execute as @s[scores={ragnar_time1=10,randomnumber_2=5}] run say You won't find 
 execute as @s[scores={ragnar_time1=10,randomnumber_2=6}] run say I'll tell you what, mate. These arrows? They'll hit their target like a dwarf hitting a keg at a tavern brawl. And my bows? They're sturdier than the strongest oak in the forest.
 execute as @s[scores={ragnar_time1=10,randomnumber_2=8}] run say Don't be fooled by my age, friend. Crafting bows and arrows is more than just a craft to me.
 execute as @s[scores={ragnar_time1=10,randomnumber_2=9}] run say You've got an eye for quality, I can tell. And I've got an eye for crafting. Trust me, with my arrows, you'll be hitting bullseyes before you can say 'Ragnar Thornvale!
-execute as @s[scores={ragnar_time1=10,randomnumber_2=10}] run say An archer's best friend is his equipment. Lucky for you, I've got the best of the best right here.
+execute as @s[scores={ragnar_time1=10,randomnumber_2=10}] run say An ranger's best friend is his equipment. Lucky for you, I've got the best of the best right here.
 execute as @s[scores={ragnar_time1=10,randomnumber_2=11}] run say Greetings adventurer! If you're looking for secrets nobody talks about, you're at the right place.
 
 execute as @s[scores={ragnar_time1=10..}] run scoreboard objectives remove ragnar_time1

@@ -68,11 +68,11 @@ SUB CLASS UNLOCKS AFTER DEFEATING A BOSS
 - arcane mage
 - warlock
 
-`Archer`
+`ranger`
 - knight
 - hunter
-- arcane archer
-- battle archer (tanky)
+- arcane ranger
+- battle ranger (tanky)
 
 `Alchemist `
 - alchemist master

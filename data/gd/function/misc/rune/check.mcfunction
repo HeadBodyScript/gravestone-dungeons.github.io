@@ -1,5 +1,3 @@
-advancement revoke @s only gd:click/rune
-
 execute if score @s rune_block_interaction_range matches 1.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range1:1b}] run function gd:misc/rune/block_interaction_range/1
 execute if score @s rune_block_interaction_range matches 2.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range2:1b}] run function gd:misc/rune/block_interaction_range/2
 execute if score @s rune_block_interaction_range matches 3.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range3:1b}] run function gd:misc/rune/block_interaction_range/3

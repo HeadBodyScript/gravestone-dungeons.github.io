@@ -5,6 +5,6 @@
     }
   },    
   "rewards": {
-    "function": "gd:class/check/archer"
+    "function": "gd:class/check/ranger"
   }
 }

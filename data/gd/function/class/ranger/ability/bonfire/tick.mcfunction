@@ -1,0 +1,1 @@
+particle minecraft:campfire_signal_smoke ~ ~ ~ 0 0 0 0.01 1

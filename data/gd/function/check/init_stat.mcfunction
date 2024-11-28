@@ -17,13 +17,6 @@ scoreboard players set MP.helmet DIMI 30
 scoreboard players set MP.leggings DIMI 30
 scoreboard players set MP.shield DIMI 30
 
-# max rune
-scoreboard players set @s rune_block_interaction_range 5
-scoreboard players set @s rune_max_health 20
-scoreboard players set @s rune_max_mana 100
-scoreboard players set @s rune_oxygen_bonus 5
-scoreboard players set @s rune_safe_fall 5
-
 # arcane stats
 scoreboard players set ARCANE.mana_regen DIMI 1
 scoreboard players set ARCANE.mana_max DIMI 100

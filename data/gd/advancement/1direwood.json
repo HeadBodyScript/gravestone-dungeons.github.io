@@ -43,5 +43,8 @@
     [
       "in_keep"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "gd:structure/advancement/direwood"
+  }
 }
