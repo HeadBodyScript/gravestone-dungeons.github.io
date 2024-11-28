@@ -7,6 +7,6 @@ execute as @e[type=#gd:mobs,distance=..6] run function gd:class/wizard/ability/f
 function gd:class/wizard/ability/frost/particle
 particle falling_dust{block_state:{Name:snow}} ~ ~2 ~ 2 2 2 0 1 force
 
-execute if entity @s[scores={tick=1}] run playsound minecraft:entity.snow_golem.death master @a[distance=..15] ~ ~ ~ 40 .1
+execute if entity @s[scores={tick=1}] run playsound minecraft:entity.snow_golem.death master @a ~ ~ ~ 40 .1
 execute if entity @s[scores={tick=600}] run playsound minecraft:block.glass.break master @a ~ ~ ~ 40 .5
 execute if entity @s[scores={tick=600}] run kill @s

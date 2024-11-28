@@ -1,6 +1,6 @@
 # NOTE: all scoreboards a player must have before the game runs as it should
+scoreboard players set @s mana 0
 scoreboard players set @s mana_boost 1
-scoreboard players set @s magicka 0
 scoreboard players set @s mana_max 300
 scoreboard players set @s time_trader_reset 11
 scoreboard players set @s talked_with_villager 0

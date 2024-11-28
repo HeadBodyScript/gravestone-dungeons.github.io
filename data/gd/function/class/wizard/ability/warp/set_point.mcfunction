@@ -1,0 +1,1 @@
+# if spell is shift clicked it will create a TP point

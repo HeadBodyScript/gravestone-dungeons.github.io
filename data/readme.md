@@ -38,10 +38,12 @@ do all the entity stuff
 Fix companions
  ┗ companions can be summoned by anyone, 1 at the time
  ┗ ?some companions are class exclusive but can be traded
+FIX STATS WITH BOW/CROSSBOW
 
 # IDEAS
 ● Make an enchantment that stores up node buffs
-
+ability -> 1 time use spawn point
+ability -> create a check point you can tp to when ability is re-casted
 
 
 Buy/unlock ultimate abilities per class

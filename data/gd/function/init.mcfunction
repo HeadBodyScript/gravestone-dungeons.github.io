@@ -1,39 +1,39 @@
-scoreboard objectives remove dialogue
-scoreboard objectives remove magicka
-scoreboard objectives remove mana
-scoreboard objectives remove DIMI
-scoreboard objectives remove arrow
-scoreboard objectives remove tick
-scoreboard objectives remove tick_talk_0
-scoreboard objectives remove number
-scoreboard objectives remove number
-scoreboard objectives remove reset_player
-scoreboard objectives remove mana_max
-scoreboard objectives remove mana_boost
-scoreboard objectives remove talked_to_villager
-scoreboard objectives remove dummy_magicka
-scoreboard objectives remove effect_gauge
-scoreboard objectives remove hunger_bar
-scoreboard objectives remove time_trader_reset
-scoreboard objectives remove sneak_fire_burst
-scoreboard objectives remove sneak_levitation
-scoreboard objectives remove warp_book
-scoreboard objectives remove convert1
-scoreboard objectives remove wither_skull_time
-scoreboard objectives remove knife_pouch_time
-scoreboard objectives remove dummy_evoker_fangs1
-scoreboard objectives remove void_sphere_time
-scoreboard objectives remove fire_burst_time
-scoreboard objectives remove star_shard_time
-scoreboard objectives remove star_shower_skull_time
-scoreboard objectives remove star_shower_time
-scoreboard objectives remove dummy_deflect_projectiles
-scoreboard objectives remove freezing_me_dummy
-scoreboard objectives remove light_wave_time
-scoreboard objectives remove dummy_telekinesis
-scoreboard objectives remove iceblock_time
-scoreboard objectives remove fireblock_time
-scoreboard objectives remove sneak_replant_sneak
+# scoreboard objectives remove dialogue
+# scoreboard objectives remove magicka
+# scoreboard objectives remove mana
+# scoreboard objectives remove DIMI
+# scoreboard objectives remove arrow
+# scoreboard objectives remove tick
+# scoreboard objectives remove tick_talk_0
+# scoreboard objectives remove number
+# scoreboard objectives remove number
+# scoreboard objectives remove reset_player
+# scoreboard objectives remove mana_max
+# scoreboard objectives remove mana_boost
+# scoreboard objectives remove talked_to_villager
+# scoreboard objectives remove dummy_magicka
+# scoreboard objectives remove effect_gauge
+# scoreboard objectives remove hunger_bar
+# scoreboard objectives remove time_trader_reset
+# scoreboard objectives remove sneak_fire_burst
+# scoreboard objectives remove sneak_levitation
+# scoreboard objectives remove warp_book
+# scoreboard objectives remove convert1
+# scoreboard objectives remove wither_skull_time
+# scoreboard objectives remove knife_pouch_time
+# scoreboard objectives remove dummy_evoker_fangs1
+# scoreboard objectives remove void_sphere_time
+# scoreboard objectives remove fire_burst_time
+# scoreboard objectives remove star_shard_time
+# scoreboard objectives remove star_shower_skull_time
+# scoreboard objectives remove star_shower_time
+# scoreboard objectives remove dummy_deflect_projectiles
+# scoreboard objectives remove freezing_me_dummy
+# scoreboard objectives remove light_wave_time
+# scoreboard objectives remove dummy_telekinesis
+# scoreboard objectives remove iceblock_time
+# scoreboard objectives remove fireblock_time
+# scoreboard objectives remove sneak_replant_sneak
 
 scoreboard objectives add dialogue trigger
 scoreboard objectives add magicka dummy
@@ -50,6 +50,10 @@ scoreboard objectives add tick_arcane_node dummy
 
 # ABILITIES
 scoreboard objectives add cooldown.frost dummy
+scoreboard objectives add cooldown.ember dummy
+scoreboard objectives add cooldown.shield dummy
+scoreboard objectives add cooldown.thunder dummy
+scoreboard objectives add ability.link dummy
 
 # RUNES
 scoreboard objectives add rune_block_interaction_range dummy
@@ -61,6 +65,7 @@ scoreboard objectives add rune_safe_fall dummy
 # OTHER
 scoreboard objectives add used.carrot_on_a_stick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add talked_to_villager minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 
 # NO CLUE
 scoreboard objectives add effect_gauge dummy

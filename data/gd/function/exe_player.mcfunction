@@ -53,3 +53,5 @@ execute as @s[scores={effect_gauge=4..}] run scoreboard players set @s effect_ga
 execute as @s[scores={dialogue=1..}] run function gd:dialogue/trigger
 execute as @s[scores={talked_to_villager=1..}] run function gd:dialogue/init
 execute as @s[tag=talking_to_villager] run function gd:dialogue/tick
+
+execute as @s[scores={leave_game=1}] run function gd:misc/leave_game
