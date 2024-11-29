@@ -43,5 +43,8 @@
       [
         "in_church"
       ]
-    ]
+    ],
+    "rewards": {
+      "function": "gd:structure/advancement/monastery_of_highpeak"
+    }
   }

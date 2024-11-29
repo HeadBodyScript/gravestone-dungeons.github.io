@@ -4,11 +4,11 @@ execute if score @s rune_block_interaction_range matches 3.. if items entity @s 
 execute if score @s rune_block_interaction_range matches 4.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range4:1b}] run function gd:misc/rune/block_interaction_range/4
 execute if score @s rune_block_interaction_range matches 5.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range5:1b}] run function gd:misc/rune/block_interaction_range/5
 
-execute if score @s rune_max_health matches 1.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health1:1b}] run function gd:misc/rune/max_health/1
-execute if score @s rune_max_health matches 2.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health2:1b}] run function gd:misc/rune/max_health/2
-execute if score @s rune_max_health matches 3.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health3:1b}] run function gd:misc/rune/max_health/3
-execute if score @s rune_max_health matches 4.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health4:1b}] run function gd:misc/rune/max_health/4
-execute if score @s rune_max_health matches 5.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health5:1b}] run function gd:misc/rune/max_health/5
+execute if score @s rune_max_health matches 1.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health2:1b}] run function gd:misc/rune/max_health/1
+execute if score @s rune_max_health matches 2.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health4:1b}] run function gd:misc/rune/max_health/2
+execute if score @s rune_max_health matches 3.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health6:1b}] run function gd:misc/rune/max_health/3
+execute if score @s rune_max_health matches 4.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health8:1b}] run function gd:misc/rune/max_health/4
+execute if score @s rune_max_health matches 5.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health10:1b}] run function gd:misc/rune/max_health/5
 
 execute if score @s rune_max_mana matches 1.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={magicka1:1b}] run function gd:misc/rune/max_mana/1
 execute if score @s rune_max_mana matches 2.. if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={magicka2:1b}] run function gd:misc/rune/max_mana/2

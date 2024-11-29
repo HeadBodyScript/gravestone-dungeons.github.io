@@ -41,12 +41,19 @@ Fix companions
  ┗ ?some companions are class exclusive but can be traded
 ✓ FIX STATS WITH BOW/CROSSBOW
 FIX TELEPORT SPELL
+● ADD BASE STATS ON WEAPONS AFTER STATS APPLY
+● FIX PLAYER INIT STAT NOT WORKING
 
 # IDEAS
 ● Make an enchantment that stores up node buffs
 ability -> 1 time use spawn point
 ability -> create a check point you can tp to when ability is re-casted
+● IMPORTANT IDEA: MAKE AN ICE CASTLE IN THE ICE BIOME ()
+Bows with mage abilities
+● FOR EACH CLASS MAKE A BOSS FIGHT THAT GIVES/UPGRADES SOMETHING ABOUT YOUR CLASS
 
+STATS -> same system as artifacts in genshin
+Random stats / low chance of being a bad/weak item / low chance of high stats / random every stat / max 4 stats
 
 Buy/unlock ultimate abilities per class
 Find trinkets in dungeons that you can sell
@@ -54,32 +61,14 @@ Make the stats thing into the black smith ability
 Change enchantment to blacksmith/mage with items that you can find in dungeons
 Change some classes to mini classes
 
+<!-- archer -->
+save arrows in scoreboard switch between arrows in quiver
+
+
 Companions:
 
 SUB CLASS UNLOCKS AFTER DEFEATING A BOSS
-`Fighter`
-- tank
-- warrior
-- knight
-- assassin
 
-`Mage`
-- nechromancer
-- arcane mage
-- warlock
-
-`ranger`
-- knight
-- hunter
-- arcane ranger
-- battle ranger (tanky)
-
-`Alchemist `
-- alchemist master
-- healer [Think Taric]
-- arcane alchemist (buffs team) [Think Sona]
-
-Sub class can be
 Farmer
 Horse guy
 Miner

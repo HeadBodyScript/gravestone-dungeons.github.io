@@ -43,6 +43,9 @@
       [
         "in_fair"
       ]
-    ]
+    ],
+    "rewards": {
+      "function": "gd:structure/advancement/edinborough_fair"
+    }
   }
   

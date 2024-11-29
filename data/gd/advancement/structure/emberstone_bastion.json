@@ -43,6 +43,9 @@
       [
         "in_netherrock"
       ]
-    ]
+    ],
+    "rewards": {
+      "function": "gd:structure/advancement/emberstone_bastion"
+    }
   }
   

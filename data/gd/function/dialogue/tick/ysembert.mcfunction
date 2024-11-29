@@ -14,24 +14,24 @@ execute at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] 
 tellraw @s[scores={tick_talk=420}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Just come to me, in the next few minutes and equip a class. I'll make a short break here."}]
 tellraw @s[scores={tick_talk=480}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I can also answer a few questions, as long, as I am here."}]
 
-tellraw @s[scores={tick_talk=500}] "Do you have any questions?"
+tellraw @s[scores={tick_talk=480}] "Do you have any questions?"
 
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ What are Gold and Silver Coins?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 1"}}
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ Do I have to use these?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 2"}}
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ How can I find dungeons?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 3"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ What are Gold and Silver Coins?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 1"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ Do I have to use these?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 2"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ How can I find dungeons?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 3"}}
 
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ Where do I find special weapons and armor?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 4"}}
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ Are there any challenging fights?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 5"}}
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ What are Arcane Nodes? ","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 6"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ Where do I find special weapons and armor?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 4"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ Are there any challenging fights?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 5"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ What are Arcane Nodes? ","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 6"}}
 
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ Are there any other special items in these lands?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 7"}}
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ I've heard rumors about companions and spellcasters..","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 8"}}
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ How strong are horses from the Lands Beyond?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 9"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ Are there any other special items in these lands?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 7"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ I've heard rumors about companions and spellcasters..","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 8"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ How strong are horses from the Lands Beyond?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 9"}}
 
-tellraw @s[scores={tick_talk=500}] {"text":"⇨ What about the black smiths here? Are they good?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 10"}}
+tellraw @s[scores={tick_talk=480}] {"text":"⇨ What about the black smiths here? Are they good?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger dialogue set 10"}}
 
-tag @s[scores={tick_talk=500}] add pause
-tag @s[scores={tick_talk=500,advancements={gd:other/villager_trade=true}}] remove pause
+tag @s[scores={tick_talk=490}] add pause
+tag @s[scores={tick_talk=500},advancements={gd:other/villager_trade=true}] remove pause
 tellraw @s[scores={tick_talk=500}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I'm happy, that you found a class for you."}]
 execute as @s[scores={tick_talk=500}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.yes player @p ~ ~ ~ 80
 

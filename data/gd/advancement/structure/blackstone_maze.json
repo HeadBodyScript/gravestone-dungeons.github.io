@@ -43,6 +43,9 @@
       [
         "in_blackstone_maze"
       ]
-    ]
+    ],
+    "rewards": {
+      "function": "gd:structure/advancement/blackstone_maze"
+    }
   }
   

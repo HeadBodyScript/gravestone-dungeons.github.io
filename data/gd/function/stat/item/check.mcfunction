@@ -15,7 +15,7 @@ execute if predicate gd:weapon_mainhand_axe run function gd:stat/item/tool/axe
 
 # TYPE: weapon
 execute if predicate gd:weapon_mainhand_sword run function gd:stat/item/weapon/sword
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:bow"}}] run function gd:stat/item/weapon/bow_crossbow
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run function gd:stat/item/weapon/bow_crossbow
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:bow"}}] run function gd:stat/item/weapon/bow
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run function gd:stat/item/weapon/crossbow
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident"}}] run function gd:stat/item/weapon/trident
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:mace"}}] run function gd:stat/item/weapon/mace

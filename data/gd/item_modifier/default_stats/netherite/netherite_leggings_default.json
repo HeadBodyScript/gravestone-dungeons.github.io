@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Base stats:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " +6 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": " +3 Armor Toughness",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": " +1 Knockback Resistance",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": ""
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": "add_value",
+        "id": "6f9de10d-b88d-4948-8471-0dec12250c40",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 3,
+        "operation": "add_value",
+        "id": "6f9de10d-b88d-4948-8471-0dec12250c40",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "amount": 1,
+        "operation": "add_value",
+        "id": "6f9de10d-b88d-4948-8471-0dec12250c40",
+        "slot": "legs"
+      }
+    ],
+    "replace": false
+  }
+]

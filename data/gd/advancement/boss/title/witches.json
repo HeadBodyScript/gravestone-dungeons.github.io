@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "arbalistic": {
+      "conditions": {},
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "function": "gd:structure/advancement/boss/witches"
+  },
+  "sends_telemetry_event": false
+}

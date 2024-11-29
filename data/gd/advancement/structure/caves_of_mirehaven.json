@@ -43,6 +43,9 @@
       [
         "in_caves_of_mirehaven"
       ]
-    ]
+    ],
+    "rewards": {
+      "function": "gd:structure/advancement/caves_of_mirehaven"
+    }
   }
   

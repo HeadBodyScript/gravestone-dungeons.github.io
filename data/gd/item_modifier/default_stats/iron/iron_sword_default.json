@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": ""
+      },
+      {
+        "text": "Base stats:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": " 6 Attack Damage",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": " 1.6 Attack Speed",
+        "color": "dark_green",
+        "italic": false
+      },
+      {
+        "text": ""
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 6,
+        "operation": "add_value",
+        "id": "47e4c98e-87a4-4789-bef4-6df56ed659e5",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": 1.6,
+        "operation": "add_value",
+        "id": "299b1e08-a2da-4214-8a2f-5b3c545f8b1e",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": false
+  }
+]
