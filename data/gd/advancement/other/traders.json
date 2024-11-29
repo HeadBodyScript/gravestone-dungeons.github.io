@@ -1,0 +1,120 @@
+{
+  "parent": "gd:structure/direwood_keep",
+  "display": {
+    "title": {
+      "text": "Various Traders",
+      "bold": false,
+      "italic": true,
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Meet all Traders of the Keep",
+      "color": "gray"
+    },
+    "icon": {
+      "id": "minecraft:grindstone"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "harlan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"harlan\"]}"
+        }
+      }
+    },
+    "lyra": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"lyra\"]}"
+        }
+      }
+    },"ragnar": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"ragnar\"]}"
+        }
+      }
+    },"fiona": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"fiona\"]}"
+        }
+      }
+    },"faendal": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"faendal\"]}"
+        }
+      }
+    },"zaccarius": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"zaccarius\"]}"
+        }
+      }
+    },"eldrid": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"eldrid\"]}"
+        }
+      }
+    },"alaric": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"alaric\"]}"
+        }
+      }
+    },"gilbert": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"gilbert\"]}"
+        }
+      }
+    },"finlay": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"finlay\"]}"
+        }
+      }
+    },"ysembert": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"ysembert\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["harlan"], ["lyra"], ["ragnar"], ["fiona"], ["faendal"], ["zaccarius"], ["eldrid"], ["alaric"], ["gilbert"], ["finlay"], ["ysembert"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

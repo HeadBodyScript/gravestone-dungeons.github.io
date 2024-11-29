@@ -1,9 +1,9 @@
 {
     "display": {
         "title": {
-            "text": "Gravestone Dungeons",
-            "bold": false,
-            "italic": true,
+            "text": " ■ Gravestone Dungeons ■ ",
+            "bold": true,
+            "italic": false,
             "underlined": false,
             "strikethrough": false,
             "obfuscated": false,

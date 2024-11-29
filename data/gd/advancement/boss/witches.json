@@ -1,0 +1,53 @@
+{
+    "display": {
+        "title": {
+            "text": "The Crystal Coven",
+            "bold": false,
+            "italic": true,
+            "color": "gold"
+        },
+        "description": {
+            "text": "Defeat all 3 Witches of the Crystal Coven",
+            "color": "gray"
+        },
+        "icon": {
+            "id": "minecraft:skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bosskaidaia": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[Kaidaia]}"
+                }
+            }
+        },
+        "bossmalificaia": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[Malificaia]}"
+                }
+            }
+        },
+        "bosssylvanaia": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[Sylvanaia]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["bosskaidaia"],
+        ["bossmalificaia"],
+        ["bosssylvanaia"]
+    ],
+    "parent": "gd:structure/dungeon"
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:filled_map"
+      },
+      "title": {
+        "text": "There's more Below",
+        "color": "green",
+        "bold": false,
+        "italic": true
+      },
+      "description": {
+        "text": "Found the Blackstone Maze in the Nether",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gd:root",
+    "criteria": {
+      "in_blackstone_maze": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "gd:maze"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "in_blackstone_maze"
+      ]
+    ]
+  }
+  
