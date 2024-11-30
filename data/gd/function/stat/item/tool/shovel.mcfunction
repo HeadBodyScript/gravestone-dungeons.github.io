@@ -27,12 +27,12 @@ execute if score @s DIMI <= MP.shovel DIMI if score .INT1 number matches 1 run i
 execute if score @s DIMI <= MP.shovel DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/tool/shovel/exquisite
 execute if score @s DIMI <= MP.shovel DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/tool/shovel/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_shovel"}}] run function gd:weaponstats/tools_shovels1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_shovel"}}] run function gd:weaponstats/tools_shovels1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_shovel"}}] run function gd:weaponstats/tools_shovels2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_shovel"}}] run function gd:weaponstats/tools_shovels3
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_shovel"}}] run function gd:weaponstats/tools_shovels4
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_shovel"}}] run function gd:weaponstats/tools_shovels5
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_shovel"}}] run item modify entity @s weapon.mainhand gd:default_stats/wooden/shovel
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_shovel"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/shovel
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_shovel"}}] run item modify entity @s weapon.mainhand gd:default_stats/stone/shovel
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_shovel"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/shovel
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_shovel"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/shovel
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_shovel"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/shovel
 
 execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
 tellraw @s "My shovel has been modified"

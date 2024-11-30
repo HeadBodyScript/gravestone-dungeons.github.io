@@ -1,0 +1,1 @@
+execute as @s[nbt={inGround:1b}] run function gd:class/ranger/ability/thunder/init

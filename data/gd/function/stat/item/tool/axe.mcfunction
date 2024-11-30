@@ -27,13 +27,13 @@ execute if score @s DIMI <= MP.axe DIMI if score .INT1 number matches 2 run item
 execute if score @s DIMI <= MP.axe DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/tool/axe/legendary
 execute if score @s DIMI <= MP.axe DIMI if score .INT1 number matches 1 run item modify entity @s weapon.mainhand gd:stat/item/tool/axe/mastercrafted
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] run function gd:weaponstats/tools_axes1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] run function gd:weaponstats/tools_axes1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] run function gd:weaponstats/tools_axes2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] run function gd:weaponstats/tools_axes2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] run function gd:weaponstats/tools_axes2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run function gd:weaponstats/tools_axes3
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_axe"}}] run item modify entity @s weapon.mainhand gd:default_stats/wooden/axe
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_axe"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/axe
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_axe"}}] run item modify entity @s weapon.mainhand gd:default_stats/stone/axe
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_axe"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/axe
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_axe"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/axe
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_axe"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/axe
 
-execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
+execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @s ~ ~ ~ 30
 tellraw @s "My axe has been modified"
 scoreboard players add @s DIMI 1

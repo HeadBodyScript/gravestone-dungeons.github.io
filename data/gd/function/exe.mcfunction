@@ -9,6 +9,7 @@ function gd:exe_tick
 # !COMBINE into 1 later
 execute if score .TICK tick matches 40 run function gd:exe_other
 execute if score .TICK tick matches 40 run function gd:checktick
+execute if score .TICK tick matches 20 run function gd:exe_half
 scoreboard players add .TICK tick 1
 
 

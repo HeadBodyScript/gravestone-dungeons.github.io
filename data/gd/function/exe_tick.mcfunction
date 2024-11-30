@@ -13,3 +13,8 @@ execute as @e[type=minecraft:armor_stand,tag=forcefield,tag=!marker_ability_shie
 execute as @e[type=minecraft:armor_stand,tag=thunderfield,tag=!marker_ability_thunder] run tag @s add marker_ability_thunder
 execute as @e[type=minecraft:armor_stand,tag=forcefield,tag=!marker_ability_warp] run tag @s add marker_ability_warp
 # delete
+
+
+
+execute as @e[scores={enchantment_bleeding_animation=0..}] run function gd:enchantment/bleeding/animation
+

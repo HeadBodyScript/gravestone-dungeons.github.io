@@ -1,0 +1,38 @@
+{
+	"description": "Freezing",
+	"supported_items": "#gd:ranged_sharp",
+	"slots": [
+	  "mainhand"
+	],
+	"weight": 1,
+	"anvil_cost": 1,
+	"min_cost": {
+	  "base": 1,
+	  "per_level_above_first": 0
+	},
+	"max_cost": {
+	  "base": 1,
+	  "per_level_above_first": 0
+	},
+	"max_level": 1,
+	"effects": {
+	  "minecraft:post_attack": [
+		{
+		  "enchanted": "attacker",
+		  "affected": "victim",
+		  "effect": {
+			"type": "minecraft:run_function",
+			"function": "gd:enchantment/freezing/init"
+		  }
+		}
+	  ],
+	  "minecraft:tick": [
+		{
+		  "effect": {
+			"type": "minecraft:run_function",
+			"function": "gd:enchantment/freezing/tick"
+		  }
+		}
+	  ]
+	}
+  }

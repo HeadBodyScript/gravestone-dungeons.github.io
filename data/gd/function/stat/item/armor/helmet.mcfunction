@@ -27,13 +27,13 @@ execute if score @s DIMI <= MP.helmet DIMI if score .INT1 number matches 1 run i
 execute if score @s DIMI <= MP.helmet DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/armor/helmet/exquisite
 execute if score @s DIMI <= MP.helmet DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/armor/helmet/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:leather_helmet"}}] run function gd:weaponstats/armors_helmets1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:turtle_helmet"}}] run function gd:weaponstats/armors_helmets2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_helmet"}}] run function gd:weaponstats/armors_helmets2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:chainmail_helmet"}}] run function gd:weaponstats/armors_helmets2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_helmet"}}] run function gd:weaponstats/armors_helmets2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_helmet"}}] run function gd:weaponstats/armors_helmets3
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_helmet"}}] run function gd:weaponstats/armors_helmets4
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:leather_helmet"}}] run item modify entity @s weapon.mainhand gd:default_stats/leather/helmet
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:turtle_helmet"}}] run item modify entity @s weapon.mainhand gd:default_stats/turtle/helmet
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_helmet"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/helmet
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:chainmail_helmet"}}] run item modify entity @s weapon.mainhand gd:default_stats/chainmail/helmet
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_helmet"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/helmet
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_helmet"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/helmet
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_helmet"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/helmet
 
 execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
 tellraw @s "My helmet has been modified"

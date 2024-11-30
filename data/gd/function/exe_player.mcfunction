@@ -4,13 +4,8 @@
 # mercenary
 execute as @s[scores={knife_pouch_time=0..}] at @s run function gd:enchantments/knife_pouch/knife_pouch_regulator
 
-# wizard
-execute as @s[scores={wither_skull_time1=0..}] at @s run function gd:enchantments/bonecaller/wither_skull_staff
-execute as @s[scores={star_shard_time=0..}] at @s run function gd:enchantments/star_shard/star_shard_regulator
-execute as @s[scores={star_shower_time=0..}] at @s run function gd:enchantments/star_shower/star_shower_regulator
-execute as @s[scores={void_sphere_time=0..}] at @s run function gd:enchantments/void_sphere/void_sphere_regulator
-execute as @s[scores={fire_burst_time=0..}] at @s run function gd:enchantments/fire_burst/fire_burst
-execute as @s[scores={light_wave_time=0..}] at @s run function gd:enchantments/light_wave/light_wave_regulator
+# enchantment
+function gd:enchantment/check
 
 # NEW classes
 # INFO: Executres if the player has a class, this prevents from other classes using functions from other classes

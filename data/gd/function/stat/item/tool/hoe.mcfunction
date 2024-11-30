@@ -27,12 +27,12 @@ execute if score @s DIMI <= MP.hoe DIMI if score .INT1 number matches 1 run item
 execute if score @s DIMI <= MP.hoe DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/tool/hoe/exquisite
 execute if score @s DIMI <= MP.hoe DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/tool/hoe/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_hoe"}}] run function gd:weaponstats/tools_hoes1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_hoe"}}] run function gd:weaponstats/tools_hoes1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_hoe"}}] run function gd:weaponstats/tools_hoes2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_hoe"}}] run function gd:weaponstats/tools_hoes3
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_hoe"}}] run function gd:weaponstats/tools_hoes4
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_hoe"}}] run function gd:weaponstats/tools_hoes4
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_hoe"}}] run item modify entity @s weapon.mainhand gd:default_stats/wooden/hoe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_hoe"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/hoe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_hoe"}}] run item modify entity @s weapon.mainhand gd:default_stats/stone/hoe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_hoe"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/hoe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_hoe"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/hoe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_hoe"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/hoe
 
 execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
 tellraw @s "My hoe has been modified"

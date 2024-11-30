@@ -16,3 +16,5 @@ execute as @a[tag=!node] at @s as @e[type=minecraft:armor_stand,tag=arcane_nodes
 
 # fair clock
 execute as @a as @s if items entity @s weapon.mainhand minecraft:clock[minecraft:custom_data={fair_clock:1b}] run function gd:misc/fair_clock
+
+function gd:exe_half

@@ -27,12 +27,12 @@ execute if score @s DIMI <= MP.leggings DIMI if score .INT1 number matches 1 run
 execute if score @s DIMI <= MP.leggings DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/armor/leggings/exquisite
 execute if score @s DIMI <= MP.leggings DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/armor/leggings/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:leather_leggings"}}] run function gd:weaponstats/armors_leggings1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_leggings"}}] run function gd:weaponstats/armors_leggings2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:chainmail_leggings"}}] run function gd:weaponstats/armors_leggings3
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_leggings"}}] run function gd:weaponstats/armors_leggings4
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_leggings"}}] run function gd:weaponstats/armors_leggings5
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_leggings"}}] run function gd:weaponstats/armors_leggings6
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:leather_leggings"}}] run item modify entity @s weapon.mainhand gd:default_stats/leather/leggings
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_leggings"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/leggings
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:chainmail_leggings"}}] run item modify entity @s weapon.mainhand gd:default_stats/chainmail/leggings
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_leggings"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/leggings
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_leggings"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/leggings
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_leggings"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/leggings
 
 execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
 tellraw @s "My leggings have been modified"

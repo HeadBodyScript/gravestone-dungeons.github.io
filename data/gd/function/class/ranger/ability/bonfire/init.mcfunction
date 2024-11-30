@@ -64,3 +64,4 @@ summon arrow ~1 ~20 ~3 {item:{id:"minecraft:tipped_arrow",count:1,components:{"m
 summon arrow ~-1 ~20 ~3 {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:8388608,custom_effects:[{id:"minecraft:instant_damage",amplifier:1,duration:1,show_particles:0b,show_icon:0b,ambient:0b}]}}}}
 summon arrow ~1 ~20 ~-3 {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:8388608,custom_effects:[{id:"minecraft:instant_damage",amplifier:1,duration:1,show_particles:0b,show_icon:0b,ambient:0b}]}}}}
 summon arrow ~-1 ~20 ~-3 {item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:8388608,custom_effects:[{id:"minecraft:instant_damage",amplifier:1,duration:1,show_particles:0b,show_icon:0b,ambient:0b}]}}}}
+execute as @s[type=minecraft:arrow] run kill @s

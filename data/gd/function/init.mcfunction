@@ -35,6 +35,14 @@
 # scoreboard objectives remove fireblock_time
 # scoreboard objectives remove sneak_replant_sneak
 
+# enchant
+scoreboard objectives add enchantment_adrenaline_boost dummy
+scoreboard objectives add enchantment_adrenaline_boost_sneak dummy
+scoreboard objectives add enchantment_bleeding dummy
+scoreboard objectives add enchantment_bleeding_animation dummy
+scoreboard objectives add enchantment_blessing dummy
+
+
 scoreboard objectives add dialogue trigger
 scoreboard objectives add magicka dummy
 scoreboard objectives add DIMI dummy

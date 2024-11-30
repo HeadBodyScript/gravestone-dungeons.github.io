@@ -9,24 +9,17 @@
         "eat_seconds": 100002
       }
     }
-  },{
+  },
+  {
     "function": "minecraft:set_lore",
     "lore": [
       {
         "text": " ■ Magicka Cost: 60",
         "color": "gray",
         "italic": false
-      },{
-        "text": "Right Click: Conjure Wither Skull",
-        "color": "gray",
-        "italic": true
-      },{
-        "text": "Crouch + Right Click: Smoke Bomb",
-        "color": "gray",
-        "italic": true
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_custom_data",

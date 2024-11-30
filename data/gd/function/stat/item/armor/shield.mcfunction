@@ -27,8 +27,6 @@ execute if score @s DIMI <= MP.shield DIMI if score .INT1 number matches 1 run i
 execute if score @s DIMI <= MP.shield DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/armor/shield/exquisite
 execute if score @s DIMI <= MP.shield DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/armor/shield/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:shield"}}] run function gd:weaponstats/armors_shields
-
 execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
 tellraw @s "My shield has been modified"
 scoreboard players add @s DIMI 1

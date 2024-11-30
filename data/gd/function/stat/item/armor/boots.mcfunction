@@ -27,12 +27,12 @@ execute if score @s DIMI <= MP.boots DIMI if score .INT1 number matches 1 run it
 execute if score @s DIMI <= MP.boots DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/exquisite
 execute if score @s DIMI <= MP.boots DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/armor/boots/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:leather_boots"}}] run function gd:weaponstats/armors_boots1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_boots"}}] run function gd:weaponstats/armors_boots1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:chainmail_boots"}}] run function gd:weaponstats/armors_boots1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_boots"}}] run function gd:weaponstats/armors_boots2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_boots"}}] run function gd:weaponstats/armors_boots3
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_boots"}}] run function gd:weaponstats/armors_boots4
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:leather_boots"}}] run item modify entity @s weapon.mainhand gd:default_stats/leather/boots
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_boots"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/boots
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:chainmail_boots"}}] run item modify entity @s weapon.mainhand gd:default_stats/chainmail/boots
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_boots"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/boots
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_boots"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/boots
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_boots"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/boots
 
 execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
 tellraw @s "My boots have been modified"

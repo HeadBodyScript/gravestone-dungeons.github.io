@@ -28,13 +28,13 @@ execute if score @s DIMI <= MP.sword DIMI if score .INT1 number matches 1 run it
 execute if score @s DIMI <= MP.sword DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/weapon/sword/exquisite
 execute if score @s DIMI <= MP.sword DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/weapon/sword/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] run function gd:weaponstats/weapons_swords1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] run function gd:weaponstats/weapons_swords1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] run function gd:weaponstats/weapons_swords2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] run function gd:weaponstats/weapons_swords3
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] run function gd:weaponstats/weapons_swords4
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run function gd:weaponstats/weapons_swords5
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] run item modify entity @s weapon.mainhand gd:default_stats/wooden/sword
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/sword
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] run item modify entity @s weapon.mainhand gd:default_stats/stone/sword
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/sword
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/sword
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/sword
 
-execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
+execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @s ~ ~ ~ 30
 tellraw @s "My sword has been modified"
 scoreboard players add @s DIMI 1

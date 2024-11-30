@@ -27,12 +27,12 @@ execute if score @s DIMI <= MP.pickaxe DIMI if score .INT1 number matches 1 run 
 execute if score @s DIMI <= MP.pickaxe DIMI if score .INT1 number matches 2 run item modify entity @s weapon.mainhand gd:stat/item/tool/pickaxe/exquisite
 execute if score @s DIMI <= MP.pickaxe DIMI if score .INT1 number matches 3 run item modify entity @s weapon.mainhand gd:stat/item/tool/pickaxe/legendary
 
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe"}}] run function gd:weaponstats/tools_pickaxes1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_pickaxe"}}] run function gd:weaponstats/tools_pickaxes1
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_pickaxe"}}] run function gd:weaponstats/tools_pickaxes2
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_pickaxe"}}] run function gd:weaponstats/tools_pickaxes3
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe"}}] run function gd:weaponstats/tools_pickaxes4
-execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe"}}] run function gd:weaponstats/tools_pickaxes5
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe"}}] run item modify entity @s weapon.mainhand gd:default_stats/wooden/pickaxe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:golden_pickaxe"}}] run item modify entity @s weapon.mainhand gd:default_stats/golden/pickaxe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:stone_pickaxe"}}] run item modify entity @s weapon.mainhand gd:default_stats/stone/pickaxe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:iron_pickaxe"}}] run item modify entity @s weapon.mainhand gd:default_stats/iron/pickaxe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe"}}] run item modify entity @s weapon.mainhand gd:default_stats/diamond/pickaxe
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe"}}] run item modify entity @s weapon.mainhand gd:default_stats/netherite/pickaxe
 
 execute at @s run playsound minecraft:entity.villager.work_weaponsmith player @a ~ ~ ~ 30
 tellraw @s "My pickaxe has been modified"

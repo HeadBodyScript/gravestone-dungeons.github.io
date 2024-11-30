@@ -10,3 +10,5 @@ summon frog ~ ~ ~
 
 playsound minecraft:entity.ravager.death master @a ~ ~ ~ 60 2 
 playsound minecraft:entity.vex.hurt master @a ~ ~ ~ 60
+
+execute as @s[type=minecraft:arrow] run kill @s
