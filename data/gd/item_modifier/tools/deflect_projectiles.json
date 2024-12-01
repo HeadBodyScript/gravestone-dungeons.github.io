@@ -9,16 +9,32 @@
         "eat_seconds": 100013
       }
     }
-  },{
+  },
+  {
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": " ■ Magicka Cost: 30",
-        "color": "gray",
-        "italic": false
+        "text": "",
+        "extra": [
+          {
+            "text": " ┗ ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Mana ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "text": "Cost: 100",
+            "color": "gray",
+            "italic": false
+          }
+        ]
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_custom_data",

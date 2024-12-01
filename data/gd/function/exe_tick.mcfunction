@@ -23,10 +23,16 @@ execute as @e[scores={enchantment_evoker_fangs=0..}] at @s run function gd:encha
 execute as @e[scores={enchantment_disarming=0..}] at @s run scoreboard players add @s enchantment_disarming 1
 execute as @e[scores={enchantment_disarming=500}] at @s run scoreboard players reset @s enchantment_disarming
 execute as @a[scores={enchantment_knife_cooldown=0..}] at @s run scoreboard players remove @s enchantment_knife_cooldown 1
+execute as @a[scores={enchantment_star_shower_cooldown=0..}] at @s run scoreboard players remove @s enchantment_star_shower_cooldown 1
 execute as @a[scores={enchantment_deflect=0..}] at @s run function gd:enchantment/deflect_projectiles/apply
 execute as @e[tag=illumination] at @s run function gd:enchantment/illumination/animation
 execute as @e[tag=poisoning] at @s run function gd:enchantment/poisoning/animation
 execute as @e[tag=freezing] at @s run function gd:enchantment/freezing/animation
+execute as @e[tag=marker_star_shower] at @s run function gd:enchantment/star_shower/animation
+execute as @e[tag=star_shard] at @s run function gd:enchantment/star_shard/animation
 execute as @e[tag=dummy_knife_pouch_a] at @s run function gd:enchantment/knife_pouch/animation
+execute as @e[tag=void_sphere] at @s run function gd:enchantment/void_sphere/animation
 # item
 execute as @e[scores={item_mystical_heart=0..}] at @s run function gd:misc/mystical_heart/tick
+
+

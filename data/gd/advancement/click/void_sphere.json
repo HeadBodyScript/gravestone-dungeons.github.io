@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantments/void_sphere/right_click_test"
+    "function": "gd:enchantment/void_sphere/init"
   }
 }

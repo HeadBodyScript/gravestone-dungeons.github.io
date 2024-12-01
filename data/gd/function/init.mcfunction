@@ -58,6 +58,13 @@ scoreboard objectives add enchantment_knife dummy
 scoreboard objectives add enchantment_knife_animation dummy
 scoreboard objectives add enchantment_knife_cooldown dummy
 scoreboard objectives add enchantment_deflect dummy
+scoreboard objectives add enchantment_star_shower dummy
+scoreboard objectives add enchantment_star_time dummy
+scoreboard objectives add enchantment_star_shower_projectile dummy
+scoreboard objectives add enchantment_star_shower_cooldown dummy
+scoreboard objectives add enchantment_star_shard dummy
+scoreboard objectives add enchantment_void_sphere dummy
+scoreboard objectives add enchantment_void_sphere_time dummy
 
 scoreboard objectives add item_mystical_heart dummy
 
@@ -72,6 +79,8 @@ scoreboard objectives add reset_player trigger
 scoreboard objectives add mana dummy
 scoreboard objectives add mana_max dummy
 scoreboard objectives add mana_boost dummy
+scoreboard objectives add mana_bonecaller dummy
+
 scoreboard objectives add tick_arcane_node dummy
 
 # ABILITIES

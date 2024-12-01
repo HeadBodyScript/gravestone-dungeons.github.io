@@ -1,0 +1,1 @@
+execute anchored eyes facing entity @e[type=#gd:mobs, limit=1, sort=nearest] eyes positioned ^.1 ^.8 ^.9 rotated as @s positioned ^ ^ ^4 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^.4 ~ ~ 

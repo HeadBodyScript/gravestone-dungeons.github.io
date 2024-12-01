@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantments/star_shard/right_click_test"
+    "function": "gd:enchantment/star_shard/init"
   }
 }

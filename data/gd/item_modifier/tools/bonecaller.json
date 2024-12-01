@@ -14,9 +14,24 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": " ■ Magicka Cost: 60",
-        "color": "gray",
-        "italic": false
+        "text": "",
+        "extra": [
+          {
+            "text": " ┗ ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Mana ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "text": "Cost: 60",
+            "color": "gray",
+            "italic": false
+          }
+        ]
       }
     ],
     "mode": "insert"

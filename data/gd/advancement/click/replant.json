@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/replant/init/0"
+    "function": "gd:enchantment/replant/init"
   }
 }

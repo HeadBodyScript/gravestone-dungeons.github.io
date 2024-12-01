@@ -20,7 +20,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/star_shower/init"
+			"function": "gd:enchantment/star_shower/tick"
 		  }
 		}
 	  ]

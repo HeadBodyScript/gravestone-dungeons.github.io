@@ -81,6 +81,9 @@ When entering a new dungeon, show title of the dungeon
 
 
 enchantments
+TODO LATER replant
+
+
 TESTING exp boost 
 TESTING withering
 TESTING blessing
@@ -100,16 +103,15 @@ TESTING potion bag
 TESTING quiver
 TESTING deflect projectiles
 TESTING telekenesis
+TESTING levetation
+TESTING star shower
+TESTING star shard
 
 
 Bonecaller
 fire burst
 light wave
-replant
-star shard
-star showe
 void sphere
 warpstrike
-levetation
 tongue of fire
 veil of shadows

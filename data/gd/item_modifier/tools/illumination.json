@@ -11,6 +11,32 @@
     }
   },
   {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": " ┗ ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Mana ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "text": "Cost: 100",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "mode": "insert"
+  },
+  {
     "function": "minecraft:set_custom_data",
     "tag": "{stats:1b,lore:1b}"
   }

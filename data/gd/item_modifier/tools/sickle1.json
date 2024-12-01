@@ -13,7 +13,7 @@
     "function": "minecraft:set_lore",
     "lore": [
       {
-        "text": " ■ Empty Offhand + Right Click: Harvest",
+        "text": "Empty Offhand + Right Click: Harvest",
         "color": "gray",
         "italic": true
       },
@@ -33,7 +33,7 @@
         "italic": true
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_custom_data",
