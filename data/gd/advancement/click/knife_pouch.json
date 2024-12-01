@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantments/knife_pouch/right_click_test"
+    "function": "gd:enchantment/knife_pouch/init"
   }
 }

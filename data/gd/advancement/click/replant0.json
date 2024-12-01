@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantments/replant/right_click_test"
+    "function": "gd:enchantment/replant/init/0"
   }
 }

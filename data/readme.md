@@ -26,7 +26,7 @@ Fix: Now only executes if the player has a weaker version
         If the max_health rune has a max of 5, a player can combine 5x1 or 2x2 + 1x1 
 
 ✓ spell particles would only display on 1 spell at the time dispite multiple spells being placed
-
+Check if mystical heart works (I could not find the item in the cheat room)
 
 # TO-DO
 make all dialog into mine
@@ -78,3 +78,38 @@ Builder
 
 Regen only out of combat 
 When entering a new dungeon, show title of the dungeon
+
+
+enchantments
+TESTING exp boost 
+TESTING withering
+TESTING blessing
+TESTING adreenaline boost
+TESTING bleeding
+TESTING disarming
+TESTING magma walker
+TESTING lightning
+TESTING evoker fangs
+TESTING illumination
+TESTING floating
+TESTING poisoning
+TESTING freezing
+TESTING horse 1-3
+TESTING knife pouch [now does damage based on the damage of the sword]
+TESTING potion bag
+TESTING quiver
+TESTING deflect projectiles
+TESTING telekenesis
+
+
+Bonecaller
+fire burst
+light wave
+replant
+star shard
+star showe
+void sphere
+warpstrike
+levetation
+tongue of fire
+veil of shadows

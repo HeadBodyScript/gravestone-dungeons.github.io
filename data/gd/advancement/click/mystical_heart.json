@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:entities/right_click_mystical_heart"
+    "function": "gd:misc/mystical_heart/init"
   }
 }

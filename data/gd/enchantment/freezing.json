@@ -25,14 +25,6 @@
 			"function": "gd:enchantment/freezing/init"
 		  }
 		}
-	  ],
-	  "minecraft:tick": [
-		{
-		  "effect": {
-			"type": "minecraft:run_function",
-			"function": "gd:enchantment/freezing/tick"
-		  }
-		}
 	  ]
 	}
   }

@@ -24,7 +24,6 @@ execute as @e[type=#gd:companion,tag=target_hypnotizing] at @s run function gd:a
 ############################## Items ##############################
 
 ##Mystical Heart #F#
-execute if entity @e[type=#gd:convert,tag=convert] at @e[type=#gd:convert,tag=convert] run function gd:entities/convert
 
 ############################## Enchantments ##############################
 

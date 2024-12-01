@@ -41,7 +41,25 @@ scoreboard objectives add enchantment_adrenaline_boost_sneak dummy
 scoreboard objectives add enchantment_bleeding dummy
 scoreboard objectives add enchantment_bleeding_animation dummy
 scoreboard objectives add enchantment_blessing dummy
+scoreboard objectives add enchantment_withering dummy
+scoreboard objectives add enchantment_withering_animation dummy
+scoreboard objectives add enchantment_floating dummy
+scoreboard objectives add enchantment_floating_animation dummy
+scoreboard objectives add enchantment_evoker_fangs dummy
+scoreboard objectives add enchantment_evoker_fangs_apply dummy
+scoreboard objectives add enchantment_disarming dummy
+scoreboard objectives add enchantment_illumination dummy
+scoreboard objectives add enchantment_poisoning dummy
+scoreboard objectives add enchantment_poisoning_animation dummy
+scoreboard objectives add enchantment_freezing dummy
+scoreboard objectives add enchantment_freezing_animation dummy
+scoreboard objectives add enchantment_knife_ammo dummy
+scoreboard objectives add enchantment_knife dummy
+scoreboard objectives add enchantment_knife_animation dummy
+scoreboard objectives add enchantment_knife_cooldown dummy
+scoreboard objectives add enchantment_deflect dummy
 
+scoreboard objectives add item_mystical_heart dummy
 
 scoreboard objectives add dialogue trigger
 scoreboard objectives add magicka dummy
@@ -62,6 +80,7 @@ scoreboard objectives add cooldown.ember dummy
 scoreboard objectives add cooldown.shield dummy
 scoreboard objectives add cooldown.thunder dummy
 scoreboard objectives add ability.link dummy
+scoreboard objectives add ability.link.knife dummy
 
 # RUNES
 scoreboard objectives add rune_block_interaction_range dummy

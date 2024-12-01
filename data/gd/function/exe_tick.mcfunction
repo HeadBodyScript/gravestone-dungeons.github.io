@@ -15,6 +15,18 @@ execute as @e[type=minecraft:armor_stand,tag=forcefield,tag=!marker_ability_warp
 # delete
 
 
-
-execute as @e[scores={enchantment_bleeding_animation=0..}] run function gd:enchantment/bleeding/animation
-
+# animations
+execute as @e[scores={enchantment_bleeding_animation=0..}] at @s run function gd:enchantment/bleeding/animation
+execute as @e[scores={enchantment_withering_animation=0..}] at @s run function gd:enchantment/withering/animation
+execute as @e[scores={enchantment_blessing_animation=0..}] at @s run function gd:enchantment/blessing/animation
+execute as @e[scores={enchantment_evoker_fangs=0..}] at @s run function gd:enchantment/evoker_fangs/apply
+execute as @e[scores={enchantment_disarming=0..}] at @s run scoreboard players add @s enchantment_disarming 1
+execute as @e[scores={enchantment_disarming=500}] at @s run scoreboard players reset @s enchantment_disarming
+execute as @a[scores={enchantment_knife_cooldown=0..}] at @s run scoreboard players remove @s enchantment_knife_cooldown 1
+execute as @a[scores={enchantment_deflect=0..}] at @s run function gd:enchantment/deflect_projectiles/apply
+execute as @e[tag=illumination] at @s run function gd:enchantment/illumination/animation
+execute as @e[tag=poisoning] at @s run function gd:enchantment/poisoning/animation
+execute as @e[tag=freezing] at @s run function gd:enchantment/freezing/animation
+execute as @e[tag=dummy_knife_pouch_a] at @s run function gd:enchantment/knife_pouch/animation
+# item
+execute as @e[scores={item_mystical_heart=0..}] at @s run function gd:misc/mystical_heart/tick

@@ -1,28 +1,44 @@
 {
-	"description": "Experience Boost",
-	"supported_items": "#minecraft:pickaxes",
-	"slots": [
-	  "mainhand"
-	],
-	"weight": 1,
-	"anvil_cost": 1,
+	"anvil_cost": 0,
+	"description": "EXP+",
+	"effects": {
+	  "minecraft:mob_experience": [
+		{
+		  "effect": {
+			"type": "minecraft:multiply",
+			"factor": {
+			  "type": "minecraft:linear",
+			  "base": 1.5,
+			  "per_level_above_first": 0.75
+			}
+		  }
+		}
+	  ],
+	  "minecraft:block_experience": [
+		{
+		  "effect": {
+			"type": "minecraft:multiply",
+			"factor": {
+			  "type": "minecraft:linear",
+			  "base": 1.5,
+			  "per_level_above_first": 0.75
+			}
+		  }
+		}
+	  ]
+	},
+	"max_cost": {
+	  "base": 1,
+	  "per_level_above_first": 1
+	},
+	"max_level": 1,
 	"min_cost": {
 	  "base": 1,
 	  "per_level_above_first": 0
 	},
-	"max_cost": {
-	  "base": 1,
-	  "per_level_above_first": 0
-	},
-	"max_level": 1,
-	"effects": {
-	  "minecraft:hit_block": [
-		{
-		  "effect": {
-			"type": "minecraft:run_function",
-			"function": "gd:enchantment/experience_boost/init"
-		  }
-		}
-	  ]
-	}
+	"slots": [
+	  "mainhand"
+	],
+	"supported_items": "#minecraft:pickaxes",
+	"weight": 2
   }

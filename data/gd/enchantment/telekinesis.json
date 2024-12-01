@@ -20,7 +20,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/telekinesis/init"
+			"function": "gd:enchantment/telekinesis/tick"
 		  }
 		}
 	  ]
