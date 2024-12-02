@@ -23,14 +23,6 @@
 			"function": "gd:enchantment/warpstrike/init"
 		  }
 		}
-	  ],
-	  "minecraft:tick": [
-		{
-		  "effect": {
-			"type": "minecraft:run_function",
-			"function": "gd:enchantment/warpstrike/tick"
-		  }
-		}
 	  ]
 	}
   }

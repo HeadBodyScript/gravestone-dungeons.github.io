@@ -83,7 +83,6 @@ When entering a new dungeon, show title of the dungeon
 enchantments
 TODO LATER replant
 
-
 TESTING exp boost 
 TESTING withering
 TESTING blessing
@@ -106,12 +105,25 @@ TESTING telekenesis
 TESTING levetation
 TESTING star shower
 TESTING star shard
-
+TESTING void sphere
+TESTING veil of shadows
+TESTING tongue of fire
+TESTING warpstrike
 
 Bonecaller
 fire burst
 light wave
-void sphere
-warpstrike
-tongue of fire
-veil of shadows
+
+Things I can add
+        Custom damage
+        Custom cooldowns
+        Custom ability duration
+        Announce cooldown complete in chat?
+        Custom Mana ussage
+        Custom amount of projectiles that spawn [example: star shower]
+        New file error.mcfunction => for when the user tries to cast the spell but doesn't have the recources
+
+Fix
+        Disable for companions
+        Disable for bosses
+        Damage immune tags

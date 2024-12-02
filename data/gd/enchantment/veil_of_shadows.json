@@ -21,7 +21,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantments/veil_of_shadows/tick"
+			"function": "gd:enchantment/veil_of_shadows/tick"
 		  },
 		  "requirements": {
 			"condition": "entity_properties",

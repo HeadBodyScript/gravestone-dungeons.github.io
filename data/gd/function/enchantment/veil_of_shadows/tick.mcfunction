@@ -1,0 +1,2 @@
+execute unless items entity @s armor.feet #gd:stat_item[minecraft:custom_data={stats:1b,lore:1b}] run item modify entity @s armor.feet gd:tools/veil_of_shadows
+execute if score @s mana matches 4.. run function gd:enchantment/veil_of_shadows/apply
