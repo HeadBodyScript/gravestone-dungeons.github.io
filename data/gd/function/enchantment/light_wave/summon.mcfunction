@@ -7,7 +7,6 @@
 
 scoreboard players set @s enchantment_light_wave_cooldown 250
 scoreboard players remove @s mana 200
-scoreboard players add @s enchantment_light_wave 1
 effect give @s slowness 1 5 true
 playsound minecraft:entity.illusioner.prepare_blindness ambient @a ~ ~ ~ 20 .1
 particle minecraft:end_rod ^ ^.5 ^ 0.2 0.5 0.2 .05 5
@@ -32,5 +31,3 @@ execute as @e[tag=light_wave4] at @s run tp @s ^ ^ ^
 execute as @e[tag=light_wave5] at @s run tp @s ^.15 ^ ^ ~-2 ~
 execute as @e[tag=light_wave6] at @s run tp @s ^.3 ^ ^ ~-4 ~
 execute as @e[tag=light_wave7] at @s run tp @s ^-.45 ^ ^ ~-5 ~
-
-kill @e[type=minecraft:armor_stand,tag=dummy_light_wave]

@@ -23,6 +23,8 @@ execute as @e[scores={enchantment_blessing_animation=0..}] at @s run function gd
 execute as @e[scores={enchantment_evoker_fangs=0..}] at @s run function gd:enchantment/evoker_fangs/apply
 execute as @e[scores={enchantment_disarming=0..}] run scoreboard players add @s enchantment_disarming 1
 execute as @e[scores={enchantment_disarming=500}] run scoreboard players reset @s enchantment_disarming
+execute as @a[scores={enchantment_bonecaller_cooldown=0..}] at @s run scoreboard players remove @s enchantment_bonecaller_cooldown 1
+execute as @e[type=minecraft:armor_stand,scores={enchantment_bonecaller_cooldown=0..}] at @s run function gd:enchantment/bonecaller/animation
 execute as @a[scores={enchantment_knife_cooldown=0..}] at @s run scoreboard players remove @s enchantment_knife_cooldown 1
 execute as @a[scores={enchantment_star_shower_cooldown=0..}] run scoreboard players remove @s enchantment_star_shower_cooldown 1
 execute as @a[scores={enchantment_void_sphere_cooldown=0..}] run scoreboard players remove @s enchantment_void_sphere_cooldown 1
