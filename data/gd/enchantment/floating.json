@@ -1,5 +1,8 @@
 {
-	"description": "Floating",
+	"description": {
+		"translate": "enchantment.minecraft.floating",
+		"fallback": "Floating"
+	  },
 	"supported_items": "#minecraft:enchantable/weapon",
 	"slots": [
 	  "mainhand"

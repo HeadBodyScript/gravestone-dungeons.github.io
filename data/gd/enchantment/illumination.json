@@ -1,5 +1,8 @@
 {
-	"description": "Illumination",
+	"description": {
+		"translate": "enchantment.minecraft.illumination",
+		"fallback": "Illumination"
+	  },
 	"supported_items": "#minecraft:enchantable/weapon",
 	"slots": [
 	  "mainhand"

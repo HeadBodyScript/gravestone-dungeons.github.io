@@ -1,5 +1,8 @@
 {
-	"description": "Evoker Fangs",
+	"description": {
+		"translate": "enchantment.minecraft.evoker_fangs",
+		"fallback": "Evoker Fangs"
+	  },
 	"supported_items": "#minecraft:enchantable/weapon",
 	"slots": [
 	  "mainhand"

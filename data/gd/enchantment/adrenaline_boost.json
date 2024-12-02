@@ -1,5 +1,8 @@
 {
-	"description": "Adrenaline Boost",
+	"description": {
+	  "translate": "enchantment.minecraft.adrenaline_boost",
+	  "fallback": "Adrenaline Boost"
+	},
 	"supported_items": "#minecraft:enchantable/armor",
 	"slots": [
 	  "armor"

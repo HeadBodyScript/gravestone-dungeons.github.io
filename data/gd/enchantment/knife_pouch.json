@@ -1,5 +1,8 @@
 {
-	"description": "Knife Pouch",
+	"description": {
+		"translate": "enchantment.minecraft.knife_pouch",
+		"fallback": "Knife Pouch"
+	  },
 	"supported_items": "#minecraft:swords",
 	"slots": [
 	  "mainhand"

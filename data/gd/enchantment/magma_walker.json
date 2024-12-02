@@ -1,5 +1,8 @@
 {
-	"description": "Magma Walker",
+  "description": {
+		"translate": "enchantment.minecraft.magma_walker",
+		"fallback": "Magma Walker"
+	  },
 	"supported_items": "#minecraft:foot_armor",
 	"slots": [
 	  "feet"

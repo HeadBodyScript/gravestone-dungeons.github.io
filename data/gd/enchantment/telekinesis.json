@@ -1,5 +1,8 @@
 {
-	"description": "Telekinesis",
+	"description": {
+		"translate": "enchantment.minecraft.telekinesis",
+		"fallback": "Telekinesis"
+	  },
 	"supported_items": "#minecraft:enchantable/mining_loot",
 	"slots": [
 	  "mainhand"

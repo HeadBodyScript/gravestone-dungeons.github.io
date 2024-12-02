@@ -1,5 +1,8 @@
 {
-	"description": "Lesser Cultivation",
+	"description": {
+		"translate": "enchantment.minecraft.replant",
+		"fallback": "Lesser Cultivation"
+	  },
 	"supported_items": "#minecraft:hoes",
 	"slots": [
 	  "mainhand"

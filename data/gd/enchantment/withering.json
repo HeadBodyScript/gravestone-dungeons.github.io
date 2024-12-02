@@ -1,5 +1,8 @@
 {
-	"description": "Withering",
+	"description": {
+		"translate": "enchantment.minecraft.withering",
+		"fallback": "Withering"
+	  },
 	"supported_items": "#gd:ranged_sharp",
 	"slots": [
 	  "mainhand"

@@ -1,5 +1,8 @@
 {
-	"description": "Poisoning",
+	"description": {
+		"translate": "enchantment.minecraft.poisoning",
+		"fallback": "Poison"
+	  },
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
 	"slots": [
 	  "mainhand"

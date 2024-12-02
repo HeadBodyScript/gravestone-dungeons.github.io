@@ -1,5 +1,8 @@
 {
-	"description": "Light Wave",
+	"description": {
+		"translate": "enchantment.minecraft.light_wave",
+		"fallback": "Light Wave"
+	  },
 	"supported_items": "#minecraft:swords",
 	"slots": [
 	  "mainhand"

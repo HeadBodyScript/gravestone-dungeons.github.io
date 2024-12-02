@@ -1,5 +1,8 @@
 {
-	"description": "Star Shower",
+	"description": {
+		"translate": "enchantment.minecraft.star_shower",
+		"fallback": "Star Shower"
+	  },
 	"supported_items": "#minecraft:enchantable/weapon",
 	"slots": [
 	  "mainhand"

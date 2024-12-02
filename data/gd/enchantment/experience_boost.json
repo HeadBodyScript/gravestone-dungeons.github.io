@@ -1,7 +1,10 @@
 {
 	"anvil_cost": 0,
-	"description": "EXP+",
-	"effects": {
+	"description": {
+		"translate": "enchantment.minecraft.experience_boost",
+		"fallback": "Experience Boost"
+	  },
+	  "effects": {
 	  "minecraft:mob_experience": [
 		{
 		  "effect": {

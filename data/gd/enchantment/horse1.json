@@ -1,8 +1,11 @@
 {
-	"description": "Horse II",
-	"supported_items": "#minecraft:foot_armor",
+	"description": {
+		"translate": "enchantment.minecraft.horse_1",
+		"fallback": "Horse II"
+	  },
+	"supported_items": "#gd:horse_armor",
 	"slots": [
-	  "feet"
+	  "any"
 	],
 	"weight": 1,
 	"anvil_cost": 1,

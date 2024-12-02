@@ -1,5 +1,8 @@
 {
-	"description": "Star Shard",
+	"description": {
+		"translate": "enchantment.minecraft.star_shard",
+		"fallback": "Star Shard"
+	  },
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
 	"slots": [
 	  "mainhand"

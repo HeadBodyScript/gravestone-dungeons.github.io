@@ -1,5 +1,8 @@
 {
-	"description": "Freezing",
+	"description": {
+		"translate": "enchantment.minecraft.freezing",
+		"fallback": "Freezing"
+	  },
 	"supported_items": "#gd:ranged_sharp",
 	"slots": [
 	  "mainhand"

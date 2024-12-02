@@ -1,5 +1,8 @@
 {
-	"description": "Tongue of Fire",
+	"description": {
+		"translate": "enchantment.minecraft.tongue_of_fire",
+		"fallback": "Tongue of Fire"
+	  },
 	"supported_items": "#gd:ranged_weapon",
 	"slots": [
 	  "mainhand"

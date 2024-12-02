@@ -1,5 +1,8 @@
 {
-	"description": "Bleeding",
+	"description": {
+		"translate": "enchantment.minecraft.bleeding",
+		"fallback": "Bleeding"
+	  },
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
 	"slots": [
 	  "mainhand"

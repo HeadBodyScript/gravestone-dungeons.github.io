@@ -71,6 +71,7 @@ scoreboard objectives add enchantment_tongue_of_fire dummy
 scoreboard objectives add tongue_of_fire_animation dummy
 scoreboard objectives add enchantment_light_wave dummy
 scoreboard objectives add enchantment_light_wave_cooldown dummy
+scoreboard objectives add enchantment_blessing_animation dummy
 
 
 

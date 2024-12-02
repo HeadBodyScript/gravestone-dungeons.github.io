@@ -1,5 +1,8 @@
 {
-	"description": "Disarming",
+	"description": {
+		"translate": "enchantment.minecraft.disarming",
+		"fallback": "Disarming"
+	  },
 	"supported_items": "#minecraft:enchantable/weapon",
 	"slots": [
 		"mainhand"

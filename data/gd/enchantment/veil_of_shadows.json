@@ -1,5 +1,8 @@
 {
-	"description": "Veil of Shadows",
+	"description": {
+		"translate": "enchantment.minecraft.veil_of_shadows",
+		"fallback": "Veil of Shadows"
+	  },
 	"supported_items": "#minecraft:foot_armor",
 	"slots": [
 	  "feet",

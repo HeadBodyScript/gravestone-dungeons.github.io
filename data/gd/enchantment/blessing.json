@@ -1,5 +1,8 @@
 {
-	"description": "Blessing",
+	"description": {
+		"translate": "enchantment.minecraft.blessing",
+		"fallback": "Blessing"
+	  },
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
 	"slots": [
 	  "mainhand"

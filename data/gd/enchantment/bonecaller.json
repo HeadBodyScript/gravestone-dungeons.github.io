@@ -1,5 +1,8 @@
 {
-	"description": "Bonecaller",
+	"description": {
+		"translate": "enchantment.minecraft.bonecaller",
+		"fallback": "Bonecaller"
+	  },
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
 	"slots": [
 	  "mainhand"

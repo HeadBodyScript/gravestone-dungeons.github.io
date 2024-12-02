@@ -1,5 +1,8 @@
 {
-	"description": "Lightning",
+	"description": {
+		"translate": "enchantment.minecraft.lightning_bow",
+		"fallback": "Thunder Arrow"
+	  },
 	"supported_items": "#gd:ranged_weapon",
 	"slots": [
 	  "mainhand"

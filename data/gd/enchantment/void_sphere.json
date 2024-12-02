@@ -1,5 +1,8 @@
 {
-	"description": "Void Sphere",
+	"description": {
+		"translate": "enchantment.minecraft.void_sphere",
+		"fallback": "Void Sphere"
+	  },
 	"supported_items": "#minecraft:enchantable/mace",
 	"slots": [
 	  "mainhand"

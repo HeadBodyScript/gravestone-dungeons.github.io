@@ -1,5 +1,8 @@
 {
-	"description": "Levitation",
+	"description": {
+		"translate": "enchantment.minecraft.levitation",
+		"fallback": "Levitation"
+	  },
 	"supported_items": "#minecraft:swords",
 	"slots": [
 	  "mainhand"

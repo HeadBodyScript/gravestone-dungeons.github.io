@@ -1,5 +1,8 @@
 {
-	"description": "Deflect Projectiles",
+	"description": {
+		"translate": "enchantment.minecraft.projectile_deflection",
+		"fallback": "Projectile Deflection"
+	  },
 	"supported_items": "#minecraft:enchantable/weapon",
 	"slots": [
 	  "mainhand"
