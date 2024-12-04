@@ -12,6 +12,17 @@ execute if score .TICK tick matches 40 run function gd:checktick
 execute if score .TICK tick matches 20 run function gd:exe_half
 scoreboard players add .TICK tick 1
 
+execute as @e[tag=spell] at @s run function gd:entity/companion/check
+function gd:misc/animation/check
+
+
+
+
+
+
+
+
+
 
 ############################## Animations ##############################
 execute if entity @e[type=armor_stand,tag=animation] run function gd:signs/animations/animation_split
@@ -36,7 +47,6 @@ execute as @a[scores={warp_book=0..}] run function gd:spells/spells/warp_book_wa
 
 ############################## Mobs ##############################
 
-execute if entity @e[type=#gd:companion,tag=companion] run function gd:entities/companion/companion
 
 ############################## Bosses ##############################
 

@@ -4,7 +4,6 @@
 
 function gd:entities/nether_spawning
 
-execute as @a[scores={companion_time=200..}] run scoreboard objectives remove companion_time
 #####Bossfight start#####
 
 execute as @a at @s if entity @e[type=armor_stand,tag=spawngrimgar,limit=1,sort=nearest,distance=..8] unless entity @e[type=evoker,tag=Boss_Grimgar] run scoreboard objectives add grimgar1 minecraft.custom:minecraft.play_time

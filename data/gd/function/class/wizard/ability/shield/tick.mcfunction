@@ -1,6 +1,6 @@
 scoreboard players add @s tick 1
 
-execute as @a[distance=..8] run function gd:class/wizard/ability/shield/effect
+execute as @e[distance=..8,type=!minecraft:player,tag=!marker_ability_shield] run function gd:class/wizard/ability/shield/effect
 function gd:class/wizard/ability/shield/particle
 particle falling_dust{block_state:{Name:diamond_block}} ~ ~.2 ~ 3 .1 3 0 1 force
 

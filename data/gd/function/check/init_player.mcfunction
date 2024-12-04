@@ -15,3 +15,5 @@ scoreboard players set @s rune_max_health 10
 scoreboard players set @s rune_max_mana 100
 scoreboard players set @s rune_oxygen_bonus 5
 scoreboard players set @s rune_safe_fall 5
+
+team join Direwood @s

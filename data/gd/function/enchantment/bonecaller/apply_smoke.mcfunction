@@ -12,4 +12,4 @@ effect give @s[distance=.5..10] minecraft:darkness 10 0 true
 effect give @s[distance=.5..10] minecraft:slowness 5 2 true
 
 scoreboard players remove @s mana 30
-scoreboard players set @s enchantment_bonecaller_cooldown 120
+scoreboard players set @s enchantment.bonecaller_CD 120

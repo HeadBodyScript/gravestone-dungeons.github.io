@@ -1,2 +1,2 @@
-scoreboard players add @s enchantment_bleeding 8
-scoreboard players add @s enchantment_bleeding_animation 0
+scoreboard players add @s enchantment.bleeding_TICK 8
+scoreboard players add @s enchantment.bleeding_VFX 0

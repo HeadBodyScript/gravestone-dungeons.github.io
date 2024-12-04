@@ -1,63 +1,52 @@
-# scoreboard objectives remove dialogue
-# scoreboard objectives remove magicka
-# scoreboard objectives remove mana
-# scoreboard objectives remove DIMI
-# scoreboard objectives remove arrow
-# scoreboard objectives remove tick
-# scoreboard objectives remove tick_talk_0
-# scoreboard objectives remove number
-# scoreboard objectives remove number
-# scoreboard objectives remove reset_player
-# scoreboard objectives remove mana_max
-# scoreboard objectives remove mana_boost
-# scoreboard objectives remove talked_to_villager
-# scoreboard objectives remove dummy_magicka
-# scoreboard objectives remove effect_gauge
-# scoreboard objectives remove hunger_bar
-# scoreboard objectives remove time_trader_reset
-# scoreboard objectives remove sneak_fire_burst
-# scoreboard objectives remove sneak_levitation
-# scoreboard objectives remove warp_book
-# scoreboard objectives remove convert1
-# scoreboard objectives remove wither_skull_time
-# scoreboard objectives remove knife_pouch_time
-# scoreboard objectives remove dummy_evoker_fangs1
-# scoreboard objectives remove void_sphere_time
-# scoreboard objectives remove fire_burst_time
-# scoreboard objectives remove star_shard_time
-# scoreboard objectives remove star_shower_skull_time
-# scoreboard objectives remove star_shower_time
-# scoreboard objectives remove dummy_deflect_projectiles
-# scoreboard objectives remove freezing_me_dummy
-# scoreboard objectives remove light_wave_time
-# scoreboard objectives remove dummy_telekinesis
-# scoreboard objectives remove iceblock_time
-# scoreboard objectives remove fireblock_time
-# scoreboard objectives remove sneak_replant_sneak
+team add Direwood
 
 # enchant
-scoreboard objectives add enchantment_adrenaline_boost dummy
-scoreboard objectives add enchantment_adrenaline_boost_sneak dummy
-scoreboard objectives add enchantment_bleeding dummy
-scoreboard objectives add enchantment_bleeding_animation dummy
-scoreboard objectives add enchantment_blessing dummy
+# INT = number counter
+# TICK = scoreboard that counts down to apply damage or effect
+# CD = CoolDown
+# TD = Tick Duration
+# VFX = effects scoreboard
+scoreboard objectives add enchantment.adrenaline_boost_CD dummy
+scoreboard objectives add enchantment.adrenaline_boost_INT dummy
+
+scoreboard objectives add enchantment.bleeding_VFX dummy
+scoreboard objectives add enchantment.bleeding_TICK dummy
+
+scoreboard objectives add enchantment.blessing_VFX dummy
+scoreboard objectives add enchantment.blessing_INT dummy
+
+scoreboard objectives add enchantment.bonecaller_LINK dummy
+scoreboard objectives add enchantment.bonecaller_TD dummy
+scoreboard objectives add enchantment.bonecaller_CD dummy
+
+scoreboard objectives add enchantment.deflect_TD dummy
+scoreboard objectives add enchantment.deflect_CD dummy
+
+scoreboard objectives add enchantment.evoker_fangs_TICK dummy
+scoreboard objectives add enchantment.evoker_fangs_CD dummy
+
+scoreboard objectives add enchantment.floating_INT dummy
+
+scoreboard objectives add enchantment.freezing_INT dummy
+scoreboard objectives add enchantment.freezing_VFX dummy
+
+scoreboard objectives add enchantment.illumination_CD dummy
+scoreboard objectives add enchantment.illumination_VFX dummy
+
+scoreboard objectives add enchantment.knife_pouch_INT dummy
+scoreboard objectives add enchantment.knife_pouch_VFX dummy
+scoreboard objectives add enchantment.knife_pouch_CD dummy
+scoreboard objectives add enchantment.knife_pouch_LINK dummy
+
+
+
+
+
 scoreboard objectives add enchantment_withering dummy
 scoreboard objectives add enchantment_withering_animation dummy
-scoreboard objectives add enchantment_floating dummy
-scoreboard objectives add enchantment_floating_animation dummy
-scoreboard objectives add enchantment_evoker_fangs dummy
-scoreboard objectives add enchantment_evoker_fangs_apply dummy
 scoreboard objectives add enchantment_disarming dummy
-scoreboard objectives add enchantment_illumination dummy
 scoreboard objectives add enchantment_poisoning dummy
 scoreboard objectives add enchantment_poisoning_animation dummy
-scoreboard objectives add enchantment_freezing dummy
-scoreboard objectives add enchantment_freezing_animation dummy
-scoreboard objectives add enchantment_knife_ammo dummy
-scoreboard objectives add enchantment_knife dummy
-scoreboard objectives add enchantment_knife_animation dummy
-scoreboard objectives add enchantment_knife_cooldown dummy
-scoreboard objectives add enchantment_deflect dummy
 scoreboard objectives add enchantment_star_shower dummy
 scoreboard objectives add enchantment_star_time dummy
 scoreboard objectives add enchantment_star_shower_projectile dummy
@@ -71,13 +60,12 @@ scoreboard objectives add enchantment_tongue_of_fire dummy
 scoreboard objectives add tongue_of_fire_animation dummy
 scoreboard objectives add enchantment_light_wave dummy
 scoreboard objectives add enchantment_light_wave_cooldown dummy
-scoreboard objectives add enchantment_blessing_animation dummy
-scoreboard objectives add enchantment_bonecaller dummy
-# scoreboard objectives add enchantment_bonecaller_cooldown dummy
-scoreboard objectives add enchantment_bonecaller_link dummy
 
 
 
+scoreboard objectives add conjure dummy
+scoreboard objectives add companion_tick dummy
+scoreboard objectives add damage_dealth minecraft.custom:minecraft.damage_dealt
 
 scoreboard objectives add dialogue trigger
 scoreboard objectives add magicka dummy
@@ -121,7 +109,6 @@ scoreboard objectives add time_trader_reset minecraft.custom:minecraft.play_time
 # forceload remove all tags
 tag @a remove warp_spell
 tag @a remove warpstrike
-tag @a remove bleeding_me
 tag @a remove floating_me
 tag @a remove poisoning_me
 tag @a remove freezing_me

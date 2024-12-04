@@ -11,35 +11,16 @@ execute as @e[type=minecraft:armor_stand,tag=icefield,tag=!marker_ability_frost]
 execute as @e[type=minecraft:armor_stand,tag=emberfield,tag=!marker_ability_ember] run tag @s add marker_ability_ember
 execute as @e[type=minecraft:armor_stand,tag=forcefield,tag=!marker_ability_shield] run tag @s add marker_ability_shield
 execute as @e[type=minecraft:armor_stand,tag=thunderfield,tag=!marker_ability_thunder] run tag @s add marker_ability_thunder
-execute as @e[type=minecraft:armor_stand,tag=forcefield,tag=!marker_ability_warp] run tag @s add marker_ability_warp
+# GET THE TAG FOR THE WARP
+execute as @e[type=minecraft:armor_stand,tag=warp,tag=!marker_ability_warp] run tag @s add marker_ability_warp
 # delete
 
 
 # animations
-execute as @e[scores={enchantment_bleeding_animation=0..}] at @s run function gd:enchantment/bleeding/animation
-execute as @e[scores={tongue_of_fire_animation=0..}] at @s run function gd:enchantment/tongue_of_fire/animation
-execute as @e[scores={enchantment_withering_animation=0..}] at @s run function gd:enchantment/withering/animation
-execute as @e[scores={enchantment_blessing_animation=0..}] at @s run function gd:enchantment/blessing/animation
-execute as @e[scores={enchantment_evoker_fangs=0..}] at @s run function gd:enchantment/evoker_fangs/apply
-execute as @e[scores={enchantment_disarming=0..}] run scoreboard players add @s enchantment_disarming 1
-execute as @e[scores={enchantment_disarming=500}] run scoreboard players reset @s enchantment_disarming
-execute as @a[scores={enchantment_bonecaller_cooldown=0..}] at @s run scoreboard players remove @s enchantment_bonecaller_cooldown 1
-execute as @e[type=minecraft:armor_stand,scores={enchantment_bonecaller_cooldown=0..}] at @s run function gd:enchantment/bonecaller/animation
-execute as @a[scores={enchantment_knife_cooldown=0..}] at @s run scoreboard players remove @s enchantment_knife_cooldown 1
-execute as @a[scores={enchantment_star_shower_cooldown=0..}] run scoreboard players remove @s enchantment_star_shower_cooldown 1
-execute as @a[scores={enchantment_void_sphere_cooldown=0..}] run scoreboard players remove @s enchantment_void_sphere_cooldown 1
-execute as @a[scores={enchantment_light_wave_cooldown=0..}] run scoreboard players remove @s enchantment_light_wave_cooldown 1
-execute as @a[scores={enchantment_deflect=0..}] at @s run function gd:enchantment/deflect_projectiles/apply
-execute as @e[tag=illumination] at @s run function gd:enchantment/illumination/animation
-execute as @e[tag=poisoning] at @s run function gd:enchantment/poisoning/animation
-execute as @e[tag=freezing] at @s run function gd:enchantment/freezing/animation
-execute as @e[tag=marker_star_shower] at @s run function gd:enchantment/star_shower/animation
-execute as @e[tag=star_shard] at @s run function gd:enchantment/star_shard/animation
-execute as @e[tag=dummy_knife_pouch_a] at @s run function gd:enchantment/knife_pouch/animation
-execute as @e[tag=void_sphere] at @s run function gd:enchantment/void_sphere/animation
-execute as @e[tag=light_wave] at @s run function gd:enchantment/light_wave/animation
+
 # item
 execute as @e[scores={item_mystical_heart=0..}] at @s run function gd:misc/mystical_heart/tick
 
 
 
+execute as @e[tag=companion] if score @s damage_dealth matches 1.. run function function gd:entity/companion/other/hit

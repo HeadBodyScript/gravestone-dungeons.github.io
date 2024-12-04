@@ -6,5 +6,6 @@ playsound minecraft:entity.player.hurt_freeze master @a ~ ~ ~ 20 .5 1
 playsound minecraft:entity.player.attack.knockback master @a ~ ~ ~ 20 .5 1
 effect give @s minecraft:slowness 11 7 true 
 
-scoreboard players reset @s enchantment_freezing
+scoreboard players reset @s enchantment.freezing_INT
+scoreboard players set @s enchantment.freezing_VFX 0
 tag @s add freezing

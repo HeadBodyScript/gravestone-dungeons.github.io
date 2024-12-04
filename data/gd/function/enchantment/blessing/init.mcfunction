@@ -1,2 +1,2 @@
-scoreboard players add @s enchantment_blessing 1
-execute as @s[scores={enchantment_blessing=5}] run function gd:enchantment/blessing/apply
+scoreboard players add @s enchantment.blessing_INT 1
+execute as @s[scores={enchantment.blessing_INT=5}] run function gd:enchantment/blessing/apply
