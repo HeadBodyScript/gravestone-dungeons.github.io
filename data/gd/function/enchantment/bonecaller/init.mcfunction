@@ -1,3 +1,3 @@
-advancement revoke @s only gd:click/bonecaller
-execute if predicate gd:is_sneaking unless score @s enchantment.bonecaller_CD matches 0.. if score @s mana matches 20.. run function gd:enchantment/bonecaller/apply_smoke
-execute unless predicate gd:is_sneaking unless score @s enchantment.bonecaller_CD matches 0.. if score @s mana matches 20.. run function gd:enchantment/bonecaller/apply_skull
+effect give @s wither 20 3 
+effect give @s slowness 20 1 
+playsound minecraft:ambient.basalt_deltas.additions player @a ~ ~ ~ .5 2

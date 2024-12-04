@@ -38,15 +38,18 @@ scoreboard objectives add enchantment.knife_pouch_VFX dummy
 scoreboard objectives add enchantment.knife_pouch_CD dummy
 scoreboard objectives add enchantment.knife_pouch_LINK dummy
 
+scoreboard objectives add enchantment.light_wave_TD dummy
+scoreboard objectives add enchantment.light_wave_VFX dummy
+scoreboard objectives add enchantment.light_wave_CD dummy
 
+scoreboard objectives add enchantment.poisoning_INT dummy
+scoreboard objectives add enchantment.poisoning_VFX dummy
 
 
 
 scoreboard objectives add enchantment_withering dummy
 scoreboard objectives add enchantment_withering_animation dummy
 scoreboard objectives add enchantment_disarming dummy
-scoreboard objectives add enchantment_poisoning dummy
-scoreboard objectives add enchantment_poisoning_animation dummy
 scoreboard objectives add enchantment_star_shower dummy
 scoreboard objectives add enchantment_star_time dummy
 scoreboard objectives add enchantment_star_shower_projectile dummy
@@ -58,8 +61,6 @@ scoreboard objectives add enchantment_void_sphere_cooldown dummy
 scoreboard objectives add item_mystical_heart dummy
 scoreboard objectives add enchantment_tongue_of_fire dummy
 scoreboard objectives add tongue_of_fire_animation dummy
-scoreboard objectives add enchantment_light_wave dummy
-scoreboard objectives add enchantment_light_wave_cooldown dummy
 
 
 
