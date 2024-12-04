@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/knife_pouch/tick"
+			"function": "gd:enchantment/knife_pouch/stat"
 		  }
 		}
 	  ]

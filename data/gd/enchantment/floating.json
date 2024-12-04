@@ -25,7 +25,7 @@
 		  "affected": "victim",
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/floating/init"
+			"function": "gd:enchantment/floating/post_attack"
 		  }
 		}
 	  ]

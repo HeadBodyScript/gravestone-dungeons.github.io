@@ -25,7 +25,7 @@
 		  "affected": "victim",
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/poisoning/init"
+			"function": "gd:enchantment/poisoning/post_attack"
 		  }
 		}
 	  ]

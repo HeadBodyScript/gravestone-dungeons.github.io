@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/levitation/init"
+    "function": "gd:enchantment/levitation/click"
   }
 }

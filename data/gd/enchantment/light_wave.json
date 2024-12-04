@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/light_wave/tick"
+			"function": "gd:enchantment/light_wave/stat"
 		  }
 		}
 	  ]

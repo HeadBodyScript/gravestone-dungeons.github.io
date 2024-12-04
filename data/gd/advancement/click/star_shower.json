@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/star_shower/init"
+    "function": "gd:enchantment/star_shower/click"
   }
 }

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/bonecaller/init"
+    "function": "gd:enchantment/bonecaller/click"
   }
 }

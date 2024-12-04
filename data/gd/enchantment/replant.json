@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/replant/tick/0"
+			"function": "gd:enchantment/replant/tick"
 		  }
 		}
 	  ]

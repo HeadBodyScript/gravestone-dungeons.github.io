@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/illumination/tick"
+			"function": "gd:enchantment/illumination/stat"
 		  }
 		}
 	  ]

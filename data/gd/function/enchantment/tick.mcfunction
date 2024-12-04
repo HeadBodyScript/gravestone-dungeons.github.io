@@ -8,8 +8,6 @@
 
 execute as @e[scores={tongue_of_fire_animation=0..}] at @s run function gd:enchantment/tongue_of_fire/animation
 execute as @e[scores={enchantment_withering_animation=0..}] at @s run function gd:enchantment/withering/animation
-execute as @e[scores={enchantment_disarming=0..}] run scoreboard players add @s enchantment_disarming 1
-execute as @e[scores={enchantment_disarming=500}] run scoreboard players reset @s enchantment_disarming
 
 execute as @e[tag=illumination] at @s run function gd:enchantment/illumination/animation
 execute as @e[tag=poisoning] at @s run function gd:enchantment/poisoning/animation
@@ -24,6 +22,7 @@ execute as @a[scores={enchantment_light_wave_cooldown=0..}] run scoreboard playe
 
 # SUCCESS 
 execute as @e[scores={enchantment.blessing_VFX=0..}] at @s run function gd:enchantment/blessing/other/vfx
+# execute as @e[scores={enchantment.bleeding_TICK=0..}] at @s run function gd:enchantment/bleeding/result
 execute as @e[scores={enchantment.bleeding_VFX=0..}] at @s run function gd:enchantment/bleeding/other/vfx
 execute as @e[scores={enchantment.freezing_VFX=0..}] at @s run function gd:enchantment/freezing/other/vfx
 execute as @e[scores={enchantment.illumination_VFX=0..}] at @s run function gd:enchantment/illumination/other/vfx
@@ -41,6 +40,7 @@ execute as @e[scores={enchantment.evoker_fangs_TICK=0..}] at @s run function gd:
 execute as @a[scores={enchantment.adrenaline_boost_CD=0..}] run scoreboard players remove @s enchantment.adrenaline_boost_CD 1
 execute as @a[scores={enchantment.bonecaller_CD=0..}] at @s run scoreboard players remove @s enchantment.bonecaller_CD 1
 execute as @a[scores={enchantment.deflect_CD=0..}] run scoreboard players remove @s enchantment.deflect_CD 1
+execute as @a[scores={enchantment.disarming_CD=0..}] run scoreboard players remove @s enchantment.disarming_CD 1
 execute as @a[scores={enchantment.evoker_fangs_CD=0..}] run scoreboard players remove @s enchantment.evoker_fangs_CD 1
 execute as @a[scores={enchantment.illumination_CD=0..}] run scoreboard players remove @s enchantment.illumination_CD 1
 execute as @a[scores={enchantment.knife_pouch_CD=0..}] run scoreboard players remove @s enchantment.knife_pouch_CD 1

@@ -25,7 +25,7 @@
 		  "affected": "victim",
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/bleeding/init"
+			"function": "gd:enchantment/bleeding/post_attack"
 		  }
 		}
 	  ]

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/telekinesis/init"
+    "function": "gd:enchantment/telekinesis/click"
   }
 }

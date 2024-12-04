@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/illumination/init"
+    "function": "gd:enchantment/illumination/click"
   }
 }

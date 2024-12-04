@@ -25,7 +25,7 @@
 		  "affected": "victim",
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/freezing/init"
+			"function": "gd:enchantment/freezing/post_attack"
 		  }
 		}
 	  ]

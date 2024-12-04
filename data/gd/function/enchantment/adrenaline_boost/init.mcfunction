@@ -1,5 +1,5 @@
 effect give @s minecraft:jump_boost 8 4 true
-effect give @s minecraft:speed 8 2 trues
+effect give @s minecraft:speed 8 2 true
 
 playsound minecraft:entity.warden.attack_impact master @a ~ ~ ~ 20 2
 playsound minecraft:entity.wind_charge.wind_burst master @a ~ ~ ~ 20 .1

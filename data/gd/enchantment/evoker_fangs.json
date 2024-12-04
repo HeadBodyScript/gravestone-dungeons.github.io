@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/evoker_fangs/tick"
+			"function": "gd:enchantment/evoker_fangs/stat"
 		  }
 		}
 	  ]

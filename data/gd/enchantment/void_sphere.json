@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/void_sphere/tick"
+			"function": "gd:enchantment/void_sphere/stat"
 		  }
 		}
 	  ]

@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/levitation/tick"
+			"function": "gd:enchantment/levitation/stat"
 		  }
 		}
 	  ]

@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/deflect_projectiles/init"
+    "function": "gd:enchantment/deflect_projectiles/click"
   }
 }

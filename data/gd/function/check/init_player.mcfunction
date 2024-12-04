@@ -17,3 +17,5 @@ scoreboard players set @s rune_oxygen_bonus 5
 scoreboard players set @s rune_safe_fall 5
 
 team join Direwood @s
+
+# execute store result storage unique ID long 1 run data get entity @s UUID.[1]

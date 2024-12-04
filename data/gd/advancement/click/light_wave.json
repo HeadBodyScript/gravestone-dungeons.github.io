@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/light_wave/init"
+    "function": "gd:enchantment/light_wave/click"
   }
 }

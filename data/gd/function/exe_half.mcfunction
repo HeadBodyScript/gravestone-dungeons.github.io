@@ -1,2 +1,2 @@
 
-execute as @e[scores={enchantment.bleeding_TICK=0..}] run function gd:enchantment/bleeding/tick
+execute as @e[scores={enchantment.bleeding_TICK=0..}] at @s run function gd:enchantment/bleeding/result

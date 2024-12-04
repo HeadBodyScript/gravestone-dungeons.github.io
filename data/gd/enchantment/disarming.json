@@ -22,7 +22,7 @@
 		"minecraft:tick": [{
 			"effect": {
 				"type": "minecraft:run_function",
-				"function": "gd:enchantment/disarming/tick"
+				"function": "gd:enchantment/disarming/stat"
 			}
 		}]
 	}

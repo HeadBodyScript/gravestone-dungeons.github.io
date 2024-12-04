@@ -45,6 +45,10 @@ scoreboard objectives add enchantment.light_wave_CD dummy
 scoreboard objectives add enchantment.poisoning_INT dummy
 scoreboard objectives add enchantment.poisoning_VFX dummy
 
+scoreboard objectives add enchantment.disarming_CD dummy
+
+
+
 
 
 scoreboard objectives add enchantment_withering dummy

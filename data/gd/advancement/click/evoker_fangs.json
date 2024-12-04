@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:enchantment/evoker_fangs/init"
+    "function": "gd:enchantment/evoker_fangs/click"
   }
 }

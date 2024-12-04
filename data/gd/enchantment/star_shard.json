@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/star_shard/tick"
+			"function": "gd:enchantment/star_shard/stat"
 		  }
 		}
 	  ]

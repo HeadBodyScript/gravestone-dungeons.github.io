@@ -25,7 +25,7 @@
 		  "affected": "victim",
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/tongue_of_fire/init"
+			"function": "gd:enchantment/tongue_of_fire/post_attack"
 		  }
 		}
 	  ]

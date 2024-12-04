@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/lightning/check"
+			"function": "gd:enchantment/lightning/stat"
 		  }
 		}
 	  ],
@@ -33,7 +33,7 @@
 		  "affected": "victim",
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/lightning/init"
+			"function": "gd:enchantment/lightning/post_attack"
 		  }
 		}
 	  ]

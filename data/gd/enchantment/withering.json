@@ -25,7 +25,7 @@
 		  "affected": "victim",
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd:enchantment/withering/init"
+			"function": "gd:enchantment/withering/post_attack"
 		  }
 		}
 	  ]
