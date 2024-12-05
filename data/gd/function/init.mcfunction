@@ -47,24 +47,26 @@ scoreboard objectives add enchantment.poisoning_VFX dummy
 
 scoreboard objectives add enchantment.disarming_CD dummy
 
+scoreboard objectives add enchantment.star_shower_TD dummy
+scoreboard objectives add enchantment.star_shower_CD dummy
+
+scoreboard objectives add enchantment.star_shard_CD dummy
+scoreboard objectives add enchantment.star_shard_TD dummy
+
+scoreboard objectives add enchantment.tongue_of_fire_INT dummy
+scoreboard objectives add enchantment.tongue_of_fire_VFX dummy
+
+scoreboard objectives add enchantment.void_sphere_TD dummy
+scoreboard objectives add enchantment.void_sphere_CD dummy
+
+scoreboard objectives add enchantment.withering_VFX dummy
+scoreboard objectives add enchantment.withering_INT dummy
 
 
 
-
-scoreboard objectives add enchantment_withering dummy
-scoreboard objectives add enchantment_withering_animation dummy
-scoreboard objectives add enchantment_disarming dummy
 scoreboard objectives add enchantment_star_shower dummy
-scoreboard objectives add enchantment_star_time dummy
-scoreboard objectives add enchantment_star_shower_projectile dummy
-scoreboard objectives add enchantment_star_shower_cooldown dummy
-scoreboard objectives add enchantment_star_shard dummy
-scoreboard objectives add enchantment_void_sphere dummy
-scoreboard objectives add enchantment_void_sphere_time dummy
-scoreboard objectives add enchantment_void_sphere_cooldown dummy
+scoreboard objectives add enchantment_disarming dummy
 scoreboard objectives add item_mystical_heart dummy
-scoreboard objectives add enchantment_tongue_of_fire dummy
-scoreboard objectives add tongue_of_fire_animation dummy
 
 
 

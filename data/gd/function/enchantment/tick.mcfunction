@@ -6,12 +6,10 @@
 # execute as @s[scores={enchantment_light_wave=0..}] at @s run function gd:enchantments/light_wave/light_wave_regulator
 
 
-execute as @e[scores={tongue_of_fire_animation=0..}] at @s run function gd:enchantment/tongue_of_fire/animation
-execute as @e[scores={enchantment_withering_animation=0..}] at @s run function gd:enchantment/withering/animation
+execute as @e[scores={enchantment.withering_VFX=0..}] at @s run function gd:enchantment/withering/other/vfx
 
 execute as @e[tag=illumination] at @s run function gd:enchantment/illumination/animation
 execute as @e[tag=poisoning] at @s run function gd:enchantment/poisoning/animation
-execute as @e[tag=marker_star_shower] at @s run function gd:enchantment/star_shower/animation
 execute as @e[tag=void_sphere] at @s run function gd:enchantment/void_sphere/animation
 execute as @e[tag=light_wave] at @s run function gd:enchantment/light_wave/animation
 
@@ -28,20 +26,27 @@ execute as @e[scores={enchantment.freezing_VFX=0..}] at @s run function gd:encha
 execute as @e[scores={enchantment.illumination_VFX=0..}] at @s run function gd:enchantment/illumination/other/vfx
 execute as @e[scores={enchantment.knife_pouch_VFX=0..}] at @s run function gd:enchantment/knife_pouch/other/vfx
 execute as @e[scores={enchantment.light_wave_VFX=0..}] at @s run function gd:enchantment/light_wave/other/hit_vfx
+execute as @e[scores={enchantment.tongue_of_fire_VFX=0..}] at @s run function gd:enchantment/tongue_of_fire/other/vfx
 
 execute as @e[scores={enchantment.bonecaller_TD=0..}] at @s run function gd:enchantment/bonecaller/other/td
 execute as @e[scores={enchantment.star_shard_TD=0..}] at @s run function gd:enchantment/star_shard/other/td
 execute as @a[scores={enchantment.deflect_TD=0..}] at @s run function gd:enchantment/deflect_projectiles/other/td
 execute as @a[scores={enchantment.light_wave_TD=0..}] at @s run function gd:enchantment/light_wave/other/td
 execute as @e[scores={enchantment.evoker_fangs_TICK=0..}] at @s run function gd:enchantment/evoker_fangs/other/tick
+execute as @e[scores={enchantment.star_shard_TD=0..}] at @s run function gd:enchantment/star_shard/other/td
 
+execute as @e[tag=star_shower] at @s run function gd:enchantment/star_shower/other/td
+execute as @e[tag=void_sphere] at @s run function gd:enchantment/void_sphere/other/td
+# execute as @e[scores={enchantment.star_shower_TD=0..}] at @s run function gd:enchantment/star_shower/other/td
 
 # COOLDOWN
 execute as @a[scores={enchantment.adrenaline_boost_CD=0..}] run scoreboard players remove @s enchantment.adrenaline_boost_CD 1
-execute as @a[scores={enchantment.bonecaller_CD=0..}] at @s run scoreboard players remove @s enchantment.bonecaller_CD 1
+execute as @a[scores={enchantment.bonecaller_CD=0..}] run scoreboard players remove @s enchantment.bonecaller_CD 1
 execute as @a[scores={enchantment.deflect_CD=0..}] run scoreboard players remove @s enchantment.deflect_CD 1
 execute as @a[scores={enchantment.disarming_CD=0..}] run scoreboard players remove @s enchantment.disarming_CD 1
 execute as @a[scores={enchantment.evoker_fangs_CD=0..}] run scoreboard players remove @s enchantment.evoker_fangs_CD 1
 execute as @a[scores={enchantment.illumination_CD=0..}] run scoreboard players remove @s enchantment.illumination_CD 1
 execute as @a[scores={enchantment.knife_pouch_CD=0..}] run scoreboard players remove @s enchantment.knife_pouch_CD 1
 execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players remove @s enchantment.light_wave_CD 1
+execute as @a[scores={enchantment.star_shower_CD=0..}] run scoreboard players remove @s enchantment.star_shower_CD 1
+execute as @e[scores={enchantment.star_shard_CD=0..}] run scoreboard players remove @s enchantment.star_shard_CD 1

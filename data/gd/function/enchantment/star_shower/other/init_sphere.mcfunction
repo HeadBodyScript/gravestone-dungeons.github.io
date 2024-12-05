@@ -1,5 +1,3 @@
-####fire_sphere####
-
 particle flame ^0.000 ^0.000 ^2.000 0 0 0 0 1 force @a
 particle flame ^0.062 ^0.609 ^1.904 0 0 0 0 1 force @a
 particle flame ^0.124 ^1.158 ^1.626 0 0 0 0 1 force @a
