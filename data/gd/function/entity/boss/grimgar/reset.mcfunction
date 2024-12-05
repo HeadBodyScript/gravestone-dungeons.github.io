@@ -20,25 +20,3 @@ effect clear @a minecraft:mining_fatigue
 execute at @e[type=armor_stand,tag=grimgar_wall] run setblock ~ ~ ~ air
 execute at @e[type=armor_stand,tag=grimgar_wall] run setblock ~ ~1 ~ air
 execute at @e[type=armor_stand,tag=grimgar_wall] run setblock ~ ~2 ~ air
-
-scoreboard objectives remove grimgar_phase1
-scoreboard objectives remove grimgar_phase2
-scoreboard objectives remove grimgar1
-scoreboard objectives remove grimgar2
-scoreboard objectives remove grimgar3
-scoreboard objectives remove grimgar4
-scoreboard objectives remove grimgar5
-scoreboard objectives remove grimgar6
-scoreboard objectives remove grimgar_time1
-scoreboard objectives remove grimgar_skull_time
-scoreboard objectives remove skeleton_kill
-scoreboard objectives remove wither_skeleton_kill
-
-scoreboard objectives remove grimgar_playerdeath
-scoreboard objectives remove evoker_kill
-
-
-
-
-
-

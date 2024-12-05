@@ -68,7 +68,9 @@ scoreboard objectives add enchantment_star_shower dummy
 scoreboard objectives add enchantment_disarming dummy
 scoreboard objectives add item_mystical_heart dummy
 
-
+scoreboard objectives add deathCount deathCount
+scoreboard objectives add playerCount dummy
+scoreboard objectives add bossTick dummy
 
 scoreboard objectives add conjure dummy
 scoreboard objectives add companion_tick dummy

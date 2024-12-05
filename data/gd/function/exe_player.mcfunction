@@ -50,3 +50,4 @@ execute as @s[scores={talked_to_villager=1..},tag=!talking_to_villager] run func
 execute as @s[tag=talking_to_villager] run function gd:dialogue/tick
 
 execute as @s[scores={leave_game=1}] run function gd:misc/leave_game
+execute if score @s deathCount matches 1.. run function gd:check/death
