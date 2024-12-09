@@ -19,7 +19,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_bleeding": 1
+                  "gd_enchantment:bleeding": 1
                 }
               }
             }
@@ -40,7 +40,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_poisoning": 1
+                  "gd_enchantment:poisoning": 1
                 }
               }
             }
@@ -61,7 +61,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_blessing": 1
+                  "gd_enchantment:blessing": 1
                 }
               }
             }
@@ -82,7 +82,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_freezing": 1
+                  "gd_enchantment:freezing": 1
                 }
               }
             }
@@ -103,7 +103,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_floating": 1
+                  "gd_enchantment:floating": 1
                 }
               }
             }
@@ -124,7 +124,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_magma_walker": 1
+                  "gd_enchantment:magma_walker": 1
                 }
               }
             }
@@ -145,7 +145,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_levitation": 1
+                  "gd_enchantment:levitation": 1
                 }
               }
             }
@@ -166,7 +166,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_knife_pouch": 1
+                  "gd_enchantment:knife_pouch": 1
                 }
               }
             }
@@ -187,7 +187,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_lightning_bow": 1
+                  "gd_enchantment:lightning_bow": 1
                 }
               }
             }
@@ -208,7 +208,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_fire_burst": 1
+                  "gd_enchantment:fire_burst": 1
                 }
               }
             }
@@ -229,7 +229,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_deflect_projectiles": 1
+                  "gd_enchantment:deflect_projectiles": 1
                 }
               }
             }

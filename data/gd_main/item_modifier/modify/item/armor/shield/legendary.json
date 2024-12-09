@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Legendary",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "+4 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+15% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+150% Jump Strength",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "aa3a765a-4c4a-48d2-aadc-13c04d823ebb",
+        "attribute": "minecraft:generic.armor",
+        "amount": 4,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "aa3a765a-4c4a-48d2-aadc-13c04d823ebb",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.015,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "aa3a765a-4c4a-48d2-aadc-13c04d823ebb",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.2,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

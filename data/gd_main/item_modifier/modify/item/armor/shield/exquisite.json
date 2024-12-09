@@ -1,0 +1,61 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Exquisite",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "+3 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+10% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+100% Jump Strength",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "10291315-2d72-4ed4-901b-23df0033d965",
+        "attribute": "minecraft:generic.armor",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "10291315-2d72-4ed4-901b-23df0033d965",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.01,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "10291315-2d72-4ed4-901b-23df0033d965",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.15,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

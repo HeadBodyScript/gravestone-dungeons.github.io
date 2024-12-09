@@ -1,0 +1,1 @@
+execute as @s[advancements={gd_main:root=true},tag=!root] at @s run function gd_main:check/init_player

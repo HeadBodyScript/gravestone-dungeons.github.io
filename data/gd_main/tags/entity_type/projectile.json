@@ -1,0 +1,15 @@
+{
+    "replace":true,
+    "values": [
+        "minecraft:wither_skull",
+        "minecraft:arrow",
+        "minecraft:breeze_wind_charge",
+        "minecraft:dragon_fireball",
+        "minecraft:egg",
+        "minecraft:fireball",
+        "minecraft:shulker_bullet",
+        "minecraft:small_fireball",
+        "minecraft:spectral_arrow",
+        "minecraft:wind_charge"
+    ]
+}

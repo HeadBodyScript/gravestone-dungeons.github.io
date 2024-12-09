@@ -1,0 +1,31 @@
+{
+	"description": {
+		"translate": "enchantment.minecraft.star_shard",
+		"fallback": "Star Shard"
+	  },
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"slots": [
+	  "mainhand"
+	],
+	"weight": 1,
+	"anvil_cost": 1,
+	"min_cost": {
+	  "base": 1,
+	  "per_level_above_first": 0
+	},
+	"max_cost": {
+	  "base": 1,
+	  "per_level_above_first": 0
+	},
+	"max_level": 1,
+	"effects": {
+	  "minecraft:tick": [
+		{
+		  "effect": {
+			"type": "minecraft:run_function",
+			"function": "gd_enchantment:star_shard/stat"
+		  }
+		}
+	  ]
+	}
+  }

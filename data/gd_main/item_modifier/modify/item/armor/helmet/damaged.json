@@ -1,0 +1,84 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Damaged",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "+3 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "-2 Health",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-10% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-25% Jump Strength",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "9fcd888b-111b-4de6-b477-b27574e7b028",
+        "attribute": "minecraft:generic.armor",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "9fcd888b-111b-4de6-b477-b27574e7b028",
+        "attribute": "minecraft:generic.max_health",
+        "amount": -2,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "9fcd888b-111b-4de6-b477-b27574e7b028",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.01,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "9fcd888b-111b-4de6-b477-b27574e7b028",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": -0.1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "9fcd888b-111b-4de6-b477-b27574e7b028",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
+
+
+

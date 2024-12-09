@@ -1,0 +1,9 @@
+execute at @s if entity @s[tag=an_fir] run function gd_main:misc/arcane/vfx/fir
+execute at @s if entity @s[tag=an_hbo] run function gd_main:misc/arcane/vfx/hbo
+execute at @s if entity @s[tag=an_reg] run function gd_main:misc/arcane/vfx/reg
+execute at @s if entity @s[tag=an_wat] run function gd_main:misc/arcane/vfx/wat
+execute at @s if entity @s[tag=an_nig] run function gd_main:misc/arcane/vfx/nig
+execute at @s if entity @s[tag=an_res] run function gd_main:misc/arcane/vfx/res
+execute at @s if entity @s[tag=an_spe] run function gd_main:misc/arcane/vfx/spe
+execute at @s if entity @s[tag=an_str] run function gd_main:misc/arcane/vfx/str
+execute at @s if entity @s[tag=an_mag] run function gd_main:misc/arcane/vfx/mag

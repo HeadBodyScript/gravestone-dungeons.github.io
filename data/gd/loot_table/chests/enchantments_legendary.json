@@ -19,7 +19,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 10,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_star_shower": 1
+                  "gd_enchantment:star_shower": 1
                 }
               }
             }
@@ -40,7 +40,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 10,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_void_sphere": 1
+                  "gd_enchantment:void_sphere": 1
                 }
               }
             }
@@ -61,7 +61,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 10,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_light_wave": 1
+                  "gd_enchantment:light_wave": 1
                 }
               }
             }

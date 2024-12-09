@@ -19,7 +19,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_replant_1": 1
+                  "gd_enchantment:replant_1": 1
                 }
               }
             }
@@ -40,7 +40,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_replant_2": 1
+                  "gd_enchantment:replant_2": 1
                 }
               }
             }
@@ -61,7 +61,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_potion_bag": 1
+                  "gd_enchantment:potion_bag": 1
                 }
               }
             }
@@ -82,7 +82,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_quiver": 1
+                  "gd_enchantment:quiver": 1
                 }
               }
             }
@@ -103,7 +103,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_experience_boost": 1
+                  "gd_enchantment:experience_boost": 1
                 }
               }
             }
@@ -124,7 +124,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_illumination": 1
+                  "gd_enchantment:illumination": 1
                 }
               }
             }
@@ -145,7 +145,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_adrenaline_boost": 1
+                  "gd_enchantment:adrenaline_boost": 1
                 }
               }
             }
@@ -166,7 +166,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 7,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_telekinesis": 1
+                  "gd_enchantment:telekinesis": 1
                 }
               }
             }

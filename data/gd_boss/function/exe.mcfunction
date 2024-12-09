@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=marker.boss,tag=!FALSE] at @s if entity @a[distance=..42] run function gd_boss:init

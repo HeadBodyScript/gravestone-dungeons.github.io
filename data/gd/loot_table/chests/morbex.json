@@ -20,7 +20,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 10,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_void_sphere": 1
+                  "gd_enchantment:void_sphere": 1
                 }
               }
             }

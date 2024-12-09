@@ -1,0 +1,81 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Cracked",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "-30% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "8 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "-50% Efficiency",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-25% Range",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "ae4ca385-4032-4b74-a7c4-aa9e1ef69516",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.03,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ae4ca385-4032-4b74-a7c4-aa9e1ef69516",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ae4ca385-4032-4b74-a7c4-aa9e1ef69516",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ae4ca385-4032-4b74-a7c4-aa9e1ef69516",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ae4ca385-4032-4b74-a7c4-aa9e1ef69516",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

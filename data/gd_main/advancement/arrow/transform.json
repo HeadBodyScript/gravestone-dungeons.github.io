@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "shot_arrow": {
+        "conditions": {
+          "damage": {
+            "type": {
+              "direct_entity": {
+                "type": "#minecraft:arrows",
+                "nbt": "{item:{components:{\"minecraft:custom_data\":{transforming_arrow:1b}}}}"
+              },
+              "tags": [
+                {
+                  "expected": true,
+                  "id": "minecraft:is_projectile"
+                }
+              ]
+            }
+          }
+        },
+        "trigger": "minecraft:player_hurt_entity"
+      }
+    },
+    "requirements": [
+      [
+        "shot_arrow"
+      ]
+    ],
+    "rewards": {
+      "function": "gd_main:arrow/transform/hit"
+    },
+    "sends_telemetry_event": false
+  }

@@ -51,7 +51,7 @@
             {
               "add": false,
               "enchantments": {
-                "gd:enchantment_bleeding": 1.0
+                "gd_enchantment:bleeding": 1.0
               },
               "function": "minecraft:set_enchantments"
             }
@@ -64,7 +64,7 @@
             {
               "add": false,
               "enchantments": {
-                "gd:enchantment_withering": 1.0
+                "gd_enchantment:withering": 1.0
               },
               "function": "minecraft:set_enchantments"
             }
@@ -155,7 +155,7 @@
             {
               "add": false,
               "enchantments": {
-                "gd:enchantment_bleeding": 1.0
+                "gd_enchantment:bleeding": 1.0
               },
               "function": "minecraft:set_enchantments"
             }

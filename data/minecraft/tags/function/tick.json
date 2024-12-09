@@ -1,5 +1,8 @@
 {
 	"values": [
+	"gd_main:exe",
+	"gd_enchantment:exe",
+	"gd_boss:exe",
 	"gd:exe"
 	]
 }

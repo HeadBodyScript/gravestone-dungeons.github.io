@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "in_netherrock": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "gd:netherrock"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "in_netherrock"
+      ]
+    ],
+    "rewards": {
+      "function": "gd:hidden/adventure"
+    }
+  }
+  

@@ -1,0 +1,1 @@
+execute as @s on passengers run tellraw @s ["",{"text":"Seems like my steed has acquired ordinary attributes..."}]

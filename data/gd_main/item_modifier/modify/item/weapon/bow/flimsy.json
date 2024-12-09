@@ -1,0 +1,41 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Flimsy",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "-5% Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "2a84520f-091c-4af0-b4d4-ae5e7bb78a5b",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.005,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
+
+
+

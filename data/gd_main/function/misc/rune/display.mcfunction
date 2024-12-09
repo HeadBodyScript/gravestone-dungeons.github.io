@@ -1,0 +1,5 @@
+tellraw @s [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.block_interaction_range"}},{"text":" Block Interaction Range"}]
+tellraw @s [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.max_health"}},{"text":" Health"}]
+tellraw @s [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.max_mana"}},{"text":" Magicka"}]
+tellraw @s [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.oxygen_bonus"}},{"text":"% Oxygen"}]
+tellraw @s [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.safe_fall"}},{"text":" Save Fall Distance"}]

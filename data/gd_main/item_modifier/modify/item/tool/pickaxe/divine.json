@@ -1,0 +1,88 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Divine",
+        "color": "#99ffff",
+        "italic": false
+      },
+      {
+        "text": "+40% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+100% Submerged Efficiency ",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+150% Efficiency",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+75% Range",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "979e1f91-894f-40cd-90c9-5d578dc20fde",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.04,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "979e1f91-894f-40cd-90c9-5d578dc20fde",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 6,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "979e1f91-894f-40cd-90c9-5d578dc20fde",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "979e1f91-894f-40cd-90c9-5d578dc20fde",
+        "attribute": "minecraft:player.submerged_mining_speed",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "979e1f91-894f-40cd-90c9-5d578dc20fde",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": 1.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "979e1f91-894f-40cd-90c9-5d578dc20fde",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

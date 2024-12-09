@@ -20,7 +20,7 @@
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 9,
                 "minecraft:stored_enchantments": {
-                  "gd:enchantment_evoker_fangs": 1
+                  "gd_enchantment:evoker_fangs": 1
                 }
               }
             }

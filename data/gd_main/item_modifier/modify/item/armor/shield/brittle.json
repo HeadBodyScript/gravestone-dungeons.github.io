@@ -1,0 +1,49 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Brittle",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "-1 Armor",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-10% Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "6c08db94-2ae3-4f7e-b275-2a3eb93c9564",
+        "attribute": "minecraft:generic.armor",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "6c08db94-2ae3-4f7e-b275-2a3eb93c9564",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.015,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

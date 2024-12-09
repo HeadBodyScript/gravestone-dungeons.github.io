@@ -1,0 +1,57 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Sharp",
+        "color": "#33ccff",
+        "italic": false
+      },
+      {
+        "text": "12 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+50% Efficiency",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "6c9f3857-b001-41dc-bc2d-a0410f733836",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 12,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "6c9f3857-b001-41dc-bc2d-a0410f733836",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "6c9f3857-b001-41dc-bc2d-a0410f733836",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

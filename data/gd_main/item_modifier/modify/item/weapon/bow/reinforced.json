@@ -1,0 +1,50 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Reinforced",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+10% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+100% Jump Strength",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "7cd45024-b955-450d-a94c-93448c24db54",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.01,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7cd45024-b955-450d-a94c-93448c24db54",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.15,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
