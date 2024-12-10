@@ -1,5 +1,5 @@
-## REWORK
-
+## MULTIPLAYER UPDATE
+```
 namespace
    enchantment
       *NAME*
@@ -34,7 +34,7 @@ namespace
          team [ENEMY]
          UUID [scoreboard]
          tag [true / false] (Defines if a boss is active or defeated)
-
+```
 ### ENCHANTMENT
 - [x] Bleeding             on hit
 - [x] Blessing             on-hit
@@ -187,12 +187,10 @@ save arrows in scoreboard switch between arrows in quiver (dont think this is po
         Damage immune tags
 
 - [ ] tranforming arrow
-   - [ ] on a player: Turn into a random passive animal for X amount of seconds
-   - [ ] make it not work on bosses
+   - [ ] on a player: Turn into a frog [passive animal] for X amount of time
+   - [ ] on entity:   Turn entity into a frog [passive animal] for X amount of time
 
-How to fix runes
-When you click a rune check how many bonus hearts the player already has = X
-Set amount X + new amount
+
 * Buy/unlock ultimate abilities per class
 * Change some classes to mini classes
 * A boss for each class that upgrades something about that cless specifically
