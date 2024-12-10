@@ -2,6 +2,7 @@ scoreboard objectives add damage_blocked_by_shield minecraft.custom:minecraft.da
 
 scoreboard objectives add talked_to_villager minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
+# scoreboard objectives add sleep_in_bed minecraft.custom:minecraft.sleep_in_bed
 
 scoreboard objectives add trigger.talked_to_villager trigger
 

@@ -24,7 +24,7 @@ execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,dist
 # IMPORTANT: change to marker
 # NAME: Master of the Arena ?
 execute if entity @e[type=villager,tag=master] at @p if entity @e[type=villager,tag=master,distance=..4] run scoreboard objectives add master_time1 minecraft.custom:minecraft.play_time
-execute if items entity @p weapon.offhand minecraft:paper at @p if entity @e[type=armor_stand,tag=fair_arena,distance=..10] run function gd_boss:arena/arena_split
+execute if items entity @p weapon.offhand minecraft:paper at @p if entity @e[type=armor_stand,tag=fair_arena,distance=..10] run function gd_boss:arena/init
 
 # scoreboard players set @s talked_to_villager_CD 300
 
