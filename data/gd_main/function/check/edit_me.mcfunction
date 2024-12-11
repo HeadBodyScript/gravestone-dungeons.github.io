@@ -36,3 +36,16 @@ data modify storage minecraft:zombie max_health set value 20.0d
 # NOTE: base stats from bosses
 data modify storage minecraft:boss max_health set value 20.0d
 
+
+# Boss
+# GRIMGAR
+# scoreboard players set boss.difficluty INT 1
+# this will change hard coded variables
+# 1 = easy  2 = normal  3 = hard
+
+scoreboard players set grimgar.minion.count INT 8
+scoreboard players set grimgar.minion.cooldown INT 50
+scoreboard players set grimgar.attack.cooldown INT 90
+scoreboard players set grimgar.boss.health INT 300
+scoreboard players set grimgar.mini.health INT 300
+

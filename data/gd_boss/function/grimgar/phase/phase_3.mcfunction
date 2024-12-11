@@ -14,7 +14,6 @@ execute if score @s bossTick matches ..90 run particle minecraft:warped_spore ~ 
 execute if score @s bossTick matches ..90 run particle dust_color_transition{from_color: [.0f, .0f, .3f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~4 ~ .5 .6 .5 0 15 force
 execute if score @s bossTick matches ..90 run scoreboard objectives add grimgar4 minecraft.custom:minecraft.play_time
 execute if score @s bossTick matches 80 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 10 0.5
-execute if score @s bossTick matches 90 run function gd:entity/boss/grimgar/attack/mini_boss
 execute if score @s bossTick matches 90 run playsound minecraft:entity.pillager.celebrate ambient @a ~ ~ ~ 10 0.5
 
 

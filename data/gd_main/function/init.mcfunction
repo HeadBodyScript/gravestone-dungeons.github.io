@@ -106,3 +106,4 @@ scoreboard objectives add boss.grimgar_minion_INT dummy
 # bossbar set minecraft:boss.grimgar players
 
 team add ENEMY
+team add DIREWOOD
