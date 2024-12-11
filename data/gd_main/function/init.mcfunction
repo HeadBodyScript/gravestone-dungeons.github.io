@@ -107,3 +107,5 @@ scoreboard objectives add boss.grimgar_minion_INT dummy
 
 team add ENEMY
 team add DIREWOOD
+
+function gd_main:check/edit_me
