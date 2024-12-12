@@ -8,7 +8,7 @@ execute as @a[scores={iceblock_dummy=3}] at @e[type=#gd:companion,tag=frostguard
 execute as @a[scores={iceblock_dummy=3..}] run scoreboard objectives remove iceblock_dummy
 
 execute as @a[scores={iceblock_time=1}] at @e[type=#gd:companion,tag=frostguard,limit=1,sort=nearest] run playsound minecraft:block.snow.fall master @a[distance=..20]
-execute as @a[scores={iceblock_time=1}] at @e[type=#gd:companion,tag=frostguard,limit=1,sort=random] run summon armor_stand ~ ~ ~ {Tags:["iceblock"],small:1b,Invisible:1b,Passengers:[{id:"minecraft:item_display",Tags:["iceblock"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.2f,1.2f,1.2f]},item:{id:"minecraft:packed_ice",Count:1b}}]}
+execute as @a[scores={iceblock_time=1}] at @e[type=#gd:companion,tag=frostguard,limit=1,sort=random] run summon armor_stand ~ ~ ~ {Tags:["iceblock"],Invisible:1b,Passengers:[{id:"minecraft:item_display",Tags:["iceblock"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.2f,1.2f,1.2f]},item:{id:"minecraft:packed_ice"}}]}
 execute as @a[scores={iceblock_time=1}] at @s run playsound minecraft:block.snow.fall master @a ~ ~ ~ 20 2
 
 execute as @a[scores={iceblock_time=1}] at @e[type=armor_stand,tag=iceblock] run particle minecraft:item_snowball ~ ~1 ~ 0.1 0.1 0.1 0.1 30

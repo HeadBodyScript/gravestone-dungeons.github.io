@@ -1,4 +1,4 @@
-execute as @e[type=#gd:undead] at @s if entity @e[type=armor_stand,tag=fireblock,distance=..2] run effect give @s instant_health 1 1 
+execute as @e[type=#gd:undead] at @s if entity @e[type=armor_stand,tag=fireblock,distance=..2] run effect give @s instant_health 1 1
 execute as @e[type=#gd:living] at @s if entity @e[type=armor_stand,tag=fireblock,distance=..2] run effect give @s instant_damage 1 1
 execute as @e[type=#gd_main:companion_can_attack] at @s if entity @e[type=armor_stand,tag=fireblock,distance=..2] run data merge entity @s {Fire:300s}
 

@@ -8,7 +8,7 @@ execute as @a[scores={poisonblock_dummy=3}] at @e[type=#gd:companion,tag=poisong
 execute as @a[scores={poisonblock_dummy=3..}] run scoreboard objectives remove poisonblock_dummy
 
 execute as @a[scores={poisonblock_time=1}] at @e[type=#gd:companion,tag=poisonguard,limit=1,sort=nearest] run playsound minecraft:block.gravel.step master @a[distance=..20]
-execute as @a[scores={poisonblock_time=1}] at @e[type=#gd:companion,tag=poisonguard,limit=1,sort=random] run summon armor_stand ~ ~ ~ {Tags:["poisonblock"],small:1b,Invisible:1b,Passengers:[{id:"minecraft:item_display",Tags:["poisonblock"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.2f,1.2f,1.2f]},item:{id:"minecraft:moss_block",Count:1b}}]}
+execute as @a[scores={poisonblock_time=1}] at @e[type=#gd:companion,tag=poisonguard,limit=1,sort=random] run summon armor_stand ~ ~ ~ {Tags:["poisonblock"],Invisible:1b,Passengers:[{id:"minecraft:item_display",Tags:["poisonblock"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.2f,1.2f,1.2f]},item:{id:"minecraft:moss_block"}}]}
 execute as @a[scores={poisonblock_time=1}] at @s run playsound minecraft:block.lava.pop master @a ~ ~ ~ 20 2
 
 execute as @a[scores={poisonblock_time=1}] at @e[type=armor_stand,tag=poisonblock] run particle minecraft:spore_blossom_air ~ ~1 ~ 0.1 0.1 0.1 0.1 30

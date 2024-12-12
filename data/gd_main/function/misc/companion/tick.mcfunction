@@ -7,6 +7,7 @@ execute as @e[tag=companion] at @s unless score @s UUID matches 1.. run scoreboa
 execute as @e[tag=companion] at @s if score @s UUID matches 1.. run scoreboard players add @s tick 1
 
 
+execute as @e[tag=companion] at @s if score @s UUID matches 1.. if score @s tick matches 450 run function gd_main:misc/companion/attack/vfx
 execute as @e[tag=companion] at @s if score @s UUID matches 1.. if score @s tick matches 500 run kill @s
 execute as @a at @s as @e[tag=companion,distance=24..] if score @s UUID = @p UUID run tp @s ~ ~ ~
 # scoreboard objectives add companion_hit minecraft.custom:minecraft.damage_dealt

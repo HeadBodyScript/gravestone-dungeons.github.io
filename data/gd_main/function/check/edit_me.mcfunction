@@ -37,6 +37,10 @@ data modify storage minecraft:zombie max_health set value 20.0d
 data modify storage minecraft:boss max_health set value 20.0d
 
 
+
+scoreboard players set companion.TD INT 8
+
+
 # Boss
 # GRIMGAR
 # scoreboard players set boss.difficluty INT 1
