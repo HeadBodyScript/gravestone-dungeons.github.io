@@ -66,7 +66,8 @@ execute if score @s bossTick matches 300 store result entity @e[limit=1,tag=boss
 execute if score @s bossTick matches 300 run tellraw @a[distance=..32,tag=fighting.grimgar] {"text":"\uE0A6 : My minions will take care of you... My time is too valuable for this."}
 
 
-execute if score @s bossTick matches 299 run scoreboard players set @s boss.grimgar_minion 20
+# execute if score @s bossTick matches 299 run scoreboard players set @s boss.grimgar_minion 20
+execute if score @s bossTick matches 299 run scoreboard players operation @s boss.grimgar_minion = grimgar.minion.count INT
 execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar max run scoreboard players get @s boss.grimgar_minion
 execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar value run scoreboard players get @s boss.grimgar_minion
 execute if score @s bossTick matches 299 run bossbar set minecraft:boss.grimgar players @a[distance=..32,tag=fighting.grimgar]

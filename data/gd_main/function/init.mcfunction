@@ -14,6 +14,7 @@ scoreboard objectives add randomNumber dummy
 scoreboard objectives add INT dummy
 scoreboard objectives add UUID dummy
 scoreboard objectives add tick dummy
+scoreboard objectives add tick0 dummy
 
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add playerCount dummy
@@ -100,9 +101,15 @@ scoreboard objectives add rune.safe_fall_MAX dummy
 bossbar add boss.grimgar {"text":"Grimgar the Ferocious Bugbear","color":"gray","bold":true}
 bossbar set boss.grimgar style notched_12
 bossbar set boss.grimgar color blue
-
 scoreboard objectives add boss.grimgar_minion dummy
 scoreboard objectives add boss.grimgar_minion_INT dummy
+
+bossbar add boss.marrow {"text":"The Blighted Marrow","color":"gray","bold":true}
+bossbar set boss.marrow style notched_12
+bossbar set boss.marrow color green
+scoreboard objectives add boss.marrow_minion dummy
+scoreboard objectives add boss.marrow_minion_INT dummy
+
 # bossbar set minecraft:boss.grimgar players
 
 team add ENEMY

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "bossdevil": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[minion.marrow]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gd_boss:marrow/phase/player_killed_minion"
+  }
+}
