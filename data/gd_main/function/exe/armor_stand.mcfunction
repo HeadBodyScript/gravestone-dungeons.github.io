@@ -18,6 +18,11 @@ execute as @s[tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~
 execute as @s[tag=arcane_nodes] run function gd_main:misc/arcane/init
 execute as @s[tag=arcane_nodes,scores={node_VFX=0..}] run function gd_main:misc/arcane/vfx/init
 
+execute as @s[tag=marker.rune.block_interaction_range] at @s run function gd_main:misc/rune/block_interaction_range/vfx
+execute as @s[tag=marker.rune.max_health] at @s run function gd_main:misc/rune/max_health/vfx
+execute as @s[tag=marker.rune.max_mana] at @s run function gd_main:misc/rune/max_mana/vfx
+execute as @s[tag=marker.rune.oxygen_bonus] at @s run function gd_main:misc/rune/oxygen_bonus/vfx
+execute as @s[tag=marker.rune.safe_fall_distance] at @s run function gd_main:misc/rune/safe_fall_distance/vfx
 
 
 # add a tag to all companions called companion, marker_companion to the armorstand

@@ -1,4 +1,4 @@
-attribute @s minecraft:generic.block_interaction_range modifier remove range
+attribute @s minecraft:player.entity_interaction_range modifier remove range
 
 # future update, made custom model data {health:INT} example {health:9t} 
 # execute store result storage minecraft:rune INT int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".health

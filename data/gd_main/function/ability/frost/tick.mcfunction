@@ -3,7 +3,7 @@ scoreboard players add @s tick 1
 # tellraw @a ["",{"text":"score = "},{"score":{"name":"@s","objective":"tick"}}]
 
 # change #mobs to all enties that can be affected (including arrows)
-execute as @e[type=#gd:mobs,distance=..6] run function gd_main:ability/frost/damage
+execute as @e[type=#gd_main:entity,distance=..6] run function gd_main:ability/frost/damage
 function gd_main:ability/frost/particle
 particle falling_dust{block_state:{Name:snow}} ~ ~2 ~ 2 2 2 0 1 force
 

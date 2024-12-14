@@ -1,6 +1,6 @@
 scoreboard players add @s tick 1
 
-execute as @e[type=#gd:mobs,distance=..6] run function gd_main:ability/ember/damage
+execute as @e[type=#gd_main:entity,distance=..6] run function gd_main:ability/ember/damage
 function gd_main:ability/ember/particle
 particle flame ~ ~1.5 ~ 2 2 2 0.001 1 force
 

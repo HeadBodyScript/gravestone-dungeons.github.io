@@ -1,4 +1,3 @@
-
 particle minecraft:dust{color:[0.0,1.0,1.0],scale:.4} ^6 ^0 ^-0.25 0 0 0 0 1 force @a
 particle minecraft:dust{color:[0.0,1.0,1.0],scale:.4} ^6 ^0 ^-0.125 0 0 0 0 1 force @a
 particle minecraft:dust{color:[0.0,1.0,1.0],scale:.4} ^6 ^0 ^0 0 0 0 0 1 force @a
