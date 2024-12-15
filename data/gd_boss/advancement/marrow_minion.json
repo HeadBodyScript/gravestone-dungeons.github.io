@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "gd_boss:marrow/phase/player_killed_minion"
+    "function": "gd_boss:marrow/other/player_killed_minion"
   }
 }

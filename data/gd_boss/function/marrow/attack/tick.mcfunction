@@ -10,3 +10,5 @@ execute as @s[tag=leap] run function gd_boss:marrow/attack/attack_leap
 execute as @s[tag=shout] run function gd_boss:marrow/attack/attack_shout
 execute as @s[tag=throw] run function gd_boss:marrow/attack/attack_throw
 execute as @s[tag=warp] run function gd_boss:marrow/attack/attack_warp
+execute store result bossbar boss.marrow value run data get entity @s Health
+execute if score @s tick >= grimgar.attack.cooldown INT run scoreboard players set @s tick 0

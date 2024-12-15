@@ -1,4 +1,5 @@
 execute store result score @s randomNumber run random value 1..2
+tag @a add fighting.marrow
 execute if score @s bossTick matches 10 if score @s randomNumber matches 1 run tellraw @a ["",{"text":" : Hmm. I'm feeling weak.. what's going on here?"}]
 execute if score @s bossTick matches 10 if score @s randomNumber matches 2 run tellraw @a ["",{"text":" : Such an interesting place.."}]
 execute if score @s bossTick matches 60 run playsound minecraft:entity.wither_skeleton.ambient master @a ~ ~ ~ 10 0.5
@@ -25,12 +26,12 @@ execute if score @s bossTick matches 318 run particle minecraft:sneeze ~1 ~1 ~ 0
 execute if score @s bossTick matches 318 run particle minecraft:large_smoke ~ ~1 ~ 0.1 1 0.1 0.3 250
 execute if score @s bossTick matches 318 run particle minecraft:smoke ~-1 ~1 ~ .1 1 .1 0.4 250
 execute if score @s bossTick matches 318 run playsound minecraft:entity.elder_guardian.curse master @a ~ ~ ~ 10 0.1
-execute if score @s bossTick matches 320 run scoreboard players operation @s boss.marrow_minion = marrow.minion.count INT
 execute if score @s bossTick matches 318 at @s run summon wither_skeleton ~ ~ ~ {NoAI:1b,NoGravity:1b,Invulnerable:1b,LeftHanded:1b,PersistenceRequired:1b,Health:500f,Tags:["boss.marrow","boss"],CustomName:'{"color":"#4A9400","text":"Blighted Marrow"}',HandItems:[{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_model_data":1,"minecraft:enchantments":{levels:{"gd_enchantment:bleeding":1}},"minecraft:enchantment_glint_override":false,"minecraft:attribute_modifiers":[{id:"entity_interaction_range",type:"player.entity_interaction_range",amount:1,operation:"add_value",slot:"hand"},{id:"attack_damage",type:"generic.attack_damage",amount:16,operation:"add_value"}]}},{id:"minecraft:shield",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:unbreaking":2}},"minecraft:enchantment_glint_override":false,"minecraft:base_color":"green","minecraft:banner_patterns":[{pattern:globe,color:black},{pattern:curly_border,color:black},{pattern:small_stripes,color:black},{pattern:rhombus,color:black},{pattern:stripe_bottom,color:black},{pattern:circle,color:green}]}}],HandDropChances:[0.1F,0.1F],ArmorItems:[{id:"minecraft:leather_boots",count:1},{id:"minecraft:netherite_leggings",count:1},{id:"minecraft:netherite_chestplate",count:1},{id:"minecraft:chainmail_helmet",count:1}],attributes:[{id:"minecraft:generic.armor",base:30},{id:"minecraft:generic.armor_toughness",base:3},{id:"minecraft:generic.attack_damage",base:20},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.jump_strength",base:0.6},{id:"minecraft:generic.knockback_resistance",base:0.2},{id:"minecraft:generic.max_health",base:500},{id:"minecraft:generic.movement_speed",base:0.20},{id:"minecraft:generic.safe_fall_distance",base:10},{id:"minecraft:generic.scale",base:1.2},{id:"minecraft:generic.water_movement_efficiency",base:0.8}]}
 execute if score @s bossTick matches 320 store result entity @e[limit=1,tag=boss.marrow] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get marrow.boss.health INT
-execute if score @s bossTick matches 320 store result bossbar minecraft:boss.marrow max run scoreboard players get @s boss.marrow_minion
-execute if score @s bossTick matches 320 store result bossbar minecraft:boss.marrow value run scoreboard players get @s boss.marrow_minion
-execute if score @s bossTick matches 320 run bossbar set minecraft:boss.grimgar players @a[tag=fighting.marrow]
+execute if score @s bossTick matches 320 run scoreboard players operation marrow.minion.count_dummy INT = marrow.minion.count INT
+execute if score @s bossTick matches 320 store result bossbar minecraft:boss.marrow max run scoreboard players get marrow.minion.count INT
+execute if score @s bossTick matches 320 store result bossbar minecraft:boss.marrow value run scoreboard players get marrow.minion.count INT
+execute if score @s bossTick matches 320 run bossbar set minecraft:boss.marrow players @a[tag=fighting.marrow]
 execute if score @s bossTick matches 320 run tag @s add phase_2
 execute if score @s bossTick matches 320 run tag @s remove phase_1
 execute if score @s bossTick matches 320 run scoreboard players set @s bossTick 0

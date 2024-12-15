@@ -19,5 +19,5 @@ execute if score @s tick1 matches 40 at @s run effect give @a[distance=..40] min
 # maybe spawn a few extra minnions during this attack?
 execute if score @s tick1 matches 40 at @s run effect give @e[tag=minion.marrow,distance=..15] minecraft:strength 10 2 false
 execute if score @s tick1 matches 40.. at @s run particle minecraft:damage_indicator ~ ~ ~ .2 1 .2 0.1 6
+execute if score @s tick1 matches 80 run tag @s remove shout
 execute if score @s tick1 matches 80 run scoreboard players reset @s tick1
-tag @s remove shout

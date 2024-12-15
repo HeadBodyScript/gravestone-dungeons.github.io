@@ -60,7 +60,9 @@ scoreboard players set grimgar.mini.health INT 300
 
 # MARROW
 scoreboard players set marrow.minion.count INT 12
+# amount that the player needs to kill
 scoreboard players set marrow.minion.max INT 8
+# amount that can spawn at the same time
 scoreboard players set marrow.minion.cooldown INT 50
 scoreboard players set marrow.attack.cooldown INT 90
 scoreboard players set marrow.boss.health INT 300

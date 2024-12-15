@@ -7,5 +7,5 @@ execute if score @s tick3 matches 10 run playsound minecraft:entity.elder_guardi
 execute if score @s tick3 matches 13 run playsound minecraft:entity.elder_guardian.death master @a ~ ~ ~ 30 2
 execute if score @s tick3 matches 13..16 run particle minecraft:gust_emitter_small ~ ~1 ~ 0.1 0.1 0.1 0.1 1
 execute if score @s tick3 matches 13..16 run particle minecraft:sneeze ~ ~1 ~ 0.1 0.1 0.1 0.1 1
-execute if score @s tick3 matches 22 run scoreboard players reset @s tick3
-tag @s remove warp
+execute if score @s tick3 matches 22 run tag @s remove warp
+execute if score @s tick3 matches 22.. run scoreboard players reset @s tick3
