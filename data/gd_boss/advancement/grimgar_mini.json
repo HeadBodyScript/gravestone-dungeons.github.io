@@ -10,6 +10,6 @@
       }
     },
     "rewards": {
-      "function": "gd_boss:grimgar/phase/player_killed_mini"
+      "function": "gd_boss:grimgar/other/player_killed_mini"
     }
   }
