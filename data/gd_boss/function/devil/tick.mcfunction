@@ -1,6 +1,5 @@
 execute store result score @s playerCount if entity @a[distance=..32]
 execute if score @s playerCount matches 0 run function gd_boss:devil/reset
-tp @s ~ ~ ~ ~10 ~
 scoreboard players add @s[tag=!phase_2] bossTick 1
 execute as @s[tag=phase_1] run function gd_boss:devil/phase/phase_1
 execute as @s[tag=phase_2] run function gd_boss:devil/phase/phase_2

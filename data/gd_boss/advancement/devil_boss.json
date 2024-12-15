@@ -10,6 +10,6 @@
       }
     },
     "rewards": {
-      "function": "gd_boss:devil/phase/player_killed_boss"
+      "function": "gd_boss:devil/other/player_killed_boss"
     }
   }
