@@ -15,6 +15,11 @@ scoreboard objectives add INT dummy
 scoreboard objectives add UUID dummy
 scoreboard objectives add tick dummy
 scoreboard objectives add tick0 dummy
+scoreboard objectives add tick1 dummy
+scoreboard objectives add tick2 dummy
+scoreboard objectives add tick3 dummy
+scoreboard objectives add tick4 dummy
+scoreboard objectives add tick5 dummy
 
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add playerCount dummy
@@ -109,6 +114,12 @@ bossbar set boss.marrow style notched_12
 bossbar set boss.marrow color green
 scoreboard objectives add boss.marrow_minion dummy
 scoreboard objectives add boss.marrow_minion_INT dummy
+
+bossbar add boss.devil {"text":"The Blazing Devil","color":"gray","bold":true}
+bossbar set boss.devil style notched_12
+bossbar set boss.devil color yellow
+scoreboard objectives add boss.devil_health dummy
+
 
 # bossbar set minecraft:boss.grimgar players
 

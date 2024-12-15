@@ -38,7 +38,7 @@ data modify storage minecraft:boss max_health set value 20.0d
 
 
 
-scoreboard players set companion.TD INT 8
+scoreboard players set companion.TD INT 800
 
 
 # Boss
@@ -47,9 +47,19 @@ scoreboard players set companion.TD INT 8
 # this will change hard coded variables
 # 1 = easy  2 = normal  3 = hard
 
+# DEVIL
+scoreboard players set devil.boss.health INT 300
+scoreboard players set devil.boss.attack.cooldown INT 300
+
+# GRIMGAR
 scoreboard players set grimgar.minion.count INT 8
 scoreboard players set grimgar.minion.cooldown INT 50
 scoreboard players set grimgar.attack.cooldown INT 90
 scoreboard players set grimgar.boss.health INT 300
 scoreboard players set grimgar.mini.health INT 300
 
+# MARROW
+scoreboard players set marrow.minion.count INT 8
+scoreboard players set marrow.minion.cooldown INT 50
+scoreboard players set marrow.attack.cooldown INT 90
+scoreboard players set marrow.boss.health INT 300

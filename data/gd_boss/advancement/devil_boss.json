@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "bossdevil": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[boss.devil]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "gd_boss:devil/phase/player_killed_boss"
+    }
+  }
