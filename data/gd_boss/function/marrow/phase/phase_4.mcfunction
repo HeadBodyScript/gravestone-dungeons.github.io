@@ -1,0 +1,1 @@
+execute as @e[tag=boss.marrow,distance=..32] at @s run function gd_boss:marrow/attack/tick
