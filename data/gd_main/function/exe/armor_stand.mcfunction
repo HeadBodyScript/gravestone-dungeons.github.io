@@ -16,7 +16,7 @@ execute as @s[tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~
 
 # NODE
 execute as @s[tag=arcane_nodes] run function gd_main:misc/arcane/init
-execute as @s[tag=arcane_nodes,scores={node_VFX=0..}] run function gd_main:misc/arcane/vfx/init
+# execute as @s[tag=arcane_nodes,scores={node_VFX=0..}] run function gd_main:misc/arcane/vfx/init
 
 execute as @s[tag=marker.rune.block_interaction_range] at @s run function gd_main:misc/rune/block_interaction_range/vfx
 execute as @s[tag=marker.rune.max_health] at @s run function gd_main:misc/rune/max_health/vfx

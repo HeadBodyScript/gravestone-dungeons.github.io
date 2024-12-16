@@ -1,13 +1,13 @@
 scoreboard players add @s tick 1
 # add #type for each group
 execute as @s[scores={tick=1},type=#gd_main:entity] run damage @s[tag=!companion,tag=!ability_immune,tag=!ability_immune_frost,tag=!immune_damage_freeze] 0.5 minecraft:freeze
-execute as @s[scores={tick=1},type=#gd_main:entity] run effect give @s[tag=!companion,tag=!ability_immune,tag=!ability_immune_frost,tag=!immune_damage_freeze] slowness 3 7 true
+execute as @s[scores={tick=1},type=#gd_main:entity] run effect give @s[tag=!companion,tag=!ability_immune,tag=!ability_immune_frost,tag=!immune_damage_freeze] slowness 3 2 true
 execute as @s[scores={tick=1},type=#gd_main:entity] run data merge entity @s[tag=!companion,tag=!ability_immune,tag=!ability_immune_frost,tag=!immune_damage_freeze] {Fire:0s}
 
-# instead of particle make texure pack version of the mob with snow on the mob
+# instead of particle make texure pack version of the mob with snow on the mob (make a test version, Zacc will create a texture)
 execute at @s[scores={tick=1}] run particle minecraft:snowflake ~ ~1.5 ~ 0.3 1 0.3 0.001 20
 
-execute as @s[type=arrow,nbt=!{inGround:1b},distance=..4] run data merge entity @s {Fire:0s}
+#execute as @e[type=arrow,distance=..5] run data merge entity @s {Fire:0s}
 # add cooldown on how often entity can get hit
 execute if score @s tick matches 20 run scoreboard players set @s tick 0
 

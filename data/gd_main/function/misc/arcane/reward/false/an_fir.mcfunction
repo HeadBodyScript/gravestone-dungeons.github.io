@@ -1,5 +1,7 @@
 tellraw @s [{"text":"The wrath of the gods be upon thee, for thy actions displease them.","color":"gray"}]
-effect clear @s minecraft:fire_resistance
-playsound minecraft:block.fire.extinguish master @a ~ ~ ~ 1 2
-particle minecraft:wax_on ~ ~1 ~ 0.5 1 0.5 0.05 20
-scoreboard players operation @s node_CD = ARCANE.node INT
+particle minecraft:smoke ~ ~1 ~ 0.5 1 0.5 0.05 20 force
+function gd_main:misc/arcane/reward/an_stop
+playsound minecraft:entity.zombie_villager.converted master @a ~ ~ ~ 1 .5
+execute at @s if block ~ ~ ~ air run setblock ~ ~ ~ minecraft:fire
+
+#scoreboard players operation @s node_CD = ARCANE.node INT

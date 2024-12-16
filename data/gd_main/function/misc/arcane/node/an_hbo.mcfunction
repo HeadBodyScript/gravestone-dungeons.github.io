@@ -1,4 +1,4 @@
-particle minecraft:flame ~ ~1 ~ 1 1 1 0.1 5
+particle minecraft:crimson_spore ~ ~1 ~ 2 1 2 0.1 10
 execute as @e[type=minecraft:armor_stand,tag=an_hbo,limit=1,sort=nearest] unless score @s node_VFX matches 0.. run scoreboard players set @s node_VFX 0
 
 execute as @a[distance=..6] if predicate gd_main:is_sneaking run scoreboard players set @s node_CD 300
