@@ -48,7 +48,10 @@ scoreboard players set companion.TD INT 800
 # 1 = easy  2 = normal  3 = hard
 
 # DEVIL
-scoreboard players set devil.boss.health INT 300
+# data modify storage minecraft:devil max_health set value 20.0d
+# data modify storage minecraft:devil attack_cd set value 20.0d
+
+scoreboard players set devil.boss.health INT 1000
 scoreboard players set devil.boss.attack.cooldown INT 300
 
 # GRIMGAR

@@ -120,6 +120,9 @@ bossbar set boss.devil style notched_12
 bossbar set boss.devil color yellow
 scoreboard objectives add boss.devil_health dummy
 
+bossbar add boss.morbex {"text":"Morbex the Voidwalker","color":"gray","bold":true}
+bossbar set boss.morbex style notched_6
+bossbar set boss.morbex color purple
 
 # bossbar set minecraft:boss.grimgar players
 
