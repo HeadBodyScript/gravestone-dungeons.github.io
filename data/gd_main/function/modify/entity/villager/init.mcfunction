@@ -1,4 +1,3 @@
-execute as @a if items entity @s weapon.mainhand minecraft:clock[minecraft:custom_data={fair_clock:1b}] run tellraw @s "Traders have restocked"
 execute if entity @s[tag=alaric] run function gd_main:modify/entity/villager/alaric
 execute if entity @s[tag=bodb] run function gd_main:modify/entity/villager/bodb
 execute if entity @s[tag=cedric] run function gd_main:modify/entity/villager/cedric

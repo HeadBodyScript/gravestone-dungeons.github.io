@@ -2,6 +2,9 @@ execute unless score @s UUID matches 1.. store result score @s UUID run scoreboa
 # stat function for player items
 # execute unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b}] unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b,enchantment:1b}] run function gd_main:modify/item/check
 
+execute if predicate gd_main:time_check as @a if items entity @s inventory.* minecraft:clock[minecraft:custom_data={fair_clock:1b}] run tellraw @s "Traders have restocked this morning"
+execute if predicate gd_main:time_check as @a if items entity @s hotbar.* minecraft:clock[minecraft:custom_data={fair_clock:1b}] run tellraw @s "Traders have restocked this morning"
+
 execute unless score @s mana = @s mana_max run scoreboard players operation @s mana += @s mana_boost
 execute as @s[scores={mana_boost_duration=0..}] unless score @s mana = @s mana_max run scoreboard players add @s mana 1
 execute as @s[scores={mana_boost_duration=0..}] run scoreboard players remove @s mana_boost_duration 1

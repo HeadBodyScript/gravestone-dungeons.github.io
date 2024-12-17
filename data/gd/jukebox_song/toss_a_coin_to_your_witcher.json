@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": "Toss A Coin To Your Witcher",
+    "length_in_seconds": 182.0,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.toss_a_coin_to_your_witcher"
+    }
+ }

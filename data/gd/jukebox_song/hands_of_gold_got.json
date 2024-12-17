@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": "Hands Of Gold",
+    "length_in_seconds": 149.0,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.hands_of_gold_got"
+    }
+ }

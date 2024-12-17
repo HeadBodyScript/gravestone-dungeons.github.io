@@ -1,4 +1,7 @@
 {
   "condition": "minecraft:time_check",
-  "value": 1000
+  "entity": "this",
+  "predicate": {},
+  "value": 1,
+  "period": 24000
 }

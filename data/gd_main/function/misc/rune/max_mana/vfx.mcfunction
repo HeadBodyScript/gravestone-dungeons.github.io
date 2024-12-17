@@ -1,5 +1,5 @@
 scoreboard players add @s tick 1
-tp @s ~ ~ ~ ~.2 ~
+tp @s ~ ~0.1 ~ ~.2 ~
 # execute as @s[scores={tick=6..}] at @s[type=armor_stand,tag=tick] run tp @s[type=armor_stand,tag=tick] ~ ~.14 ~ ~10 ~
 # execute as @s[scores={tick=1}] at @s[type=armor_stand,tag=tick] run summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:0b,ShowArms:0b,NoBasePlate:1b,Small:1b,Tags:["tick1","tickx"],Motion:[2.0,0.2,0.0]}
 # execute as @s[scores={tick=1}] at @s[type=armor_stand,tag=tick] run summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:0b,ShowArms:0b,NoBasePlate:1b,Small:1b,Tags:["tick2","tickx"],Motion:[-2.0,0.2,0.0]}

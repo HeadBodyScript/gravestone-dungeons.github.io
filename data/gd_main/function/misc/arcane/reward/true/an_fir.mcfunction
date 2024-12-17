@@ -6,3 +6,5 @@ playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 1 1.7
 effect give @s minecraft:fire_resistance 1200 0 true
 
 #scoreboard players operation @s node_CD = ARCANE.node INT
+
+# AN nodes do repeat this function, wihtout aetting node_CD to 300
