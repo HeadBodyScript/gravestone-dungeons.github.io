@@ -1,0 +1,1 @@
+execute as @e[tag=boss.morbex,distance=..32] at @s run function gd_boss:morbex/attack/exe

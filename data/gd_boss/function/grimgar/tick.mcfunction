@@ -1,5 +1,5 @@
-execute store result score @s playerCount if entity @a[distance=..32,tag=fighting.grimgar]
-execute store result score @s boss.grimgar_minion_INT if entity @e[distance=..32]
+# execute store result score @s playerCount if entity @a[distance=..32,tag=fighting.grimgar]
+execute store result score @s boss.grimgar_minion_INT if entity @e[distance=..32,tag=minion.grimgar]
 execute if score @s playerCount matches 0 run function gd_boss:grimgar/reset
 tp @s ~ ~ ~ ~10 ~
 scoreboard players add @s bossTick 1

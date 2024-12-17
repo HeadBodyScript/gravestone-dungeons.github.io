@@ -27,7 +27,7 @@ execute as @a[scores={tick2=150..}] at @e[type=armor_stand,tag=morbex_void_spher
 execute as @a[scores={tick2=10}] at @e[type=armor_stand,tag=morbex_void_sphere] run tag @e[type=#gd_main:entity,tag=!boss,distance=..120,limit=15,sort=nearest] add morbex_void_me
 # execute as @a[scores={tick2=10}] at @e[type=armor_stand,tag=morbex_void_sphere] run tag @e[type=player,tag=!void_sphere_player,distance=..120,limit=1,sort=nearest,scores={morbex_phase1=0..}] add morbex_void_me
 
-execute if entity @a[scores={tick2=150..}] at @e[type=#gd_main:entity,tag=morbex_void_me,limit=1,sort=nearest] run function gd:boss_fight/morbex/morbex_void_sphere_projectile
+# execute if entity @a[scores={tick2=150..}] at @e[type=#gd_main:entity,tag=morbex_void_me,limit=1,sort=nearest] run function gd:boss_fight/morbex/morbex_void_sphere_projectile
 
 execute as @a[scores={tick2=200}] run effect give @e[type=illusioner,tag=Boss_Morbex,limit=1] regeneration 7 4
 

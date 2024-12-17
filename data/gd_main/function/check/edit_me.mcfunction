@@ -69,3 +69,7 @@ scoreboard players set marrow.minion.max INT 8
 scoreboard players set marrow.minion.cooldown INT 50
 scoreboard players set marrow.attack.cooldown INT 90
 scoreboard players set marrow.boss.health INT 300
+
+
+scoreboard players set morbex.boss.health INT 400
+scoreboard players set morbex.boss.cooldown INT 300

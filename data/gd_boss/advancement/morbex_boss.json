@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "bossdevil": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[boss.morbex]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "gd_boss:morbex/other/player_killed_boss"
+    }
+  }

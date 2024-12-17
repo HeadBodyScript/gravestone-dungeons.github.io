@@ -22,4 +22,3 @@ execute as @s[scores={tick0=305..340}] run particle campfire_signal_smoke ^-1.75
 execute as @s[scores={tick0=340..370}] run particle campfire_signal_smoke ^-1.5 ^2 ^ .1 .1 .1 0 5 force
 execute as @s[scores={tick0=370..400}] run particle campfire_signal_smoke ^-1.25 ^1.75 ^ .1 .1 .1 0 1 force
 execute as @s[scores={tick0=400..}] run particle campfire_signal_smoke ^-1 ^1.5 ^ .1 .1 .1 0 1 force
-execute as @s[scores={tick0=420}] run scoreboard players reset tick0

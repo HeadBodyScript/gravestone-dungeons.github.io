@@ -1,4 +1,5 @@
 
+scoreboard players add @s tick3 1
 execute as @a[scores={tick3=1}] store result score @s randomNumber run random value 1..3
 
 execute as @a[scores={tick3=2,randomNumber=1}] run say Oh hello! Stranger!
