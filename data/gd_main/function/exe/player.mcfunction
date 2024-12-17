@@ -1,5 +1,6 @@
 execute unless score @s UUID matches 1.. store result score @s UUID run scoreboard players add #last UUID 1
-execute unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b}] unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b,enchantment:1b}] run function gd_main:modify/item/check
+# stat function for player items
+# execute unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b}] unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b,enchantment:1b}] run function gd_main:modify/item/check
 execute unless score @s mana = @s mana_max run scoreboard players operation @s mana += @s mana_boost
 execute as @s[scores={mana_boost_duration=0..}] unless score @s mana = @s mana_max run scoreboard players add @s mana 1
 

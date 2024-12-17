@@ -21,6 +21,7 @@ scoreboard players set MP.shield INT 30
 scoreboard players set ARCANE.mana_regen INT 1
 scoreboard players set ARCANE.mana_max INT 100
 scoreboard players set ARCANE.mana INT 0
+scoreboard players set ARCANE.node INT 0
 
 # knife pouch
 scoreboard players set DAGGER.reload INT 10
