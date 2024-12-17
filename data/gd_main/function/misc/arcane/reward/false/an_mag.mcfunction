@@ -2,8 +2,6 @@ tellraw @s [{"text":"The wrath of the gods be upon thee, for thy actions displea
 particle minecraft:smoke ~ ~1 ~ 0.5 1 0.5 0.05 20 force
 function gd_main:misc/arcane/reward/an_stop
 
-scoreboard players set @s magicka_boost 0
-
 playsound minecraft:entity.zombie_villager.converted master @a ~ ~ ~ 1 .5
 effect give @s minecraft:infested 120 0 true
 

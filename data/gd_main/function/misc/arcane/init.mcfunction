@@ -54,6 +54,9 @@ execute if score @s tick matches 40 at @s if entity @s[tag=an_wat] run particle 
 execute if score @s tick matches 12 at @s if entity @s[tag=an_spe] run particle minecraft:snowflake ~ ~1 ~ 3 2 3 0.01 10
 execute if score @s tick matches 40 at @s if entity @s[tag=an_str] run particle minecraft:portal ~ ~1 ~ 3 2 3 0.01 10
 
+execute if score @s tick matches 12 if entity @s[tag=arcane_nodes] as @a[distance=..12] run scoreboard players set @s mana_boost_duration 200
+
+
 function gd_main:misc/arcane/vfx/init
 
 execute if score @s tick matches 40.. run scoreboard players set @s tick 0
