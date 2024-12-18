@@ -12,7 +12,6 @@ scoreboard players reset @s bossTick
 scoreboard players reset @s tick
 scoreboard players reset @s playerCount
 scoreboard players reset @s boss.grimgar_minion
-
 bossbar set minecraft:boss.grimgar players
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32] at @s run setblock ~ ~ ~ air
 execute at @s as @e[type=minecraft:armor_stand,tag=skull.grimgar,distance=..32] at @s run kill @s

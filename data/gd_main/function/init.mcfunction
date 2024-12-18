@@ -5,6 +5,7 @@ scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 # scoreboard objectives add sleep_in_bed minecraft.custom:minecraft.sleep_in_bed
 
 scoreboard objectives add trigger.talked_to_villager trigger
+scoreboard objectives add settings trigger
 
 scoreboard objectives add talked_to_villager_CD dummy
 scoreboard objectives add node_CD dummy
@@ -124,6 +125,8 @@ bossbar add boss.morbex {"text":"Morbex the Voidwalker","color":"gray","bold":tr
 bossbar set boss.morbex style notched_6
 bossbar set boss.morbex color purple
 
+bossbar add boss.witch ""
+bossbar set boss.witch style notched_6
 # bossbar set minecraft:boss.grimgar players
 
 team add ENEMY

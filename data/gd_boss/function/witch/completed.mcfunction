@@ -1,4 +1,17 @@
-# remove all tags from marker
-# kill all temporary entities
-# remove barrier
-# give reward
+scoreboard players reset @s bossTick
+scoreboard players reset @s tick
+tag @s add FALSE
+bossbar set minecraft:boss.witch players
+execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32] at @s run setblock ~ ~ ~ air
+tag @a remove fighting.witch
+scoreboard players reset @s tick0
+execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32] at @s run setblock ~ ~ ~ air
+execute as @s[tag=witch_1] run summon item ~ ~1 ~ {Item:{id:quartz,count:1,components:{custom_name:'[{"text":"Kaidaias Crystal","italic":true,"color":"#ff0033"}]',lore:['[{"text":"Irrefutable proof, that Kaidaia","italic":false,"color":"gray"}]','[{"text":"the Alluring has been defeated.","italic":false,"color":"gray"}]'],custom_model_data:1,custom_data:{boss_lvl_3:1b},enchantments:{levels:{binding_curse:1}},attribute_modifiers:{modifiers:[{type:"player.block_interaction_range",amount:3,slot:hand,operation:add_value,id:1234-43}]},max_stack_size:1}},Motion:[0.0,0.3,0.0]}
+execute as @s[tag=witch_1] run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:barrel",components:{custom_name:'[{"text":"Kaidaias Potion Brewing Barrel","italic":true,"color":"#ff0033"}]',container_loot:{loot_table:'gd:chests/witch'}}},Motion:[0.0,0.3,0.0]}
+execute as @s[tag=witch_2] run summon item ~ ~1 ~ {Item:{id:amethyst_shard,count:1,components:{custom_name:'[{"text":"Malificaias Crystal","italic":true,"color":"#9966cc"}]',lore:['[{"text":"Irrefutable proof, that Malificaia","italic":false,"color":"gray"}]','[{"text":"the Devious has been defeated.","italic":false,"color":"gray"}]'],custom_model_data:2,custom_data:{boss_lvl_3:1b},enchantments:{levels:{binding_curse:1}},attribute_modifiers:{modifiers:[{type:"generic.gravity",amount:-0.07,slot:hand,operation:add_value,id:1234-8585}]},max_stack_size:1}},Motion:[0.0,0.3,0.0]}
+execute as @s[tag=witch_2] run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:barrel",components:{custom_name:'[{"text":"Malificaias Potion Brewing Barrel","italic":true,"color":"#9966cc"}]',container_loot:{loot_table:'gd:chests/witch'}}},Motion:[0.0,0.3,0.0]}
+execute as @s[tag=witch_3] run summon item ~ ~1 ~ {Item:{id:prismarine_crystals,count:1,components:{custom_name:'[{"text":"Sylvanaias Crystal","italic":true,"color":"#0099cc"}]',lore:['[{"text":"Irrefutable proof, that Sylvanaia","italic":false,"color":"gray"}]','[{"text":"the Devious has been defeated.","italic":false,"color":"gray"}]'],custom_model_data:1,custom_data:{boss_lvl_3:1b},enchantments:{levels:{binding_curse:1}},attribute_modifiers:{modifiers:[{type:"player.mining_efficiency",amount:1,slot:hand,operation:add_value,id:1234-345}]},max_stack_size:1}},Motion:[0.0,0.3,0.0]}
+execute as @s[tag=witch_3] run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:barrel",components:{custom_name:'[{"text":"Sylvanaias Potion Brewing Barrel","italic":true,"color":"#0099cc"}]',container_loot:{loot_table:'gd:chests/witch'}}},Motion:[0.0,0.3,0.0]}
+execute as @s[tag=witch_1] run tellraw @a[tag=fighting.witch] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : I can use this item for building.. or sell it. Spledid!! Well, how do i get out of here?"}] 
+execute as @s[tag=witch_2] run tellraw @a[tag=fighting.witch] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : say I can use this item to jump further.. or sell it to a trader.. Excellent! But first, how do i get out of this place?"}] 
+execute as @s[tag=witch_3] run tellraw @a[tag=fighting.witch] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : say I'll find a good use for this when mining.. or sell it very expensive! But now, I need to find a way out of here..."}] 

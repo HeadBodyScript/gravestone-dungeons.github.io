@@ -15,7 +15,7 @@ execute if score @s bossTick matches ..90 run particle dust_color_transition{fro
 execute if score @s bossTick matches 80 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 90 run playsound minecraft:entity.pillager.celebrate ambient @a ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 100 run bossbar set minecraft:boss.grimgar name {"text":"Undead Deathlord","color":"dark_gray","bold":true}
-execute if score @s bossTick matches 100 run bossbar set fight_deathlord color red
+execute if score @s bossTick matches 100 run bossbar set minecraft:boss.grimgar color red
 execute if score @s bossTick matches 100 run bossbar set minecraft:boss.grimgar max 300
 execute if score @s bossTick matches 100 run bossbar set minecraft:boss.grimgar players @a[distance=..32,tag=fighting.grimgar]
 execute if score @s bossTick matches 100 run function gd_boss:grimgar/other/mini_boss

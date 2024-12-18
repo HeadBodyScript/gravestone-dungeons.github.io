@@ -4,7 +4,6 @@ tag @s remove TRUE
 tag @s remove FALSE
 execute as @e[type=minecraft:armor_stand,tag=armor_stand.boss,tag=devil,distance=..32] run kill @s
 execute as @e[type=minecraft:blaze,tag=boss.devil,distance=..32] run kill @s
-
 scoreboard players reset #boss_devil INT
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick

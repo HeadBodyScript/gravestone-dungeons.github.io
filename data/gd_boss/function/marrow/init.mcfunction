@@ -3,5 +3,4 @@ execute as @s[tag=!TRUE] run particle dust_color_transition{from_color: [.4f, .6
 execute as @s[tag=!TRUE] at @s if entity @a[distance=..5] run function gd_boss:marrow/setup
 execute as @s[tag=TRUE] at @s if score @s playerCount matches 1.. run function gd_boss:marrow/tick
 execute as @s[tag=TRUE] at @s if score @s playerCount matches 0 run function gd_boss:marrow/reset
-
 execute as @s[tag=!TRUE] as @a[distance=..16] run function gd_boss:morbex/other/intro

@@ -5,8 +5,8 @@ title @a[tag=fighting.marrow] title [{"text":"MAJOR ENEMY FELLED","color":"dark_
 execute as @e[type=minecraft:marker,limit=1,sort=nearest,tag=marker.boss] at @s run function gd_boss:marrow/completed
 bossbar set minecraft:boss.marrow players
 
-tellraw @a[tag=fighting.marrow] ["",{"text":"marrow","color":"gold"},{"text":" : A real warrior. An honorable death that finally lets me begin my eternal sleep."}] 
-tellraw @a[tag=fighting.marrow] ["",{"text":"marrow","color":"gold"},{"text":" : Rest in peace great warrior."}] 
-tellraw @a[tag=fighting.marrow] ["",{"text":"marrow","color":"gold"},{"text":" : This rose at least looks interesting. Somehow I feel like I have to hit someone with it..."}] 
+tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : A real warrior. An honorable death that finally lets me begin my eternal sleep."}] 
+tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : Rest in peace great warrior."}] 
+tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : This rose at least looks interesting. Somehow I feel like I have to hit someone with it..."}] 
 
 tag @a remove fighting.marrow

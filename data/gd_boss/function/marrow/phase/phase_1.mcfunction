@@ -1,14 +1,14 @@
 execute store result score @s randomNumber run random value 1..2
 tag @a add fighting.marrow
-execute if score @s bossTick matches 10 if score @s randomNumber matches 1 run tellraw @a ["",{"text":" : Hmm. I'm feeling weak.. what's going on here?"}]
-execute if score @s bossTick matches 10 if score @s randomNumber matches 2 run tellraw @a ["",{"text":" : Such an interesting place.."}]
+execute if score @s bossTick matches 10 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.marrow] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Hmm. I'm feeling weak.. what's going on here?"}]
+execute if score @s bossTick matches 10 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.marrow] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Such an interesting place.."}]
 execute if score @s bossTick matches 60 run playsound minecraft:entity.wither_skeleton.ambient master @a ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 100 run playsound minecraft:entity.zombie.death master @a ~ ~ ~ 10 0.5
-execute if score @s bossTick matches 100 if score @s randomNumber matches 1 run tellraw @a ["",{"text":"Marrow","color":"gold"},{"text":" : A challenger? Terrific!  Why do you disturb my everlasting watch?"}]
-execute if score @s bossTick matches 100 if score @s randomNumber matches 2 run tellraw @a ["",{"text":"Marrow","color":"gold"},{"text":" : Don't disturb my everlasting watch! Otherwise I will crush your bones."}]
+execute if score @s bossTick matches 100 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : A challenger? Terrific!  Why do you disturb my everlasting watch?"}]
+execute if score @s bossTick matches 100 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : Don't disturb my everlasting watch! Otherwise I will crush your bones."}]
 execute if score @s bossTick matches 120 run playsound minecraft:entity.ravager.stunned ambient @a ~ ~ ~ 50 0.5
-execute if score @s bossTick matches 200 if score @s randomNumber matches 1 run tellraw @a ["",{"text":"Marrow","color":"gold"},{"text":" : Are you sure you want to challenge me, little guy?"}]
-execute if score @s bossTick matches 200 if score @s randomNumber matches 2 run tellraw @a ["",{"text":"Marrow","color":"gold"},{"text":" : Leave. NOW! Otherwise, I will ensure that you remain here forever as my servant in eternity."}]
+execute if score @s bossTick matches 200 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : Are you sure you want to challenge me, little guy?"}]
+execute if score @s bossTick matches 200 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : Leave. NOW! Otherwise, I will ensure that you remain here forever as my servant in eternity."}]
 execute if score @s bossTick matches 120 at @s[type=minecraft:marker,tag=marker.lantern,distance=..32] run setblock ~ ~ ~ soul_lantern
 execute if score @s bossTick matches 260 run playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 10 0.5
 # execute if score @s bossTick matches=280}] run playsound minecraft:blood_and_banner_marrow record @s ~ ~1 ~ 50

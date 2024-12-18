@@ -1,4 +1,3 @@
-scoreboard players add @s tick0 1
 execute as @s[scores={tick0=53}] run summon minecraft:potion ^ ^3 ^7 {Item:{id:"minecraft:splash_potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_slowness"}}},Motion:[0.3,0.3,0.0]}
 execute as @s[scores={tick0=56}] run summon minecraft:potion ^-12 ^3 ^ {Item:{id:"minecraft:splash_potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_slowness"}}},Motion:[0.25,0.3,0.25]}
 execute as @s[scores={tick0=59}] run summon minecraft:potion ^ ^3 ^3 {Item:{id:"minecraft:splash_potion",components:{"minecraft:potion_contents":{potion:"minecraft:harming"}}},Motion:[0.0,0.3,0.3]}

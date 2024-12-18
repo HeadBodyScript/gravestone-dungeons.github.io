@@ -1,0 +1,1 @@
+execute as @e[distance=..32,tag=boss.witch] at @s run function gd_boss:witch/attack/exe

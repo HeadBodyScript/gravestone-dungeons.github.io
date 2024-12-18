@@ -1,11 +1,3 @@
-# remove tags
-# kill boss
-# kill mini
-# kill minions
-# kill projectiles
-# reset scores
-# remove barrier
-
 tag @s remove phase_1
 tag @s remove phase_2
 tag @s remove phase_3

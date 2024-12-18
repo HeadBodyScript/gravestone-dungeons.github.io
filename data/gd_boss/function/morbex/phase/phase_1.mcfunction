@@ -7,7 +7,7 @@ execute if score @s bossTick matches 16 run stopsound @a * minecraft:entity.fire
 execute if score @s bossTick matches 16 run stopsound @a * minecraft:entity.firework_rocket.large_blast
 execute if score @s bossTick matches 15.. run particle minecraft:crimson_spore ~ ~4 ~ 8 6 8 .3 2
 execute if score @s bossTick matches 20..420 run function gd_boss:morbex/other/vfx_smoke_spiral
-execute if score @s bossTick matches 20 run say You found them! I AM FREE!!!!!
+execute if score @s bossTick matches 20 run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"gold"},{"text":" : You found them! I AM FREE!!!!!"}] 
 execute if score @s bossTick matches 20 run playsound minecraft:entity.ravager.celebrate master @a[distance=..40] ~ ~ ~ 60 2
 execute if score @s bossTick matches 18 at @s run summon armor_stand ~ ~1 ~ {NoGravity:0b,Invulnerable:1b,ShowArms:0b,Small:1b,Invisible:1b,Tags:["armorstand.quartz"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:quartz",count:1,components:{"minecraft:custom_model_data":2}}],Motion:[0.0,0.4,0.8]}
 execute if score @s bossTick matches 18 at @s run summon armor_stand ~ ~1 ~ {NoGravity:0b,Invulnerable:1b,ShowArms:0b,Small:1b,Invisible:1b,Tags:["armorstand.quartz"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:quartz",count:1,components:{"minecraft:custom_model_data":3}}],Motion:[0.6,0.4,-0.75]}
@@ -19,14 +19,14 @@ execute if score @s bossTick matches 26 at @e[type=armor_stand,tag=armorstand.qu
 execute if score @s bossTick matches 30..35 at @e[type=armor_stand,tag=armorstand.quartz] run particle minecraft:portal ~ ~.8 ~ .2 .2 .2 0.2 50
 execute if score @s bossTick matches 450.. as @e[type=armor_stand,tag=armorstand.quartz] run kill @s
 execute if score @s bossTick matches 30 run setblock ~ ~-17 ~ glowstone
-execute if score @s bossTick matches 60 run say Now you can tell me where the hidden treasures are... friend.
+execute if score @s bossTick matches 60 run tellraw @a[tag=fighting.morbex] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Now you can tell me where the hidden treasures are... friend."}]
 execute if score @s bossTick matches 80 run playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 60 2
-execute if score @s bossTick matches 140 run say Woah, calm down!
-execute if score @s bossTick matches 160 run say YOU FOOL! I don't share my treasures!
-execute if score @s bossTick matches 220 run say This creatures banned me, so i lose my power over them.
-execute if score @s bossTick matches 300 run say But now, that I'm free, I will get my revenge!
-execute if score @s bossTick matches 350 run say All thanks to you! Hahaha
-execute if score @s bossTick matches 420 run say Don't bother. You will become one of my first minions!
+execute if score @s bossTick matches 140 run tellraw @a[tag=fighting.morbex] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Woah, calm down!"}]
+execute if score @s bossTick matches 160 run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"gold"},{"text":" : YOU FOOL! I don't share my treasures!"}] 
+execute if score @s bossTick matches 220 run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"gold"},{"text":" : This creatures banned me, so i lose my power over them."}] 
+execute if score @s bossTick matches 300 run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"gold"},{"text":" : But now, that I'm free, I will get my revenge!"}] 
+execute if score @s bossTick matches 350 run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"gold"},{"text":" : All thanks to you! Hahaha"}] 
+execute if score @s bossTick matches 420 run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"gold"},{"text":" : Don't bother. You will become one of my first minions!"}] 
 # execute if score @s bossTick matches 300}] run summon armor_stand ~ ~4 ~ {Invisible:1b,Marker:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["morbex_void_sphere"]}
 execute if score @s bossTick matches 300..301 run function gd_boss:morbex/other/vfx_sphere
 execute if score @s bossTick matches 450 run playsound minecraft:entity.enderman.stare master @a ~ ~ ~ 60 .1
@@ -42,13 +42,11 @@ execute if score @s bossTick matches 680 run playsound minecraft:block.beacon.po
 execute if score @s bossTick matches 690..710 run particle minecraft:gust_emitter_large ^ ^1 ^ .2 .2 .2 0.2 1
 execute if score @s bossTick matches 695 run playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 60 2
 execute if score @s bossTick matches 700 run summon illusioner ~ ~ ~ {PersistenceRequired:1b,Health:300f,SpellTicks:100,Tags:["boss.morbex","boss"],Team:ENEMY,CustomName:'{"color":"#6F0C99","text":"Morbex the Voidwalker"}',HandItems:[{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:power":5,"minecraft:punch":2,"gd_enchantment:withering":1}}}},{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:7080703,custom_effects:[{id:"minecraft:blindness",amplifier:0,duration:50,show_particles:0b,show_icon:1b,ambient:0b}]}}}],HandDropChances:[0F,0F],active_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:generic.armor",base:30},{id:"minecraft:generic.armor_toughness",base:4},{id:"minecraft:generic.max_health",base:300},{id:"minecraft:generic.safe_fall_distance",base:12},{id:"minecraft:generic.water_movement_efficiency",base:.6}]}
-execute if score @s bossTick matches 700 run say Now I will bind your soul to me forever!
-
+execute if score @s bossTick matches 700 run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"gold"},{"text":" : Now I will bind your soul to me forever!"}]
 execute if score @s bossTick matches 700 store result entity @e[limit=1,tag=boss.morbex] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get morbex.boss.health INT
 execute if score @s bossTick matches 700 store result bossbar minecraft:boss.morbex max run scoreboard players get morbex.boss.health INT
 execute if score @s bossTick matches 700 store result bossbar minecraft:boss.morbex value run scoreboard players get morbex.boss.health INT
 execute if score @s bossTick matches 700 run bossbar set minecraft:boss.morbex players @a[tag=fighting.morbex]
-
 execute if score @s bossTick matches 690 run playsound minecraft:block.bell.use ambient @a ~ ~ ~ 20 1
 execute if score @s bossTick matches 730 run tag @s add phase_2
 execute if score @s bossTick matches 730 run tag @s remove phase_1
