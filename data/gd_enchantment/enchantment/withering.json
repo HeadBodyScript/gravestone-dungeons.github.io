@@ -3,7 +3,7 @@
 		"translate": "enchantment.minecraft.withering",
 		"fallback": "Withering"
 	  },
-	"supported_items": "#gd_main:weapon_range",
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
 	"slots": [
 	  "mainhand"
 	],

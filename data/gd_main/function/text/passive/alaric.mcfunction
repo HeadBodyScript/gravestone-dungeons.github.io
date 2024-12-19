@@ -13,5 +13,5 @@ execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e
 execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=alaric]"},{"text":": The spells i sell, have no need of casting capabilities... Easy use for non wizards."}]
 execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=alaric]"},{"text":": An advice: Stop only seeing the obvious. There's often more than meets the eye."}]
 
-execute if score .INT0 randomNumber matches 10 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=alaric]"},{"text":": TEMP"}]
+execute if score .INT0 randomNumber matches 10 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=alaric]"},{"text":": An advice: Stop only seeing the obvious. There's often more than meets the eye."}]
 execute if score .INT0 randomNumber matches 11 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=alaric]"},{"text":": This castle has been built on the ruins of an old fortress of the Veilbreakers. There's more undernea.. Why am i talking to them?!"}]

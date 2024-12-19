@@ -23,8 +23,12 @@ execute as @s[scores={talked_to_villager_CD=0..}] run scoreboard players remove 
 execute as @s[scores={node_CD=0..}] run scoreboard players remove @s node_CD 1
 execute if entity @e[type=minecraft:villager,distance=..4,tag=villager] run function gd_main:text/passive
 
-execute if predicate gd_main:armor_iron run effect give @s haste 5 0 true
-execute if predicate gd_main:armor_gold run effect give @s luck 5 0 true
+execute if predicate gd_main:is_riding_hdeko run function gd_main:text/init/hdeko
+
+execute if predicate gd_main:armor_leather run effect give @s speed 5 0 true
+execute if predicate gd_main:armor_chainmail run effect give @s luck 5 0 true
+execute if predicate gd_main:armor_iron run effect give @s strength 5 0 true
+execute if predicate gd_main:armor_gold run effect give @s haste 5 0 true
 execute if predicate gd_main:armor_diamond run effect give @s resistance 5 0 true
 execute if predicate gd_main:armor_netherite run effect give @s health_boost 5 0 true
 

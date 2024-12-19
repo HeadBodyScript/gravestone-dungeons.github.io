@@ -2,8 +2,10 @@ execute as @s[tag=!root] run function gd_main:check/summon
 # MANA
 # scoreboard players operation @s mana_boost = ARCANE.mana_regen INT
 # scoreboard players operation @s mana_max = ARCANE.mana_max INT
+
 scoreboard players enable @s trigger.talked_to_villager
 scoreboard players enable @s settings
+scoreboard players set @s talked_to_villager_CD 0
 
 # RUNE
 scoreboard players set @s rune.block_interaction_range 0

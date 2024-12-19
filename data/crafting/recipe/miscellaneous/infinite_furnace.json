@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "zwz"
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:furnace"
+    },
+    "x": {
+      "item": "minecraft:end_crystal"
+    },
+    "w": {
+      "item": "minecraft:nether_star"
+    },
+    "z": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "components": {
+      "minecraft:custom_name": "{\"color\":\"#FFAA00\",\"italic\":true,\"text\":\"Infinite Furnace\"}",
+      "minecraft:block_entity_data": {
+        "id": "minecraft:furnace",
+        "BurnTime": 2147200000
+      },
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"An ancient forge, infused with the\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"power of a nether star. This furnace\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"burns with an endless flame that\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"rarely fades.\"}"
+      ],
+      "minecraft:block_state": {
+        "lit":"true"
+      }
+    },
+    "count": 1
+  }
+}

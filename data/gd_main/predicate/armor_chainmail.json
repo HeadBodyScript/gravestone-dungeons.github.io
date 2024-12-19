@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "items": "minecraft:chainmail_helmet"
+      },
+      "armor.chest": {
+        "items": "minecraft:chainmail_chestplate"
+      },
+      "armor.legs": {
+        "items": "minecraft:chainmail_leggings"
+      },
+      "armor.feet": {
+        "items": "minecraft:chainmail_boots"
+      }
+    }
+  }
+}

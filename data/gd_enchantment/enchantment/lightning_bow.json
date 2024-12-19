@@ -3,7 +3,7 @@
 		"translate": "enchantment.minecraft.lightning_bow",
 		"fallback": "Thunder Arrow"
 	  },
-	"supported_items": "#gd:ranged_weapon",
+	"supported_items": "#gd_main:weapon_range",
 	"slots": [
 	  "mainhand"
 	],

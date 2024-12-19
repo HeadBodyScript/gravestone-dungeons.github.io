@@ -14,12 +14,7 @@ execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,dist
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=ragnvald,limit=1,sort=nearest] run function gd_main:text/passive/ragnvald
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=zaccarius,limit=1,sort=nearest] run function gd_main:text/passive/zaccarius
 
-# IMPORTANT: add tag "villager_music" to each villager you want music to play on
-# execute if items entity @s weapon.offhand minecraft:paper if entity @e[type=villager,tag=villager_music,distance=..4] run function gd:misc/music
 
-# IMPORTANT: what horse is this? I can't find this horse? Can I delete this, does this horse exist?
-# execute as @a[nbt={RootVehicle:{Entity:{Tags:["hdeko"]}}}] run title @s actionbar {"text":"This is not your horse. You have to buy one from Harlan Ironmug","italic":true,"color":"white","duration":100}
-# execute as @a[nbt={RootVehicle:{Entity:{Tags:["hdeko"]}}}] run execute at @p run tp @p ^ ^1 ^
 
 # IMPORTANT: change to marker
 # NAME: Master of the Arena ?

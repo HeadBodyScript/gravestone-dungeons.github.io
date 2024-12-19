@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:netherite_block"
+  },
+  "result": {
+    "id": "minecraft:amethyst_shard",
+    "components": {
+      "minecraft:damage": 1000,
+      "minecraft:max_damage": 1000,
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:mending": 1
+        },
+        "show_in_tooltip": false
+      },
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_model_data": 5,
+      "minecraft:custom_name": "{\"color\":\"#FF5D17\",\"italic\":true,\"text\":\"Greater Soul Crystal\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used for magical rituals.\"}"
+      ]
+    }
+  },
+  "experience": 9000,
+  "cookingtime": 72000
+}

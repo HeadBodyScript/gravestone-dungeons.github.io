@@ -3,7 +3,7 @@
 		"translate": "enchantment.minecraft.tongue_of_fire",
 		"fallback": "Tongue of Fire"
 	  },
-	"supported_items": "#gd:ranged_weapon",
+	"supported_items": "#gd_main:weapon_range",
 	"slots": [
 	  "mainhand"
 	],
