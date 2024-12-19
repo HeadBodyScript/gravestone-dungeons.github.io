@@ -56,6 +56,8 @@ scoreboard objectives add enchantment.illumination_CD dummy
 scoreboard objectives add enchantment.illumination_VFX dummy
 
 scoreboard objectives add enchantment.knife_pouch_VFX dummy
+scoreboard objectives add enchantment.knife_pouch_INT dummy
+scoreboard objectives add enchantment.knife_pouch_MAX dummy
 scoreboard objectives add enchantment.knife_pouch_CD dummy
 
 scoreboard objectives add enchantment.light_wave_TD dummy

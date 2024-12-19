@@ -12,6 +12,6 @@ execute as @s[scores={enchantment.fire_burst_VFX=6..}] run tp @s ^ ^ ^.2
 execute as @s[scores={enchantment.fire_burst_VFX=6..30}] run particle minecraft:flame ~ ~ ~ .3 .3 .3 .01 30
 execute as @s[scores={enchantment.fire_burst_VFX=31..55}] run particle minecraft:flame ~ ~ ~ .6 .5 .6 .01 30
 execute as @s[scores={enchantment.fire_burst_VFX=56..80}] run particle minecraft:flame ~ ~ ~ .9 .7 .9 .01 30
-execute as @s[scores={enchantment.fire_burst_VFX=16..}] run function gd:enchantments/fire_burst/fire_burst_hit
+execute as @s[scores={enchantment.fire_burst_VFX=16..}] run function gd_enchantment:fire_burst/hit
 execute as @s[scores={enchantment.fire_burst_VFX=80..}] run kill @s
 particle minecraft:smoke ~ ~0.5 ~ .1 .5 .1 0.01 3
