@@ -4,7 +4,10 @@ tag @s remove phase_2
 tag @s remove phase_3
 tag @s remove phase_4
 tag @s remove phase_5
-tag @s remove phase_6
+
+tag @s remove witch_1
+tag @s remove witch_2
+tag @s remove witch_3
 tag @s remove TRUE
 tag @s remove FALSE
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=witch,distance=..32] run kill @s

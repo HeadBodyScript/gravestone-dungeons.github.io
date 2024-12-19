@@ -3,18 +3,18 @@
 
 scoreboard players add @s bossTick 1
 tp @s ~ ~ ~ ~5 ~
-tag @s add fighting.morbex
-execute as @s[scores={bossTick=1}] store result score INT randomNumber run random value 1..3
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 1 run bossbar set boss.witch name {"text":"witch_1 the Alluring","color":"gray","bold":true}
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 2 run bossbar set boss.witch name {"text":"witch_2 the Devious","color":"gray","bold":true}
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 3 run bossbar set boss.witch name {"text":"witch_3 the Appalling","color":"gray","bold":true}
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 1 run bossbar set boss.witch color red
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 2 run bossbar set boss.witch color purple
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 3 run bossbar set boss.witch color blue
+tag @a add fighting.witch
+execute as @s[scores={bossTick=10}] store result score @s randomNumber run random value 1..3
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 1 run bossbar set boss.witch name {"text":"witch_1 the Alluring","color":"gray","bold":true}
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 2 run bossbar set boss.witch name {"text":"witch_2 the Devious","color":"gray","bold":true}
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 3 run bossbar set boss.witch name {"text":"witch_3 the Appalling","color":"gray","bold":true}
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 1 run bossbar set boss.witch color red
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 2 run bossbar set boss.witch color purple
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 3 run bossbar set boss.witch color blue
 
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 1 run tag @s add witch_1
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 2 run tag @s add witch_2
-execute as @s[scores={bossTick=1}] if score .INT randomNumber matches 3 run tag @s add witch_3
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 1 run tag @s add witch_1
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 2 run tag @s add witch_2
+execute as @s[scores={bossTick=10}] if score @s randomNumber matches 3 run tag @s add witch_3
 
 
 
@@ -45,11 +45,6 @@ execute as @s[scores={bossTick=1,},tag=witch_1] run summon armor_stand ~ ~ ~ {Cu
 execute as @s[scores={bossTick=1,},tag=witch_2] run summon armor_stand ~ ~ ~ {CustomName:'[{"text":"witch_2 the Devious","color":"#9966cc"}]',Invisible:1b,Marker:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["spawnwitchbox","boss_marker"]}
 execute as @s[scores={bossTick=1,},tag=witch_3] run summon armor_stand ~ ~ ~ {CustomName:'[{"text":"witch_3 the Appalling","color":"#0099cc"}]',Invisible:1b,Marker:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["spawnwitchbox","boss_marker"]}
 
-
-
-
-execute as @s[scores={bossTick=1}] run effect give @s[distance=..20] minecraft:slowness 24 3 true
-execute as @s[scores={bossTick=1}] run effect give @a minecraft:mining_fatigue 999 2 true
 
 
 execute as @s[scores={bossTick=10}] run say Here we go again...
@@ -105,6 +100,14 @@ execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_bloc
 execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_block.resonate ambient @a ~ ~ ~ 20 .1
 execute as @s[scores={bossTick=485..490}] run particle minecraft:explosion_emitter ~1 ~1 ~ 0.2 1 0.2 0.1 1
 
-execute as @s[scores={bossTick=500,},tag=witch_1] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:250f,Tags:["boss.witch","witch_1","boss"],CustomName:'{"color":"#FF0033","text":"witch_1 the Alluring"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:250},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
-execute as @s[scores={bossTick=500,},tag=witch_2] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:250f,Tags:["boss.witch","witch_2","boss"],CustomName:'{"color":"#9966cc","text":"witch_2 the Devious"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:250},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
-execute as @s[scores={bossTick=500,},tag=witch_3] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:250f,Tags:["boss.witch","witch_3","boss"],CustomName:'{"color":"#0099cc","text":"witch_3 the Appalling"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:250},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute as @s[scores={bossTick=500,},tag=witch_1] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_1","boss"],CustomName:'{"color":"#FF0033","text":"witch_1 the Alluring"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute as @s[scores={bossTick=500,},tag=witch_2] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_2","boss"],CustomName:'{"color":"#9966cc","text":"witch_2 the Devious"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute as @s[scores={bossTick=500,},tag=witch_3] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_3","boss"],CustomName:'{"color":"#0099cc","text":"witch_3 the Appalling"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute if score @s bossTick matches 500 store result entity @e[limit=1,tag=boss.witch] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get witch.boss.health INT
+
+execute if score @s bossTick matches 500 run bossbar set minecraft:boss.witch players @a[distance=..32,tag=fighting.witch]
+execute if score @s bossTick matches 500 run tag @s add phase_2
+execute if score @s bossTick matches 500 run tag @s remove phase_1
+execute if score @s bossTick matches 500 store result bossbar minecraft:boss.witch max run scoreboard players get witch.boss.health INT
+execute if score @s bossTick matches 500 store result bossbar minecraft:boss.witch value run scoreboard players get witch.boss.health INT
+execute if score @s bossTick matches 500 run scoreboard players set @s bossTick 0

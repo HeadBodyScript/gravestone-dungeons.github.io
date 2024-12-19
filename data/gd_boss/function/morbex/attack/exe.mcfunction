@@ -13,6 +13,7 @@ execute as @s[scores={tick=1},tag=!potion] if score @s randomNumber matches 3 ru
 execute as @s[scores={tick=1}] if score @s randomNumber matches 2 run function gd_boss:morbex/attack/morbex_summon
 execute as @s[scores={tick=1}] if score @s randomNumber matches 1 run function gd_enchantment:void_sphere/summon
 
+execute store result bossbar boss.morbex value run data get entity @s Health
 
 # execute as @s[scores={tick=1}] run say hi
 
