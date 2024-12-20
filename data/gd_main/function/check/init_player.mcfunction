@@ -22,3 +22,6 @@ scoreboard players set @s rune.safe_fall_MAX 10
 
 scoreboard players set @s mana_max 3200
 scoreboard players set @s mana_boost 1
+
+scoreboard players operation @s enchantment.knife_pouch_MAX = DAGGER.max INT
+scoreboard players operation @s enchantment.knife_pouch_recharge = DAGGER.reload INT

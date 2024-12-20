@@ -34,3 +34,6 @@ execute if predicate gd_main:armor_netherite run effect give @s health_boost 5 0
 
 scoreboard players enable @s settings
 execute if score @s settings matches 1.. run function gd_main:check/settings
+
+execute unless score @s enchantment.knife_pouch_INT = @s enchantment.knife_pouch_MAX run scoreboard players add @s enchantment.knife_pouch_recharge 1
+execute if score @s enchantment.knife_pouch_recharge = DAGGER.reload INT run function gd_enchantment:knife_pouch/other/recharge

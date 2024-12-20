@@ -24,7 +24,7 @@ scoreboard players set ARCANE.mana INT 0
 scoreboard players set ARCANE.node INT 0
 
 # knife pouch
-scoreboard players set DAGGER.reload INT 10
+scoreboard players set DAGGER.reload INT 300
 scoreboard players set DAGGER.cooldown INT 5
 scoreboard players set DAGGER.max INT 5
 
