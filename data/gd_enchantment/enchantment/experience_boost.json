@@ -1,5 +1,5 @@
 {
-	"anvil_cost": 12,
+	"anvil_cost": 4,
 	"description": {
 		"translate": "enchantment.minecraft.experience_boost",
 		"fallback": "Experience Boost"
@@ -31,13 +31,13 @@
 	  ]
 	},
 	"max_cost": {
-	  "base": 15,
-	  "per_level_above_first": 1
+	  "base": 10,
+	  "per_level_above_first": 10
 	},
 	"max_level": 3,
 	"min_cost": {
-	  "base": 65,
-	  "per_level_above_first": 0
+	  "base": 25,
+	  "per_level_above_first": 10
 	},
 	"slots": [
 	  "mainhand"

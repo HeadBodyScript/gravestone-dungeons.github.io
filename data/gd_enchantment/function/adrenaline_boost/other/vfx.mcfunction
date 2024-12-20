@@ -1,1 +1,1 @@
-particle minecraft:falling_spore_blossom ~ ~1 ~ .2 .5 .2 0.1 5
+particle minecraft:falling_spore_blossom ~ ~1 ~ .2 .5 .2 0.1 1

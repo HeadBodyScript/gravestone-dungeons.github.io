@@ -1,4 +1,4 @@
-execute if score @s enchantment.adrenaline_boost_INT matches 120 run function gd_enchantment:adrenaline_boost/other/vfx
-execute unless predicate gd_main:is_sneaking if score @s enchantment.adrenaline_boost_INT matches 120 run function gd_enchantment:adrenaline_boost/success
-execute if predicate gd_main:is_sneaking unless score @s enchantment.adrenaline_boost_CD matches 0.. unless score @s enchantment.adrenaline_boost_INT matches 120 run scoreboard players add @s enchantment.adrenaline_boost_INT 1
+execute if score @s enchantment.adrenaline_boost_INT matches 60 run function gd_enchantment:adrenaline_boost/other/vfx
+execute unless predicate gd_main:is_sneaking if score @s enchantment.adrenaline_boost_INT matches 60 run function gd_enchantment:adrenaline_boost/success
+execute if predicate gd_main:is_sneaking unless score @s enchantment.adrenaline_boost_CD matches 0.. unless score @s enchantment.adrenaline_boost_INT matches 60 run scoreboard players add @s enchantment.adrenaline_boost_INT 1
 execute unless predicate gd_main:is_sneaking run scoreboard players set @s enchantment.adrenaline_boost_INT 0

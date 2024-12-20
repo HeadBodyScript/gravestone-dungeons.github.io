@@ -9,14 +9,14 @@
 	  "offhand"
 	],
 	"weight": 1,
-	"anvil_cost": 0,
+	"anvil_cost": 12,
 	"min_cost": {
-	  "base": 1,
-	  "per_level_above_first": 0
+	  "base": 10,
+	  "per_level_above_first": 10
 	},
 	"max_cost": {
-	  "base": 1,
-	  "per_level_above_first": 0
+	  "base": 25,
+	  "per_level_above_first": 10
 	},
 	"max_level": 1,
 	"effects": {
