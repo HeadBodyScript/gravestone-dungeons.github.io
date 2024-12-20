@@ -1,6 +1,6 @@
 tag @s add enchantment.knife_pouch
 summon armor_stand ^ ^ ^-1.05 {DisabledSlots:4144959,Pose:{RightArm:[0f,0f,327f]},ShowArms:1b,Invisible:1b,NoGravity:1b,Tags:["projectile_knife"]}
-scoreboard players operation @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] UUID = @s UUID
+scoreboard players operation @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] enchantment.knife_pouch_UUID = @s UUID
 
 item replace entity @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] weapon.mainhand from entity @e[limit=1,tag=enchantment.knife_pouch] weapon.mainhand
 execute run tp @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] ~ ~ ~ ~ ~
