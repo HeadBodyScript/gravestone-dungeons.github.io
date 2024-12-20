@@ -36,11 +36,9 @@ tellraw @s[scores={talked_to_villager=500}] ["",{"selector":"@e[type=minecraft:v
 execute as @s[scores={talked_to_villager=500}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.yes player @p ~ ~ ~ 80
 
 tellraw @s[scores={talked_to_villager=1100}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Now my break is over and I'll move on."}]
-tellraw @s[scores={talked_to_villager=1200}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Maybe we will meet again. You can meet me at Direwood Keep sometimes."}]
-tellraw @s[scores={talked_to_villager=1250}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I wish you a great journey."}]
-tellraw @s[scores={talked_to_villager=1280}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Bye!"}]
-execute as @s[scores={talked_to_villager=1280}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @p ~ ~ ~ 80
-
-tellraw @s[scores={talked_to_villager=1280}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I will move on. you can find me in the maintower at Direwood Keep. Bye!"}]
+tellraw @s[scores={talked_to_villager=1200}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Maybe we will meet again. You can meet me in the maintower at Direwood Keep sometimes."}]
+tellraw @s[scores={talked_to_villager=1300}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I wish you a great journey."}]
+execute as @s[scores={talked_to_villager=1300}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @p ~ ~ ~ 80
+tellraw @s[scores={talked_to_villager=1350}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Bye!"}]
 
 execute as @s[scores={talked_to_villager=1280}] run function gd_main:text/talking_to/ysembert/ysembert_stop
