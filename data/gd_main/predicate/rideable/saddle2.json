@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "vehicle": {
+      "slots": {
+        "horse.saddle": {
+          "items": "minecraft:saddle",
+          "components": {
+            "minecraft:custom_data": "{saddle_2:1b}"
+          }
+        }
+      }
+    }
+  }
+}

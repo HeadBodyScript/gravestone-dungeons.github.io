@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "vehicle": {
+      "type": "#gd_main:rideable",
+      "equipment": {
+        "body": {
+          "items": "minecraft:leather_horse_armor",
+          "components": {
+            "minecraft:custom_data": "{armor_1:1b,jump_4:1b}"
+          }
+        }
+      }
+    }
+  }
+}

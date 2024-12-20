@@ -1,5 +1,5 @@
 {
-	"anvil_cost": 0,
+	"anvil_cost": 12,
 	"description": {
 		"translate": "enchantment.minecraft.experience_boost",
 		"fallback": "Experience Boost"
@@ -31,17 +31,17 @@
 	  ]
 	},
 	"max_cost": {
-	  "base": 1,
+	  "base": 15,
 	  "per_level_above_first": 1
 	},
-	"max_level": 1,
+	"max_level": 3,
 	"min_cost": {
-	  "base": 1,
+	  "base": 65,
 	  "per_level_above_first": 0
 	},
 	"slots": [
 	  "mainhand"
 	],
-	"supported_items": "#minecraft:pickaxes",
-	"weight": 2
+	"supported_items": "#gd_main:weapon_melee_range",
+	"weight": 1
   }
