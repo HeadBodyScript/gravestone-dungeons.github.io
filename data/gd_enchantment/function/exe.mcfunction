@@ -53,7 +53,7 @@ execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players rem
 # lightling
 
 # poisoning
-execute as @e[tag=poisoning] at @s run function gd_enchantment:poisoning/other/vfx
+execute as @e[scores={enchantment.poisoning_VFX=0..}] at @s run function gd_enchantment:poisoning/other/vfx
 
 # potion_bag
 
