@@ -43,6 +43,8 @@ execute as @e[scores={enchantment.knife_pouch_VFX=0..}] at @s run function gd_en
 execute as @a[scores={enchantment.knife_pouch_CD=0..}] run scoreboard players remove @s enchantment.knife_pouch_CD 1
 
 # levitation
+execute as @e[scores={enchantment.levitation_TD=0..}] at @s run function gd_enchantment:levitation/other/vfx
+execute as @a[scores={enchantment.levitation_CD=0..}] run scoreboard players remove @s enchantment.levitation_CD 1
 
 # light_wave
 execute as @e[scores={enchantment.light_wave_VFX=0..},tag=!projectile.light_wave] at @s run function gd_enchantment:light_wave/other/hit_vfx

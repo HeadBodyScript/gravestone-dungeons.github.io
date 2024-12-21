@@ -1,5 +1,3 @@
-playsound minecraft:entity.evoker.prepare_summon block @a ~ ~ ~ 2 0.5
-effect give @s minecraft:levitation 2 1 true
-particle minecraft:poof ~ ~0.1 ~ 1 3 1 0.01 8
-effect give @s minecraft:slow_falling 4 1 true
-scoreboard players remove @s mana 1
+scoreboard players remove @s mana 400
+scoreboard players set @s enchantment.levitation_TD 0
+scoreboard players set @s enchantment.levitation_CD 35
