@@ -1,7 +1,7 @@
 {
 	"description": {
 		"translate": "enchantment.minecraft.warpstrike",
-		"fallback": "Warpstrike test"
+		"fallback": "Warpstrike"
 	  },
 	"supported_items": "#minecraft:enchantable/trident",
 	"slots": [

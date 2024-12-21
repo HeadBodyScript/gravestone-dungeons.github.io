@@ -1,3 +1,3 @@
 advancement revoke @s only gd_enchantment:bonecaller
-execute if predicate gd_main:is_sneaking unless score @s enchantment.bonecaller_CD matches 0.. if score @s mana matches 20.. run function gd_enchantment:bonecaller/success1
-execute unless predicate gd_main:is_sneaking unless score @s enchantment.bonecaller_CD matches 0.. if score @s mana matches 20.. run function gd_enchantment:bonecaller/success0
+execute if predicate gd_main:is_sneaking unless score @s enchantment.bonecaller_CD matches 0.. if score @s mana matches 2400.. run function gd_enchantment:bonecaller/success1
+execute unless predicate gd_main:is_sneaking unless score @s enchantment.bonecaller_CD matches 0.. if score @s mana matches 2400.. run function gd_enchantment:bonecaller/success0

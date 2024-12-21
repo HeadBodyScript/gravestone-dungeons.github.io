@@ -11,5 +11,5 @@ effect give @e[distance=.5..5] minecraft:wither 10 1 true
 effect give @e[distance=.5..5] minecraft:darkness 5 0 true
 effect give @e[distance=.5..5] minecraft:slowness 5 2 true
 
-scoreboard players remove @s mana 30
+scoreboard players remove @s mana 2400
 scoreboard players set @s enchantment.bonecaller_CD 300

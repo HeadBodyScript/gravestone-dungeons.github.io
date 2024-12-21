@@ -86,6 +86,7 @@ execute as @a[scores={enchantment.void_sphere_CD=0..}] run scoreboard players re
 execute as @e[tag=void_sphere] at @s run function gd_enchantment:void_sphere/other/td
 
 # warpstrike
+execute as @e[scores={enchantment.warpstrike_VFX=0..}] at @s run function gd_enchantment:warpstrike/vfx
 
 # withering
 execute as @e[scores={enchantment.withering_VFX=0..}] at @s run function gd_enchantment:withering/other/vfx

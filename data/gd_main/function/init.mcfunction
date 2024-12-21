@@ -91,6 +91,8 @@ scoreboard objectives add enchantment.veil_of_shadows_CD dummy
 scoreboard objectives add enchantment.void_sphere_TD dummy
 scoreboard objectives add enchantment.void_sphere_CD dummy
 
+scoreboard objectives add enchantment.warpstrike_VFX dummy
+
 scoreboard objectives add enchantment.withering_VFX dummy
 scoreboard objectives add enchantment.withering_INT dummy
 

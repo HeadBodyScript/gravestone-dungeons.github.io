@@ -1,2 +1,2 @@
-# title @s actionbar [{"text":"Fire Burst at "},{"score":{"name":"@s","objective":"damage_blocked_by_shield"}},{"text":"%."}]
+title @s actionbar [{"text":"Fire Burst at "},{"score":{"name":"@s","objective":"damage_blocked_by_shield"}},{"text":"%."}]
 execute if score @s damage_blocked_by_shield matches 200 run function gd_enchantment:fire_burst/success

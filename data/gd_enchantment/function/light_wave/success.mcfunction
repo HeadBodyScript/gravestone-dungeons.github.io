@@ -1,5 +1,5 @@
 scoreboard players set @s enchantment.light_wave_CD 250
-scoreboard players remove @s mana 200
+scoreboard players remove @s mana 8000
 effect give @s slowness 1 5 true
 playsound minecraft:entity.illusioner.prepare_blindness ambient @a ~ ~ ~ 20 .1
 particle minecraft:end_rod ^ ^.5 ^ 0.2 0.5 0.2 .05 5
@@ -20,3 +20,4 @@ execute as @e[tag=projectile.light_wave5] at @s run tp @s ^.15 ^ ^ ~-2 ~
 execute as @e[tag=projectile.light_wave6] at @s run tp @s ^.3 ^ ^ ~-4 ~
 execute as @e[tag=projectile.light_wave7] at @s run tp @s ^-.45 ^ ^ ~-5 ~
 execute as @e[tag=projectile.light_wave] unless score @s enchantment.light_wave_VFX matches 0.. run scoreboard players set @s enchantment.light_wave_VFX 0
+execute as @e[tag=projectile.light_wave] unless score @s enchantment.light_wave_TD matches 0.. run scoreboard players set @s enchantment.light_wave_TD 0

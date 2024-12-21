@@ -3,4 +3,4 @@ summon armor_stand ~1 ~6 ~1 {Invisible:1b,Marker:1b,Small:1b,Invulnerable:1b,NoG
 summon armor_stand ~-1 ~6 ~-1 {Invisible:1b,Marker:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["projectile.star_shower","star_shower"]}
 summon armor_stand ~ ~5 ~ {Invisible:1b,Marker:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["projectile.star_shower","star_shower"]}
 scoreboard players set @s enchantment.star_shower_CD 2700
-scoreboard players remove @s mana 300
+scoreboard players remove @s mana 12000

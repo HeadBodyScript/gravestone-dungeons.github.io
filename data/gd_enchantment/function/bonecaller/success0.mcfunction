@@ -8,4 +8,4 @@ effect give @s minecraft:hunger 15 0 true
 playsound minecraft:entity.vex.ambient player @a ~ ~ ~ 60 1
 particle minecraft:portal ~ ~1 ~ 0.1 0.1 0.1 5 500
 scoreboard players set @s enchantment.bonecaller_CD 600
-scoreboard players remove @s mana 30
+scoreboard players remove @s mana 2400

@@ -1,2 +1,2 @@
 advancement revoke @s only gd_enchantment:illumination
-execute if score @s mana matches 100.. unless score @s enchantment.illumination_CD matches 0.. run function gd_enchantment:illumination/success
+execute if score @s mana matches 4000.. unless score @s enchantment.illumination_CD matches 0.. run function gd_enchantment:illumination/success
