@@ -72,11 +72,13 @@ execute as @e[tag=star_shower] at @s run function gd_enchantment:star_shower/oth
 execute as @a[scores={enchantment.star_shower_CD=0..}] run scoreboard players remove @s enchantment.star_shower_CD 1
 
 # telekinesis
+execute as @a[scores={enchantment.telekinesis_CD=0..}] run scoreboard players remove @s enchantment.telekinesis_CD 1
 
 # tongue_of_fire
 execute as @e[scores={enchantment.tongue_of_fire_VFX=0..}] at @s run function gd_enchantment:tongue_of_fire/other/vfx
 
 # veil_of_shadows
+execute as @a[scores={enchantment.veil_of_shadows_CD=0..}] run scoreboard players remove @s enchantment.veil_of_shadows_CD 1
 
 # void_sphere
 execute as @a[scores={enchantment.void_sphere_CD=0..}] run scoreboard players remove @s enchantment.void_sphere_CD 1

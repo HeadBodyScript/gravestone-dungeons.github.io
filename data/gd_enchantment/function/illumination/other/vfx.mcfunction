@@ -11,4 +11,4 @@ execute as @s[scores={enchantment.illumination_VFX=5}] run summon firework_rocke
 execute as @s[scores={enchantment.illumination_VFX=7}] run summon firework_rocket ~ ~5 ~ {Silent:1b,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"star",has_trail:true,colors:[I;16773757],fade_colors:[I;16777215]}]}}}}
 execute as @s[scores={enchantment.illumination_VFX=9}] run summon firework_rocket ~ ~5 ~ {Silent:1b,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"star",has_trail:true,colors:[I;16773757],fade_colors:[I;16777215]}]}}}}
 execute as @s[scores={enchantment.illumination_VFX=15}] run particle minecraft:firework ^ ^-3 ^ 0.1 0.1 0.1 .2 4
-execute as @s[scores={enchantment.illumination_VFX=15}] run scoreboard players reset @s enchantment.illumination_VFX
+execute as @s[scores={enchantment.illumination_VFX=25}] run scoreboard players reset @s enchantment.illumination_VFX

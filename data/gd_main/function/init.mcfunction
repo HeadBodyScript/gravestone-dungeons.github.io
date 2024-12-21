@@ -80,8 +80,13 @@ scoreboard objectives add enchantment.star_shower_CD dummy
 scoreboard objectives add enchantment.star_shard_CD dummy
 scoreboard objectives add enchantment.star_shard_TD dummy
 
+scoreboard objectives add enchantment.telekinesis_CD dummy
+
 scoreboard objectives add enchantment.tongue_of_fire_INT dummy
 scoreboard objectives add enchantment.tongue_of_fire_VFX dummy
+
+scoreboard objectives add enchantment.veil_of_shadows_INT dummy
+scoreboard objectives add enchantment.veil_of_shadows_CD dummy
 
 scoreboard objectives add enchantment.void_sphere_TD dummy
 scoreboard objectives add enchantment.void_sphere_CD dummy

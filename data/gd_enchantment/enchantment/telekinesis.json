@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd_enchantment:telekinesis/stat"
+			"function": "gd_enchantment:telekinesis/tick"
 		  }
 		}
 	  ]
