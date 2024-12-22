@@ -16,7 +16,7 @@ scoreboard players set @s rune.safe_fall 0
 
 scoreboard players set @s rune.block_interaction_range_MAX 10
 scoreboard players set @s rune.max_health_MAX 20
-scoreboard players set @s rune.max_mana_MAX 12800
+scoreboard players set @s rune.max_mana_MAX 16000
 scoreboard players set @s rune.oxygen_bonus_MAX 10
 scoreboard players set @s rune.safe_fall_MAX 10
 

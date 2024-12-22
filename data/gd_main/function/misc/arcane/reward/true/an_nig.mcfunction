@@ -1,4 +1,4 @@
-tellraw @s [{"text":"You walk under the sign of night vision.","color":"gray"}]
+tellraw @s [{"text":"You walk under the sign of night vision.","color":"green"}]
 particle minecraft:end_rod ~ ~1 ~ 0.5 1 0.5 0.05 20 force
 
 function gd_main:misc/arcane/reward/an_stop

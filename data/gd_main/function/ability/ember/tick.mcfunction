@@ -1,7 +1,7 @@
 scoreboard players add @s tick 1
 
 execute as @e[type=#gd_main:entity,distance=..5] run function gd_main:ability/ember/damage
-function gd_main:ability/ember/particle
+#function gd_main:ability/ember/particle
 particle small_flame ~ ~1.5 ~ 2 2 2 0.001 1 force
 execute as @e[type=arrow,nbt=!{inGround:1b},distance=..5] run data merge entity @s {Fire:300s}
 

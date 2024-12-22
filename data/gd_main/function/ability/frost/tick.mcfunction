@@ -4,7 +4,7 @@ scoreboard players add @s tick 1
 
 # change #mobs to all enties that can be affected (including arrows)
 execute as @e[type=#gd_main:entity,distance=..5] run function gd_main:ability/frost/damage
-function gd_main:ability/frost/particle
+# function gd_main:ability/frost/particle
 particle falling_dust{block_state:{Name:snow}} ~ ~2 ~ 2 2 2 0 1 force
 execute as @e[type=arrow,nbt=!{inGround:1b},distance=..5] run data merge entity @s {Fire:0s}
 
