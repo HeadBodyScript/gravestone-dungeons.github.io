@@ -38,3 +38,4 @@ execute as @a at @s as @e[tag=companion,distance=24..] if score @s UUID = @p UUI
 # use tag to define what a companion can attack
 # use a yhony
 # use UUID link
+
