@@ -1,6 +1,9 @@
 scoreboard players add @s tick 1
-tp @s ^ ^ ^.8 ~ ~
-tp @s ^ ^ ^ facing entity @e[type=!player,limit=1,sort=random] feet
+tp @e[type=armor_stand,limit=1,sort=random,tag=VFX.spark] ^ ^ ^2 ~ ~
+
+#execute as @e[type=armor_stand,tag=VFX.spark] at @s run tp @e[type=armor_stand,tag=VFX.spark,sort=random,limit=1] ^ ^ ^.8 ~ ~
+
+execute if score @s tick matches 1 run tp @s ^ ^ ^ facing entity @e[type=!player,limit=1,sort=random] feet
 execute if score @s tick matches 1..5 run particle minecraft:flash ^0 ^0 ^0 0.1 0 0.1 0 10 force
 execute if score @s tick matches 1..5 run particle minecraft:infested ^0 ^0 ^0 .1 1 .1 0 15 force
 execute if score @s tick matches 1.. run particle minecraft:gust ^0 ^0 ^0 0.1 0 0.1 0 1 force

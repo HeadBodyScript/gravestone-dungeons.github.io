@@ -32,3 +32,9 @@ execute as @s[tag=conjure_dire_wolf] at @s run function gd_main:misc/companion/d
 execute as @s[tag=conjure_frost_golem] at @s run function gd_main:misc/companion/frost_golem
 execute as @s[tag=conjure_fire_golem] at @s run function gd_main:misc/companion/fire_golem
 execute as @s[tag=conjure_poison_golem] at @s run function gd_main:misc/companion/poison_golem
+
+# BOSS
+execute as @e[type=armor_stand,tag=experience_enemy] at @s run function gd_boss:xp/experience_enemy
+execute as @e[type=armor_stand,tag=experience_great_enemy] at @s run function gd_boss:xp/experience_great_enemy
+execute as @e[type=armor_stand,tag=experience_major_enemy] at @s run function gd_boss:xp/experience_major_enemy
+execute as @e[type=armor_stand,tag=experience_legendary_enemy] at @s run function gd_boss:xp/experience_legendary_enemy
