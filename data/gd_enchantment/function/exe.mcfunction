@@ -49,7 +49,7 @@ execute as @a[scores={enchantment.levitation_CD=0..}] run scoreboard players rem
 # light_wave
 execute as @e[scores={enchantment.light_wave_VFX=0..},tag=!projectile.light_wave] at @s run function gd_enchantment:light_wave/other/hit_vfx
 execute as @e[scores={enchantment.light_wave_VFX=0..},tag=projectile.light_wave] at @s run function gd_enchantment:light_wave/other/hit_vfx
-execute as @a[scores={enchantment.light_wave_TD=0..}] at @s run function gd_enchantment:light_wave/other/vfx
+execute as @e[scores={enchantment.light_wave_TD=0..}] at @s run function gd_enchantment:light_wave/other/vfx
 execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players remove @s enchantment.light_wave_CD 1
 
 # lightling
