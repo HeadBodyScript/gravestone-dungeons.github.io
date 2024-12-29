@@ -6,7 +6,6 @@ execute as @e[type=minecraft:evoker,limit=1,sort=nearest,tag=boss.grimgar] run k
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick
 bossbar set minecraft:boss.grimgar players
-execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32] at @s run setblock ~ ~ ~ air
 execute at @s as @e[type=minecraft:armor_stand,tag=skull.grimgar,distance=..32] at @s run kill @s
 
 summon item ~ ~1 ~ {Item:{id:skeleton_skull,count:1,components:{custom_name:'[{"text":"Grimgars Necromacer Mask","italic":true,"color":"#006969"}]',lore:['[{"color":"gray","italic":false,"text":"Irrefutable proof, that Grimgar"}]','[{"color":"gray","italic":false,"text":"has been vanquished."}]'],custom_model_data:1,custom_data:{boss_lvl_2:1b},enchantments:{levels:{binding_curse:1}},attribute_modifiers:{modifiers:[{type:"generic.armor",amount:10,slot:head,operation:add_value,id:"520c93ff-747a-438f-b6d9-b9bb75727381"}]},enchantment_glint_override:false,max_stack_size:1}},Motion:[0.0,0.3,0.0]}

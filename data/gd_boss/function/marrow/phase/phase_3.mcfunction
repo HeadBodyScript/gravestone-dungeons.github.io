@@ -1,7 +1,7 @@
 execute if score @s bossTick matches 1 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 10 .7
-execute if score @s bossTick matches 1 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : You performed well! You are a worthy challenger. I'm thrilled."}] 
-execute if score @s bossTick matches 80 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : Looks like I'll have an interesting fight after all..."}] 
-execute if score @s bossTick matches 140 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"gold"},{"text":" : Get ready."}] 
+execute if score @s bossTick matches 1 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : You performed well! You are a worthy challenger. I'm thrilled."}] 
+execute if score @s bossTick matches 80 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : Looks like I'll have an interesting fight after all..."}] 
+execute if score @s bossTick matches 140 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : Get ready."}] 
 execute if score @s bossTick matches 140 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 10 .7
 execute if score @s bossTick matches 150 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 10 .9
 execute if score @s bossTick matches 170 run playsound minecraft:entity.ravager.stunned ambient @a[distance=..20] ~ ~ ~ 10 0.5
@@ -17,6 +17,7 @@ execute if score @s bossTick matches 175 store result bossbar minecraft:boss.mar
 execute if score @s bossTick matches 175 run bossbar set minecraft:boss.marrow players @a[tag=fighting.marrow]
 execute if score @s bossTick matches 160 run playsound minecraft:block.sculk_shrieker.shriek master @a ~ ~ ~ 10 1.5
 execute if score @s bossTick matches 175 run playsound minecraft:entity.elder_guardian.curse master @a ~ ~ ~ 10 0.1
+execute if score @s bossTick matches 175 run effect clear @e[type=minecraft:wither_skeleton,tag=boss.marrow,limit=1,sort=nearest] minecraft:resistance
 execute if score @s bossTick matches 180 run tag @s add phase_4
 execute if score @s bossTick matches 180 run tag @s remove phase_3
 execute if score @s bossTick matches 180 run scoreboard players set @s bossTick 0

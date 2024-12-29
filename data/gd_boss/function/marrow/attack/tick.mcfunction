@@ -5,6 +5,7 @@ execute if score @s[tag=!leap] tick matches 1 if score @s randomNumber matches 1
 execute if score @s[tag=!shout] tick matches 1 if score @s randomNumber matches 2 run tag @s add shout
 execute if score @s[tag=!throw] tick matches 1 if score @s randomNumber matches 3 run tag @s add throw
 execute if score @s[tag=!warp] tick matches 1 if score @s randomNumber matches 4 run tag @s add warp
+# execute if score @s tick matches 1 if score @s randomNumber matches 5 run function gd_boss:marrow/other/text
 execute if score @s tick = marrow.boss.attack.cooldown INT run scoreboard players set @s tick 0
 execute as @s[tag=leap] run function gd_boss:marrow/attack/attack_leap
 execute as @s[tag=shout] run function gd_boss:marrow/attack/attack_shout

@@ -40,7 +40,7 @@ execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.
 execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~2 ~ barrier
 execute if score @s bossTick matches 150 at @p[tag=fighting.grimgar] run tp @a[tag=fighting.grimgar] ~ ~ ~
 execute if score @s bossTick matches 150.. at @e[type=armor_stand,tag=grimgar_wall] run particle dust_color_transition{from_color: [.1f, .4f, .9f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~.5 ~ .2 2 .2 0 1 force
-execute if score @s bossTick matches 150 run playsound minecraft:skellige_battle_grimgar record @a ~ ~1 ~ 50
+execute if score @s bossTick matches 150 run playsound minecraft:skellige_battle_grimgar record @a[distance=..32] ~ ~1 ~ 50
 execute if score @s bossTick matches 170 run playsound minecraft:entity.pillager.celebrate ambient @a ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 170 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 180 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}

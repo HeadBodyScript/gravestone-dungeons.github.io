@@ -16,7 +16,9 @@ execute if score @s tick1 matches 40 at @s as @a[distance=..2] run damage @s 10 
 execute if score @s tick1 matches 40 at @s run effect give @a[distance=..35] minecraft:darkness 5 0 false
 execute if score @s tick1 matches 40 at @s as @a[distance=..2] run damage @s 5 minecraft:freeze
 execute if score @s tick1 matches 40 at @s run effect give @a[distance=..40] minecraft:hunger 15 0 false
-# maybe spawn a few extra minnions during this attack?
+
+execute if score @s tick1 matches 40 as @e[type=minecraft:marker,distance=..32,tag=marker.minion,limit=2,sort=random] at @s run function gd_boss:marrow/other/minion
+
 execute if score @s tick1 matches 40 at @s run effect give @e[tag=minion.marrow,distance=..15] minecraft:strength 10 2 false
 execute if score @s tick1 matches 40.. at @s run particle minecraft:damage_indicator ~ ~ ~ .2 1 .2 0.1 6
 execute if score @s tick1 matches 80 run tag @s remove shout
