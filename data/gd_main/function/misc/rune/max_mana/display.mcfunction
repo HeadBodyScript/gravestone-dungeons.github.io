@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.max_mana"}},{"text":" / "},{"score":{"name":"@s","objective":"rune.max_mana_MAX"}},{"text":" Mana","color":"#336699"}]

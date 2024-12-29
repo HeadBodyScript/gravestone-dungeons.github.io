@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.oxygen_bonus"}},{"text":" / "},{"score":{"name":"@s","objective":"rune.oxygen_bonus_MAX"}},{"text":" % Oxygen","color":"#66CCFF"}]

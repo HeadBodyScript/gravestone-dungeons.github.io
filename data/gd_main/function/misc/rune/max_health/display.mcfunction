@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.max_health"}},{"text":" / "},{"score":{"name":"@s","objective":"rune.max_health_MAX"}},{"text":" Health","color":"#E02828"}]

@@ -1,0 +1,2 @@
+title @s actionbar [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.block_interaction_range"}},{"text":" / "},{"score":{"name":"@s","objective":"rune.block_interaction_range_MAX"}},{"text":" Block Interaction Range","color":"#9933FF"}]
+# rune.block_interaction_range_MAX
