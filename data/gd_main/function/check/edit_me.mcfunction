@@ -49,8 +49,7 @@ scoreboard players set companion.TD INT 800
 # this will change hard coded variables
 # 1 = easy  2 = normal  3 = hard
 
-scoreboard players set devil.boss.health INT 1000
-scoreboard players set devil.boss.attack.cooldown INT 300
+
 
 # GRIMGAR
 scoreboard players set grimgar.boss.health INT 300
@@ -81,9 +80,16 @@ scoreboard players set witch.attack.cooldown INT 400
 # data modify storage minecraft:devil attack_cd set value 20.0d
 execute store result score difficulty INT run difficulty
 
+scoreboard players set devil.boss.health INT 300
+scoreboard players set devil.boss.attack.cooldown INT 300
+
 execute if score difficulty INT matches 1 run scoreboard players set BONUS INT 0
 execute if score difficulty INT matches 2 run scoreboard players set BONUS INT 100
 execute if score difficulty INT matches 3 run scoreboard players set BONUS INT 300
+
+
+
+
 
 # scoreboard players add devil.boss.health INT 1000
 # scoreboard players set devil.boss.attack.cooldown INT 300

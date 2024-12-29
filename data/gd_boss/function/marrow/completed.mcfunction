@@ -1,5 +1,5 @@
 tag @s add FALSE
-execute at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=marrow] at @a[distance=..60] run summon armor_stand ~ ~1 ~ {Invisible:1b,ShowArms:0b,Marker:1b,NoBasePlate:1b,Small:1b,Tags:["experience_major_enemy"]}
+execute at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=marrow] at @a[distance=..64] run summon armor_stand ~ ~1 ~ {Invisible:1b,ShowArms:0b,Marker:1b,NoBasePlate:1b,Small:1b,Tags:["experience_major_enemy"]}
 
 execute at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=marrow] run setblock ~ ~ ~ air
 
@@ -21,7 +21,9 @@ scoreboard players add @a bardquestcounter 0
 
 # kill @e[type=villager,tag=cedric,sort=nearest,limit=1,distance=..200]
 
-execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..128,limit=1,sort=nearest] at @s run kill @s
 function gd_boss:marrow/reset
 
-tag @a remove fighting.marrow
+execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..32,limit=1,sort=nearest] at @s run kill @s
+# execute at @s as @e[type=minecraft:marker,tag=marker.minion,distance=..32,limit=5,sort=nearest] at @s run kill @s
+# execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32,limit=1,sort=nearest] at @s run kill @s
+

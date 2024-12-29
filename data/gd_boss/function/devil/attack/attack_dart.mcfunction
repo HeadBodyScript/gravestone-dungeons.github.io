@@ -1,7 +1,7 @@
 scoreboard players add @s tick1 1
 execute if score @s tick1 matches 10 at @s run summon armor_stand ~ ~ ~ {Pose:{RightArm:[0f,0f,90f]},ShowArms:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["1","attack.devil.dart"],HandItems:[{id:golden_sword},{}],HandDropChances:[0f,0f]}
 execute if score @s tick1 matches 1 run playsound minecraft:entity.blaze.shoot ambient @a ~ ~ ~ 30 .1
-execute if score @s tick1 matches 1 as @e[type=armor_stand,tag=attack.devil.dart,tag=1] at @s run tp @s ^ ^ ^ facing entity @p eyes
+execute if score @s tick1 matches 1..10 as @e[type=armor_stand,tag=attack.devil.dart,tag=1] at @s run tp @s ^ ^ ^ facing entity @p eyes
 execute if score @s tick1 matches 1..50 as @e[type=armor_stand,tag=attack.devil.dart,tag=1] at @s run tp @s ^ ^-.05 ^.7 ~ ~.5
 execute if score @s tick1 matches 50 as @e[type=armor_stand,tag=attack.devil.dart,tag=1] at @s run kill @s
 execute if score @s tick1 matches 20 at @s run summon armor_stand ~ ~ ~ {Pose:{RightArm:[0f,0f,181f]},ShowArms:1b,DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["2","attack.devil.dart"],HandItems:[{id:golden_sword},{}],HandDropChances:[0f,0f]}

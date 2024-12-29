@@ -1,12 +1,11 @@
 tag @s add FALSE
-execute at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] at @a[distance=..60] run summon armor_stand ~ ~1 ~ {Invisible:1b,ShowArms:0b,Marker:1b,NoBasePlate:1b,Small:1b,Tags:["experience_major_enemy"]}
+execute at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] at @a[distance=..64] run summon armor_stand ~ ~1 ~ {Invisible:1b,ShowArms:0b,Marker:1b,NoBasePlate:1b,Small:1b,Tags:["experience_major_enemy"]}
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] run kill @s
 execute as @e[type=minecraft:evoker,limit=1,sort=nearest,tag=boss.grimgar] run kill @s
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick
 bossbar set minecraft:boss.grimgar players
-execute at @s as @e[type=minecraft:armor_stand,tag=skull.grimgar,distance=..32] at @s run kill @s
 
 summon item ~ ~1 ~ {Item:{id:skeleton_skull,count:1,components:{custom_name:'[{"text":"Grimgars Necromacer Mask","italic":true,"color":"#006969"}]',lore:['[{"color":"gray","italic":false,"text":"Irrefutable proof, that Grimgar"}]','[{"color":"gray","italic":false,"text":"has been vanquished."}]'],custom_model_data:1,custom_data:{boss_lvl_2:1b},enchantments:{levels:{binding_curse:1}},attribute_modifiers:{modifiers:[{type:"generic.armor",amount:10,slot:head,operation:add_value,id:"520c93ff-747a-438f-b6d9-b9bb75727381"}]},enchantment_glint_override:false,max_stack_size:1}},Motion:[0.0,0.3,0.0]}
 
@@ -20,7 +19,9 @@ execute at @e[type=armor_stand,tag=armor_stand.monk] run summon villager ~ ~ ~ {
 # execute at @s as @e[type=minecraft:armor_stand,tag=armor_stand.monk,distance=..128] at @s run kill @s
 # execute at @s as @e[type=minecraft:armor_stand,tag=armor_stand.guillaume,distance=..128] at @s run kill @s
 
-execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..128,limit=1,sort=nearest] at @s run kill @s
 function gd_boss:grimgar/reset
 
-tag @a remove fighting.grimgar
+execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..32,limit=1,sort=nearest] at @s run kill @s
+# execute at @s as @e[type=minecraft:marker,tag=marker.minion,distance=..32,limit=8,sort=nearest] at @s run kill @s
+# execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32,limit=1,sort=nearest] at @s run kill @s
+

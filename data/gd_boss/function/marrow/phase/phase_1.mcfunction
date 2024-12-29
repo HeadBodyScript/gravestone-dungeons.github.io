@@ -1,8 +1,8 @@
-execute store result score @s randomNumber run random value 1..2
-tag @a add fighting.marrow
+tag @a[distance=..64] add fighting.marrow
 
 particle dust_color_transition{from_color: [.4f, .6f, .0f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~3 ~ .2 1 .2 0 30 force
 
+execute if score @s bossTick matches 10 run execute store result score @s randomNumber run random value 1..2
 execute if score @s bossTick matches 10 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.marrow] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Hmm. I'm feeling weak.. what's going on here?"}]
 execute if score @s bossTick matches 10 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.marrow] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Such an interesting place.."}]
 execute if score @s bossTick matches 60 run playsound minecraft:entity.wither_skeleton.ambient master @a ~ ~ ~ 10 0.5
@@ -57,6 +57,8 @@ execute if score @s bossTick matches 320 at @e[type=minecraft:marker,tag=marker.
 execute if score @s bossTick matches 320 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~ ~-1 barrier
 execute if score @s bossTick matches 320 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~1 ~-1 barrier
 execute if score @s bossTick matches 320 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~2 ~-1 barrier
+
+execute if score @s bossTick matches 320 at @p[tag=fighting.marrow] run tp @a[tag=fighting.marrow,distance=..64] ~ ~ ~
 
 execute if score @s bossTick matches 300.. run particle falling_dust{block_state:{Name:green_terracotta}} ~ ~2 ~ 1 3 1 0 1 force
 execute if score @s bossTick matches 290 run playsound minecraft:block.sculk_shrieker.shriek master @a ~ ~ ~ 10 .5

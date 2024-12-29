@@ -35,5 +35,7 @@ execute if score @s tick4 matches 2..150 at @e[type=armor_stand,tag=fire_wave16]
 execute if score @s tick4 matches 150 as @e[type=armor_stand,tag=fire_wavea] run kill @s
 execute if score @s tick4 matches 150 run tag @s remove wave
 scoreboard players set @s[scores={tick4=150}] tick4 0
+
 # I assume this VVV = damage the player that it hits?
-# execute as @e[type=#gd:living,tag=!Boss_Devil,tag=!devil_charge] at @e[type=armor_stand,tag=fire_wavea,limit=3,sort=random] run damage @e[tag=!Boss_Devil,tag=!devil_charge,distance=..2,limit=1] 10 on_fire
+
+execute at @e[type=armor_stand,tag=fire_wavea,limit=3,sort=random] run damage @e[tag=!boss.devil,tag=!minion.devil,distance=..2,limit=1] 10 on_fire

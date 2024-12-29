@@ -1,24 +1,53 @@
 execute as @e[type=armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=devil] at @s run function gd_boss:devil/other/vfx
-tag @a[distance=..32] add fighting.devil
+tag @a[distance=..64] add fighting.devil
 tp @s ~ ~ ~ ~10 ~
 function gd_boss:devil/other/vfx_fire_spiral
-execute if score @s bossTick matches 10 run tellraw @a[tag=fighting.devil] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : temp"}]
-execute if score @s bossTick matches 40 store result score .INT0 randomNumber run random value 1..2
+
+execute if score @s bossTick matches 10 run execute store result score @s randomNumber run random value 1..2
+execute if score @s bossTick matches 10 run tellraw @a[tag=fighting.devil] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : NO, not that feeling again..."}]
 execute if score @s bossTick matches 40 if score .INT0 randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Someone sneaked into my realm. Looking for a near end?"}] 
 execute if score @s bossTick matches 40 if score .INT0 randomNumber matches 2 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Looks like my home is infested with rat scum..."}] 
-execute if score @s bossTick matches 150 at @s[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~ ~ barrier
-execute if score @s bossTick matches 150 at @p[tag=fighting.devil] run tp @a[tag=fighting.devil,distance=..42] ~ ~ ~
-# execute if score @s bossTick matches 290}] as @s[type=armor_stand,tag=spawndevilbox] run playsound minecraft:sword_and_faith_devil record @s[distance=..30] ~ ~1 ~ 50
-execute if score @s bossTick matches 320.. run particle falling_dust{block_state:{Name:orange_wool}} ~ ~2 ~ 1 3 1 0 1 force
-execute if score @s bossTick matches 200 store result score .INT0 randomNumber run random value 1..2
+
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~ ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~1 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~2 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~3 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~4 ~ barrier
+
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~1 ~ ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~1 ~1 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~1 ~2 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~1 ~3 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~1 ~4 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~ ~1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~1 ~1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~2 ~1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~3 ~1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~4 ~1 barrier
+
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~-1 ~ ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~-1 ~1 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~-1 ~2 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~-1 ~3 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~-1 ~3 ~ barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~ ~-1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~1 ~-1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~2 ~-1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~3 ~-1 barrier
+execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run setblock ~ ~4 ~-1 barrier
+
+execute if score @s bossTick matches 150 at @p[tag=fighting.devil] run tp @a[tag=fighting.devil,distance=..64] ~ ~ ~
+
+execute if score @s bossTick matches 290 run playsound minecraft:sword_and_faith_devil record @a[distance=..48] ~ ~1 ~ 50
+execute if score @s bossTick matches 320.. run particle falling_dust{block_state:{Name:orange_wool}} ~ ~2 ~ 1 3 1 0 2 force
 execute if score @s bossTick matches 200 if score .INT0 randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Are you sure you want to stay any longer? "}] 
 execute if score @s bossTick matches 200 if score .INT0 randomNumber matches 2 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Leave or I'll burn your bones!"}] 
-execute if score @s bossTick matches 350 store result score .INT0 randomNumber run random value 1..2
 execute if score @s bossTick matches 350 if score .INT0 randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Let's see if you're fireproof. "}] 
 execute if score @s bossTick matches 350 if score .INT0 randomNumber matches 2 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : I will make sure you disappear from this realm."}] 
 execute if score @s bossTick matches 200 run playsound minecraft:entity.blaze.ambient ambient @a ~ ~ ~ 20 1
 execute if score @s bossTick matches 350 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 20 0.1
 execute if score @s bossTick matches 500 at @e[type=marker,tag=marker.minion,tag=devil,distance=..32] run function gd_boss:devil/other/minion
+
 execute if score @s bossTick matches 200..300 run particle minecraft:smoke ^-3 ^-0.5 ^ .1 .1 .1 0.05 10
 execute if score @s bossTick matches 300..400 run particle minecraft:smoke ^-2.5 ^0 ^ .1 .1 .1 0.05 15
 execute if score @s bossTick matches 400..500 run particle minecraft:smoke ^-2 ^0.5 ^ .1 .1 .1 0.05 25
