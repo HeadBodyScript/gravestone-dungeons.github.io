@@ -118,24 +118,24 @@ scoreboard objectives add rune.oxygen_bonus_MAX dummy
 scoreboard objectives add rune.safe_fall_MAX dummy
 
 # BOSS
-bossbar add boss.grimgar {"text":"Grimgar the Ferocious Bugbear","color":"gray","bold":true}
+bossbar add boss.grimgar {"text":"Grimgar the Ferocious Bugbear","color":"gray"}
 bossbar set boss.grimgar style notched_12
 bossbar set boss.grimgar color blue
 scoreboard objectives add boss.grimgar_minion dummy
 scoreboard objectives add boss.grimgar_minion_INT dummy
 
-bossbar add boss.marrow {"text":"The Blighted Marrow","color":"gray","bold":true}
+bossbar add boss.marrow {"text":"The Blighted Marrow","color":"gray"}
 bossbar set boss.marrow style notched_12
 bossbar set boss.marrow color green
 scoreboard objectives add boss.marrow_minion dummy
 scoreboard objectives add boss.marrow_minion_INT dummy
 
-bossbar add boss.devil {"text":"The Blazing Devil","color":"gray","bold":true}
+bossbar add boss.devil {"text":"The Blazing Devil","color":"gray"}
 bossbar set boss.devil style notched_12
 bossbar set boss.devil color yellow
 scoreboard objectives add boss.devil_health dummy
 
-bossbar add boss.morbex {"text":"Morbex the Voidwalker","color":"gray","bold":true}
+bossbar add boss.morbex {"text":"Morbex the Voidwalker","color":"gray"}
 bossbar set boss.morbex style notched_6
 bossbar set boss.morbex color purple
 

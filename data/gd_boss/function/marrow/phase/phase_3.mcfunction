@@ -18,6 +18,7 @@ execute if score @s bossTick matches 175 run bossbar set minecraft:boss.marrow p
 execute if score @s bossTick matches 160 run playsound minecraft:block.sculk_shrieker.shriek master @a ~ ~ ~ 10 1.5
 execute if score @s bossTick matches 175 run playsound minecraft:entity.elder_guardian.curse master @a ~ ~ ~ 10 0.1
 execute if score @s bossTick matches 175 run effect clear @e[type=minecraft:wither_skeleton,tag=boss.marrow,limit=1,sort=nearest] minecraft:resistance
+execute if score @s bossTick matches 180 run bossbar set minecraft:boss.marrow name {"text":"The Blighted Marrow","color":"gray"}
 execute if score @s bossTick matches 180 run tag @s add phase_4
 execute if score @s bossTick matches 180 run tag @s remove phase_3
 execute if score @s bossTick matches 180 run scoreboard players set @s bossTick 0

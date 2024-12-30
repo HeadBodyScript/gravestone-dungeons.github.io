@@ -10,4 +10,5 @@ execute if score @s tick0 matches 50 run data merge entity @e[tag=minion.devil,l
 # execute if score @s tick0 matches 200 run kill @e[tag=minion.devil,distance=..50,limit=1,sort=random]
 execute if score @s tick0 matches 200 run scoreboard players add @s INT 1
 execute if score @s tick0 matches 200 run tag @s remove charge
+execute if score @s tick0 matches 200 run function gd_boss:devil/attack/attack_spawner
 execute if score @s tick0 matches 200 run scoreboard players set @s tick0 0

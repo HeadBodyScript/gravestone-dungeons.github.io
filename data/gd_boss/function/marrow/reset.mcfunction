@@ -2,8 +2,6 @@ tag @s remove phase_1
 tag @s remove phase_2
 tag @s remove phase_3
 tag @s remove phase_4
-tag @s remove phase_5
-tag @s remove phase_6
 tag @s remove TRUE
 tag @s remove FALSE
 

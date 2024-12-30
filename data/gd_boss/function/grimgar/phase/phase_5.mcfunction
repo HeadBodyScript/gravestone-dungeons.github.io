@@ -15,7 +15,7 @@ execute if score @s bossTick matches 90 run effect clear @e[type=minecraft:evoke
 execute if score @s bossTick matches 1 run tellraw @a ["",{"text":"Grimgar","color":"#009999"},{"text":" : Ahhhhhrg! Buggers like you bother me here over and over again!"}]
 execute if score @s bossTick matches 90 run tellraw @a ["",{"text":"Grimgar","color":"#009999"},{"text":" : None of your predecessors will ever bother anyone again and now it's time for you to... disappear."}]
 execute if score @s bossTick matches 90 run bossbar set minecraft:boss.grimgar players @a[distance=..32,tag=fighting.grimgar]
-execute if score @s bossTick matches 90 run bossbar set minecraft:boss.grimgar name {"text":"Grimgar the Ferocious Bugbear","color":"gray","bold":true}
+execute if score @s bossTick matches 90 run bossbar set minecraft:boss.grimgar name {"text":"Grimgar the Ferocious Bugbear","color":"gray"}
 execute if score @s bossTick matches 90 run bossbar set boss.grimgar color blue
 execute if score @s bossTick matches 100 run tag @s remove phase_5
 execute if score @s bossTick matches 100 run tag @s add phase_6

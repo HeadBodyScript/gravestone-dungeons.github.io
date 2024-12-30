@@ -1,1 +1,13 @@
-say test
+execute store result score @s randomNumber run random value 1..12
+execute if score @s randomNumber matches 1 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 2 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 3 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 4 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 5 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 6 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 7 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 8 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 9 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 10 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 11 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 
+execute if score @s randomNumber matches 12 as @s run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : xxx"}] 

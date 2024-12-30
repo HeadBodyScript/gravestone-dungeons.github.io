@@ -54,40 +54,46 @@ scoreboard players set companion.TD INT 800
 # GRIMGAR
 scoreboard players set grimgar.boss.health INT 300
 scoreboard players set grimgar.mini.health INT 300
-scoreboard players set grimgar.minion.count INT 8
+# amount that the player needs to kill
+scoreboard players set grimgar.minion.count INT 12
+# amount that can spawn at the same time
+scoreboard players set grimgar.minion.max INT 8
 scoreboard players set grimgar.minion.cooldown INT 50
 scoreboard players set grimgar.attack.cooldown INT 90
 
 # MARROW
 scoreboard players set marrow.boss.health INT 300
-scoreboard players set marrow.minion.count INT 12
 # amount that the player needs to kill
-scoreboard players set marrow.minion.max INT 8
+scoreboard players set marrow.minion.count INT 24
 # amount that can spawn at the same time
+scoreboard players set marrow.minion.max INT 8
 scoreboard players set marrow.minion.cooldown INT 50
 scoreboard players set marrow.attack.cooldown INT 90
 
+# DEVIL
+scoreboard players set devil.boss.health INT 400
+scoreboard players set devil.attack.cooldown INT 250
 
+# MORBEX
 scoreboard players set morbex.boss.health INT 400
-scoreboard players set morbex.boss.cooldown INT 300
+scoreboard players set morbex.cooldown INT 250
 
 scoreboard players set witch.boss.health INT 400
 scoreboard players set witch.attack.cooldown INT 400
 
 
-# DEVIL
-# data modify storage minecraft:devil max_health set value 20.0d
-# data modify storage minecraft:devil attack_cd set value 20.0d
-execute store result score difficulty INT run difficulty
-
-scoreboard players set devil.boss.health INT 300
-scoreboard players set devil.boss.attack.cooldown INT 300
 
 execute if score difficulty INT matches 1 run scoreboard players set BONUS INT 0
 execute if score difficulty INT matches 2 run scoreboard players set BONUS INT 100
 execute if score difficulty INT matches 3 run scoreboard players set BONUS INT 300
 
 
+
+
+# DEVIL
+# data modify storage minecraft:devil max_health set value 20.0d
+# data modify storage minecraft:devil attack_cd set value 20.0d
+execute store result score difficulty INT run difficulty
 
 
 
@@ -104,15 +110,13 @@ execute if score difficulty INT matches 3 run scoreboard players set BONUS INT 3
 # # MARROW
 # scoreboard players add marrow.boss.health INT 300
 # scoreboard players set marrow.minion.count INT 12
-# # amount that the player needs to kill
 # scoreboard players set marrow.minion.max INT 8
-# # amount that can spawn at the same time
 # scoreboard players set marrow.minion.cooldown INT 50
 # scoreboard players set marrow.attack.cooldown INT 90
 
 
-scoreboard players add morbex.boss.health INT 400
-scoreboard players set morbex.boss.cooldown INT 300
+# scoreboard players add morbex.boss.health INT 400
+# scoreboard players set morbex.boss.cooldown INT 300
 
-scoreboard players add witch.boss.health INT 400
-scoreboard players set witch.attack.cooldown INT 400
+# scoreboard players add witch.boss.health INT 400
+# scoreboard players set witch.attack.cooldown INT 400

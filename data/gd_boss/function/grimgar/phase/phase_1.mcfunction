@@ -1,5 +1,6 @@
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] run tp @s ~ ~ ~ ~10 ~
-execute at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] run function gd_boss:grimgar/other/vfx_spark
+#execute at @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] run function gd_boss:grimgar/other/vfx_spark
+execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] run particle dust_color_transition{from_color: [.0f, .0f, .1f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~ ~ .1 .5 .1 0 15 force
 
 tag @a[distance=..32] add fighting.grimgar
 effect give @a[distance=..32] minecraft:slowness 1 2 true
@@ -16,7 +17,7 @@ execute if score @s bossTick matches 30..83 run particle large_smoke ^ ^-2 ^3 .1
 execute if score @s bossTick matches 81..133 run particle large_smoke ^ ^-1.75 ^2 .1 0 .1 0.01 10 force
 execute if score @s bossTick matches 131..183 run particle large_smoke ^ ^-1.5 ^2 .1 0 .1 0.01 10 force
 execute if score @s bossTick matches 181..233 run particle large_smoke ^ ^-1.25 ^1 .1 0 .1 0.01 8 force
-execute if score @s bossTick matches 231..283 run particle large_smoke ^ ^-1 ^2 .1 0 .1 0.01 8 force
+execute if score @s bossTick matches 231..283 run particle large_smoke ^ ^-1 ^1 .1 0 .1 0.01 8 force
 execute if score @s bossTick matches 281.. run particle large_smoke ^ ^-0.75 ^1 .1 0 .1 0.2 6 force
 execute if score @s bossTick matches 80 run playsound minecraft:entity.enderman.stare ambient @a ~ ~ ~ 10 2
 execute if score @s bossTick matches 80 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}
@@ -68,12 +69,15 @@ execute if score @s bossTick matches 290 run playsound minecraft:entity.pillager
 execute if score @s bossTick matches 260 at @e[tag=marker.minion,sort=random,limit=1] run summon lightning_bolt ~ ~ ~
 execute if score @s bossTick matches 270 at @e[tag=marker.minion,sort=random,limit=1] run summon lightning_bolt ~ ~ ~
 execute if score @s bossTick matches 275 at @e[tag=marker.minion,sort=random,limit=2] run summon lightning_bolt ~ ~ ~
-execute if score @s bossTick matches 298 run summon evoker ~ ~ ~ {Team:ENEMY,active_effects:[{id:resistance,duration:999999,amplifier:255,show_particles:0b}],PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,NoGravity:1b,Health:1024f,SpellTicks:100,Tags:["boss.grimgar","boss"],CustomName:'{"color":"#009999","text":"Grimgar the Ferocious Bugbear"}',HandItems:[{},{id:"minecraft:totem_of_undying",count:3}],attributes:[{id:"minecraft:generic.armor",base:10},{id:"minecraft:generic.armor_toughness",base:5},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.scale",base:0.8},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
-execute if score @s bossTick matches 298 store result entity @e[limit=1,tag=boss.grimgar] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get grimgar.boss.health INT
 execute if score @s bossTick matches 300 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"text":"Grimgar","color":"#009999"},{"text":" : My minions will take care of you... My time is too valuable for this."}]
-execute if score @s bossTick matches 299 run scoreboard players operation @s boss.grimgar_minion = grimgar.minion.count INT
-execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar max run scoreboard players get @s boss.grimgar_minion
-execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar value run scoreboard players get @s boss.grimgar_minion
+execute if score @s bossTick matches 298 run summon evoker ~ ~ ~ {Team:ENEMY,active_effects:[{id:resistance,duration:999999,amplifier:255,show_particles:0b}],PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,NoGravity:1b,Health:1024f,SpellTicks:100,Tags:["boss.grimgar","boss"],CustomName:'{"color":"#009999","text":"Grimgar the Ferocious Bugbear"}',HandItems:[{},{id:"minecraft:totem_of_undying",count:3}],attributes:[{id:"minecraft:generic.armor",base:10},{id:"minecraft:generic.armor_toughness",base:5},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.scale",base:0.8},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+
+execute if score @s bossTick matches 298 store result entity @e[limit=1,tag=boss.grimgar] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get grimgar.boss.health INT
+
+execute if score @s bossTick matches 299 run scoreboard players operation grimgar.minion.count_dummy INT = grimgar.minion.count INT
+execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar max run scoreboard players get grimgar.minion.count INT
+execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar value run scoreboard players get grimgar.minion.count INT
+
 execute if score @s bossTick matches 299 run bossbar set minecraft:boss.grimgar players @a[distance=..32,tag=fighting.grimgar]
 execute if score @s bossTick matches 299 run bossbar set minecraft:boss.grimgar name {"text":"Grimgar's Army of Minions","color":"white"}
 execute if score @s bossTick matches 300 run tag @s add phase_2

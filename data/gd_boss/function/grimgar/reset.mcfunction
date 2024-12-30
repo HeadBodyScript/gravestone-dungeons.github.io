@@ -14,7 +14,7 @@ stopsound @a record minecraft:skellige_battle_grimgar
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick
 scoreboard players reset @s playerCount
-scoreboard players reset @s boss.grimgar_minion
+scoreboard players reset grimgar.minion.count_dummy INT
 bossbar set minecraft:boss.grimgar players
 
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,tag=grimgar,distance=..32] at @s run setblock ~ ~ ~ air
