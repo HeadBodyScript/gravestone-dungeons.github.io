@@ -10,14 +10,15 @@ summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Small:1b,Invulnerable:1b,NoGravity:1
 summon armor_stand ^-.15 ^ ^-1.05 {Invisible:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["projectile.light_wave5","projectile.light_wave"]}
 summon armor_stand ^-.3 ^ ^-1.05 {Invisible:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["projectile.light_wave6","projectile.light_wave"]}
 summon armor_stand ^-.45 ^ ^-1.05 {Invisible:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["projectile.light_wave7","projectile.light_wave"]}
+
 execute as @e[tag=projectile.light_wave] at @s run tp @p
-execute as @e[tag=projectile.light_wave] at @s run tp @s ~ ~ ~ ~-5 ~
-execute as @e[tag=projectile.light_wave1] at @s run tp @s ^.45 ^ ^ ~5 ~
-execute as @e[tag=projectile.light_wave2] at @s run tp @s ^.3 ^ ^ ~4 ~
-execute as @e[tag=projectile.light_wave3] at @s run tp @s ^.15 ^ ^ ~2 ~
+execute as @e[tag=projectile.light_wave1] at @s run tp @s ^.45 ^ ^ ~21 ~
+execute as @e[tag=projectile.light_wave2] at @s run tp @s ^.3 ^ ^ ~14 ~
+execute as @e[tag=projectile.light_wave3] at @s run tp @s ^.15 ^ ^ ~7 ~
 execute as @e[tag=projectile.light_wave4] at @s run tp @s ^ ^ ^
-execute as @e[tag=projectile.light_wave5] at @s run tp @s ^.15 ^ ^ ~-2 ~
-execute as @e[tag=projectile.light_wave6] at @s run tp @s ^.3 ^ ^ ~-4 ~
-execute as @e[tag=projectile.light_wave7] at @s run tp @s ^-.45 ^ ^ ~-5 ~
+execute as @e[tag=projectile.light_wave5] at @s run tp @s ^-.15 ^ ^ ~-7 ~
+execute as @e[tag=projectile.light_wave6] at @s run tp @s ^-.3 ^ ^ ~-14 ~
+execute as @e[tag=projectile.light_wave7] at @s run tp @s ^-.45 ^ ^ ~-21 ~
+
 execute as @e[tag=projectile.light_wave] unless score @s enchantment.light_wave_VFX matches 0.. run scoreboard players set @s enchantment.light_wave_VFX 0
 execute as @e[tag=projectile.light_wave] unless score @s enchantment.light_wave_TD matches 0.. run scoreboard players set @s enchantment.light_wave_TD 0

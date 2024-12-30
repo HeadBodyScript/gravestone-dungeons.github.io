@@ -47,8 +47,7 @@ execute as @e[scores={enchantment.levitation_TD=0..}] at @s run function gd_ench
 execute as @a[scores={enchantment.levitation_CD=0..}] run scoreboard players remove @s enchantment.levitation_CD 1
 
 # light_wave
-execute as @e[scores={enchantment.light_wave_VFX=0..},tag=!projectile.light_wave] at @s run function gd_enchantment:light_wave/other/hit_vfx
-execute as @e[scores={enchantment.light_wave_VFX=0..},tag=projectile.light_wave] at @s run function gd_enchantment:light_wave/other/hit_vfx
+execute if entity @e[scores={enchantment.light_wave_TD=25..}] at @e[tag=projectile.light_wave,limit=1,sort=random] run function gd_enchantment:light_wave/other/hit
 execute as @e[scores={enchantment.light_wave_TD=0..}] at @s run function gd_enchantment:light_wave/other/vfx
 execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players remove @s enchantment.light_wave_CD 1
 
