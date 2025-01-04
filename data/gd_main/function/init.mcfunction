@@ -131,13 +131,14 @@ scoreboard objectives add boss.marrow_minion dummy
 scoreboard objectives add boss.marrow_minion_INT dummy
 
 bossbar add boss.devil {"text":"The Blazing Devil","color":"gray"}
-bossbar set boss.devil style notched_12
+bossbar set boss.devil style notched_20
 bossbar set boss.devil color yellow
 scoreboard objectives add boss.devil_health dummy
 
 bossbar add boss.morbex {"text":"Morbex the Voidwalker","color":"gray"}
-bossbar set boss.morbex style notched_6
+bossbar set boss.morbex style notched_20
 bossbar set boss.morbex color purple
+scoreboard objectives add boss.morbex_health dummy
 
 bossbar add boss.witch ""
 bossbar set boss.witch style notched_6

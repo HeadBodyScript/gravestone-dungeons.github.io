@@ -43,5 +43,4 @@ execute as @s[scores={tick3=1200}] run tellraw @s ["",{"text":"Morbex","color":"
 execute as @s[scores={tick3=1200}] run playsound minecraft:entity.breeze.inhale master @a[distance=..24] ~ ~ ~ 20 1.5
 execute as @s[scores={tick3=1200}] run playsound minecraft:block.amethyst_block.chime master @a[distance=..24] ~ ~ ~ 20 1.5
 
-# execute at @e[type=item,nbt={Item:{id:"minecraft:quartz",count:1,components:{"minecraft:custom_data":{morbex_1:1b}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:quartz",count:1,components:{"minecraft:custom_data":{morbex_2:1b}}}}] if entity @e[type=item,nbt={Item:{id:"minecraft:quartz",count:1,components:{"minecraft:custom_data":{morbex_3:1b}}}}] if entity @e[type=armor_stand,tag=spawnmorbex,distance=..2] run scoreboard objectives add morbex1 minecraft.custom:minecraft.play_time
 execute as @s[scores={tick3=2400..}] run scoreboard players reset @s tick3

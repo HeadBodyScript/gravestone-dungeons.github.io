@@ -32,4 +32,4 @@ execute if score @s[tag=!charge] boss.devil_health matches ..50 unless score @s 
 
 execute store result bossbar minecraft:boss.devil value run data get entity @s Health
 
-execute if score @s tick = devil.attack.cooldown INT run scoreboard players set @s tick 0
+execute if score @s tick >= devil.attack.cooldown INT run scoreboard players set @s tick 0

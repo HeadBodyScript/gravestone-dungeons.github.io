@@ -1,0 +1,13 @@
+execute store result score @s randomNumber run random value 1..12
+execute if score @s randomNumber matches 1 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : Your feeble attempts at resistance only serve to amuse me. Embrace your fate."}] 
+execute if score @s randomNumber matches 2 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : Your defeat is inevitable."}]
+execute if score @s randomNumber matches 3 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : Your courage is commendable, but it will not save you from your impending demise."}]
+execute if score @s randomNumber matches 4 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : Your efforts are futile, for I am beyond your comprehension. Surrender now, and I may grant you a swift end."}]
+execute if score @s randomNumber matches 5 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]
+execute if score @s randomNumber matches 6 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]
+execute if score @s randomNumber matches 7 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]
+execute if score @s randomNumber matches 8 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]
+execute if score @s randomNumber matches 9 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]
+execute if score @s randomNumber matches 10 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]
+execute if score @s randomNumber matches 11 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]
+execute if score @s randomNumber matches 12 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Blazing morbex","color":"gold"},{"text":" : xxx"}]

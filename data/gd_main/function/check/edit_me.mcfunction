@@ -76,10 +76,11 @@ scoreboard players set devil.attack.cooldown INT 250
 
 # MORBEX
 scoreboard players set morbex.boss.health INT 400
-scoreboard players set morbex.cooldown INT 250
+scoreboard players set morbex.attack.cooldown INT 50
 
-scoreboard players set witch.boss.health INT 400
-scoreboard players set witch.attack.cooldown INT 400
+# WITCHES
+scoreboard players set witch.boss.health INT 200
+scoreboard players set witch.attack.cooldown INT 200
 
 
 

@@ -1,3 +1,32 @@
+scoreboard players add @s tick2 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+execute as @s[scores={tick2=450}] run tag @s remove void
+execute as @s[scores={tick2=450..}] run scoreboard players reset @s tick2
+
+
+
+
+
+
 execute as @a[scores={tick2=1}] at @e[type=armor_stand,tag=spawnmorbexbox] run summon armor_stand ~ ~4 ~ {Invisible:1b,Marker:1b,Small:1b,Invulnerable:1b,NoGravity:1b,PersistenceRequired:1b,Tags:["morbex_void_sphere"]}
 
 # execute as @a[scores={tick2=100..}] at @e[type=armor_stand,tag=morbex_void_sphere] run function gd:signs/vfx_sphere

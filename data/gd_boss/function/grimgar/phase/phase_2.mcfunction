@@ -6,4 +6,4 @@ execute at @s if score @s bossTick matches 1 unless score @s boss.grimgar_minion
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar] run particle dust_color_transition{from_color: [.0f, .0f, .1f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~ ~ .1 .5 .1 0 15 force
 
-execute if score @s bossTick = grimgar.minion.cooldown INT run scoreboard players set @s bossTick 0
+execute if score @s bossTick >= grimgar.minion.cooldown INT run scoreboard players set @s bossTick 0
