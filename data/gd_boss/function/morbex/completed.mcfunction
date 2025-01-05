@@ -15,9 +15,6 @@ summon item ~ ~1 ~ {Item:{id:emerald,count:1,components:{custom_name:'[{"text":"
 
 summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:barrel",components:{custom_name:'[{"text":"Morbex Bag","italic":true,"color":"#990066"}]',container_loot:{loot_table:'gd:chests/morbex'}}},Motion:[0.0,0.3,0.0]}
 
-tellraw @a[tag=fighting.morbex] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Impossible! How could a nasty rat like you defeat me!?"}]
-tellraw @a[tag=fighting.morbex] ["",{"text":"boss","color":"gold"},{"text":" : What's this? A ring. HIS ring! What happens if I..."}] 
-
 function gd_boss:morbex/reset
 
 execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..32,limit=1,sort=nearest] at @s run kill @s

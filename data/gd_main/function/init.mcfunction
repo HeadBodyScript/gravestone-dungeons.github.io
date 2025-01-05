@@ -140,8 +140,14 @@ bossbar set boss.morbex style notched_20
 bossbar set boss.morbex color purple
 scoreboard objectives add boss.morbex_health dummy
 
-bossbar add boss.witch ""
+# bossbar add boss.witch ""
+bossbar add boss.witch {"text":"Witch of the Crystal Coven","color":"gray"}
 bossbar set boss.witch style notched_6
+bossbar set boss.witch color purple
+scoreboard objectives add boss.witch_health dummy
+
+
+
 # bossbar set minecraft:boss.grimgar players
 
 team add ENEMY

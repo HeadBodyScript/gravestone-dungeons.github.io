@@ -51,6 +51,14 @@ scoreboard players set companion.TD INT 800
 
 
 
+# MORBEX
+scoreboard players set morbex.boss.health INT 400
+scoreboard players set morbex.attack.cooldown INT 50
+
+# DEVIL
+scoreboard players set devil.boss.health INT 400
+scoreboard players set devil.attack.cooldown INT 250
+
 # GRIMGAR
 scoreboard players set grimgar.boss.health INT 300
 scoreboard players set grimgar.mini.health INT 300
@@ -69,14 +77,6 @@ scoreboard players set marrow.minion.count INT 24
 scoreboard players set marrow.minion.max INT 8
 scoreboard players set marrow.minion.cooldown INT 50
 scoreboard players set marrow.attack.cooldown INT 90
-
-# DEVIL
-scoreboard players set devil.boss.health INT 400
-scoreboard players set devil.attack.cooldown INT 250
-
-# MORBEX
-scoreboard players set morbex.boss.health INT 400
-scoreboard players set morbex.attack.cooldown INT 50
 
 # WITCHES
 scoreboard players set witch.boss.health INT 200
