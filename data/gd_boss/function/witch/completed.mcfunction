@@ -15,10 +15,6 @@ execute as @s[tag=witch_2] run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft
 execute as @s[tag=witch_3] run summon item ~ ~1 ~ {Item:{id:prismarine_crystals,count:1,components:{custom_name:'[{"text":"Sylvanaias Crystal","italic":true,"color":"#0099cc"}]',lore:['[{"text":"Irrefutable proof, that Sylvanaia","italic":false,"color":"gray"}]','[{"text":"the Devious has been defeated.","italic":false,"color":"gray"}]'],custom_model_data:1,custom_data:{boss_lvl_3:1b},enchantments:{levels:{binding_curse:1}},attribute_modifiers:{modifiers:[{type:"player.mining_efficiency",amount:1,slot:hand,operation:add_value,id:1234-345}]},max_stack_size:1}},Motion:[0.0,0.3,0.0]}
 execute as @s[tag=witch_3] run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:barrel",components:{custom_name:'[{"text":"Sylvanaias Potion Brewing Barrel","italic":true,"color":"#0099cc"}]',container_loot:{loot_table:'gd:chests/witch'}}},Motion:[0.0,0.3,0.0]}
 
-execute as @s[tag=witch_1] run tellraw @a[tag=fighting.witch] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : I can use this item for building.. or sell it. Spledid!! Well, how do i get out of here?"}] 
-execute as @s[tag=witch_2] run tellraw @a[tag=fighting.witch] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : I can use this item to jump further.. or sell it to a trader.. Excellent! But first, how do i get out of this place?"}] 
-execute as @s[tag=witch_3] run tellraw @a[tag=fighting.witch] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : I'll find a good use for this when mining.. or sell it very expensive! But now, I need to find a way out of here..."}] 
-
 function gd_boss:witch/reset
 
 execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..32,limit=1,sort=nearest] at @s run kill @s

@@ -1,12 +1,30 @@
-execute as @s store result score @s randomNumber run random value 0..20
-execute as @s[scores={randomNumber=1..2}] run say Feel the fury of the wild coursing through your veins!
-execute as @s[scores={randomNumber=3..4}] run say Your defiance only fuels my rage. I'll tear you limb from limb!
-execute as @s[scores={randomNumber=5..6}] run say Prepare to be crushed.
-execute as @s[scores={randomNumber=7..8}] run say You think you can resist me? How adorable.
-execute as @s[scores={randomNumber=9..10}] run say Come closer, my dear. Let me show you true power.
-execute as @s[scores={randomNumber=11..12}] run say Your efforts are amusing, but ultimately futile."
-execute as @s[scores={randomNumber=13..14}] run say I've toyed with lesser beings than you. You stand no chance.
-execute as @s[scores={randomNumber=15..16}] run say You think you know pain? You haven't seen anything yet.
-execute as @s[scores={randomNumber=17..18}] run say I am the wrath of the forest, and you are but an insignificant intruder.
-execute as @s[scores={randomNumber=19..20}] run say Feel the earth tremble beneath your feet? That's my wrath unleashed.
-execute as @s[scores={randomNumber=0}] run say You think you can defeat me? You'll soon learn the error of your ways.
+execute store result score @s randomNumber run random value 1..9
+
+execute if score @s[tag=witch_1] randomNumber matches 1 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : Feel the kiss of my spell... it’s sweeter than death."}]
+execute if score @s[tag=witch_1] randomNumber matches 2 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : One touch, one taste, and you'll be mine forever."}] 
+execute if score @s[tag=witch_1] randomNumber matches 3 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : Struggle all you like, darling, the venom's already coursing through you."}] 
+execute if score @s[tag=witch_1] randomNumber matches 4 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : Such fragile hearts, so easily broken... and mine to shatter."}] 
+execute if score @s[tag=witch_1] randomNumber matches 5 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : Why resist? It only makes my poison sweeter."}] 
+execute if score @s[tag=witch_1] randomNumber matches 6 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : One touch, one kiss... and all your dreams turn to dust."}] 
+execute if score @s[tag=witch_1] randomNumber matches 7 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : Wrapped in my spell, you’ll find no sweeter sorrow."}] 
+execute if score @s[tag=witch_1] randomNumber matches 8 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : Why struggle when surrender feels so divine?"}] 
+execute if score @s[tag=witch_1] randomNumber matches 9 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Kaidaia","color":"#ff0033"},{"text":" : Your fate was sealed the moment you met my gaze."}] 
+
+execute if score @s[tag=witch_2] randomNumber matches 1 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : Scream louder! I feed on your despair!"}] 
+execute if score @s[tag=witch_2] randomNumber matches 2 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : Fools who cross me find their end swiftly... and painfully."}] 
+execute if score @s[tag=witch_2] randomNumber matches 3 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : Your suffering is the sweetest symphony to my ears."}] 
+execute if score @s[tag=witch_2] randomNumber matches 4 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : Let me carve your fate into the bones of this earth!"}] 
+execute if score @s[tag=witch_2] randomNumber matches 5 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : You dare defy me? I’ll tear your soul asunder!"}] 
+execute if score @s[tag=witch_2] randomNumber matches 6 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : I’ll peel back your hope and feast on what’s left!"}] 
+execute if score @s[tag=witch_2] randomNumber matches 7 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : Run if you like, but the shadows are always faster."}] 
+execute if score @s[tag=witch_2] randomNumber matches 8 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : I see the fear in your eyes... it’s delicious."}] 
+execute if score @s[tag=witch_2] randomNumber matches 9 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Malificaia","color":"#9966cc"},{"text":" : You’re nothing but a pest!"}] 
+
+execute if score @s[tag=witch_3] randomNumber matches 1 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Your very existence grates on my nerves... time to snuff it out!"}] 
+execute if score @s[tag=witch_3] randomNumber matches 2 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : I’ll crush you beneath the weight of my fury!"}]
+execute if score @s[tag=witch_3] randomNumber matches 3 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Every step you take is a mistake! Leave, or be obliterated!"}]
+execute if score @s[tag=witch_3] randomNumber matches 5 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Your pathetic defiance only fuels my rage!"}]
+execute if score @s[tag=witch_3] randomNumber matches 6 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : I’ll bury you in this wretched ground, where you belong!"}]
+execute if score @s[tag=witch_3] randomNumber matches 7 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Enough! I’ll crush this world beneath my wrath!"}]
+execute if score @s[tag=witch_3] randomNumber matches 8 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : You dare bring your pitiful presence before me?"}]
+execute if score @s[tag=witch_3] randomNumber matches 9 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : I’ll reduce you to ash and scatter you to the winds!"}]

@@ -1,1 +1,1 @@
-execute as @e[distance=..32,tag=boss.witch] at @s run function gd_boss:witch/attack/exe
+execute as @e[type=minecraft:witch,tag=boss.witch,sort=nearest,limit=1,distance=..32] at @s run function gd_boss:witch/attack/tick

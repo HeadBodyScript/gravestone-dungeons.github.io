@@ -1,4 +1,5 @@
-scoreboard players add @a tick 1
+tp @s ~ ~ ~ ~10 ~
+scoreboard players add @s tick 1
 execute as @s[scores={tick=1}] run particle falling_dust{block_state:{Name:cyan_wool}} ^0.75 ^.1 ^0 0 0 0 0 1 force @a
 execute as @s[scores={tick=2}] run particle falling_dust{block_state:{Name:cyan_wool}} ^0.75 ^.2 ^0 0 0 0 0 1 force @a
 execute as @s[scores={tick=3}] run particle falling_dust{block_state:{Name:cyan_wool}} ^0.75 ^.3 ^0 0 0 0 0 1 force @a
@@ -162,3 +163,4 @@ execute as @s[scores={tick=77}] run particle falling_dust{block_state:{Name:cyan
 execute as @s[scores={tick=78}] run particle falling_dust{block_state:{Name:cyan_wool}} ^-0.75 ^7.8 ^0 0 0 0 0 1 force @a
 execute as @s[scores={tick=79}] run particle falling_dust{block_state:{Name:cyan_wool}} ^-0.75 ^7.9 ^0 0 0 0 0 1 force @a
 execute as @s[scores={tick=80}] run particle falling_dust{block_state:{Name:cyan_wool}} ^-0.75 ^8 ^0 0 0 0 0 1 force @a
+execute as @s[scores={tick=80..}] run scoreboard players reset @s tick

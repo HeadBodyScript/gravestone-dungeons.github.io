@@ -64,4 +64,4 @@ kill @e[type=minecraft:piglin,distance=..48]
 kill @e[type=minecraft:piglin_brute,distance=..48]
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=devil,distance=..48] run kill @s
-execute as @e[type=minecraft:blaze,tag=boss.devil,distance=..48] run tp @s ~ ~-300 ~
+execute as @e[type=minecraft:blaze,tag=boss.devil,distance=..64] run tp @s ~ ~-300 ~

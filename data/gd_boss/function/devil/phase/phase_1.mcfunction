@@ -40,7 +40,7 @@ execute if score @s bossTick matches 350 at @p[tag=fighting.devil] run tp @a[tag
 
 execute if score @s bossTick matches 290 run playsound minecraft:sword_and_faith_devil record @a[distance=..48] ~ ~1 ~ 50
 execute if score @s bossTick matches 320.. run particle falling_dust{block_state:{Name:orange_wool}} ~ ~2 ~ 1 3 1 0 2 force
-execute if score @s bossTick matches 200 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Are you sure you want to stay any longer? "}] 
+execute if score @s bossTick matches 200 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Are you sure you want to stay any longer?"}] 
 execute if score @s bossTick matches 200 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Leave or I'll burn your bones!"}] 
 execute if score @s bossTick matches 350 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Let's see if you're fireproof. "}] 
 execute if score @s bossTick matches 350 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : I will make sure you disappear from this realm."}] 

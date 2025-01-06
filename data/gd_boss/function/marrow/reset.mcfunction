@@ -45,4 +45,4 @@ kill @e[type=minecraft:stray,distance=..32]
 kill @e[type=minecraft:bogged,distance=..32]
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=marrow,distance=..32] run kill @s
-execute as @e[type=minecraft:wither_skeleton,limit=1,sort=nearest,tag=boss.marrow,distance=..32] run tp @s ~ ~-300 ~
+execute as @e[type=minecraft:wither_skeleton,limit=1,sort=nearest,tag=boss.marrow,distance=..64] run tp @s ~ ~-300 ~

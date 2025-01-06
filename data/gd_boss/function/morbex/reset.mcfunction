@@ -58,4 +58,4 @@ kill @e[tag=morbex_sphere,distance=..32]
 weather clear
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=morbex,distance=..32] run kill @s
-execute as @e[type=minecraft:illusioner,limit=1,sort=nearest,tag=boss.morbex,distance=..32] run tp @s ~ ~-300 ~
+execute as @e[type=minecraft:illusioner,limit=1,sort=nearest,tag=boss.morbex,distance=..64] run tp @s ~ ~-300 ~

@@ -140,7 +140,6 @@ bossbar set boss.morbex style notched_20
 bossbar set boss.morbex color purple
 scoreboard objectives add boss.morbex_health dummy
 
-# bossbar add boss.witch ""
 bossbar add boss.witch {"text":"Witch of the Crystal Coven","color":"gray"}
 bossbar set boss.witch style notched_6
 bossbar set boss.witch color purple

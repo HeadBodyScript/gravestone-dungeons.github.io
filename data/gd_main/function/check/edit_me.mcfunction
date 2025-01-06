@@ -53,7 +53,7 @@ scoreboard players set companion.TD INT 800
 
 # MORBEX
 scoreboard players set morbex.boss.health INT 400
-scoreboard players set morbex.attack.cooldown INT 50
+scoreboard players set morbex.attack.cooldown INT 250
 
 # DEVIL
 scoreboard players set devil.boss.health INT 400
@@ -80,7 +80,7 @@ scoreboard players set marrow.attack.cooldown INT 90
 
 # WITCHES
 scoreboard players set witch.boss.health INT 200
-scoreboard players set witch.attack.cooldown INT 200
+scoreboard players set witch.attack.cooldown INT 90
 
 
 
