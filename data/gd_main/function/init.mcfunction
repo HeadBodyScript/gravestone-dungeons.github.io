@@ -1,5 +1,3 @@
-scoreboard objectives add damage_blocked_by_shield minecraft.custom:minecraft.damage_blocked_by_shield
-
 scoreboard objectives add talked_to_villager minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 # scoreboard objectives add sleep_in_bed minecraft.custom:minecraft.sleep_in_bed
@@ -47,6 +45,9 @@ scoreboard objectives add enchantment.deflect_CD dummy
 scoreboard objectives add enchantment.evoker_fangs_TICK dummy
 scoreboard objectives add enchantment.evoker_fangs_CD dummy
 
+scoreboard objectives add enchantment.fire_burst_CD dummy
+scoreboard objectives add enchantment.fire_burst_INT dummy
+
 scoreboard objectives add enchantment.floating_INT dummy
 
 scoreboard objectives add enchantment.freezing_INT dummy
@@ -62,7 +63,7 @@ scoreboard objectives add enchantment.knife_pouch_CD dummy
 scoreboard objectives add enchantment.knife_pouch_recharge dummy
 scoreboard objectives add enchantment.knife_pouch_UUID dummy
 
-scoreboard objectives add enchantment.levitation_TD dummy
+scoreboard objectives add enchantment.levitation_INT dummy
 scoreboard objectives add enchantment.levitation_CD dummy
 
 scoreboard objectives add enchantment.light_wave_TD dummy
@@ -76,6 +77,7 @@ scoreboard objectives add enchantment.disarming_CD dummy
 
 scoreboard objectives add enchantment.star_shower_TD dummy
 scoreboard objectives add enchantment.star_shower_CD dummy
+scoreboard objectives add enchantment.star_shower_INT dummy
 
 scoreboard objectives add enchantment.star_shard_CD dummy
 scoreboard objectives add enchantment.star_shard_TD dummy
@@ -96,7 +98,7 @@ scoreboard objectives add enchantment.warpstrike_VFX dummy
 scoreboard objectives add enchantment.withering_VFX dummy
 scoreboard objectives add enchantment.withering_INT dummy
 
-scoreboard objectives add enchantment.fire_burst_VFX dummy
+
 
 # magic
 scoreboard objectives add mana dummy

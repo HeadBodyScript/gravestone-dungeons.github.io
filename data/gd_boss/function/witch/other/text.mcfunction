@@ -25,6 +25,6 @@ execute if score @s[tag=witch_3] randomNumber matches 2 as @s run tellraw @a[tag
 execute if score @s[tag=witch_3] randomNumber matches 3 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Every step you take is a mistake! Leave, or be obliterated!"}]
 execute if score @s[tag=witch_3] randomNumber matches 5 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Your pathetic defiance only fuels my rage!"}]
 execute if score @s[tag=witch_3] randomNumber matches 6 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : I’ll bury you in this wretched ground, where you belong!"}]
-execute if score @s[tag=witch_3] randomNumber matches 7 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Enough! I’ll crush this world beneath my wrath!"}]
+execute if score @s[tag=witch_3] randomNumber matches 7 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : Enough! I’ll crush you beneath my wrath!"}]
 execute if score @s[tag=witch_3] randomNumber matches 8 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : You dare bring your pitiful presence before me?"}]
 execute if score @s[tag=witch_3] randomNumber matches 9 as @s run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : I’ll reduce you to ash and scatter you to the winds!"}]

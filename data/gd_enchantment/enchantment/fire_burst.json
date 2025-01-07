@@ -5,8 +5,7 @@
 	  },
 	"supported_items": "minecraft:shield",
 	"slots": [
-	  "mainhand",
-	  "offhand"
+	  "hand"
 	],
 	"weight": 1,
 	"anvil_cost": 12,
@@ -25,15 +24,6 @@
 		  "effect": {
 			"type": "minecraft:run_function",
 			"function": "gd_enchantment:fire_burst/tick"
-		  },
-		  "requirements": {
-			"condition": "entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "flags": {
-				"is_sneaking": true
-			  }
-			}
 		  }
 		}
 	  ]

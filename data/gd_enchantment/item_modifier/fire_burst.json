@@ -1,16 +1,5 @@
 [
   {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:food": {
-        "nutrition": 0,
-        "saturation": 0,
-        "can_always_eat": true,
-        "eat_seconds": 100030
-      }
-    }
-  },
-  {
     "function": "minecraft:set_lore",
     "lore": [
       {
@@ -27,7 +16,7 @@
             "italic": false
           },
           {
-            "text": "Cost: 400",
+            "text": "Cost: 4000",
             "color": "gray",
             "italic": false
           }

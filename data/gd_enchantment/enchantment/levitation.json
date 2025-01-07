@@ -3,9 +3,9 @@
 		"translate": "enchantment.minecraft.levitation",
 		"fallback": "Levitation"
 	  },
-	"supported_items": "#minecraft:swords",
+	"supported_items": "minecraft:shield",
 	"slots": [
-	  "mainhand"
+	  "hand"
 	],
 	"weight": 1,
 	"anvil_cost": 8,
@@ -23,7 +23,7 @@
 		{
 		  "effect": {
 			"type": "minecraft:run_function",
-			"function": "gd_enchantment:levitation/stat"
+			"function": "gd_enchantment:levitation/tick"
 		  }
 		}
 	  ]

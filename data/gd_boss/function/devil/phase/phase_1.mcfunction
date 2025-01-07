@@ -66,11 +66,11 @@ execute if score @s bossTick matches 800 run playsound minecraft:entity.enderman
 execute if score @s bossTick matches 800..815 run summon lightning_bolt ~ ~3 ~
 execute if score @s bossTick matches 800 run summon blaze ~ ~ ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.devil","boss"],CustomName:'{"color":"gold","text":"Blazing Devil"}',attributes:[{id:"minecraft:generic.armor",base:30},{id:"minecraft:generic.armor_toughness",base:5},{id:"minecraft:generic.attack_damage",base:20},{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.movement_speed",base:0.5},{id:"minecraft:generic.scale",base:1.5},{id:"minecraft:generic.water_movement_efficiency",base:1},{id:"generic.knockback_resistance",base:0.5f}]}
 
-execute if score @s bossTick matches 800 store result entity @e[limit=1,tag=boss.devil] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get devil.boss.health INT
+execute if score @s bossTick matches 800..810 store result entity @e[limit=1,tag=boss.devil] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get devil.boss.health INT
 
-execute if score @s bossTick matches 800 run bossbar set minecraft:boss.devil players @a[distance=..32,tag=fighting.devil]
-execute if score @s bossTick matches 800 run tag @s add phase_2
-execute if score @s bossTick matches 800 run tag @s remove phase_1
-execute if score @s bossTick matches 800 store result bossbar minecraft:boss.devil max run scoreboard players get devil.boss.health INT
-execute if score @s bossTick matches 800 store result bossbar minecraft:boss.devil value run scoreboard players get devil.boss.health INT
-execute if score @s bossTick matches 800 run scoreboard players set @s bossTick 0
+execute if score @s bossTick matches 810 run bossbar set minecraft:boss.devil players @a[distance=..32,tag=fighting.devil]
+execute if score @s bossTick matches 810 run tag @s add phase_2
+execute if score @s bossTick matches 810 run tag @s remove phase_1
+execute if score @s bossTick matches 810 store result bossbar minecraft:boss.devil max run scoreboard players get devil.boss.health INT
+execute if score @s bossTick matches 810 store result bossbar minecraft:boss.devil value run scoreboard players get devil.boss.health INT
+execute if score @s bossTick matches 810 run scoreboard players set @s bossTick 0

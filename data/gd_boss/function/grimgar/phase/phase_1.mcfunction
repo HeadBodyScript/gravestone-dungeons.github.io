@@ -70,16 +70,16 @@ execute if score @s bossTick matches 260 at @e[tag=marker.minion,sort=random,lim
 execute if score @s bossTick matches 270 at @e[tag=marker.minion,sort=random,limit=1] run summon lightning_bolt ~ ~ ~
 execute if score @s bossTick matches 275 at @e[tag=marker.minion,sort=random,limit=2] run summon lightning_bolt ~ ~ ~
 execute if score @s bossTick matches 300 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"text":"Grimgar","color":"#009999"},{"text":" : My minions will take care of you... My time is too valuable for this."}]
-execute if score @s bossTick matches 298 run summon evoker ~ ~ ~ {Team:ENEMY,active_effects:[{id:resistance,duration:999999,amplifier:255,show_particles:0b}],PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,NoGravity:1b,Health:1024f,SpellTicks:100,Tags:["boss.grimgar","boss"],CustomName:'{"color":"#009999","text":"Grimgar the Ferocious Bugbear"}',HandItems:[{},{id:"minecraft:totem_of_undying",count:3}],attributes:[{id:"minecraft:generic.armor",base:10},{id:"minecraft:generic.armor_toughness",base:5},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.scale",base:0.8},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute if score @s bossTick matches 300 run summon evoker ~ ~ ~ {Team:ENEMY,active_effects:[{id:resistance,duration:999999,amplifier:255,show_particles:0b}],PersistenceRequired:1b,Invulnerable:1b,NoAI:1b,NoGravity:1b,Health:1024f,SpellTicks:100,Tags:["boss.grimgar","boss"],CustomName:'{"color":"#009999","text":"Grimgar the Ferocious Bugbear"}',HandItems:[{},{id:"minecraft:totem_of_undying",count:3}],attributes:[{id:"minecraft:generic.armor",base:10},{id:"minecraft:generic.armor_toughness",base:5},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.scale",base:0.8},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
 
-execute if score @s bossTick matches 298 store result entity @e[limit=1,tag=boss.grimgar] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get grimgar.boss.health INT
+execute if score @s bossTick matches 300..310 store result entity @e[limit=1,tag=boss.grimgar] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get grimgar.boss.health INT
 
-execute if score @s bossTick matches 299 run scoreboard players operation grimgar.minion.count_dummy INT = grimgar.minion.count INT
-execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar max run scoreboard players get grimgar.minion.count INT
-execute if score @s bossTick matches 299 store result bossbar minecraft:boss.grimgar value run scoreboard players get grimgar.minion.count INT
+execute if score @s bossTick matches 310 run scoreboard players operation grimgar.minion.count_dummy INT = grimgar.minion.count INT
+execute if score @s bossTick matches 310 store result bossbar minecraft:boss.grimgar max run scoreboard players get grimgar.minion.count INT
+execute if score @s bossTick matches 310 store result bossbar minecraft:boss.grimgar value run scoreboard players get grimgar.minion.count INT
 
-execute if score @s bossTick matches 299 run bossbar set minecraft:boss.grimgar players @a[distance=..32,tag=fighting.grimgar]
-execute if score @s bossTick matches 299 run bossbar set minecraft:boss.grimgar name {"text":"Grimgar's Army of Minions","color":"white"}
-execute if score @s bossTick matches 300 run tag @s add phase_2
-execute if score @s bossTick matches 300 run tag @s remove phase_1
-execute if score @s bossTick matches 300 run scoreboard players set @s bossTick 0
+execute if score @s bossTick matches 310 run bossbar set minecraft:boss.grimgar players @a[distance=..32,tag=fighting.grimgar]
+execute if score @s bossTick matches 310 run bossbar set minecraft:boss.grimgar name {"text":"Grimgar's Army of Minions","color":"white"}
+execute if score @s bossTick matches 310 run tag @s add phase_2
+execute if score @s bossTick matches 310 run tag @s remove phase_1
+execute if score @s bossTick matches 310 run scoreboard players set @s bossTick 0

@@ -25,6 +25,7 @@ execute as @e[scores={enchantment.evoker_fangs_TICK=0..}] at @s run function gd_
 execute as @a[scores={enchantment.evoker_fangs_CD=0..}] run scoreboard players remove @s enchantment.evoker_fangs_CD 1
 
 # fire_burst
+execute as @a[scores={enchantment.fire_burst_CD=0..}] run scoreboard players remove @s enchantment.fire_burst_CD 1
 execute as @e[type=minecraft:armor_stand,tag=marker.fire_burst] at @s run function gd_enchantment:fire_burst/other/vfx
 
 # floating
@@ -43,7 +44,6 @@ execute as @e[scores={enchantment.knife_pouch_VFX=0..}] at @s run function gd_en
 execute as @a[scores={enchantment.knife_pouch_CD=0..}] run scoreboard players remove @s enchantment.knife_pouch_CD 1
 
 # levitation
-execute as @e[scores={enchantment.levitation_TD=0..}] at @s run function gd_enchantment:levitation/other/vfx
 execute as @a[scores={enchantment.levitation_CD=0..}] run scoreboard players remove @s enchantment.levitation_CD 1
 
 # light_wave
@@ -67,7 +67,7 @@ execute as @e[scores={enchantment.star_shard_TD=0..}] at @s run function gd_ench
 execute as @a[scores={enchantment.star_shard_CD=0..}] run scoreboard players remove @s enchantment.star_shard_CD 1
 
 # star_shower
-execute as @e[tag=star_shower] at @s run function gd_enchantment:star_shower/other/td
+execute as @e[scores={enchantment.star_shower_TD=0..}] run function gd_enchantment:star_shower/other/td
 execute as @a[scores={enchantment.star_shower_CD=0..}] run scoreboard players remove @s enchantment.star_shower_CD 1
 
 # telekinesis

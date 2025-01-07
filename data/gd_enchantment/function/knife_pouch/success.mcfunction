@@ -4,7 +4,9 @@ scoreboard players operation @e[type=minecraft:armor_stand,tag=projectile_knife,
 
 item replace entity @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] weapon.mainhand from entity @e[limit=1,tag=enchantment.knife_pouch] weapon.mainhand
 execute run tp @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] ~ ~ ~ ~ ~
-scoreboard players set @s enchantment.knife_pouch_CD 120
+scoreboard players set @s enchantment.knife_pouch_CD 60
+
+scoreboard players remove @s enchantment.knife_pouch_INT 1
 effect give @s slowness 1 7 true
 playsound minecraft:entity.player.attack.sweep player @s ~ ~ ~ 30 2
 particle minecraft:wax_off ~ ~1 ~ .1 .5 .1 1 10

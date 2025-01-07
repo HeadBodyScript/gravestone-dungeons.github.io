@@ -11,8 +11,8 @@ execute as @s[scores={tick2=11}] at @e[type=armor_stand,tag=2] run playsound min
 execute as @s[scores={tick2=11}] at @e[type=armor_stand,tag=2] run tp @e[type=armor_stand,tag=2] ^ ^ ^ facing entity @p eyes
 execute as @s[scores={tick2=11..60}] at @e[type=armor_stand,tag=2] run tp @e[type=armor_stand,tag=2] ^ ^-.07 ^.7 ~ ~.5
 execute as @s[scores={tick2=11..60}] at @e[type=armor_stand,tag=2] run particle minecraft:happy_villager ~ ~1 ~ 0 0 0 0.1 1
-execute as @e[type=minecraft:armor_stand,tag=attack.witch,limit=1,sort=random] at @s as @a[distance=..1.8] run damage @s 1 generic by @e[limit=1,tag=boss.witch,sort=nearest]
-execute as @e[type=minecraft:armor_stand,tag=attack.witch,limit=1,sort=random] at @s as @a[distance=..1.8] run effect give @a[distance=..1.8] minecraft:poison 10
+execute as @e[type=minecraft:armor_stand,tag=attack.witch] at @s as @a[distance=..1.8] run damage @s 3 generic by @e[limit=1,tag=boss.witch,sort=nearest]
+execute as @e[type=minecraft:armor_stand,tag=attack.witch] at @s as @a[distance=..1.8] run effect give @a[distance=..1.8] minecraft:poison 10
 execute as @s[scores={tick2=1}] run playsound minecraft:block.fire.extinguish master @p ~ ~ ~ 15 2
 execute as @s[scores={tick2=11}] run playsound minecraft:block.fire.extinguish master @p ~ ~ ~ 15 2
 

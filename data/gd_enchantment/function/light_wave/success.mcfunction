@@ -1,4 +1,4 @@
-scoreboard players set @s enchantment.light_wave_CD 250
+scoreboard players set @s enchantment.light_wave_CD 500
 scoreboard players remove @s mana 8000
 effect give @s slowness 1 5 true
 playsound minecraft:entity.illusioner.prepare_blindness ambient @a ~ ~ ~ 20 .1
