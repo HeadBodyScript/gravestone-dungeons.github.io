@@ -17,7 +17,7 @@
 		"minecraft:tick": [{
 			"effect": {
 				"type": "minecraft:run_function",
-				"function": "gd:enchantments/horse_1"
+				"function": "gd_enchantment:horse/horse_1"
 			}
 
 		}]

@@ -76,3 +76,11 @@ execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_
 
 
 # gauge!!!!!!!!!!!!!!!!!!!!!!!!!!! with predicate of day time?
+
+
+
+
+
+
+
+

@@ -119,7 +119,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Magma Walker Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Foot Armor\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Allows you to walk over lava,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"causing it to cool into basalt.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4/block\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Foot Armor\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Allows you to walk over lava,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"causing it to cool into basalt.\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
@@ -140,7 +140,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Levitation Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Shields\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides levitation when sneaking.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4/s\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Shields\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Provides levitation when sneaking.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 400/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
@@ -203,7 +203,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Fire Burst Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Shields\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Creates a large fire burst, that\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"deals heavy fire damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Activates when crouching.\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Shields\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Creates a large fire burst, that\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"deals heavy fire damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Activated by crouching.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4000/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,
@@ -224,7 +224,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Deflect Projectiles Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Deflects physical and magical\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"projectiles once activated.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 30/usage\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Deflects physical and magical\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"projectiles once activated.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4000/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 8,

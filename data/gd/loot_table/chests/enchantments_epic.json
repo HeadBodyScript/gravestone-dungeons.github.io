@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Bonecaller Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Conjures a skull around the caster,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which deals heavy wither damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 60/usage\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Conjures a skull around the caster,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which deals heavy wither damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 2400/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 9,
@@ -33,9 +33,72 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Tongue of Fire Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Ranged Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a fire gauge, causing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"the target to explode in flames.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd_enchantment:tongue_of_fire": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Withering Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Ranged/ Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a wither gauge, dealing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"lethal damage to all targets.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd_enchantment:withering": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Disarming Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, a curse forces\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"near enemies to drop their weapon.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4000/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd_enchantment:disarming": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
                 "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Evoker Fangs Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures aggressive\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"fangs around the caster.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 100/usage\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures aggressive\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"fangs around the caster.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 4000/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 9,
@@ -56,7 +119,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Star Shard Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a star shard\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which attacks the nearest target.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 40/usage\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a star shard\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which attacks the nearest target.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 1600/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 9,

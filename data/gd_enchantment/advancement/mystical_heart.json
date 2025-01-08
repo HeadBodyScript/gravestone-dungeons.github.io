@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd:misc/mystical_heart/init"
+    "function": "gd_main:misc/mystical_horse/heart"
   }
 }

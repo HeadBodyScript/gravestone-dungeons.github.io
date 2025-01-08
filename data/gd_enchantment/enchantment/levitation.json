@@ -5,7 +5,8 @@
 	  },
 	"supported_items": "minecraft:shield",
 	"slots": [
-	  "hand"
+	  "hand",
+	  "chest"
 	],
 	"weight": 1,
 	"anvil_cost": 8,

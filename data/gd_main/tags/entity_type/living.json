@@ -24,6 +24,7 @@
         "minecraft:magma_cube",
         "minecraft:guardian",
         "minecraft:elder_guardian",
-        "minecraft:breeze"
+        "minecraft:breeze",
+        "minecraft:player"
     ]
 }

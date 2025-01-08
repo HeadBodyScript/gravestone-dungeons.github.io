@@ -14,7 +14,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":true,\"text\":\"Star Shower Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a fire sphere,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which burns nearby targets.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 300/usage\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a fire sphere,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"which burns nearby targets.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 12000/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 10,
@@ -35,7 +35,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":true,\"text\":\"Void Sphere Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Maces\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a void orb\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"that pulls targets in.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 400/usage\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Maces\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"When activated, conjures a void orb\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"that pulls targets in.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 16000/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 10,
@@ -56,7 +56,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":true,\"text\":\"Light Wave Enchantment\"}",
                 "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Swords\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Releases a wave of golden light,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"dealing heavy holy damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 200/usage\"}"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Swords\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Releases a wave of golden light,\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"dealing heavy holy damage.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 8000/usage\"}"
                 ],
                 "minecraft:rarity": "common",
                 "minecraft:custom_model_data": 10,

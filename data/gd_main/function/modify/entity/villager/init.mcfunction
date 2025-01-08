@@ -1,21 +1,50 @@
-execute if entity @s[tag=alaric] run function gd_main:modify/entity/villager/alaric
-execute if entity @s[tag=bodb] run function gd_main:modify/entity/villager/bodb
-execute if entity @s[tag=cedric] run function gd_main:modify/entity/villager/cedric
-execute if entity @s[tag=elana] run function gd_main:modify/entity/villager/elana
-execute if entity @s[tag=eldrid] run function gd_main:modify/entity/villager/eldrid
-execute if entity @s[tag=faendal] run function gd_main:modify/entity/villager/faendal
-execute if entity @s[tag=finlay] run function gd_main:modify/entity/villager/finlay
-execute if entity @s[tag=fiona] run function gd_main:modify/entity/villager/fiona
-execute if entity @s[tag=gilbert] run function gd_main:modify/entity/villager/gilbert
-execute if entity @s[tag=guillaume] run function gd_main:modify/entity/villager/guillaume
-execute if entity @s[tag=guinemar] run function gd_main:modify/entity/villager/guinemar
-execute if entity @s[tag=harlan] run function gd_main:modify/entity/villager/harlan
-execute if entity @s[tag=jerome] run function gd_main:modify/entity/villager/jerome
-execute if entity @s[tag=lyra] run function gd_main:modify/entity/villager/lyra
-execute if entity @s[tag=master] run function gd_main:modify/entity/villager/master
-execute if entity @s[tag=odo] run function gd_main:modify/entity/villager/odo
-execute if entity @s[tag=ragnar] run function gd_main:modify/entity/villager/ragnar
-execute if entity @s[tag=trader] run function gd_main:modify/entity/villager/trader
-execute if entity @s[tag=ysabell] run function gd_main:modify/entity/villager/ysabel
-execute if entity @s[tag=ysembert] run function gd_main:modify/entity/villager/ysembert
-execute if entity @s[tag=zaccarius] run function gd_main:modify/entity/villager/zaccarius
+execute store result score @s randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+execute store result score @a randomNumber run random value 1..7
+function gd_main:modify/entity/villager/trader
+
+
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split
+execute store result score @a randomNumber run random value 1..4
+function gd_main:modify/entity/villager/trader_split

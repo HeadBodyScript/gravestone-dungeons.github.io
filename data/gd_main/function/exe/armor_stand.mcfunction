@@ -5,6 +5,8 @@ execute as @s[tag=marker.ability_shield] at @s run function gd_main:ability/shie
 execute as @s[tag=marker.ability_thunder] at @s run function gd_main:ability/thunder/tick
 execute as @s[tag=marker.ability_warp] at @s run function gd_main:ability/warp/tick
 
+execute as @s[tag=armor_stand.convert] at @s run function gd_main:misc/mystical_horse/convert
+
 execute as @s[tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~
 
 # NODE
@@ -16,6 +18,7 @@ execute as @s[tag=marker.rune.max_health] at @s run function gd_main:misc/rune/m
 execute as @s[tag=marker.rune.max_mana] at @s run function gd_main:misc/rune/max_mana/vfx
 execute as @s[tag=marker.rune.oxygen_bonus] at @s run function gd_main:misc/rune/oxygen_bonus/vfx
 execute as @s[tag=marker.rune.safe_fall_distance] at @s run function gd_main:misc/rune/safe_fall_distance/vfx
+execute as @s[tag=marker.rune.stone_rune_delete] at @s run function gd_main:misc/rune/stone_rune_delete/vfx
 
 
 # add a tag to all companions called companion, marker_companion to the armorstand
