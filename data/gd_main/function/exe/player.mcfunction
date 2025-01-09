@@ -33,54 +33,22 @@ execute if predicate gd_main:armor_gold run effect give @s haste 5 0 true
 execute if predicate gd_main:armor_diamond run effect give @s resistance 5 0 true
 execute if predicate gd_main:armor_netherite run effect give @s health_boost 5 0 true
 
+execute if score @s rune.block_interaction_range matches 10 run effect give @s minecraft:haste 1 0 true
+execute if score @s rune.max_health matches 20 run effect give @s minecraft:resistance 1 0 true
+execute if score @s rune.max_mana matches 16000 if predicate gd:arcane_nodes run scoreboard players set @s mana_boost_duration 48000
+execute if score @s rune.oxygen_bonus matches 10 if predicate gd_main:in_water run effect give @s minecraft:night_vision 12 0 true
+execute if score @s rune.safe_fall matches 10 if predicate gd_main:on_slime run effect give @s minecraft:jump_boost 1 15 true
+
 scoreboard players enable @s settings
 execute if score @s settings matches 1.. run function gd_main:check/settings
 
 execute unless score @s enchantment.knife_pouch_INT >= @s enchantment.knife_pouch_MAX run scoreboard players add @s enchantment.knife_pouch_recharge 1
 execute if score @s enchantment.knife_pouch_recharge >= DAGGER.reload INT run function gd_enchantment:knife_pouch/other/recharge
 
+execute if predicate gd_main:time_check_gauge run function gd_main:misc/gauge
+
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range1:1b}] run function gd_main:misc/rune/block_interaction_range/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range2:1b}] run function gd_main:misc/rune/block_interaction_range/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range3:1b}] run function gd_main:misc/rune/block_interaction_range/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range4:1b}] run function gd_main:misc/rune/block_interaction_range/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={range5:1b}] run function gd_main:misc/rune/block_interaction_range/display
-
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health2:1b}] run function gd_main:misc/rune/max_health/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health4:1b}] run function gd_main:misc/rune/max_health/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health6:1b}] run function gd_main:misc/rune/max_health/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health8:1b}] run function gd_main:misc/rune/max_health/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={health10:1b}] run function gd_main:misc/rune/max_health/display
-
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={magicka1:1b}] run function gd_main:misc/rune/max_mana/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={magicka2:1b}] run function gd_main:misc/rune/max_mana/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={magicka3:1b}] run function gd_main:misc/rune/max_mana/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={magicka4:1b}] run function gd_main:misc/rune/max_mana/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={magicka5:1b}] run function gd_main:misc/rune/max_mana/display
-
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={oxygen1:1b}] run function gd_main:misc/rune/oxygen_bonus/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={oxygen2:1b}] run function gd_main:misc/rune/oxygen_bonus/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={oxygen3:1b}] run function gd_main:misc/rune/oxygen_bonus/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={oxygen4:1b}] run function gd_main:misc/rune/oxygen_bonus/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={oxygen5:1b}] run function gd_main:misc/rune/oxygen_bonus/display
-
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance1:1b}] run function gd_main:misc/rune/safe_fall_distance/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance2:1b}] run function gd_main:misc/rune/safe_fall_distance/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance3:1b}] run function gd_main:misc/rune/safe_fall_distance/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance4:1b}] run function gd_main:misc/rune/safe_fall_distance/display
-execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance5:1b}] run function gd_main:misc/rune/safe_fall_distance/display
-
-
-
-
-
-
-
-# gauge!!!!!!!!!!!!!!!!!!!!!!!!!!! with predicate of day time?
-
-
-
-
-
-
-
-

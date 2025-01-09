@@ -9,7 +9,7 @@
               "nutrition": 0,
               "saturation": 0,
               "can_always_eat": true,
-              "eat_seconds": 100000
+              "eat_seconds": 100014
             }
           }
         }
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "gd_enchantment:replant/click"
+    "function": "gd_enchantment:cultivation/click"
   }
 }

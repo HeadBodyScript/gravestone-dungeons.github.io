@@ -39,6 +39,15 @@ scoreboard objectives add enchantment.blessing_INT dummy
 scoreboard objectives add enchantment.bonecaller_TD dummy
 scoreboard objectives add enchantment.bonecaller_CD dummy
 
+scoreboard objectives add enchantment.cultivation_CD dummy
+scoreboard objectives add enchantment.cultivation_TD dummy
+scoreboard objectives add enchantment.cultivation_INT dummy
+scoreboard objectives add enchantment.cultivation_wheat dummy
+scoreboard objectives add enchantment.cultivation_carrot dummy
+scoreboard objectives add enchantment.cultivation_potato dummy
+scoreboard objectives add enchantment.cultivation_beet dummy
+scoreboard objectives add enchantment.cultivation_wart dummy
+
 scoreboard objectives add enchantment.deflect_TD dummy
 scoreboard objectives add enchantment.deflect_CD dummy
 

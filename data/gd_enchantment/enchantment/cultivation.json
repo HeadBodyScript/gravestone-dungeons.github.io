@@ -1,0 +1,29 @@
+{
+	"description": {
+		"translate": "enchantment.minecraft.cultivation",
+		"fallback": "Cultivation"
+	  },
+	"supported_items": "#minecraft:hoes",
+	"slots": [
+		"mainhand"
+	],
+	"weight": 1,
+	"anvil_cost": 8,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 10
+	},
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 10
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:tick": [{
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "gd_enchantment:cultivation/stat"
+			}
+		}]
+	}
+}

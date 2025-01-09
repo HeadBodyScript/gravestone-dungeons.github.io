@@ -13,6 +13,9 @@ execute as @e[scores={enchantment.blessing_VFX=0..}] at @s run function gd_encha
 execute as @e[scores={enchantment.bonecaller_TD=0..}] at @s run function gd_enchantment:bonecaller/other/td
 execute as @a[scores={enchantment.bonecaller_CD=0..}] run scoreboard players remove @s enchantment.bonecaller_CD 1
 
+# cultivation
+execute as @a[scores={enchantment.cultivation_CD=0..}] run scoreboard players remove @s enchantment.cultivation_CD 1
+
 # deflect_projectiles
 execute as @a[scores={enchantment.deflect_TD=0..}] at @s run function gd_enchantment:deflect_projectiles/other/td
 execute as @a[scores={enchantment.deflect_CD=0..}] run scoreboard players remove @s enchantment.deflect_CD 1
@@ -59,8 +62,6 @@ execute as @e[scores={enchantment.poisoning_VFX=0..}] at @s run function gd_ench
 # potion_bag
 
 # quiver
-
-# replant
 
 # star_shard
 execute as @e[scores={enchantment.star_shard_TD=0..}] at @s run function gd_enchantment:star_shard/other/td

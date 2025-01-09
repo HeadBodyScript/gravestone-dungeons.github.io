@@ -1,11 +1,11 @@
 { "values": [
-	"gd:enchantment_replant_1",
-	"gd:enchantment_quiver",
-	"gd:enchantment_experience_boost",
-	"gd:enchantment_potion_bag",
-	"gd:enchantment_illumination",
-	"gd:enchantment_adrenaline_boost",
-	"gd:enchantment_telekinesis",
-	"gd:enchantment_veil_of_shadows",
-	"gd:enchantment_warpstrike"
+	"gd_enchantment:cultivation",
+	"gd_enchantment:quiver",
+	"gd_enchantment:experience_boost",
+	"gd_enchantment:potion_bag",
+	"gd_enchantment:illumination",
+	"gd_enchantment:adrenaline_boost",
+	"gd_enchantment:telekinesis",
+	"gd_enchantment:veil_of_shadows",
+	"gd_enchantment:warpstrike"
 ]}
