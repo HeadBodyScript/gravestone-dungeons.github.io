@@ -40,7 +40,7 @@ data modify storage minecraft:boss max_health set value 20.0d
 
 
 
-scoreboard players set companion.TD INT 800
+scoreboard players set companion.TD INT 18000
 
 
 # Boss

@@ -1,7 +1,6 @@
 {
     "replace":true,
     "values": [
-        "minecraft:blaze",
         "minecraft:bogged",
         "minecraft:breeze",
         "minecraft:creeper",
@@ -10,11 +9,11 @@
         "minecraft:endermite",
         "minecraft:ghast",
         "minecraft:hoglin",
-        "minecraft:zoglin",
         "minecraft:evoker",
         "minecraft:illusioner",
         "minecraft:pillager",
         "minecraft:ravager",
+        "minecraft:vex",
         "minecraft:vindicator",
         "minecraft:piglin",
         "minecraft:piglin_brute",
@@ -22,20 +21,18 @@
         "minecraft:shulker",
         "minecraft:skeleton",
         "minecraft:stray",
-        "minecraft:wither_skeleton",
         "minecraft:slime",
         "minecraft:spider",
         "minecraft:cave_spider",
-        "minecraft:wither",
         "minecraft:zombie",
         "minecraft:drowned",
         "minecraft:husk",
         "minecraft:zombie_villager",
         "minecraft:witch",
         "minecraft:silverfish",
-        "minecraft:magma_cube",
         "minecraft:guardian",
         "minecraft:elder_guardian",
+        "minecraft:phantom",
         "minecraft:warden"
     ]
 }

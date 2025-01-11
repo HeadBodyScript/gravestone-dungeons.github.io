@@ -1,5 +1,5 @@
 scoreboard players add @s tick0 1
-execute as @s[scores={tick0=0}] run say My duty is over now.
+execute as @s[scores={tick0=1}] run say My duty is over now.
 execute as @s[scores={tick0=0..}] run tp @s ~ ~.01 ~ ~10 ~
 execute as @s[scores={tick0=0..}] run particle falling_dust{block_state:{Name:yellow_wool}} ^1 ^2.5 ^ 0 0 0 0 1 force @a
 execute as @s[scores={tick0=0..}] run particle falling_dust{block_state:{Name:yellow_wool}} ^ ^2 ^-1 0 0 0 0 1 force @a

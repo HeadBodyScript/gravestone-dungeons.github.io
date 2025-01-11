@@ -22,15 +22,15 @@ execute if score @s enchantment.star_shower_TD matches 600 at @s run playsound m
 execute if score @s enchantment.star_shower_TD matches 800 at @s run playsound minecraft:block.fire.ambient player @a[distance=..30] ~ ~ ~ 20 1
 
 
-execute if score @s enchantment.star_shower_TD matches 100 at @s run effect give @e[type=!player,distance=..50] minecraft:glowing 70 1 true
-execute if score @s enchantment.star_shower_TD matches 100 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
-execute if score @s enchantment.star_shower_TD matches 200 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
-execute if score @s enchantment.star_shower_TD matches 300 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
-execute if score @s enchantment.star_shower_TD matches 400 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
-execute if score @s enchantment.star_shower_TD matches 500 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
-execute if score @s enchantment.star_shower_TD matches 600 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
-execute if score @s enchantment.star_shower_TD matches 700 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
-execute if score @s enchantment.star_shower_TD matches 800 at @s run playsound minecraft:entity.blaze.ambient ambient @a[distance=..30] ~ ~ ~ 20 1
+execute if score @s enchantment.star_shower_TD matches 100 at @s run effect give @e[type=#gd_main:not_fire_res,distance=..75] minecraft:glowing 70 1 true
+execute if score @s enchantment.star_shower_TD matches 100 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
+execute if score @s enchantment.star_shower_TD matches 200 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
+execute if score @s enchantment.star_shower_TD matches 300 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
+execute if score @s enchantment.star_shower_TD matches 400 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
+execute if score @s enchantment.star_shower_TD matches 500 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
+execute if score @s enchantment.star_shower_TD matches 600 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
+execute if score @s enchantment.star_shower_TD matches 700 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
+execute if score @s enchantment.star_shower_TD matches 800 at @s run playsound minecraft:entity.blaze.shoot ambient @a[distance=..30] ~ ~ ~ 20 .7
 execute if score @s enchantment.star_shower_TD matches 100.. at @s run function gd_enchantment:star_shower/other/init_sphere
 
 execute as @e[tag=projectile.star_shower] at @s run function gd_enchantment:star_shower/other/projectile

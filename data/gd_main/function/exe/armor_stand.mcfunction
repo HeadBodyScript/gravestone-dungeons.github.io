@@ -21,20 +21,8 @@ execute as @s[tag=marker.rune.safe_fall_distance] at @s run function gd_main:mis
 execute as @s[tag=marker.rune.stone_rune_delete] at @s run function gd_main:misc/rune/stone_rune_delete/vfx
 
 
-# add a tag to all companions called companion, marker_companion to the armorstand
-execute as @s[tag=conjure_poison_sword] at @s run function gd_main:misc/companion/poison_sword
-execute as @s[tag=conjure_frosty_sword] at @s run function gd_main:misc/companion/frosty_sword
-execute as @s[tag=conjure_fiery_sword] at @s run function gd_main:misc/companion/fiery_sword
-
-execute as @s[tag=conjure_flame_spider] at @s run function gd_main:misc/companion/flame_spider
-execute as @s[tag=conjure_flame_atronach] at @s run function gd_main:misc/companion/flame_atronach
-
-execute as @s[tag=conjure_dire_bear] at @s run function gd_main:misc/companion/dire_bear
-execute as @s[tag=conjure_dire_wolf] at @s run function gd_main:misc/companion/dire_wolf
-
-execute as @s[tag=conjure_frost_golem] at @s run function gd_main:misc/companion/frost_golem
-execute as @s[tag=conjure_fire_golem] at @s run function gd_main:misc/companion/fire_golem
-execute as @s[tag=conjure_poison_golem] at @s run function gd_main:misc/companion/poison_golem
+# COMPANION
+execute as @s[tag=marker_companion] at @s run function gd_main:misc/companion/check
 
 # BOSS
 execute as @e[type=armor_stand,tag=experience_enemy] at @s run function gd_boss:xp/experience_enemy

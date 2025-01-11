@@ -1,5 +1,5 @@
 scoreboard players add @s tick 1
-execute as @e[distance=..8,type=!minecraft:player,tag=!ability,tag=!marker.ability_frost,tag=!marker.ability_ember,tag=!marker.ability_shield,tag=!marker.ability_thunder,tag=!marker.ability_warp] run function gd_main:ability/shield/effect
+execute as @e[distance=..8,type=!minecraft:player,tag=!companion,tag=!boss,tag=!ability,tag=!marker.ability_frost,tag=!marker.ability_ember,tag=!marker.ability_shield,tag=!marker.ability_thunder,tag=!marker.ability_warp] run function gd_main:ability/shield/effect
 # function gd_main:ability/shield/particle
 particle falling_dust{block_state:{Name:purple_wool}} ~ ~2.5 ~ 2.5 .3 2.5 0 1 force
 execute if entity @s[scores={tick=1}] run playsound minecraft:block.beacon.activate master @a ~ ~ ~ 40 .1
