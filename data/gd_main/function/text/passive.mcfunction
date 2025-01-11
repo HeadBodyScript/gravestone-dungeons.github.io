@@ -1,4 +1,5 @@
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=alaric,limit=1,sort=nearest] run function gd_main:text/passive/alaric
+# execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=bodb,limit=1,sort=nearest] run function gd_main:text/passive/bodb
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=cedric,limit=1,sort=nearest] run function gd_main:text/passive/cedric
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=elana,limit=1,sort=nearest] run function gd_main:text/passive/elana
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=eldrid,limit=1,sort=nearest] run function gd_main:text/passive/eldrid
@@ -9,9 +10,12 @@ execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,dist
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=guillaume,limit=1,sort=nearest] run function gd_main:text/passive/guillaume
 # execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=guinemar,limit=1,sort=nearest] run function gd_main:text/passive/guinemar
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=harlan,limit=1,sort=nearest] run function gd_main:text/passive/harlan
+# execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=jerome,limit=1,sort=nearest] run function gd_main:text/passive/jerome
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=lyra,limit=1,sort=nearest] run function gd_main:text/passive/lyra
+# execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=odo,limit=1,sort=nearest] run function gd_main:text/passive/odo
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=ragnar,limit=1,sort=nearest] run function gd_main:text/passive/ragnar
-execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=ragnvald,limit=1,sort=nearest] run function gd_main:text/passive/ragnvald
+# execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=ragnvald,limit=1,sort=nearest] run function gd_main:text/passive/ragnvald
+# execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=ysabell,limit=1,sort=nearest] run function gd_main:text/passive/ysabell
 execute as @s[scores={talked_to_villager_CD=-1}] if entity @e[type=villager,distance=..4,tag=zaccarius,limit=1,sort=nearest] run function gd_main:text/passive/zaccarius
 
 

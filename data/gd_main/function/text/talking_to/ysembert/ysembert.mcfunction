@@ -6,7 +6,7 @@ tellraw @s[scores={talked_to_villager=80}] ["",{"selector":"@e[type=minecraft:vi
 tellraw @s[scores={talked_to_villager=140}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Looking for an adventure? My master pays well, for good work."}]
 tellraw @s[scores={talked_to_villager=200}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": You can find him at Direwood Keep. I can sell you a map to the castle."}]
 
-give @s[scores={talked_to_villager=310}] gold_nugget[max_stack_size=96,custom_name='[{"text":"Gold Coin","italic":true,"color":"#ffcc33"}]',custom_data={gold_coin:1b},custom_model_data=1] 12
+give @s[scores={talked_to_villager=310}] gold_nugget[max_stack_size=96,custom_name='[{"text":"Gold Coin","italic":true,"color":"#ffcc33"}]',custom_data={gold_coin:1b},custom_model_data=1] 4
 
 tellraw @s[scores={talked_to_villager=320}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I see you own a few gold coins! You can use them to buy a parcel with class goods from me."}]
 execute at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @s[scores={talked_to_villager=320}] ~ ~ ~ 80

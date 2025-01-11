@@ -10,7 +10,7 @@ scoreboard players set @s talked_to_villager_CD 0
 # RUNE
 scoreboard players set @s rune.block_interaction_range 0
 scoreboard players set @s rune.max_health 0
-scoreboard players set @s rune.max_mana 0
+scoreboard players set @s rune.max_mana 1500
 scoreboard players set @s rune.oxygen_bonus 0
 scoreboard players set @s rune.safe_fall 0
 

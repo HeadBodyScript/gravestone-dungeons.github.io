@@ -1,0 +1,30 @@
+{
+    "replace":true,
+    "values": [
+        "minecraft:skeleton",
+        "minecraft:stray",
+        "minecraft:wither_skeleton",
+        "minecraft:bogged",
+        "minecraft:wolf",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:pillager",
+        "minecraft:endermite",
+        "minecraft:hoglin",
+        "minecraft:zoglin",
+        "minecraft:pillager",
+        "minecraft:vex",
+        "minecraft:piglin",
+        "minecraft:zombified_piglin",
+        "minecraft:slime",
+        "minecraft:zombie",
+        "minecraft:drowned",
+        "minecraft:husk",
+        "minecraft:zombie_villager",
+        "minecraft:witch",
+        "minecraft:silverfish",
+        "minecraft:magma_cube",
+        "minecraft:guardian",
+        "minecraft:phantom"
+    ]
+}
