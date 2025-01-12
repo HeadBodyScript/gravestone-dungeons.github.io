@@ -1,1 +1,0 @@
-# circle around the player
