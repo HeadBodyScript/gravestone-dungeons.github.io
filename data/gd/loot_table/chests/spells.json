@@ -340,7 +340,7 @@
                   "author": "Alaric Stormweaver",
                   "generation": 1,
                   "pages": [
-                    "[\"Teleportation Spell\\n\\n           ۩\\n\\n\\n\",{\"text\":\"Create location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd:spells/spells/warp_book_create\"},\"underlined\":true},\"\\n\\n\\n\\n\",{\"text\":\"Teleport to location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd:spells/spells/warp_book_warp\"},\"underlined\":true}]",
+                    "[\"   Teleportation Spell\\n\\n            ۩\\n\\n\\n\",{\"text\":\"⇨    \"},{\"text\":\"Save location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd_main:ability/warp/set_point\"},\"underlined\":true},\"\\n\\n\\n\\n\",{\"text\":\"⇨ \"},{\"text\":\"Teleport to location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd_main:ability/warp/summon\"},\"underlined\":true}]",
                     "[\"Use it without leaving this world, otherwise the saved location will be deleted.\"]"
                   ],
                   "resolved": true

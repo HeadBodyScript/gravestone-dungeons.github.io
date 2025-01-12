@@ -3,11 +3,12 @@ execute as @s[tag=marker.ability_frost] at @s run function gd_main:ability/frost
 execute as @s[tag=marker.ability_fire] at @s run function gd_main:ability/ember/tick
 execute as @s[tag=marker.ability_shield] at @s run function gd_main:ability/shield/tick
 execute as @s[tag=marker.ability_thunder] at @s run function gd_main:ability/thunder/tick
-execute as @s[tag=marker.ability_warp] at @s run function gd_main:ability/warp/tick
+execute as @s[tag=armor_stand.ability_warp] at @s run function gd_main:ability/warp/tick
 
 execute as @s[tag=armor_stand.convert] at @s run function gd_main:misc/mystical_horse/convert
 
 execute as @s[tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~
+execute as @s[tag=rotate_counterclockwise] at @s run tp @s ~ ~ ~ ~-0.5 ~
 
 # NODE
 execute as @s[tag=arcane_nodes] run function gd_main:misc/arcane/init

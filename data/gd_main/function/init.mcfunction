@@ -26,6 +26,8 @@ scoreboard objectives add bossTick dummy
 
 scoreboard objectives add companion_TD dummy
 
+scoreboard objectives add ability.link dummy
+
 # enchantment
 scoreboard objectives add enchantment.adrenaline_boost_CD dummy
 scoreboard objectives add enchantment.adrenaline_boost_INT dummy
