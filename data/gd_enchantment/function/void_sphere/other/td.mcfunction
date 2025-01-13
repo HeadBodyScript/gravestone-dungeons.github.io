@@ -22,6 +22,8 @@ execute as @s[scores={enchantment.void_sphere_TD=150..}] run particle minecraft:
 
 execute as @s[scores={enchantment.void_sphere_TD=150..}] run damage @e[type=#gd_main:entity,tag=!companion,tag=!boss,distance=..2.5,limit=1,sort=random] 10 minecraft:cramming
 
+# execute as @s[scores={enchantment.void_sphere_TD=150..}] run damage @e[type=#gd_main:entity,tag=!companion,tag=!boss,distance=..2.5,limit=1,sort=random] 10 player_attack by @p
+
 execute as @s[scores={enchantment.void_sphere_TD=150..}] run damage @e[type=player,tag=!void_sphere_player,distance=..2.5,limit=1,sort=nearest] 1 minecraft:cramming
 
 # execute as @s[scores={enchantment.void_sphere_TD=10}] run tag @s[type=#gd:normal_mobs,tag=!companion,tag=!boss,distance=..70,limit=15,sort=nearest] add void_me

@@ -1,6 +1,4 @@
-# change to have ability duration
 scoreboard players add @s tick 1
-# tellraw @a ["",{"text":"score = "},{"score":{"name":"@s","objective":"tick"}}]
 
 # change #mobs to all enties that can be affected (including arrows)
 execute as @e[type=#gd_main:entity,distance=..5] run function gd_main:ability/frost/damage

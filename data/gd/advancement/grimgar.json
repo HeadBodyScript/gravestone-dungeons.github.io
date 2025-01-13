@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "T'was a Hard Fight",
+            "bold": false,
+            "italic": true,
+		"color": "gold"
+        },
+        "description": {
+            "text": "Defeat Grimgar the Ferocious Bugbear",
+		"color": "gray"
+        },
+        "icon": {
+            "id": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bossgrimgar": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[Boss_Grimgar]}"
+                }
+            }
+        }
+    },
+    "parent": "gd:6church"
+}

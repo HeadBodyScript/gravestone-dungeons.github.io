@@ -1,4 +1,4 @@
-execute as @e[type=#gd_main:entity] at @s if entity @e[type=armor_stand,tag=projectile.light_wave,distance=..2.5] run damage @s 12 minecraft:player_attack
+execute as @e[type=#gd_main:entity] at @s if entity @e[type=armor_stand,tag=projectile.light_wave,distance=..2.5] run damage @s 12 minecraft:player_attack by @p
 
 execute as @e[type=player] at @s if entity @e[type=armor_stand,tag=projectile.light_wave,distance=..2.5] run damage @s 6 minecraft:player_attack
 

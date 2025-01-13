@@ -54,16 +54,17 @@ namespace
 - [x] Deflect Projectiles  cooldown + duration
 - [x] Star Shard           cooldown + duration
 - [x] Star Shower          cooldown + duration
-- [x] Levetation
-- [x] Potionbag
-- [x] Quiver
-- [x] Telekinesis
-- [x] Veil of Shadows
-- [x] Warpsrike
-- [x] Withering
-- [x] Fireburst
-- [ ] Replant
-- [ ] Horse
+- [x] Levitation	   cooldown
+- [x] Potionbag		   on tick
+- [x] Quiver		   on tick
+- [x] Telekinesis	   cooldown
+- [x] Veil of Shadows      cooldown
+- [x] Warpsrike		   cooldown
+- [x] Withering		   on-hit
+- [x] Fireburst		   cooldown
+- [x] Replant		   cooldown
+- [x] Horse		   on tick
+- [x] Magma Walker	   on tick
 
 ### ARROW
 - [x] Bonfire
@@ -74,14 +75,14 @@ namespace
 - [x] Thunder
 - [x] Transform
 - [x] Weaving
-- [ ] Ender
+- [x] Ender
 
 ### SPELL
 - [x] Ember
 - [x] Frost
 - [x] Shield
 - [x] Thunder
-- [ ] Warp
+- [x] Warp
 
 ## MULTIPLAYER BUGS
 ### BOSS
@@ -89,6 +90,7 @@ namespace
 * FIX: Local player counter. If the counter = 0, the boss will reset
 - [x] Boss would run functions (ticks) without the boss being active
 * now only ticks boss functions if the boss fight is active
+- [ ] Set adventuremode, only if boss isn't defeated (marker.boss is in a 200 block radius)
 
 ### STAT
 - [x] Item stats would re-apply on everyones main hand when a player would hold an item that didn't have stats prior
@@ -108,9 +110,12 @@ namespace
 - [x] Fix mana regen
 - [x] Fix arcane = mana regen
 - [x] Thunder/lightning spell only hits once per new target
+- [ ] Spell hurts all players, except caster
 
 ### COMPANION
-- [ ] companions can be summoned by anyone, 1 at the time
+- [x] companions can be summoned by anyone, 1 at the time
+- [ ] companions teleport only to the caster
+- [ ] companions are added to the team of the caster
    
 ### INIT PLAYER
 - [x] Ysembert talks to everyone on the server + it spawns multiple times in an area
@@ -133,15 +138,17 @@ namespace
 * Fix: Also added a dynamic limit per player
 * Fix: If the max_health rune has a max of 5, a player can combine 5x1 or 2x2 + 1x1 
 
-- [ ] Check if mystical heart works (I could not find the item in the cheat room)
+- [x] Check if mystical heart works (I could not find the item in the cheat room)
 
-
+- [ ] rework all dialogues
 - [x] make all dialog into mine
-- [ ] do all the entity stuff
+- [x] do all the entity stuff
 
 - [ ] init_players.mcfunction doesn't execute sometimes
 - [x] horse tellraw wrong words fix
 
+# STRUCTURE
+- [ ] rebuild witch huts (connected to arena), add set block ~ ~ ~ barrier in phase_1 file when done
 
 
 ## OTHER
@@ -151,12 +158,14 @@ namespace
 - [x] companions duration would break if there are multiple players
 - [x] companions now count as an individual
 - [x] Created a mechanic that allowes for every villager to have a "passive" and "active" dialog
+- [ ] blue discs stop playing, if too far away (like green discs)
 
 ## OTHER FIXES
 - [x] new players will run init_player.mcfunction that enables every stat that the player needs to function
 - [x] remove my own class system
 - [ ] build the class system that Zacc explained
-
+- [ ] Privat message for players near villagers
+- [ ] Ysembert (Direwood Keep version) has dialogue with questions 
 
 ## IDEAS
 * Enchantment that stores up a Node buff that triggers when you take a large amout of damage
@@ -185,11 +194,6 @@ namespace
 ## SCRAPPED
 save arrows in scoreboard switch between arrows in quiver (dont think this is possible)
         Damage immune tags
-
-- [ ] tranforming arrow
-   - [ ] on a player: Turn into a frog [passive animal] for X amount of time
-   - [ ] on entity:   Turn entity into a frog [passive animal] for X amount of time
-
 
 * Buy/unlock ultimate abilities per class
 * Change some classes to mini classes

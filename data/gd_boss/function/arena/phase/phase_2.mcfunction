@@ -1,0 +1,1 @@
+execute as @e[tag=boss.arena,sort=nearest,limit=1,distance=..32] at @s run function gd_boss:arena/attack/tick

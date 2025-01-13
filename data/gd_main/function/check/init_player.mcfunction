@@ -7,6 +7,8 @@ scoreboard players enable @s trigger.talked_to_villager
 scoreboard players enable @s settings
 scoreboard players set @s talked_to_villager_CD 0
 
+scoreboard players set @s enchantment.cultivation_INT 0
+
 # RUNE
 scoreboard players set @s rune.block_interaction_range 0
 scoreboard players set @s rune.max_health 0

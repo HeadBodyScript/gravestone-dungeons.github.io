@@ -65,9 +65,9 @@ execute as @s[scores={bossTick=200..450,},tag=witch_3] run particle minecraft:so
 execute as @s[scores={bossTick=500}] run playsound minecraft:entity.witch.celebrate ambient @a ~ ~ ~ 20 1
 
 execute as @s[scores={bossTick=250..500,},tag=witch_1] run particle minecraft:wax_on ~ ~4 ~ 6 6 6 .3 10
-execute as @s[scores={bossTick=500,},tag=witch_1] run particle minecraft:dripping_dripstone_lava ~ ~1 ~ .3 1 .3 0.4 100
-execute as @s[scores={bossTick=500,},tag=witch_1] run particle minecraft:flame ~ ~1 ~ 0.1 1 0.1 0.3 150
-execute as @s[scores={bossTick=500,},tag=witch_1] run particle minecraft:damage_indicator ~ ~1 ~ 0.2 1 0.2 0.1 150
+execute as @s[scores={bossTick=500},tag=witch_1] run particle minecraft:dripping_dripstone_lava ~ ~1 ~ .3 1 .3 0.4 100
+execute as @s[scores={bossTick=500},tag=witch_1] run particle minecraft:flame ~ ~1 ~ 0.1 1 0.1 0.3 150
+execute as @s[scores={bossTick=500},tag=witch_1] run particle minecraft:damage_indicator ~ ~1 ~ 0.2 1 0.2 0.1 150
 
 execute as @s[scores={bossTick=250..500,},tag=witch_2] run particle minecraft:portal ~ ~4 ~ 6 6 6 .3 10
 execute as @s[scores={bossTick=500,},tag=witch_2] run particle minecraft:cherry_leaves ~ ~1 ~ .3 1 .3 0.4 100
@@ -75,17 +75,17 @@ execute as @s[scores={bossTick=500,},tag=witch_2] run particle minecraft:reverse
 execute as @s[scores={bossTick=500,},tag=witch_2] run particle minecraft:witch ~ ~1 ~ 0.2 1 0.2 0.1 150
 
 execute as @s[scores={bossTick=250..500,},tag=witch_3] run particle minecraft:dolphin ~ ~4 ~ 6 6 6 .3 10
-execute as @s[scores={bossTick=500,},tag=witch_3] run particle minecraft:soul_fire_flame ~ ~1 ~ .1 1 .1 0.4 100
-execute as @s[scores={bossTick=500,},tag=witch_3] run particle minecraft:soul ~ ~1 ~ 0.1 1 0.1 0.3 150
-execute as @s[scores={bossTick=500,},tag=witch_3] run particle minecraft:sonic_boom ~ ~1 ~ 0.2 1 0.2 0.1 5
+execute as @s[scores={bossTick=500},tag=witch_3] run particle minecraft:soul_fire_flame ~ ~1 ~ .1 1 .1 0.4 100
+execute as @s[scores={bossTick=500},tag=witch_3] run particle minecraft:soul ~ ~1 ~ 0.1 1 0.1 0.3 150
+execute as @s[scores={bossTick=500},tag=witch_3] run particle minecraft:sonic_boom ~ ~1 ~ 0.2 1 0.2 0.1 5
 
 execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_block.chime ambient @a ~ ~ ~ 20 .1
 execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_block.resonate ambient @a ~ ~ ~ 20 .1
 execute as @s[scores={bossTick=485..490}] run particle minecraft:explosion_emitter ~1 ~1 ~ 0.2 1 0.2 0.1 1
 
-execute as @s[scores={bossTick=500,},tag=witch_1] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_1","boss"],CustomName:'{"color":"#FF0033","text":"Kaidaia the Alluring"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
-execute as @s[scores={bossTick=500,},tag=witch_2] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_2","boss"],CustomName:'{"color":"#9966cc","text":"Malificaia the Devious"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
-execute as @s[scores={bossTick=500,},tag=witch_3] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_3","boss"],CustomName:'{"color":"#0099cc","text":"Sylvanaia the Appalling"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute as @s[scores={bossTick=500},tag=witch_1] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_1","boss"],CustomName:'{"color":"#FF0033","text":"Kaidaia the Alluring"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute as @s[scores={bossTick=500},tag=witch_2] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_2","boss"],CustomName:'{"color":"#9966cc","text":"Malificaia the Devious"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
+execute as @s[scores={bossTick=500},tag=witch_3] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_3","boss"],CustomName:'{"color":"#0099cc","text":"Sylvanaia the Appalling"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}
 
 execute if score @s bossTick matches 500.. store result entity @e[limit=1,tag=boss.witch,sort=nearest] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get witch.boss.health INT
 

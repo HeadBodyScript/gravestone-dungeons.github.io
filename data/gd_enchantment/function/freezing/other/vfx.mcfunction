@@ -18,7 +18,7 @@ execute if score @s enchantment.freezing_VFX matches 210 run playsound block.gla
 execute if score @s enchantment.freezing_VFX matches 210 at @s run kill @e[type=minecraft:armor_stand,tag=marker_freezing]
 execute if score @s enchantment.freezing_VFX matches 210 at @s run kill @e[type=minecraft:item_display,tag=marker_freezing]
 execute as @s[type=player,scores={enchantment.freezing_VFX=210}] run damage @s 10
-execute as @s[type=!player,scores={enchantment.freezing_VFX=210}] run damage @s 25
+execute as @s[type=!player,scores={enchantment.freezing_VFX=210}] run damage @s 25 player_attack by @p
 
 execute if score @s enchantment.freezing_VFX matches 212 run tag @s remove freezing
 execute if score @s enchantment.freezing_VFX matches 212 run scoreboard players reset @s enchantment.freezing_VFX

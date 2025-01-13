@@ -23,5 +23,5 @@ execute as @s[scores={enchantment.light_wave_VFX=2}] run playsound block.beacon.
 execute as @s[scores={enchantment.light_wave_VFX=2}] run playsound minecraft:entity.player.attack.knockback master @a ~ ~ ~ 20 .5 1
 
 execute as @s[scores={enchantment.light_wave_VFX=15}] run particle minecraft:end_rod ^ ^-3 ^ 0.1 0.1 0.1 .2 4
-execute as @s[scores={enchantment.light_wave_VFX=20}] run scoreboard players reset @s enchantment.light_wave_VFX
+execute as @s[scores={enchantment.light_wave_VFX=20..}] run scoreboard players reset @s enchantment.light_wave_VFX
 

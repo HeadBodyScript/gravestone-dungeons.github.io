@@ -26,6 +26,8 @@ scoreboard objectives add bossTick dummy
 
 scoreboard objectives add companion_TD dummy
 
+scoreboard objectives add foodLevel dummy
+
 scoreboard objectives add ability.link dummy
 
 # enchantment
@@ -60,6 +62,7 @@ scoreboard objectives add enchantment.evoker_fangs_CD dummy
 
 scoreboard objectives add enchantment.fire_burst_CD dummy
 scoreboard objectives add enchantment.fire_burst_INT dummy
+scoreboard objectives add enchantment.fire_burst_VFX dummy
 
 scoreboard objectives add enchantment.floating_INT dummy
 
@@ -133,6 +136,10 @@ scoreboard objectives add rune.oxygen_bonus_MAX dummy
 scoreboard objectives add rune.safe_fall_MAX dummy
 
 # BOSS
+bossbar add boss.arena {"text":"Arena Boss","color":"gray"}
+bossbar set boss.arena style notched_6
+bossbar set boss.arena color white
+
 bossbar add boss.grimgar {"text":"Grimgar the Ferocious Bugbear","color":"gray"}
 bossbar set boss.grimgar style notched_12
 bossbar set boss.grimgar color blue

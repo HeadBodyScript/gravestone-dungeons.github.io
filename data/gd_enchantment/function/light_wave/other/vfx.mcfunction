@@ -15,7 +15,5 @@ execute as @s[tag=projectile.light_wave5,scores={enchantment.light_wave_TD=36..}
 execute as @s[tag=projectile.light_wave6,scores={enchantment.light_wave_TD=86..}] at @s run function gd_enchantment:light_wave/other/init
 execute as @s[tag=projectile.light_wave7,scores={enchantment.light_wave_TD=136..}] at @s run function gd_enchantment:light_wave/other/init
 
-# execute at @s as @e[distance=..1,type=!minecraft:armor_stand,scores={enchantment.light_wave_CD=200..}] unless score @s enchantment.light_wave_VFX matches 0.. run function gd_enchantment:light_wave/other/hit
-
 execute as @e[type=armor_stand,tag=projectile.light_wave] at @s if entity @a[distance=48..,limit=1,sort=nearest] run kill @s
-execute as @s[scores={enchantment.light_wave_TD=200..}] run kill @s
+execute as @s[scores={enchantment.light_wave_TD=300..}] run kill @s

@@ -1,4 +1,3 @@
-scoreboard players add @s tick 1
 execute as @s[scores={tick=1}] run effect give @a[distance=..7] minecraft:resistance 3 2 true
 execute at @s run tp @s ^ ^ ^-1
 execute at @s[scores={tick=1}] run particle minecraft:falling_dust{block_state:{Name:purple_wool}} ~ ~.2 ~ 3 .1 3 0 1 force
