@@ -5,17 +5,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tropical_fish",
-          "weight": 5,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
-        },{
-          "type": "minecraft:item",
           "name": "minecraft:cod",
           "weight": 5,
           "quality": 1,

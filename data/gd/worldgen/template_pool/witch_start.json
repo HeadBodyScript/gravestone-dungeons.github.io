@@ -1,0 +1,31 @@
+{
+  "name": "gd:witch_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/dungeon1",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/dungeon9",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/dungeon17",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    }
+  ]
+}

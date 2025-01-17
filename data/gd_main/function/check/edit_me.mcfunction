@@ -68,7 +68,7 @@ scoreboard players set grimgar.minion.count INT 12
 # amount that can spawn at the same time
 scoreboard players set grimgar.minion.max INT 8
 scoreboard players set grimgar.minion.cooldown INT 50
-scoreboard players set grimgar.attack.cooldown INT 90
+scoreboard players set grimgar.attack.cooldown INT 135
 
 # MARROW
 scoreboard players set marrow.boss.health INT 300
@@ -77,11 +77,11 @@ scoreboard players set marrow.minion.count INT 24
 # amount that can spawn at the same time
 scoreboard players set marrow.minion.max INT 8
 scoreboard players set marrow.minion.cooldown INT 50
-scoreboard players set marrow.attack.cooldown INT 90
+scoreboard players set marrow.attack.cooldown INT 135
 
 # WITCHES
 scoreboard players set witch.boss.health INT 200
-scoreboard players set witch.attack.cooldown INT 90
+scoreboard players set witch.attack.cooldown INT 180
 
 
 
