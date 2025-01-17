@@ -1,5 +1,5 @@
 execute store result score @s playerCount if entity @a[distance=..32]
-# execute store result score @s boss.marrow_minion_INT if entity @e[distance=..32,tag=minion.marrow]
+execute store result score @s boss.marrow_minion_INT if entity @e[distance=..32,tag=minion.marrow]
 execute if score @s playerCount matches 0 run function gd_boss:marrow/reset
 tp @s ~ ~ ~ ~10 ~
 

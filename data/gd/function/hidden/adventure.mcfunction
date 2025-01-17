@@ -1,1 +1,1 @@
-gamemode adventure @s
+# gamemode adventure @s
