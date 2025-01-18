@@ -18,3 +18,5 @@ execute as @e[type=minecraft:evoker,tag=boss.grimgar,sort=nearest,limit=1,distan
 execute as @s[tag=!phase_6] as @e[type=minecraft:evoker,tag=boss.grimgar] at @s run tp @s ~ ~ ~ facing entity @p eyes
 
 execute at @e[type=minecraft:marker,tag=marker.barrier,distance=..32] run particle falling_dust{block_state:{Name:black_wool}} ~ ~2 ~ 1 3 1 0 1 force
+
+execute as @s[tag=!phase_1] unless entity @e[distance=..64,tag=boss,type=evoker] run function gd_boss:grimgar/other/player_killed_boss

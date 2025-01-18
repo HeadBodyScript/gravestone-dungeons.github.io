@@ -1,7 +1,7 @@
 scoreboard players add @s tick 1
 execute if score @s tick matches 1 store result score @s randomNumber run random value 1..11
 
-execute if score @s tick matches 1 if score @s randomNumber matches 1 run function gd_boss:witch/attack/attack_minions 
+execute if score @s tick matches 1 if score @s randomNumber matches 1 run function gd_boss:witch/attack/attack_minions
 execute if score @s[tag=!potion] tick matches 1 if score @s randomNumber matches 1 run tag @s add potion
 execute if score @s tick matches 1 if score @s randomNumber matches 2 run function gd_boss:witch/attack/attack_minions
 execute if score @s[tag=!dart] tick matches 1 if score @s randomNumber matches 2 run tag @s add dart

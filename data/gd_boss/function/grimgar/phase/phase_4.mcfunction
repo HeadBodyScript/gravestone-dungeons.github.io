@@ -5,3 +5,4 @@ execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.bo
 execute at @s if score @s bossTick matches 1 unless score @s boss.grimgar_minion_INT >= grimgar.minion.max INT as @e[type=minecraft:marker,distance=..32,tag=marker.minion,limit=3,sort=random] at @s run function gd_boss:grimgar/other/minion
 
 execute if score @s bossTick >= grimgar.minion.cooldown INT run scoreboard players set @s bossTick 0
+execute unless entity @e[distance=..64,tag=mini.grimgar] run function gd_boss:grimgar/other/player_killed_mini
