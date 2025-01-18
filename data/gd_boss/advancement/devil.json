@@ -1,22 +1,22 @@
 {
     "display": {
         "title": {
-            "text": "Center of the Labyrinth",
+            "text": "",
             "bold": false,
-            "italic": true,
-            "color": "gold"
+            "italic": false,
+            "color": "white"
         },
         "description": {
-            "text": "Defeat the Blazing Devil",
-            "color": "gray"
+            "text": "",
+            "color": "white"
         },
         "icon": {
-            "id": "minecraft:wither_skeleton_skull"
+            "id": "minecraft:barrier"
         },
         "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
     },
     "criteria": {
         "bossdevil": {
