@@ -1,17 +1,22 @@
+team add DIREWOOD
+team add ENEMY
+team join DIREWOOD @p
+team join DIREWOOD @e[tag=companion]
+
 execute as @e[tag=companion] at @s unless score @s UUID matches 1.. run scoreboard players operation @s UUID = @p UUID
 execute as @e[tag=companion] at @s if score @s UUID matches 1.. run scoreboard players add @s tick 1
 
 execute as @e[tag=companion] at @s if score @s UUID matches 1.. if score @s tick >= companion.TD INT run function gd_main:misc/companion/attack/vfx
 execute as @e[tag=hypno_companion] at @s if score @s tick matches 200.. run function gd_main:misc/companion/attack/hypno_vfx
-# execute as @a at @s as @e[tag=companion,distance=24..] if score @s UUID = @p UUID run tp @s ~ ~ ~
+execute as @a at @s as @e[tag=companion,distance=24..] if score @s UUID = @p UUID run tp @s ~ ~ ~
 
 execute if predicate gd_main:time_check_gauge at @p run tag @e[type=#gd_main:companion_can_attack,tag=!companion,distance=..12] add enemy
 execute if predicate gd_main:time_check_gauge at @p run team join ENEMY @e[type=#gd_main:companion_can_attack,tag=enemy]
 execute if predicate gd_main:time_check_gauge at @p run damage @e[type=#gd_main:companion,tag=companion,limit=1,sort=random] 0 minecraft:arrow by @e[tag=enemy,limit=1,sort=nearest]
 
-# execute as @a at @s unless entity @e[type=#gd_main:companion,tag=companion,sort=nearest,limit=1,distance=..10] unless entity @e[tag=enemy,sort=nearest,distance=..24] at @e[type=#gd_main:companion,tag=companion,limit=1,sort=nearest] run function gd_main:misc/companion/attack/move
-# doing 10..32 because if we do 10.. it will check the whole world which will be bad for performance. This does mean if the player randomly teleports very far away, the companion wont follow. Lets just call it a feature....
-function gd_main:misc/companion/attack/move
+# execute as @a at @s if score @s UUID = @p UUID unless entity @e[type=#gd_main:companion,tag=companion,sort=nearest,limit=1,distance=..10] unless entity @e[tag=enemy,sort=nearest,distance=..24] at @e[type=#gd_main:companion,tag=companion,limit=1,sort=nearest] run function gd_main:misc/companion/attack/move
+
+# execute if score @s UUID = @p UUID unless entity @e[type=#gd_main:companion,tag=companion,sort=nearest,limit=1,distance=..10] unless entity @e[tag=enemy,sort=nearest,distance=..24] at @e[type=#gd_main:companion,tag=companion,limit=1,sort=nearest] run function gd_main:misc/companion/attack/move
 # dog / horse?
 # data modify entity @e[type=#gd_main:companion,tag=companion,sort=random,limit=1] Owner set from entity @e[type=#gd_main:companion_can_attack,tag=enemy,limit=1,sort=nearest] UUID
 
