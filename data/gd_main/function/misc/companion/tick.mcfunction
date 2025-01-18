@@ -1,9 +1,14 @@
+team add DIREWOOD
+team add ENEMY
+team join DIREWOOD @p
+team join DIREWOOD @e[tag=companion]
+
 execute as @e[tag=companion] at @s unless score @s UUID matches 1.. run scoreboard players operation @s UUID = @p UUID
 execute as @e[tag=companion] at @s if score @s UUID matches 1.. run scoreboard players add @s tick 1
 
 execute as @e[tag=companion] at @s if score @s UUID matches 1.. if score @s tick >= companion.TD INT run function gd_main:misc/companion/attack/vfx
 execute as @e[tag=hypno_companion] at @s if score @s tick matches 200.. run function gd_main:misc/companion/attack/hypno_vfx
-# execute as @a at @s as @e[tag=companion,distance=24..] if score @s UUID = @p UUID run tp @s ~ ~ ~
+execute as @a at @s as @e[tag=companion,distance=24..] if score @s UUID = @p UUID run tp @s ~ ~ ~
 
 execute if predicate gd_main:time_check_gauge at @p run tag @e[type=#gd_main:companion_can_attack,tag=!companion,distance=..12] add enemy
 execute if predicate gd_main:time_check_gauge at @p run team join ENEMY @e[type=#gd_main:companion_can_attack,tag=enemy]
