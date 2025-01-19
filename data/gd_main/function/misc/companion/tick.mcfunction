@@ -14,8 +14,9 @@ execute if predicate gd_main:time_check_gauge at @p run tag @e[type=#gd_main:com
 execute if predicate gd_main:time_check_gauge at @p run team join ENEMY @e[type=#gd_main:companion_can_attack,tag=enemy]
 execute if predicate gd_main:time_check_gauge at @p run damage @e[type=#gd_main:companion,tag=companion,limit=1,sort=random] 0 minecraft:arrow by @e[tag=enemy,limit=1,sort=nearest]
 
-execute as @a at @s unless entity @e[type=#gd_main:companion,tag=companion,sort=nearest,limit=1,distance=..10] unless entity @e[tag=enemy,sort=nearest,distance=..24] at @e[type=#gd_main:companion,tag=companion,limit=1,sort=nearest] run function gd_main:misc/companion/attack/move
-
+# execute as @a at @s unless entity @e[type=#gd_main:companion,tag=companion,sort=nearest,limit=1,distance=..10] unless entity @e[tag=enemy,sort=nearest,distance=..24] at @e[type=#gd_main:companion,tag=companion,limit=1,sort=nearest] run function gd_main:misc/companion/attack/move
+# doing 10..32 because if we do 10.. it will check the whole world which will be bad for performance. This does mean if the player randomly teleports very far away, the companion wont follow. Lets just call it a feature....
+function gd_main:misc/companion/attack/move
 # dog / horse?
 # data modify entity @e[type=#gd_main:companion,tag=companion,sort=random,limit=1] Owner set from entity @e[type=#gd_main:companion_can_attack,tag=enemy,limit=1,sort=nearest] UUID
 
