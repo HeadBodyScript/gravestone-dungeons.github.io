@@ -21,6 +21,7 @@ execute at @s as @e[type=minecraft:marker,tag=marker.barrier,tag=grimgar,distanc
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,tag=grimgar,distance=..32] at @s run setblock ~ ~1 ~ air
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,tag=grimgar,distance=..32] at @s run setblock ~ ~2 ~ air
 
+kill @e[type=armor_stand,tag=VFX.spark]
 execute at @s as @e[type=minecraft:armor_stand,tag=skull.grimgar,distance=..32] at @s run kill @s
 kill @e[type=minecraft:skeleton,distance=..32]
 execute as @e[type=minecraft:silverfish,distance=..32] run tp @s ~ ~-300 ~

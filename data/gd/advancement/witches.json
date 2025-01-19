@@ -23,7 +23,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{Tags:[Kaidaia]}"
+                    "nbt": "{Tags:[witch_1]}"
                 }
             }
         },
@@ -31,7 +31,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{Tags:[Malificaia]}"
+                    "nbt": "{Tags:[witch_2]}"
                 }
             }
         },
@@ -39,7 +39,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "nbt": "{Tags:[Sylvanaia]}"
+                    "nbt": "{Tags:[witch_3]}"
                 }
             }
         }

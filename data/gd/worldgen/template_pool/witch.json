@@ -198,6 +198,14 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/dungeon25",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:witch/spawner",
         "projection": "rigid",
         "processors": "gd:witch"

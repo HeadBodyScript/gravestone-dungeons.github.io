@@ -4,6 +4,7 @@ tp @s ~ ~ ~ ~5 ~
 particle dust_color_transition{from_color: [.45f, .2f, .5f], scale: 1.2f, to_color: [.2f, .2f, .2f]} ~ ~3 ~ .2 1 .2 0 30 force
 execute as @e[tag=morbex_sphere] at @s run function gd_boss:morbex/attack/void_sphere
 
+execute if score @s bossTick matches 10 as @a[tag=fighting.morbex] run function gd:boss/morbex
 execute if score @s bossTick matches 1..20 run particle minecraft:gust_emitter_small ~ ~1 ~ .2 .2 .2 0.2 1
 execute if score @s bossTick matches 16 run summon firework_rocket ~ ~ ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_trail:true,colors:[I;5507171],fade_colors:[I;3673133]}]}}}}
 execute if score @s bossTick matches 16 run stopsound @a * minecraft:entity.firework_rocket.launch

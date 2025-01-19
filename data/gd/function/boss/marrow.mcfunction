@@ -1,1 +1,1 @@
-title @s title {"text":"\uE0A3"}
+title @s title {"text":"\uA0A3"}

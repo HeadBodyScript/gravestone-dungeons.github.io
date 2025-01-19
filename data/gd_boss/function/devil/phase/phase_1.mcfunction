@@ -3,6 +3,7 @@ tag @a[distance=..64] add fighting.devil
 tp @s ~ ~ ~ ~10 ~
 function gd_boss:devil/other/vfx_fire_spiral
 
+execute if score @s bossTick matches 10 as @a[tag=fighting.devil] run function gd:boss/devil
 execute if score @s bossTick matches 10 run execute store result score @s randomNumber run random value 1..2
 execute if score @s bossTick matches 10 run tellraw @a[tag=fighting.devil] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : NO, not that feeling again..."}]
 execute if score @s bossTick matches 40 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Someone sneaked into my realm. Looking for a near end?"}] 

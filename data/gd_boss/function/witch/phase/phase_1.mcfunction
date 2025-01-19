@@ -2,6 +2,7 @@ scoreboard players add @s bossTick 1
 
 tag @a add fighting.witch
 execute as @s[scores={bossTick=1..5}] store result score @s randomNumber run random value 1..3
+execute if score @s bossTick matches 10 as @a[tag=fighting.witch] run function gd:boss/witches
 execute as @s[scores={bossTick=10}] if score @s randomNumber matches 1 run bossbar set boss.witch name {"text":"Kaidaia the Alluring","color":"gray"}
 execute as @s[scores={bossTick=10}] if score @s randomNumber matches 2 run bossbar set boss.witch name {"text":"Malificaia the Devious","color":"gray"}
 execute as @s[scores={bossTick=10}] if score @s randomNumber matches 3 run bossbar set boss.witch name {"text":"Sylvanaia the Appalling","color":"gray"}

@@ -4,6 +4,8 @@ execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.bo
 
 tag @a[distance=..32] add fighting.grimgar
 effect give @a[distance=..32] minecraft:slowness 1 2 true
+
+execute if score @s bossTick matches 10 as @a[tag=fighting.grimgar] run function gd:boss/grimgar
 execute if score @s bossTick matches 1 run playsound minecraft:block.bell.resonate ambient @a ~ ~ ~ 10 1
 execute if score @s bossTick matches 1 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Something has changed. I feel weak... What is happening? What the..."}]
 execute if score @s bossTick matches 10 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"text":"Grimgar","color":"#009999"},{"text":" : You are not welcome.. leave now!"}]

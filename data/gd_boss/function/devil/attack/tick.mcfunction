@@ -28,7 +28,7 @@ execute as @s[tag=charge] run function gd_boss:devil/attack/attack_charge
 execute as @s[tag=recharge] run function gd_boss:devil/attack/attack_recharge
 
 execute store result score @s boss.devil_health run data get entity @s Health
-execute if score @s[tag=!charge] boss.devil_health matches ..50 unless score @s INT matches 4 run tag @s add charge
+execute if score @s[tag=!charge] boss.devil_health matches ..100 if entity @e[tag=minion.charge,distance=..15] unless score @s INT matches 4 run tag @s add charge
 
 execute store result bossbar minecraft:boss.devil value run data get entity @s Health
 
