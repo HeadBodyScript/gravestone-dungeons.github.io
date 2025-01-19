@@ -1,8 +1,3 @@
-team add DIREWOOD
-team add ENEMY
-team join DIREWOOD @p
-team join DIREWOOD @e[tag=companion]
-
 execute as @e[tag=companion] at @s unless score @s UUID matches 1.. run scoreboard players operation @s UUID = @p UUID
 execute as @e[tag=companion] at @s if score @s UUID matches 1.. run scoreboard players add @s tick 1
 
@@ -19,7 +14,7 @@ execute if predicate gd_main:time_check_gauge at @p run damage @e[type=#gd_main:
 # execute if score @s UUID = @p UUID unless entity @e[type=#gd_main:companion,tag=companion,sort=nearest,limit=1,distance=..10] unless entity @e[tag=enemy,sort=nearest,distance=..24] at @e[type=#gd_main:companion,tag=companion,limit=1,sort=nearest] run function gd_main:misc/companion/attack/move
 # dog / horse?
 # data modify entity @e[type=#gd_main:companion,tag=companion,sort=random,limit=1] Owner set from entity @e[type=#gd_main:companion_can_attack,tag=enemy,limit=1,sort=nearest] UUID
-
+# function gd_main:misc/companion/attack/move
 execute as @p at @s if entity @e[type=#gd_main:companion_can_attack,distance=..24] as @e[type=#gd_main:companion,tag=fireguard,limit=1,sort=nearest] run function gd_main:misc/companion/attack/fire_vfx
 execute as @p at @s unless entity @e[type=#gd_main:companion_can_attack,distance=..24] run kill @e[tag=fireblock]
 

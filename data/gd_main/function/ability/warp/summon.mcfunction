@@ -1,1 +1,1 @@
-summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["armor_stand.ability_warp","ability","rotate_clockwise"]}
+execute as @s at @s as @e[type=marker,tag=marker.ability_warp] if score @s ability.link = @p ability.link run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["armor_stand.ability_warp","ability","rotate_clockwise"]}

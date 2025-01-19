@@ -1,3 +1,3 @@
 execute as @e[tag=boss.marrow,distance=..32] at @s run function gd_boss:marrow/attack/tick
-
+execute unless entity @e[distance=..64,tag=boss.marrow] run function gd_boss:marrow/other/player_killed_boss
 # execute at @s if score @s bossTick matches 1 unless score @s boss.marrow_minion_INT >= marrow.minion.max INT as @e[type=minecraft:marker,distance=..32,tag=marker.minion,limit=5,sort=random] at @s run function gd_boss:marrow/other/minion
