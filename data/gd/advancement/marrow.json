@@ -11,7 +11,7 @@
 		"color": "gray"
         },
         "icon": {
-            "id": "minecraft:wither_skeleton_skull"
+            "id": "minecraft:skeleton_skull"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -28,5 +28,5 @@
             }
         }
     },
-    "parent": "gd:7m_caves"
+    "parent": "gd:caves_of_mirehaven"
 }

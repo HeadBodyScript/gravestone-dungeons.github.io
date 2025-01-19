@@ -1,5 +1,5 @@
 {
-  "parent": "gd:4arcane_nodes",
+  "parent": "gd:arcane_node",
   "display": {
     "title": {
       "text": "Artifacts of the Lands Beyond",

@@ -20,7 +20,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "gd:root",
+    "parent": "gd:gd",
     "criteria": {
       "in_caves_of_mirehaven": {
         "trigger": "minecraft:location",

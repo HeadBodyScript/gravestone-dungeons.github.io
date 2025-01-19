@@ -1,5 +1,5 @@
 {
-  "parent": "gd:8netherrock",
+  "parent": "gd:emberstone_bastion",
   "display": {
     "title": {
       "text": "Let's get him back on track",
@@ -8,7 +8,7 @@
       "color": "red"
     },
     "description": {
-      "text": "Found one of 3 Parts of Morbex Soul",
+      "text": "Found one of the 3 Parts of Morbex Soul",
       "color": "gray"
     },
     "icon": {

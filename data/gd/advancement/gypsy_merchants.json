@@ -20,7 +20,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "gd:3fair",
+  "parent": "gd:edinborough_fair",
   "criteria": {
     "with_merchant": {
       "trigger": "minecraft:player_interacted_with_entity",

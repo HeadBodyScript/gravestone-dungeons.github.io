@@ -31,5 +31,5 @@
     "requirements": [
         ["bossdevil"]
     ],
-    "parent": "gd:9maze"
+    "parent": "gd:blackstone_maze"
 }
