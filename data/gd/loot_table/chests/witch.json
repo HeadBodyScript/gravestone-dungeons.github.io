@@ -17,7 +17,7 @@
               },
               {
                 "function": "minecraft:set_name",
-                "name": "Small Point of Interest Explorer Map"
+                "name": "Witch House Explorer Map"
               }
             ],
             "name": "minecraft:map"

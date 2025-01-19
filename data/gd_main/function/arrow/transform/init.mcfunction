@@ -38,11 +38,9 @@ execute if score .INT randomNumber matches 28 at @s[tag=arrow_transform] run pla
 execute if score .INT randomNumber matches 29 at @s[tag=arrow_transform] run place template gd:transforming_arrow/transform_arrow_29 ~ ~-1 ~
 execute if score .INT randomNumber matches 30 at @s[tag=arrow_transform] run place template gd:transforming_arrow/transform_arrow_30 ~ ~-1 ~
 
-
-
 #gamerule doMobLoot false
 #kill @s[type=!player,tag=arrow_transform]
-execute if entity @s[type=!player,tag=arrow_transform] run damage @s 18 minecraft:magic
+execute if entity @s[type=!player,tag=arrow_transform] run damage @s 18 player_attack by @p
 execute if entity @s[type=player,tag=arrow_transform] run damage @s 8 minecraft:magic
 execute if entity @s[type=player,tag=arrow_transform] run effect give @s minecraft:slowness 10 2
 execute if entity @s[type=player,tag=arrow_transform] run effect give @s minecraft:nausea 36 1

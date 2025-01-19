@@ -1,9 +1,5 @@
 scoreboard players add @s tick 1
 
-# execute as @a at @s unless score @e[type=minecraft:marker,limit=1,sort=nearest,tag=marker.ability_warp] ability.link = @p ability.link as @p run tellraw @s ["",{"text":"No location created."}] 
-
-# execute as @a at @s unless score @e[type=minecraft:marker,limit=1,sort=nearest,tag=marker.ability_warp] ability.link = @p ability.link run kill @e[tag=armor_stand.ability_warp,limit=1,sort=nearest]
-
 execute as @a[distance=..6] unless score @p ability.link = @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.ability_warp] ability.link run function gd_main:ability/warp/effect0
 
 execute as @s[scores={tick=1}] run summon armor_stand ~ ~-.5 ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["armor_stand.ability_warp1","ability","rotate_clockwise"],ArmorItems:[{},{},{},{id:carrot_on_a_stick,components:{custom_model_data:5},count:1}],ArmorDropChances:[0f,0f,0f,0f]}
@@ -27,10 +23,6 @@ execute as @s[scores={tick=171}] run playsound minecraft:block.beacon.activate m
 execute as @s[scores={tick=201}] run playsound minecraft:block.beacon.activate master @a[distance=..20] ~ ~ ~ 20 1.6
 execute as @s[scores={tick=221}] run playsound minecraft:block.beacon.activate master @a[distance=..20] ~ ~ ~ 20 2
 
-# particle function doesnt exist
-# execute as @a at @s if score @s ability.link = @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.ability_warp] ability.link run function gd_main:ability/warp/particle
-
-# execute as @s[scores={tick=245}] at @s if score @e[type=minecraft:marker,limit=1,sort=nearest,tag=marker.ability_warp] ability.link = @p ability.link as @e[type=minecraft:marker,limit=1,sort=nearest,tag=marker.ability_warp] run function gd_main:ability/warp/effect1
 execute as @s[scores={tick=245}] as @e[type=marker,tag=marker.ability_warp] if score @s ability.link = @e[type=armor_stand,tag=armor_stand.ability_warp,limit=1,sort=nearest] ability.link at @s run function gd_main:ability/warp/effect1
 
 execute as @s[scores={tick=250}] at @s run kill @e[tag=armor_stand.ability_warp1,distance=..1]

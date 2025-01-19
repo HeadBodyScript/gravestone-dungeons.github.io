@@ -2,8 +2,6 @@ playsound minecraft:item.goat_horn.sound.1 master @a[distance=..30] ~ ~ ~ 60
 particle dust_color_transition{from_color: [.9f, .7f, .1f], scale: 2f, to_color: [.1f, .1f, .1f]} ~ ~ ~
 particle minecraft:campfire_signal_smoke ~ ~1 ~ 0 10 0 0.01 100
 
-
-
 summon arrow ~ ~10 ~ {item:{id:"minecraft:tipped_arrow",count:1},Motion:[0.0,-10.0,0.0]}
 summon arrow ~1 ~11 ~ {item:{id:"minecraft:tipped_arrow",count:1},Motion:[0.0,-10.0,0.0]}
 summon arrow ~ ~12 ~1 {item:{id:"minecraft:tipped_arrow",count:1},Motion:[0.1,-10.0,0.0]}
@@ -137,14 +135,5 @@ summon arrow ~1 ~30 ~3 {item:{id:"minecraft:tipped_arrow",count:1},Motion:[0.0,-
 summon arrow ~-1 ~30 ~3 {item:{id:"minecraft:tipped_arrow",count:1},Motion:[0.0,-10.0,0.1]}
 summon arrow ~1 ~30 ~-3 {item:{id:"minecraft:tipped_arrow",count:1},Motion:[0.0,-10.0,0.1]}
 summon arrow ~-1 ~30 ~-3 {item:{id:"minecraft:tipped_arrow",count:1},Motion:[0.0,-10.0,0.0]}
-
-
-
-
-
-
-
-
-
 
 execute as @s[type=minecraft:arrow] run kill @s

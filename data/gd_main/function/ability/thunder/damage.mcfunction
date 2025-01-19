@@ -6,4 +6,3 @@ execute at @s[scores={tick=35}] run particle minecraft:wax_off ~ ~ ~ 0.3 1 0.3 0
 execute if score @s tick matches 40 run scoreboard players set @s tick 0
 
 #scoreboard players operation @s UUID = @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=marker_ability_thunder] UUID
-#summon lightning_bolt ~ ~ ~

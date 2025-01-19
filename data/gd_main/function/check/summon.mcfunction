@@ -5,7 +5,9 @@ tag @s add talking_to_villager
 
 tellraw @s "I can't shake the feeling that someone is following me..."
 
-title @s title {"text":"\uE000"}
+# starting message
+title @s title {"text":"\uA000"}
+
 tellraw @s [{"text":"ZaccMaster's Gravestone Dungeons ","color":"gold"}]
 tellraw @s [{"text":"[Planet Minecraft]","color":"dark_green","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/gravestone-dungeons-v1-0/"}}]
 tellraw @s [{"text":"[Discord]","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.com/channels/1261375398869078016/1261375401314353196"}}]

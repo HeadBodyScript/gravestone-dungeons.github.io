@@ -1,4 +1,3 @@
-
 execute as @e[tag=arrow_thunder] at @s run summon minecraft:lightning_bolt ~ ~ ~
 particle minecraft:firework ~ ~.5 ~ .2 1 .2 0.05 50
 particle minecraft:electric_spark ~ ~2 ~ .5 1.5 .5 0.05 50

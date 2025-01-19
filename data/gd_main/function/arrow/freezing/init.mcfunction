@@ -1,5 +1,3 @@
-#scoreboard players set @s enchantment.freezing_VFX 0
-
 scoreboard players add @s enchantment.freezing_INT 1
 execute as @s[scores={enchantment.freezing_INT=2..}] run function gd_enchantment:freezing/success
 

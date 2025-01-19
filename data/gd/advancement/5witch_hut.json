@@ -10,7 +10,7 @@
       "italic": true
     },
     "description": {
-      "text": "Visited a Small Dungeon",
+      "text": "Visited a Witch's Hut",
       "color": "gray",
       "bold": false,
       "italic": false
@@ -22,7 +22,7 @@
   },
   "parent": "gd:gd",
   "criteria": {
-    "in_s_dungeon": {
+    "in_witch": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -31,7 +31,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "gd:s_dungeon"
+                "structures": "gd:witch"
               }
             }
           }
@@ -41,7 +41,7 @@
   },
   "requirements": [
     [
-      "in_s_dungeon"
+      "in_witch"
     ]
   ]
 }
