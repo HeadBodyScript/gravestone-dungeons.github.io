@@ -7,6 +7,9 @@ scoreboard players enable @s trigger.talked_to_villager
 scoreboard players enable @s settings
 scoreboard players set @s talked_to_villager_CD 0
 
+scoreboard players add @s INT 0
+scoreboard players add @s INT1 0
+
 scoreboard players set @s enchantment.cultivation_INT 0
 
 # RUNE

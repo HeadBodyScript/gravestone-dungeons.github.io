@@ -890,6 +890,14 @@
         "projection": "rigid",
         "processors": "gd:church"
       }
+    },{
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:church/villager_trader",
+        "projection": "rigid",
+        "processors": "gd:church"
+      }
     }
 
   ]

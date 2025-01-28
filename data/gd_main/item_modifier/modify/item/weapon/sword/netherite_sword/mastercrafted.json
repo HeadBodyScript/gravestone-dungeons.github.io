@@ -1,0 +1,80 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Mastercrafted",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "+25% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "16 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+200% Knockback",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+30% Interaction Range",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "9a4c467e-cc4c-43f1-8820-5e2ee2db6c56",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.025,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "9a4c467e-cc4c-43f1-8820-5e2ee2db6c56",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 16,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "9a4c467e-cc4c-43f1-8820-5e2ee2db6c56",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "9a4c467e-cc4c-43f1-8820-5e2ee2db6c56",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "9a4c467e-cc4c-43f1-8820-5e2ee2db6c56",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

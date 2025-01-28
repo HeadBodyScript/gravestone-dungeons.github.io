@@ -1,3 +1,1 @@
-##Ordinary
-
-execute as @p run say Seems like my foal has acquired ordinary attributes...
+tellraw @p ["",{"text":"Your foal has acquired the attibutes of an ordinary donkey."}]

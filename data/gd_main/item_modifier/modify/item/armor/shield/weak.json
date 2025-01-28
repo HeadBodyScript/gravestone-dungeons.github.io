@@ -18,7 +18,7 @@
         "italic": false
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_attributes",

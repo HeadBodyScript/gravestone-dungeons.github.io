@@ -1,0 +1,81 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Mastercrafted",
+        "color": "gold",
+        "italic": false
+      },
+      {
+        "text": "+2 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+4 Health",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+5% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+400% Oxygen",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "133e3e8f-f9e3-4687-beac-9ff800348a44",
+        "attribute": "minecraft:generic.armor",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "133e3e8f-f9e3-4687-beac-9ff800348a44",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 4,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "133e3e8f-f9e3-4687-beac-9ff800348a44",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.005,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "133e3e8f-f9e3-4687-beac-9ff800348a44",
+        "attribute": "minecraft:generic.oxygen_bonus",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "133e3e8f-f9e3-4687-beac-9ff800348a44",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

@@ -1,1 +1,1 @@
-execute as @s on passengers run tellraw @s ["",{"text":"Seems like my steed has acquired ordinary attributes..."}]
+tellraw @p ["",{"text":"Your foal has acquired the attibutes of an ordinary mule."}]

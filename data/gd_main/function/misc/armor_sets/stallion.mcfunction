@@ -1,0 +1,1 @@
+execute if score @s foodLevel matches 8.. unless score @s mana >= @s mana_max run scoreboard players add @s mana 1

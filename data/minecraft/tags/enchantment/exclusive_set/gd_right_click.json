@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+	"gd_enchantment:bonecaller",
+	"gd_enchantment:cultivation",
+	"gd_enchantment:deflect_projectiles",
+	"gd_enchantment:disarming",
+	"gd_enchantment:evoker_fangs",
+	"gd_enchantment:light_wave",
+	"gd_enchantment:illumination",
+	"gd_enchantment:knife_pouch",
+	"gd_enchantment:star_shard",
+	"gd_enchantment:star_shower",
+	"gd_enchantment:telekinesis",
+	"gd_enchantment:void_sphere"
+
+  ]
+}

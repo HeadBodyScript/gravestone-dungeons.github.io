@@ -1,0 +1,73 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Rare",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+15% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "11 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+50% Attack Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+30% Interaction Range",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "bbc8e417-46d8-4307-ae2a-eee5e6971d34",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.015,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "bbc8e417-46d8-4307-ae2a-eee5e6971d34",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 11,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ebbc8e417-46d8-4307-ae2a-eee5e6971d34",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -1.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "bbc8e417-46d8-4307-ae2a-eee5e6971d34",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Heavy",
+        "color": "#33ccff",
+        "italic": false
+      },
+      {
+        "text": "-10% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "12 Attack Damage",
+        "color": "green",
+        "italic": false
+      },
+      {
+        "text": "+150% Knockback",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "-150% Attack Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "+30% Interaction Range",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "e99a52ef-b896-4169-836d-d2183fdf05a1",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.01,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "e99a52ef-b896-4169-836d-d2183fdf05a1",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 12,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "e99a52ef-b896-4169-836d-d2183fdf05a1",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 1.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "e99a52ef-b896-4169-836d-d2183fdf05a1",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "e99a52ef-b896-4169-836d-d2183fdf05a1",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

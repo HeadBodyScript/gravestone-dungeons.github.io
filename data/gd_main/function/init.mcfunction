@@ -11,6 +11,7 @@ scoreboard objectives add node_VFX dummy
 
 scoreboard objectives add randomNumber dummy
 scoreboard objectives add INT dummy
+scoreboard objectives add INT1 dummy
 scoreboard objectives add UUID dummy
 scoreboard objectives add tick dummy
 scoreboard objectives add tick0 dummy
@@ -19,6 +20,7 @@ scoreboard objectives add tick2 dummy
 scoreboard objectives add tick3 dummy
 scoreboard objectives add tick4 dummy
 scoreboard objectives add tick5 dummy
+scoreboard objectives add tick6 dummy
 
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add playerCount dummy

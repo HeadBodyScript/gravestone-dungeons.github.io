@@ -1,0 +1,52 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Flimsy",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "-5% Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "d61d81cd-dcda-42c0-96cc-2576ee66f21b",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.005,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "d61d81cd-dcda-42c0-96cc-2576ee66f21b",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "d61d81cd-dcda-42c0-96cc-2576ee66f21b",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
+

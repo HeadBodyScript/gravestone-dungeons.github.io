@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+	"gd_enchantment:bleeding",
+	"gd_enchantment:blessing",
+	"gd_enchantment:floating",
+	"gd_enchantment:freezing",
+	"gd_enchantment:poisoning",
+	"gd_enchantment:withering"
+
+  ]
+}

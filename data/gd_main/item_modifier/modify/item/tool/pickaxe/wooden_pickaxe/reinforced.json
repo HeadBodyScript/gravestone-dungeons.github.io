@@ -1,0 +1,75 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Reinforced",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+10% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Submerged Efficiency ",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Efficiency",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "ebeb050f-8e4d-47b5-a2af-c278a55bba99",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.01,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ebeb050f-8e4d-47b5-a2af-c278a55bba99",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ebeb050f-8e4d-47b5-a2af-c278a55bba99",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.8,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ebeb050f-8e4d-47b5-a2af-c278a55bba99",
+        "attribute": "minecraft:player.submerged_mining_speed",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ebeb050f-8e4d-47b5-a2af-c278a55bba99",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

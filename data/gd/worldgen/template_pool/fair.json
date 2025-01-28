@@ -206,7 +206,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:fair/fiona",
+        "location": "gd:fair/edward",
         "projection": "rigid",
         "processors": "gd:fair"
       }
@@ -214,7 +214,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:fair/finlay",
+        "location": "gd:fair/otis",
         "projection": "rigid",
         "processors": "gd:fair"
       }
@@ -222,7 +222,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:fair/master",
+        "location": "gd:fair/peter",
         "projection": "rigid",
         "processors": "gd:fair"
       }
@@ -262,7 +262,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:fair/elana",
+        "location": "gd:fair/annie",
         "projection": "rigid",
         "processors": "gd:fair"
       }
@@ -270,7 +270,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:fair/eldrid",
+        "location": "gd:fair/arthur",
         "projection": "rigid",
         "processors": "gd:fair"
       }

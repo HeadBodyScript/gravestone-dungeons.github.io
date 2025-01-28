@@ -1,4 +1,4 @@
-execute if entity @s[type=horse] run function gd_main:modify/entity/horse/check
-execute if entity @s[type=donkey] run function gd_main:modify/entity/donkey/check
-execute if entity @s[type=mule] run function gd_main:modify/entity/mule/check
-# execute if entity @s[type=camel] run function gd_main:modify/entity/camel/check
+execute if entity @e[type=horse,distance=..3] as @e[type=#gd_main:rideable,tag=!modified,nbt=!{Age:0},limit=1,sort=nearest] run function gd_main:modify/entity/horse/check
+execute if entity @e[type=donkey,distance=..3] as @e[type=#gd_main:rideable,tag=!modified,nbt=!{Age:0},limit=1,sort=nearest] run function gd_main:modify/entity/donkey/check
+execute if entity @e[type=mule,distance=..3] as @e[type=#gd_main:rideable,tag=!modified,nbt=!{Age:0},limit=1,sort=nearest] run function gd_main:modify/entity/mule/check
+execute if entity @e[type=camel,distance=..3] as @e[type=#gd_main:rideable,tag=!modified,nbt=!{Age:0},limit=1,sort=nearest] run function gd_main:modify/entity/camel/check

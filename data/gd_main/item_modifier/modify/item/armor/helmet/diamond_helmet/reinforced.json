@@ -1,0 +1,81 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Reinforced",
+        "color": "#9900ff",
+        "italic": false
+      },
+      {
+        "text": "+3 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+2 Health",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+25% Jump Strength",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+100% Oxygen",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "0453e300-70d3-44bd-8676-634479b958f3",
+        "attribute": "minecraft:generic.armor",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "0453e300-70d3-44bd-8676-634479b958f3",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "0453e300-70d3-44bd-8676-634479b958f3",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.05,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "0453e300-70d3-44bd-8676-634479b958f3",
+        "attribute": "minecraft:generic.oxygen_bonus",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "0453e300-70d3-44bd-8676-634479b958f3",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

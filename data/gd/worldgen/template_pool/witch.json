@@ -210,6 +210,302 @@
         "projection": "rigid",
         "processors": "gd:witch"
       }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/cat_1",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/cat_2",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/cat_3",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/cat_4",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/cat_5",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_1",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_2",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_3",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_4",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_5",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_6",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_7",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_8",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_9",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_10",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_11",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_12",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_13",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_14",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_15",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_16",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_17",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_18",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_19",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_20",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_21",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_22",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_23",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_24",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_25",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_26",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_27",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_28",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_29",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_30",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_31",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:witch/gear_32",
+        "projection": "rigid",
+        "processors": "gd:witch"
+      }
     }
 
 

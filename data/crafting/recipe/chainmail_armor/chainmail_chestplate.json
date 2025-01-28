@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "minecraft:chainmail_chestplate"
+  }
+}

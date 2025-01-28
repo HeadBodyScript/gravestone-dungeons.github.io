@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+	"gd_enchantment:potion_bag",
+	"gd_enchantment:quiver"
+  ]
+}

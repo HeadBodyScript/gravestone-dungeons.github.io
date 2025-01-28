@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"gd_enchantment:warpstrike",
+	"minecraft:channeling",
+	"minecraft:riptide"
+  ]
+}

@@ -13,6 +13,7 @@
 	  "base": 10,
 	  "per_level_above_first": 10
 	},
+  "exclusive_set": "#minecraft:exclusive_set/gd_bow",
 	"max_level": 1,
 	"min_cost": {
 	  "base": 25,

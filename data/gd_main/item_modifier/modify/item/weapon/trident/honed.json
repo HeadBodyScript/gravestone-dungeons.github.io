@@ -13,7 +13,7 @@
         "italic": false
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_attributes",
@@ -32,8 +32,7 @@
         "operation": "add_value",
         "slot": "mainhand"
       }
-    ],
-    "replace": true
+    ]
   },
   {
     "function": "minecraft:set_custom_data",

@@ -1,0 +1,1 @@
+effect give @s minecraft:hero_of_the_village 3 1 true

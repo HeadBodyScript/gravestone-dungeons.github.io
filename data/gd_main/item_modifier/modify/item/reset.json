@@ -1,0 +1,19 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:0b,enchantment:0b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":true}}
+]

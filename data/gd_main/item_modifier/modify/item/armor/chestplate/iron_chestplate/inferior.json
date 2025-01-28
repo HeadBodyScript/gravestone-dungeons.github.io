@@ -1,0 +1,81 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Inferior",
+        "color": "#cc0000",
+        "italic": false
+      },
+      {
+        "text": "+6 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "-1 Health",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "-10% Speed",
+        "color": "red",
+        "italic": false
+      },
+      {
+        "text": "+25% Burning Time",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "8088f247-4bae-43b1-a7f8-17c064e63b14",
+        "attribute": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "8088f247-4bae-43b1-a7f8-17c064e63b14",
+        "attribute": "minecraft:generic.max_health",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "8088f247-4bae-43b1-a7f8-17c064e63b14",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.01,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "8088f247-4bae-43b1-a7f8-17c064e63b14",
+        "attribute": "minecraft:generic.burning_time",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "8088f247-4bae-43b1-a7f8-17c064e63b14",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

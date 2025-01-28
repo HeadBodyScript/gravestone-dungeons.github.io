@@ -3,7 +3,7 @@ execute store result score .INT0 randomNumber run random value 1..10
 
 execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ragnar]"},{"text":": Hey there, adventurer! Looking for the finest in bowmanship and arrow-crafting? You're in the right place"}]
 execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ragnar]"},{"text":": My arrows will pierce even the thickest of hides, and my bows, well, they're as reliable as the sunrise."}]
-execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ragnar]"},{"text":": TYou know, I've heard tales of warriors who can take down dragons with a single shot. Well, with my bows and arrows, maybe one day that'll be you!EMP"}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ragnar]"},{"text":": TYou know, I've heard tales of warriors who can take down dragons with a single shot. Well, with my bows and arrows, maybe one day that'll be you!"}]
 
 execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ragnar]"},{"text":": Aye, I may be young, but I've got a nose for quality."}]
 execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ragnar]"},{"text":": You won't find better arrows in the Lands Beyond, mark my words. And my bows? Oh, they're like extensions of your very soul."}]

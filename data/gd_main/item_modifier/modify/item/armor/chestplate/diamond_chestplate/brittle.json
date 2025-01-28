@@ -1,0 +1,57 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Brittle",
+        "color": "#888888",
+        "italic": false
+      },
+      {
+        "text": "+8 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "-5% Speed",
+        "color": "red",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "1ced1eb3-11d9-4cea-a3f1-b3b984047837",
+        "attribute": "minecraft:generic.armor",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "1ced1eb3-11d9-4cea-a3f1-b3b984047837",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.005,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "1ced1eb3-11d9-4cea-a3f1-b3b984047837",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]

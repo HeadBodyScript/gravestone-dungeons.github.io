@@ -1,0 +1,93 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Divine",
+        "color": "#99ffff",
+        "italic": false
+      },
+      {
+        "text": "+6 Armor",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+7 Health",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+10% Speed",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "+50% Jump Strength",
+        "color": "blue",
+        "italic": false
+      },
+      {
+        "text": "-100% Burning Time",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "c22c4340-0c48-40b1-8643-fb4b5d420f48",
+        "attribute": "minecraft:generic.armor",
+        "amount": 6,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "c22c4340-0c48-40b1-8643-fb4b5d420f48",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 7,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "c22c4340-0c48-40b1-8643-fb4b5d420f48",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.01,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "c22c4340-0c48-40b1-8643-fb4b5d420f48",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "c22c4340-0c48-40b1-8643-fb4b5d420f48",
+        "attribute": "minecraft:generic.burning_time",
+        "amount": -1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "c22c4340-0c48-40b1-8643-fb4b5d420f48",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  },
+  {
+    "function":"toggle_tooltips",
+	"toggles":{"attribute_modifiers":false}}
+]
