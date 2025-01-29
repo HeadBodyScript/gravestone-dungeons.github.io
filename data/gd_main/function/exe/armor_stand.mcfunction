@@ -5,6 +5,8 @@ execute as @s[tag=marker.ability_shield] at @s run function gd_main:ability/shie
 execute as @s[tag=marker.ability_thunder] at @s run function gd_main:ability/thunder/tick
 execute as @s[tag=armor_stand.ability_warp] at @s run function gd_main:ability/warp/tick
 
+execute as @s[tag=armor_stand.ability_warp_dimension] at @s run function gd_main:ability/warp_dimension/tick
+
 execute as @s[tag=armor_stand.modify] at @s run function gd_main:misc/mystical_horse/modify
 
 execute as @s[tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~

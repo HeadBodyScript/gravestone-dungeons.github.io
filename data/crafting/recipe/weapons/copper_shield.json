@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "minecraft:copper_ingot"
+    },
+    "o": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 336,
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"Copper Shield\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Low Durability\"}"
+      ],
+      "minecraft:custom_data": "{modified:1b}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "id": "de3e9b34-420a-409b-ab28-ac8d9c3546fe",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "hand"
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:shield"
+  }
+}

@@ -31,6 +31,7 @@ scoreboard objectives add companion_TD dummy
 scoreboard objectives add foodLevel dummy
 
 scoreboard objectives add ability.link dummy
+scoreboard objectives add warp_y dummy
 
 # enchantment
 scoreboard objectives add enchantment.adrenaline_boost_CD dummy
@@ -88,10 +89,17 @@ scoreboard objectives add enchantment.light_wave_TD dummy
 scoreboard objectives add enchantment.light_wave_VFX dummy
 scoreboard objectives add enchantment.light_wave_CD dummy
 
+scoreboard objectives add enchantment.mistbreaker_TD dummy
+scoreboard objectives add enchantment.mistbreaker_INT dummy
+
 scoreboard objectives add enchantment.poisoning_INT dummy
 scoreboard objectives add enchantment.poisoning_VFX dummy
 
 scoreboard objectives add enchantment.disarming_CD dummy
+
+scoreboard objectives add enchantment.retaliation_pulse_TD dummy
+scoreboard objectives add enchantment.retaliation_pulse_INT minecraft.used:minecraft.shield
+scoreboard objectives add enchantment.retaliation_pulse_VFX dummy
 
 scoreboard objectives add enchantment.star_shower_TD dummy
 scoreboard objectives add enchantment.star_shower_CD dummy

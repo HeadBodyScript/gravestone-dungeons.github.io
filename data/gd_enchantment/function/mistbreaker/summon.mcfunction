@@ -1,0 +1,3 @@
+execute at @p run summon armor_stand ~ ~-.1 ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["armor_stand.ability_warp_dimension","ability","rotate_clockwise"],ArmorItems:[{},{},{},{id:carrot_on_a_stick,components:{custom_model_data:5},count:1}],ArmorDropChances:[0f,0f,0f,0f]}
+scoreboard players remove @s mana 16000
+effect give @s slowness 1 7 true

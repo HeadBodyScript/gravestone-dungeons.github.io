@@ -2,7 +2,8 @@
   "replace": false,
   "values": [
 	"gd_enchantment:levitation",
-	"gd_enchantment:fire_burst"
+	"gd_enchantment:fire_burst",
+	"gd_enchantment:retaliation_pulse"
 
   ]
 }

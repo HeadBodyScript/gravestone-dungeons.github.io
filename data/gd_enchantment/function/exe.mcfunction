@@ -56,12 +56,18 @@ execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players rem
 
 # lightling
 
+# mistbreaker
+
 # poisoning
 execute as @e[scores={enchantment.poisoning_VFX=0..}] at @s run function gd_enchantment:poisoning/other/vfx
 
 # potion_bag
 
 # quiver
+
+# retaliation_pulse
+execute as @a[scores={enchantment.retaliation_pulse_CD=0..}] run scoreboard players remove @s enchantment.retaliation_pulse_CD 1
+execute as @e[type=minecraft:armor_stand,tag=marker.retaliation_pulse] at @s run function gd_enchantment:retaliation_pulse/other/vfx
 
 # star_shard
 execute as @e[scores={enchantment.star_shard_TD=0..}] at @s run function gd_enchantment:star_shard/other/td

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "minecraft:iron_ingot"
+    },
+    "o": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 672,
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"Iron Shield\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+      ],
+      "minecraft:custom_data": "{modified:1b}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "id": "de3e9b34-420a-409b-ab28-ac8d9c3546fe",
+            "amount": 4,
+            "operation": "add_value",
+            "slot": "hand"
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:shield"
+  }
+}
