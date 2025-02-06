@@ -22,23 +22,7 @@
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
       ],
       "minecraft:custom_data": "{modified:1b}",
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
-          {
-            "type": "minecraft:generic.armor",
-            "id": "de3e9b34-420a-409b-ab28-ac8d9c3546fe",
-            "amount": 6,
-            "operation": "add_value",
-            "slot": "hand"
-          },{
-            "type": "minecraft:generic.max_health",
-            "id": "ba401f69-6cac-4b0b-b5df-147b869b5140",
-            "amount": 2,
-            "operation": "add_value",
-            "slot": "hand"
-          }
-        ]
-      }
+      "minecraft:custom_model_data": 4
     },
     "count": 1,
     "id": "minecraft:shield"

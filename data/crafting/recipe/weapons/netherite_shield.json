@@ -1,54 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "W": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "o": {
-      "tag": "minecraft:planks"
-    },
-    "i": {
-      "item": "minecraft:netherite_scrap"
-    }
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:shield"
   },
-  "pattern": [
-    "ioi",
-    "iWi",
-    " i "
-  ],
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
   "result": {
     "components": {
-      "minecraft:max_damage": 5372,
+      "minecraft:max_damage": 2688,
       "minecraft:custom_name": "{\"italic\":false,\"text\":\"Netherite Shield\"}",
       "minecraft:lore": [
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very High Durability\"}"
       ],
       "minecraft:custom_data": "{modified:1b}",
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
-          {
-            "type": "minecraft:generic.armor",
-            "id": "de3e9b34-420a-409b-ab28-ac8d9c3546fe",
-            "amount": 8,
-            "operation": "add_value",
-            "slot": "hand"
-          },{
-            "type": "minecraft:generic.max_health",
-            "id": "ba401f69-6cac-4b0b-b5df-147b869b5140",
-            "amount": 2,
-            "operation": "add_value",
-            "slot": "hand"
-          },{
-            "type": "minecraft:generic.movement_speed",
-            "id": "16bd8a59-5553-42b1-81b3-bb9469877147",
-            "amount": -0.005,
-            "operation": "add_value",
-            "slot": "hand"
-          }
-        ]
-      },
-      "minecraft:fire_resistant": {}
+      "minecraft:fire_resistant": {},
+      "minecraft:custom_model_data": 5
     },
     "count": 1,
     "id": "minecraft:shield"

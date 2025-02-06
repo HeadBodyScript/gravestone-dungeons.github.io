@@ -6,26 +6,6 @@
         "text": "Heavy",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "-10% Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "15 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "-50% Attack Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "+30% Interaction Range",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -43,7 +23,7 @@
       {
         "id": "53b913c8-7bd9-44c0-b542-62315915841d",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 15,
+        "amount": 14,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -53,21 +33,11 @@
         "amount": -3,
         "operation": "add_value",
         "slot": "mainhand"
-      },
-      {
-        "id": "53b913c8-7bd9-44c0-b542-62315915841d",
-        "attribute": "minecraft:player.entity_interaction_range",
-        "amount": 1,
-        "operation": "add_value",
-        "slot": "mainhand"
       }
     ]
   },
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

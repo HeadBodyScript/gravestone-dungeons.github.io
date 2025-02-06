@@ -1,0 +1,57 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_data": "{earthdweller:1b,modified:1b}"
+        }
+      }
+    }
+  }
+    },
+    {
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:custom_data": "{earthdweller:1b,modified:1b}"
+        }
+      }
+    }
+  }
+    },
+    {
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_data": "{earthdweller:1b,modified:1b,enchantment:1b}"
+        }
+      }
+    }
+  }
+    },
+    {
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:custom_data": "{earthdweller:1b,modified:1b,enchantment:1b}"
+        }
+      }
+    }
+  }
+    }
+  ]
+}

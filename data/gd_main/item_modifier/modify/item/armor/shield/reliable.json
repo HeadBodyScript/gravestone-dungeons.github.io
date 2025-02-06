@@ -1,0 +1,43 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Reliable",
+        "color": "#669900",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "38c93d9a-6443-44db-a271-ce2c7d2c663c",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "38c93d9a-6443-44db-a271-ce2c7d2c663c",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.2,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "38c93d9a-6443-44db-a271-ce2c7d2c663c",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

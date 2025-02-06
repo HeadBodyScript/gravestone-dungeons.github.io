@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Pristine",
+        "color": "#9900ff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "0b3ab762-80d8-4223-b014-7f62b0ba1ded",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.01,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "0b3ab762-80d8-4223-b014-7f62b0ba1ded",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "0b3ab762-80d8-4223-b014-7f62b0ba1ded",
+        "attribute": "minecraft:generic.step_height",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

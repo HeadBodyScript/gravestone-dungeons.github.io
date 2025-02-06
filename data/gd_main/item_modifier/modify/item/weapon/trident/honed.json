@@ -6,11 +6,6 @@
         "text": "Honed",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "11 Attack Damage",
-        "color": "green",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -37,8 +32,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

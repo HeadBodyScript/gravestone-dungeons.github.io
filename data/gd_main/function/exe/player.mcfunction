@@ -30,15 +30,16 @@ execute if predicate gd_main:armor_gold run effect give @s haste 5 0 true
 execute if predicate gd_main:armor_diamond run effect give @s resistance 5 0 true
 execute if predicate gd_main:armor_netherite run effect give @s health_boost 5 0 true
 
-execute if predicate gd_main:armor_ram if predicate gd_main:is_sneaking if score @s mana matches 100.. run function gd_main:misc/armor_sets/ram
-execute if predicate gd_main:armor_axolotl if predicate gd_main:in_water run function gd_main:misc/armor_sets/axolotl
-execute if predicate gd_main:armor_stallion run function gd_main:misc/armor_sets/stallion
-execute if predicate gd_main:armor_earthdweller if predicate gd_main:is_sneaking run function gd_main:misc/armor_sets/earthdweller
-execute if predicate gd_main:armor_merchant run function gd_main:misc/armor_sets/merchant
+execute if predicate gd_main:tag_test/armor_ram if predicate gd_main:is_sneaking if score @s mana matches 100.. run function gd_main:misc/armor_sets/ram
+execute if predicate gd_main:tag_test/armor_axolotl if predicate gd_main:in_water run function gd_main:misc/armor_sets/axolotl
+execute if predicate gd_main:tag_test/armor_stallion run function gd_main:misc/armor_sets/stallion
+execute if predicate gd_main:tag_test/armor_earthdweller if predicate gd_main:is_sneaking if score @s mana matches 200.. run function gd_main:misc/armor_sets/earthdweller
+execute if predicate gd_main:tag_test/armor_merchant run function gd_main:misc/armor_sets/merchant
 
-execute if predicate gd_main:armor_armadillo if predicate gd_main:is_sneaking run function gd_main:misc/armor_sets/armadillo
-execute if predicate gd_main:armor_guardian if predicate gd_main:is_sneaking run function gd_main:misc/armor_sets/guardian
-execute if predicate gd_main:armor_wither if predicate gd_main:is_on_fire run function gd_main:misc/armor_sets/wither
+execute if predicate gd_main:tag_test/armor_armadillo if predicate gd_main:is_sneaking if score @s mana matches 600.. run function gd_main:misc/armor_sets/armadillo
+execute if predicate gd_main:tag_test/armor_guardian if predicate gd_main:is_sneaking if score @s mana matches 4000.. run function gd_main:misc/armor_sets/guardian
+execute if predicate gd_main:tag_test/armor_wither if predicate gd_main:is_on_fire run function gd_main:misc/armor_sets/wither
+execute if predicate gd_main:tag_test/armor_amethyst if predicate gd_main:is_sneaking run function gd_main:misc/armor_sets/amethyst
 
 execute unless predicate gd_main:is_sneaking run scoreboard players reset @s tick6
 

@@ -3,7 +3,7 @@ summon armor_stand ^ ^ ^-1.05 {DisabledSlots:4144959,Pose:{RightArm:[0f,0f,327f]
 scoreboard players operation @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] enchantment.knife_pouch_UUID = @s UUID
 
 item replace entity @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] weapon.mainhand from entity @e[limit=1,tag=enchantment.knife_pouch] weapon.mainhand
-execute run tp @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] ~ ~ ~ ~ ~
+execute run tp @e[type=minecraft:armor_stand,tag=projectile_knife,limit=1,sort=nearest] ^ ^ ^.5 ~ ~
 scoreboard players set @s enchantment.knife_pouch_CD 60
 
 scoreboard players remove @s enchantment.knife_pouch_INT 1

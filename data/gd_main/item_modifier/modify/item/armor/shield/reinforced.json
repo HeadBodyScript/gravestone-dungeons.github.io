@@ -6,16 +6,6 @@
         "text": "Reinforced",
         "color": "#9900ff",
         "italic": false
-      },
-      {
-        "text": "+2 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Jump Strength",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -24,16 +14,30 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "9ccd8072-95c3-45d5-8edf-fec2c11c994f",
+        "id": "ab421bb4-3883-4a97-a2ca-1ee7d2f10160",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "ab421bb4-3883-4a97-a2ca-1ee7d2f10160",
         "attribute": "minecraft:generic.armor",
         "amount": 2,
         "operation": "add_value",
         "slot": "hand"
       },
       {
-        "id": "9ccd8072-95c3-45d5-8edf-fec2c11c994f",
+        "id": "ab421bb4-3883-4a97-a2ca-1ee7d2f10160",
         "attribute": "minecraft:generic.jump_strength",
         "amount": 0.1,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "ab421bb4-3883-4a97-a2ca-1ee7d2f10160",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": 3,
         "operation": "add_value",
         "slot": "hand"
       }
@@ -42,8 +46,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

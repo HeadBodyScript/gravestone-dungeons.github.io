@@ -6,36 +6,6 @@
         "text": "Mastercrafted",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+20% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "15 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "+10% Attack Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Sweeping",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+30% Interaction Range",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Water Movement Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -73,13 +43,6 @@
       },
       {
         "id": "a1467a0f-3388-41d3-8222-b0cc3865e181",
-        "attribute": "minecraft:player.entity_interaction_range",
-        "amount": 1,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "a1467a0f-3388-41d3-8222-b0cc3865e181",
         "attribute": "minecraft:generic.water_movement_efficiency",
         "amount": 0.5,
         "operation": "add_value",
@@ -90,8 +53,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

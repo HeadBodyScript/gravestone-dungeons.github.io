@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "minecraft:diamond"
+    },
+    "o": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " Wo",
+    "W o",
+    " Wo"
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 1536,
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"Diamond Bow\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+      ],
+      "minecraft:custom_data": "{modified:1b}",
+      "minecraft:custom_model_data": 3
+    },
+    "count": 1,
+    "id": "minecraft:bow"
+  }
+}

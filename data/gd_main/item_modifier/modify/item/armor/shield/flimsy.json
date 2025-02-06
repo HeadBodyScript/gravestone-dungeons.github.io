@@ -4,12 +4,7 @@
     "lore": [
       {
         "text": "Flimsy",
-        "color": "#888888",
-        "italic": false
-      },
-      {
-        "text": "-5% Speed",
-        "color": "red",
+        "color": "#669900",
         "italic": false
       }
     ],
@@ -19,9 +14,16 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "44ac4bf8-d2a2-42e9-a345-efb4c7e201d4",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.005,
+        "id": "2f763df8-22ed-42aa-ae3a-c3edfd985ea5",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "2f763df8-22ed-42aa-ae3a-c3edfd985ea5",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": 3,
         "operation": "add_value",
         "slot": "hand"
       }
@@ -30,8 +32,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

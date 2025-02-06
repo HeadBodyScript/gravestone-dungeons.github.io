@@ -1,0 +1,36 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Ordinary",
+        "color": "#669900",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "4286c145-bf49-4586-b435-6f650794cf61",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.15,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "4286c145-bf49-4586-b435-6f650794cf61",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

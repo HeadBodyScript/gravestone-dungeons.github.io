@@ -30,13 +30,82 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
-          "weight": 36,
+          "weight": 136,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 3,
-                "max": 8
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Silver Coin\",\"italic\":true,\"color\":\"#eeeeee\"}",
+                "minecraft:custom_data": "{silver_coin:1b}",
+                "minecraft:custom_model_data": 1,
+           	"minecraft:max_stack_size": 96
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 126,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Silver Coin\",\"italic\":true,\"color\":\"#eeeeee\"}",
+                "minecraft:custom_data": "{silver_coin:1b}",
+                "minecraft:custom_model_data": 1,
+           	"minecraft:max_stack_size": 96
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 116,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 9,
+                "max": 18
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Silver Coin\",\"italic\":true,\"color\":\"#eeeeee\"}",
+                "minecraft:custom_data": "{silver_coin:1b}",
+                "minecraft:custom_model_data": 1,
+           	"minecraft:max_stack_size": 96
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 106,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 24
               }
             },
             {

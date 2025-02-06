@@ -6,11 +6,6 @@
         "text": "Solid",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "+2 Armor",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -19,9 +14,23 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "654caa5c-83ad-4ba6-986a-acf0f54a9876",
+        "id": "6032101c-e2fb-48bb-8c5b-f08ac5a9245a",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "6032101c-e2fb-48bb-8c5b-f08ac5a9245a",
         "attribute": "minecraft:generic.armor",
         "amount": 2,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "6032101c-e2fb-48bb-8c5b-f08ac5a9245a",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.01,
         "operation": "add_value",
         "slot": "hand"
       }
@@ -30,8 +39,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

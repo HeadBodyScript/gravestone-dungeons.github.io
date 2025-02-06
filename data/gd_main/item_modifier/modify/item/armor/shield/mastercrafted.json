@@ -6,16 +6,6 @@
         "text": "Mastercrafted",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+3 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+10% Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -24,16 +14,23 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "36e0e0d2-550d-44e0-b86b-5d7c889391ba",
+        "id": "2307df5d-d6ee-456f-b2bf-1c49d30272e6",
         "attribute": "minecraft:generic.armor",
-        "amount": 3,
+        "amount": 4,
         "operation": "add_value",
         "slot": "hand"
       },
       {
-        "id": "36e0e0d2-550d-44e0-b86b-5d7c889391ba",
+        "id": "2307df5d-d6ee-456f-b2bf-1c49d30272e6",
         "attribute": "minecraft:generic.movement_speed",
         "amount": 0.01,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "2307df5d-d6ee-456f-b2bf-1c49d30272e6",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 1,
         "operation": "add_value",
         "slot": "hand"
       }
@@ -42,8 +39,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

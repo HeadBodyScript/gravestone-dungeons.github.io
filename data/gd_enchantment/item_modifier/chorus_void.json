@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "text": " ┗ ",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Magicka ",
+            "color": "blue",
+            "italic": false
+          },
+          {
+            "text": "Cost: 400",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b,enchantment:1b}"
+  }
+]

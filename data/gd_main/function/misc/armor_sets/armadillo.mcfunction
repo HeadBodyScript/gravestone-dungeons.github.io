@@ -1,8 +1,11 @@
 scoreboard players add @s tick6 1
+function gd_enchantment:mana
 
 execute if score @s tick6 matches 50 run effect give @s minecraft:resistance 4 3 true
 execute if score @s tick6 matches 50 run effect give @s minecraft:slowness 4 6 true
 execute if score @s tick6 matches 50 run effect give @s minecraft:blindness 4 0 true
+
+execute if score @s tick6 matches 50 run scoreboard players remove @s mana 600
 
 execute at @s run effect give @e[type=#gd_main:entity,distance=..2] minecraft:wither 2 0 true
 

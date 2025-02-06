@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:crossbow"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "components": {
+      "minecraft:max_damage": 3720,
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"Netherite Crossbow\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very High Durability\"}"
+      ],
+      "minecraft:custom_data": "{modified:1b}",
+      "minecraft:fire_resistant": {},
+      "minecraft:custom_model_data": 4
+    },
+    "count": 1,
+    "id": "minecraft:crossbow"
+  }
+}

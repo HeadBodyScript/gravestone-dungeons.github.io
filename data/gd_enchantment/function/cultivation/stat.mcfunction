@@ -1,4 +1,4 @@
-execute unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b,enchantment:1b}] run item modify entity @s weapon.mainhand gd_enchantment:cultivation
+execute unless predicate gd_main:tag_test/item_tag_enchantment_test run item modify entity @s weapon.mainhand gd_enchantment:cultivation
 
 execute if score @s enchantment.cultivation_INT matches 0 run title @s actionbar [{"text":"Harvest Mode","color":"#996600"}]
 execute if score @s enchantment.cultivation_INT matches 1 run title @s actionbar [{"text":"Harvest + Replant Mode","color":"#66cc00"}]

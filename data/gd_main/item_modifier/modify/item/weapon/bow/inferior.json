@@ -4,48 +4,19 @@
     "lore": [
       {
         "text": "Inferior",
-        "color": "#cc0000",
-        "italic": false
-      },
-      {
-        "text": "-20% Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "-15% Armor",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "-50% Jump Strength",
-        "color": "red",
+        "color": "#888888",
         "italic": false
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "bc06c7dc-e051-4e84-ae98-fe9325bc3a6b",
+        "id": "95c8241e-a0f4-4c89-b0ac-afc5a381ed9e",
         "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.02,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "bc06c7dc-e051-4e84-ae98-fe9325bc3a6b",
-        "attribute": "minecraft:generic.armor",
-        "amount": -0.15,
-        "operation": "add_multiplied_base",
-        "slot": "mainhand"
-      },
-      {
-        "id": "bc06c7dc-e051-4e84-ae98-fe9325bc3a6b",
-        "attribute": "minecraft:generic.jump_strength",
-        "amount": -0.1,
+        "amount": 0.01,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -55,10 +26,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]
-
-

@@ -6,16 +6,6 @@
         "text": "Exceptional",
         "color": "#9900ff",
         "italic": false
-      },
-      {
-        "text": "+2 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+5% Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -24,14 +14,28 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "0c0d0585-1028-491d-a832-a003a4876d38",
-        "attribute": "minecraft:generic.armor",
+        "id": "87b03976-891f-4985-a1bc-d66515c8618f",
+        "attribute": "minecraft:generic.attack_damage",
         "amount": 2,
         "operation": "add_value",
         "slot": "hand"
       },
       {
-        "id": "0c0d0585-1028-491d-a832-a003a4876d38",
+        "id": "87b03976-891f-4985-a1bc-d66515c8618f",
+        "attribute": "minecraft:generic.armor",
+        "amount": 4,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "87b03976-891f-4985-a1bc-d66515c8618f",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "87b03976-891f-4985-a1bc-d66515c8618f",
         "attribute": "minecraft:generic.movement_speed",
         "amount": 0.005,
         "operation": "add_value",
@@ -42,8 +46,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

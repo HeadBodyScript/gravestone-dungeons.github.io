@@ -6,46 +6,38 @@
         "text": "Exquisite",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+30% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+20% Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+150% Jump Strength",
-        "color": "blue",
-        "italic": false
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "a1442baf-fad8-4ccf-887f-41736a05bc49",
+        "id": "3ac849c7-8500-41e9-9339-c54a01902d6f",
         "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.03,
+        "amount": 0.015,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "a1442baf-fad8-4ccf-887f-41736a05bc49",
+        "id": "3ac849c7-8500-41e9-9339-c54a01902d6f",
         "attribute": "minecraft:generic.armor",
-        "amount": 0.2,
+        "amount": 0.25,
         "operation": "add_multiplied_base",
         "slot": "mainhand"
       },
       {
-        "id": "a1442baf-fad8-4ccf-887f-41736a05bc49",
+        "id": "3ac849c7-8500-41e9-9339-c54a01902d6f",
         "attribute": "minecraft:generic.jump_strength",
-        "amount": 0.2,
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "3ac849c7-8500-41e9-9339-c54a01902d6f",
+        "attribute": "minecraft:generic.step_height",
+        "amount": 1,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -55,8 +47,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

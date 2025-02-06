@@ -1,0 +1,37 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Solid",
+        "color": "#33ccff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "5653b5fd-f6ac-4feb-b0c5-40a144c09d71",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": -0.01,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "5653b5fd-f6ac-4feb-b0c5-40a144c09d71",
+        "attribute": "minecraft:generic.armor",
+        "amount": 0.2,
+        "operation": "add_multiplied_base",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

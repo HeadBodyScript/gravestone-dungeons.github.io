@@ -1,0 +1,57 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Pristine",
+        "color": "#9900ff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.01,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 13,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

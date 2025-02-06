@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "armor.head": {
+        "components": {
+          "minecraft:custom_data": "{amethyst:1b,modified:1b}"
+        }
+      },
+      "armor.chest": {
+        "components": {
+          "minecraft:custom_data": "{amethyst:1b,modified:1b}"
+        }
+      },
+      "armor.legs": {
+        "components": {
+          "minecraft:custom_data": "{amethyst:1b,modified:1b}"
+        }
+      },
+      "armor.feet": {
+        "components": {
+          "minecraft:custom_data": "{amethyst:1b,modified:1b}"
+        }
+      }
+    }
+  }
+}

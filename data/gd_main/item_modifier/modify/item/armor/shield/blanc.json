@@ -1,0 +1,71 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Divine",
+        "color": "#99ffff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "728de6a8-9632-4493-a023-ce01b6442284",
+        "attribute": "minecraft:generic.armor",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "728de6a8-9632-4493-a023-ce01b6442284",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "728de6a8-9632-4493-a023-ce01b6442284",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.02,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "728de6a8-9632-4493-a023-ce01b6442284",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "728de6a8-9632-4493-a023-ce01b6442284",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "728de6a8-9632-4493-a023-ce01b6442284",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "728de6a8-9632-4493-a023-ce01b6442284",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "hand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

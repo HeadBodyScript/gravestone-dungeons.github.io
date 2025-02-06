@@ -6,16 +6,6 @@
         "text": "Weak",
         "color": "#888888",
         "italic": false
-      },
-      {
-        "text": "-1 Armor",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "-15% Speed",
-        "color": "red",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -24,16 +14,9 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "f2b1229b-d911-43d2-9356-ce86bae52017",
-        "attribute": "minecraft:generic.armor",
-        "amount": -1,
-        "operation": "add_value",
-        "slot": "hand"
-      },
-      {
-        "id": "f2b1229b-d911-43d2-9356-ce86bae52017",
+        "id": "ca64a21e-f42c-4cc8-acfe-566605f436b4",
         "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.015,
+        "amount": 0.015,
         "operation": "add_value",
         "slot": "hand"
       }
@@ -42,8 +25,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

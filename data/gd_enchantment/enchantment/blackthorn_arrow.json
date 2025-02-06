@@ -1,0 +1,34 @@
+{
+	"description": {
+		"translate": "enchantment.minecraft.blackthorn_arrow",
+		"fallback": "Blackthorn Arrow"
+	  },
+	"supported_items": "#gd_main:weapon_range",
+	"slots": [
+	  "mainhand"
+	],
+	"weight": 1,
+	"anvil_cost": 14,
+	"max_cost": {
+	  "base": 10,
+	  "per_level_above_first": 10
+	},
+  "exclusive_set": "#minecraft:exclusive_set/gd_bow",
+	"max_level": 1,
+	"min_cost": {
+	  "base": 25,
+	  "per_level_above_first": 10
+	},
+	"effects": {
+	  "minecraft:post_attack": [
+		{
+		  "enchanted": "attacker",
+		  "affected": "victim",
+		  "effect": {
+			"type": "minecraft:run_function",
+			"function": "gd_enchantment:blackthorn_arrow/post_attack"
+		  }
+		}
+	  ]
+	}
+  }

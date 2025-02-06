@@ -6,46 +6,38 @@
         "text": "Legendary",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+35% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+25% Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+150% Jump Strength",
-        "color": "blue",
-        "italic": false
       }
     ],
-    "mode": "replace_all"
+    "mode": "insert"
   },
   {
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "abde6d53-e1e5-463b-8c20-29d3c85b25fa",
+        "id": "81076002-08ea-4508-b19f-ec3f0016ee91",
         "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.035,
+        "amount": 0.02,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "abde6d53-e1e5-463b-8c20-29d3c85b25fa",
+        "id": "81076002-08ea-4508-b19f-ec3f0016ee91",
         "attribute": "minecraft:generic.armor",
         "amount": 0.25,
         "operation": "add_multiplied_base",
         "slot": "mainhand"
       },
       {
-        "id": "abde6d53-e1e5-463b-8c20-29d3c85b25fa",
+        "id": "81076002-08ea-4508-b19f-ec3f0016ee91",
         "attribute": "minecraft:generic.jump_strength",
         "amount": 0.2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "81076002-08ea-4508-b19f-ec3f0016ee91",
+        "attribute": "minecraft:generic.step_height",
+        "amount": 1,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -55,9 +47,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]
-

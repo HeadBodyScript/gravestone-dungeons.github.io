@@ -1,0 +1,49 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_amethyst_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_armadillo_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_axolotl_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_earthdweller_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_guardian_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_merchant_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_ram_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_stallion_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/armor_wither_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/item_legendary_enchantment_test"
+    },
+{
+      "condition": "minecraft:reference",
+      "name": "gd_main:tag_test/item_modified_enchantment_test"
+    }
+  ]
+}

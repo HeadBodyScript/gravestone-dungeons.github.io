@@ -6,21 +6,6 @@
         "text": "Exquisite",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+3 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+10% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+100% Jump Strength",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -29,23 +14,37 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "10291315-2d72-4ed4-901b-23df0033d965",
+        "id": "32c5be2f-2f11-4d79-841c-481bb90fa16a",
         "attribute": "minecraft:generic.armor",
-        "amount": 3,
+        "amount": 4,
         "operation": "add_value",
         "slot": "hand"
       },
       {
-        "id": "10291315-2d72-4ed4-901b-23df0033d965",
+        "id": "32c5be2f-2f11-4d79-841c-481bb90fa16a",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "32c5be2f-2f11-4d79-841c-481bb90fa16a",
         "attribute": "minecraft:generic.movement_speed",
         "amount": 0.01,
         "operation": "add_value",
         "slot": "hand"
       },
       {
-        "id": "10291315-2d72-4ed4-901b-23df0033d965",
+        "id": "32c5be2f-2f11-4d79-841c-481bb90fa16a",
         "attribute": "minecraft:generic.jump_strength",
         "amount": 0.15,
+        "operation": "add_value",
+        "slot": "hand"
+      },
+      {
+        "id": "32c5be2f-2f11-4d79-841c-481bb90fa16a",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 0.5,
         "operation": "add_value",
         "slot": "hand"
       }
@@ -54,8 +53,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]
