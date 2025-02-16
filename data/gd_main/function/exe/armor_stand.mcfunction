@@ -7,6 +7,8 @@ execute as @s[tag=armor_stand.ability_warp] at @s run function gd_main:ability/w
 
 execute as @s[tag=armor_stand.ability_warp_dimension] at @s run function gd_main:ability/warp_dimension/tick
 
+execute as @s[tag=armor_stand.ability_breeding_stone] at @s run function gd_main:ability/breeding_stone/tick
+
 execute as @s[tag=armor_stand.modify] at @s run function gd_main:misc/mystical_horse/modify
 
 execute as @s[tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~

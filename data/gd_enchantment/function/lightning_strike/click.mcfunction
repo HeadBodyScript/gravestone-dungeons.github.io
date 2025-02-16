@@ -1,0 +1,2 @@
+advancement revoke @s only gd_enchantment:lightning_strike
+execute if score @s mana matches 3000.. unless score @s enchantment.lightning_strike_CD matches 0.. run function gd_enchantment:lightning_strike/success

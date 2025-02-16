@@ -6,16 +6,6 @@
         "text": "Honed",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "+50% Jump Strength",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "9 Attack Damage",
-        "color": "green",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -23,7 +13,13 @@
   {
     "function": "minecraft:set_attributes",
     "modifiers": [
-       {
+      {
+        "id": "ff3b5a40-6670-4a84-8f94-6ed143a043ec",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.005,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },{
         "id": "ff3b5a40-6670-4a84-8f94-6ed143a043ec",
         "attribute": "minecraft:generic.jump_strength",
         "amount": 0.1,
@@ -33,14 +29,14 @@
       {
         "id": "ff3b5a40-6670-4a84-8f94-6ed143a043ec",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 9,
+        "amount": 6,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "ff3b5a40-6670-4a84-8f94-6ed143a043ec",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -3.4,
+        "amount": -3.2,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -49,8 +45,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

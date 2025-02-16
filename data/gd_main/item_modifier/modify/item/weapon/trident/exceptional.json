@@ -23,14 +23,21 @@
       {
         "id": "97e70b2e-137d-44e4-bb43-e2b8f24becc1",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 14,
+        "amount": 20,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "97e70b2e-137d-44e4-bb43-e2b8f24becc1",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -2.3,
+        "amount": -3.3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "ed2353b5-2bc8-4d91-86ee-322ff795bbde",
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "amount": 0.25,
         "operation": "add_value",
         "slot": "mainhand"
       },

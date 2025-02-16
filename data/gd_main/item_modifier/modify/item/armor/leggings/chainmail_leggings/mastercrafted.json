@@ -6,26 +6,6 @@
         "text": "Mastercrafted",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+4 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+4 Health",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+5% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+25% Water Movement Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -34,35 +14,35 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "8a570546-e9f5-4269-8112-568062d5fb22",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor",
         "amount": 4,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "8a570546-e9f5-4269-8112-568062d5fb22",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.max_health",
         "amount": 4,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "8a570546-e9f5-4269-8112-568062d5fb22",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.movement_speed",
         "amount": 0.005,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "8a570546-e9f5-4269-8112-568062d5fb22",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.water_movement_efficiency",
         "amount": 0.25,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "8a570546-e9f5-4269-8112-568062d5fb22",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -74,8 +54,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

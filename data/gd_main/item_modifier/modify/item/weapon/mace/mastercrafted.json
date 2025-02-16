@@ -6,26 +6,6 @@
         "text": "Mastercrafted",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+20% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "13 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "+150% Knockback",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+10% Attack Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -35,15 +15,14 @@
     "modifiers": [
       {
         "id": "75a89e48-ec8a-44ee-bee1-a2addb469a05",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.02,
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.2,
         "operation": "add_value",
         "slot": "mainhand"
-      },
-      {
+      },{
         "id": "75a89e48-ec8a-44ee-bee1-a2addb469a05",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 13,
+        "amount": 22,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -57,7 +36,7 @@
       {
         "id": "75a89e48-ec8a-44ee-bee1-a2addb469a05",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -3.3,
+        "amount": -3.6,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -66,8 +45,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

@@ -21,7 +21,6 @@
       "minecraft:lore": [
         "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very Low Durability\"}"
       ],
-      "minecraft:custom_data": "{modified:1b}",
       "minecraft:custom_model_data": 1
     },
     "count": 1,

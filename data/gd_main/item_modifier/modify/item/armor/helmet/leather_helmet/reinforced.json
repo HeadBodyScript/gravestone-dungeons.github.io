@@ -6,26 +6,6 @@
         "text": "Reinforced",
         "color": "#9900ff",
         "italic": false
-      },
-      {
-        "text": "+1 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+2 Health",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+25% Jump Strength",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+100% Oxygen",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -74,8 +54,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

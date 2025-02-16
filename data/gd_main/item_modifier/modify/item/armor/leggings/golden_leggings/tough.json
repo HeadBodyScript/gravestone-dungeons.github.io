@@ -6,21 +6,6 @@
         "text": "Tough",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "+3 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+2 Health",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+25% Jump Strength",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -29,28 +14,28 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "f07a8ab5-56a4-4a01-9190-5dd2e42c2e06",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor",
         "amount": 3,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "f07a8ab5-56a4-4a01-9190-5dd2e42c2e06",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.max_health",
         "amount": 2,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "f07a8ab5-56a4-4a01-9190-5dd2e42c2e06",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.jump_strength",
         "amount": 0.05,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "f07a8ab5-56a4-4a01-9190-5dd2e42c2e06",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -62,8 +47,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

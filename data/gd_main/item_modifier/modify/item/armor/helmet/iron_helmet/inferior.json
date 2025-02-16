@@ -4,22 +4,7 @@
     "lore": [
       {
         "text": "Inferior",
-        "color": "#cc0000",
-        "italic": false
-      },
-      {
-        "text": "+2 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "-1 Health",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "-10% Speed",
-        "color": "red",
+        "color": "#888888",
         "italic": false
       }
     ],
@@ -29,30 +14,30 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "c7f5cd8a-beda-4824-856b-b912deca1e47",
+        "id": "7fab94e8-08f0-46c2-af9d-1a46fcb53d4b",
         "attribute": "minecraft:generic.armor",
         "amount": 2,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "c7f5cd8a-beda-4824-856b-b912deca1e47",
-        "attribute": "minecraft:generic.max_health",
-        "amount": -1,
+        "id": "7fab94e8-08f0-46c2-af9d-1a46fcb53d4b",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": -0.05,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "c7f5cd8a-beda-4824-856b-b912deca1e47",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.01,
-        "operation": "add_value",
-        "slot": "armor"
-      },
-      {
-        "id": "c7f5cd8a-beda-4824-856b-b912deca1e47",
+        "id": "7fab94e8-08f0-46c2-af9d-1a46fcb53d4b",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "7fab94e8-08f0-46c2-af9d-1a46fcb53d4b",
+        "attribute": "minecraft:generic.oxygen_bonus",
+        "amount": 1,
         "operation": "add_value",
         "slot": "armor"
       }
@@ -62,8 +47,8 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]
+
+
+

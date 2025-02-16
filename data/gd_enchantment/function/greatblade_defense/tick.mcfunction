@@ -1,0 +1,8 @@
+execute if score @s UUID = @p UUID as @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense_base] at @p run tp @s ^ ^ ^-1 ~ ~
+execute if score @s UUID = @p UUID unless score @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense1,limit=1] enchantment.greatblade_defense_TD matches 0.. as @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense1] at @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense_base] run tp @s ^.4 ^1.3 ^ ~5 ~
+execute if score @s UUID = @p UUID unless score @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense2,limit=1] enchantment.greatblade_defense_TD matches 0.. as @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense2] at @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense_base] run tp @s ^-.2 ^1.5 ^ ~ ~
+execute if score @s UUID = @p UUID unless score @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense3,limit=1] enchantment.greatblade_defense_TD matches 0.. as @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense3] at @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense_base] run tp @s ^-.8 ^1.3 ^ ~-5 ~
+
+scoreboard players add @s enchantment.greatblade_defense_DL 1
+execute if score @s enchantment.greatblade_defense_DL matches 3600.. run scoreboard players set @p enchantment.greatblade_defense_INT 0
+execute if score @s enchantment.greatblade_defense_DL matches 3600.. run kill @s

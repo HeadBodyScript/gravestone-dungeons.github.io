@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "o": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " W ",
+    " o ",
+    "   "
+  ],
+  "result": {
+    "components": {
+      "minecraft:max_damage": 75,
+      "minecraft:custom_name": "{\"italic\":false,\"text\":\"Wooden Club\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very Low Durability\"}"
+      ],
+      "minecraft:custom_model_data": 1
+    },
+    "count": 1,
+    "id": "minecraft:mace"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "#gd_main:breeding_animal",
+    "distance": {
+      "absolute": {
+        "min": 0,
+        "max": 3
+      }
+    },
+    "flags": {
+      "is_baby": true
+    }
+  }
+}

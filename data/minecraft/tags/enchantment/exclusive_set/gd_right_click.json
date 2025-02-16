@@ -12,7 +12,10 @@
 	"gd_enchantment:star_shard",
 	"gd_enchantment:star_shower",
 	"gd_enchantment:telekinesis",
-	"gd_enchantment:void_sphere"
+	"gd_enchantment:void_sphere",
+	"gd_enchantment:seppuku",
+	"gd_enchantment:greatblade_defense",
+	"gd_enchantment:lightning_strike"
 
   ]
 }

@@ -4,4 +4,4 @@ execute as @s at @s run summon armor_stand ~ ~1 ~ {ShowArms:1b,Invisible:1b,NoGr
 scoreboard players set @s enchantment.fire_burst_INT 0
 scoreboard players set @s enchantment.fire_burst_CD 250
 effect give @s slowness 1 7 true
-scoreboard players remove @s mana 4000
+scoreboard players remove @s mana 2000

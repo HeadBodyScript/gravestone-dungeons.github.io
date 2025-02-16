@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:enchantments": {
+            "levels": {
+              "gd_enchantment:greatblade_defense": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

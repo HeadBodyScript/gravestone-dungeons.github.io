@@ -4,17 +4,7 @@
     "lore": [
       {
         "text": "Flimsy",
-        "color": "#888888",
-        "italic": false
-      },
-      {
-        "text": "-5% Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "10 Attack Damage",
-        "color": "green",
+        "color": "#669900",
         "italic": false
       }
     ],
@@ -24,23 +14,16 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "4be96333-5760-47d1-8ecb-6ab16bee8620",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.005,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "4be96333-5760-47d1-8ecb-6ab16bee8620",
+        "id": "6eb6e471-c5b7-487d-a973-db5a8ac963fd",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 10,
+        "amount": 5,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "4be96333-5760-47d1-8ecb-6ab16bee8620",
+        "id": "6eb6e471-c5b7-487d-a973-db5a8ac963fd",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -2.4,
+        "amount": -1.5,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -49,8 +32,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

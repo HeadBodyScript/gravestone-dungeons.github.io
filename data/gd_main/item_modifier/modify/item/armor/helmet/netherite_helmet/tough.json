@@ -1,0 +1,51 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Tough",
+        "color": "#33ccff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "ff1ca608-a408-43ad-8bde-089bae688b83",
+        "attribute": "minecraft:generic.armor",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "ff1ca608-a408-43ad-8bde-089bae688b83",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "ff1ca608-a408-43ad-8bde-089bae688b83",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.05,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "ff1ca608-a408-43ad-8bde-089bae688b83",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

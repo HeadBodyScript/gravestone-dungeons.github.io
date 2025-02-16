@@ -6,26 +6,6 @@
         "text": "Weak",
         "color": "#888888",
         "italic": false
-      },
-      {
-        "text": "-15% Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "9 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "+50% Knockback",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "-50% Efficiency",
-        "color": "red",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -34,37 +14,30 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "a14769e7-f752-4407-9e8a-477da717edb5",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.015,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "a14769e7-f752-4407-9e8a-477da717edb5",
+        "id": "74c9f4be-501c-4699-8481-7ccf4c938175",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 9,
+        "amount": 12,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "a14769e7-f752-4407-9e8a-477da717edb5",
-        "attribute": "minecraft:generic.attack_knockback",
-        "amount": 0.5,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "a14769e7-f752-4407-9e8a-477da717edb5",
+        "id": "74c9f4be-501c-4699-8481-7ccf4c938175",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -3,
+        "amount": -3.2,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "a14769e7-f752-4407-9e8a-477da717edb5",
+        "id": "74c9f4be-501c-4699-8481-7ccf4c938175",
         "attribute": "minecraft:player.block_break_speed",
-        "amount": -0.5,
+        "amount": -0.05,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "74c9f4be-501c-4699-8481-7ccf4c938175",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": -1,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -73,8 +46,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

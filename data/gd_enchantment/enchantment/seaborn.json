@@ -1,0 +1,31 @@
+{
+	"description": {
+		"translate": "enchantment.minecraft.seaborn",
+		"fallback": "Seaborn"
+	  },
+	"supported_items": "#minecraft:enchantable/trident",
+	"slots": [
+	  "hand"
+	],
+	"weight": 1,
+	"anvil_cost": 10,
+	"min_cost": {
+	  "base": 10,
+	  "per_level_above_first": 10
+	},
+	"max_cost": {
+	  "base": 25,
+	  "per_level_above_first": 10
+	},
+	"max_level": 1,
+	"effects": {
+	  "minecraft:tick": [
+		{
+		  "effect": {
+			"type": "minecraft:run_function",
+			"function": "gd_enchantment:seaborn/init"
+		  }
+		}
+	  ]
+	}
+  }

@@ -1,0 +1,32 @@
+{
+	"description": {
+		"translate": "enchantment.minecraft.lightning_strike",
+		"fallback": "Lightning Strike"
+	  },
+	"supported_items": "#minecraft:enchantable/mace",
+	"slots": [
+	  "mainhand"
+	],
+	"weight": 1,
+	"anvil_cost": 14,
+	"min_cost": {
+	  "base": 10,
+	  "per_level_above_first": 10
+	},
+  "exclusive_set": "#minecraft:exclusive_set/gd_right_click",
+	"max_cost": {
+	  "base": 25,
+	  "per_level_above_first": 10
+	},
+	"max_level": 1,
+	"effects": {
+	  "minecraft:tick": [
+		{
+		  "effect": {
+			"type": "minecraft:run_function",
+			"function": "gd_enchantment:lightning_strike/stat"
+		  }
+		}
+	  ]
+	}
+  }

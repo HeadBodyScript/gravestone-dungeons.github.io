@@ -6,11 +6,6 @@
         "text": "Sharp",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "+50% Efficiency",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -19,21 +14,21 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "0336d44d-e5d6-4e93-a560-bc873d5ac141",
+        "id": "ea0bac46-8b41-43c5-8cb2-69e118f2c583",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 1,
+        "amount": 4.5,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "0336d44d-e5d6-4e93-a560-bc873d5ac141",
+        "id": "ea0bac46-8b41-43c5-8cb2-69e118f2c583",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -1,
+        "amount": -3,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "0336d44d-e5d6-4e93-a560-bc873d5ac141",
+        "id": "ea0bac46-8b41-43c5-8cb2-69e118f2c583",
         "attribute": "minecraft:player.block_break_speed",
         "amount": 0.5,
         "operation": "add_value",
@@ -44,8 +39,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

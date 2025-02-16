@@ -1,0 +1,50 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Pristine",
+        "color": "#9900ff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "7d92efc9-52be-4faa-91a3-8f454bf700db",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.015,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7d92efc9-52be-4faa-91a3-8f454bf700db",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 10,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7d92efc9-52be-4faa-91a3-8f454bf700db",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -2.4,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7d92efc9-52be-4faa-91a3-8f454bf700db",
+        "attribute": "minecraft:generic.attack_knockback",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

@@ -6,31 +6,6 @@
         "text": "Legendary",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+1 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+5 Health",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+10% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Jump Strength",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+400% Oxygen",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -86,8 +61,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

@@ -3,8 +3,9 @@ execute as @a[scores={enchantment.adrenaline_boost_CD=0..}] run scoreboard playe
 
 # bleeding
 execute as @e[scores={enchantment.bleeding_VFX=0..}] at @s run function gd_enchantment:bleeding/other/vfx
-execute as @e[scores={enchantment.bleeding_COUNT=0..}] run scoreboard players add @s enchantment.bleeding_TICK 1
-execute as @e[scores={enchantment.bleeding_TICK=20}] run function gd_enchantment:bleeding/result
+
+# breeding_stone
+execute as @a[scores={breeding_stone_CD=0..}] run scoreboard players remove @s breeding_stone_CD 1
 
 # blessing
 execute as @e[scores={enchantment.blessing_VFX=0..}] at @s run function gd_enchantment:blessing/other/vfx
@@ -36,6 +37,11 @@ execute as @e[type=minecraft:armor_stand,tag=marker.fire_burst] at @s run functi
 # freezing
 execute as @e[scores={enchantment.freezing_VFX=0..}] at @s run function gd_enchantment:freezing/other/vfx
 
+# greatblade_defense
+execute as @e[tag=projectile.greatblade_defense] at @s run function gd_enchantment:greatblade_defense/tick
+execute as @e[scores={enchantment.greatblade_defense_TD=0..}] at @s run function gd_enchantment:greatblade_defense/other/td
+execute as @a[scores={enchantment.greatblade_defense_CD=0..}] run scoreboard players remove @s enchantment.greatblade_defense_CD 1
+
 # horse
 
 # illumination
@@ -56,6 +62,10 @@ execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players rem
 
 # lightling
 
+# lightning_strike
+execute as @e[tag=projectile.lightning_strike] at @s run function gd_enchantment:lightning_strike/other/vfx
+execute as @a[scores={enchantment.lightning_strike_CD=0..}] run scoreboard players remove @s enchantment.lightning_strike_CD 1
+
 # mistbreaker
 
 # poisoning
@@ -68,6 +78,9 @@ execute as @e[scores={enchantment.poisoning_VFX=0..}] at @s run function gd_ench
 # retaliation_pulse
 execute as @a[scores={enchantment.retaliation_pulse_CD=0..}] run scoreboard players remove @s enchantment.retaliation_pulse_CD 1
 execute as @e[type=minecraft:armor_stand,tag=marker.retaliation_pulse] at @s run function gd_enchantment:retaliation_pulse/other/vfx
+
+# seppuku 
+execute as @a[scores={enchantment.seppuku_CD=0..}] run scoreboard players remove @s enchantment.seppuku_CD 1
 
 # star_shard
 execute as @e[scores={enchantment.star_shard_TD=0..}] at @s run function gd_enchantment:star_shard/other/td

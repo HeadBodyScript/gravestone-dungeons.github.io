@@ -6,16 +6,6 @@
         "text": "Heavy",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "-10% Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "+100% Efficiency",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -24,28 +14,35 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "0de90c69-3219-4f09-8532-3497128964b3",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.01,
+        "id": "6aa5f992-8a55-4be3-895b-ef4898404513",
+        "attribute": "minecraft:player.sneaking_speed",
+        "amount": -0.1,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "0de90c69-3219-4f09-8532-3497128964b3",
+        "id": "6aa5f992-8a55-4be3-895b-ef4898404513",
         "attribute": "minecraft:generic.attack_damage",
         "amount": 1,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "0de90c69-3219-4f09-8532-3497128964b3",
+        "id": "6aa5f992-8a55-4be3-895b-ef4898404513",
         "attribute": "minecraft:generic.attack_speed",
         "amount": -1,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "0de90c69-3219-4f09-8532-3497128964b3",
+        "id": "6aa5f992-8a55-4be3-895b-ef4898404513",
+        "attribute": "minecraft:player.submerged_mining_speed",
+        "amount": -0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "6aa5f992-8a55-4be3-895b-ef4898404513",
         "attribute": "minecraft:player.block_break_speed",
         "amount": 1,
         "operation": "add_value",
@@ -56,8 +53,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

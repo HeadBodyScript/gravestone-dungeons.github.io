@@ -6,26 +6,6 @@
         "text": "Exceptional",
         "color": "#9900ff",
         "italic": false
-      },
-      {
-        "text": "+20% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "16 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "+50% Efficiency",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+25% Range",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -35,29 +15,22 @@
     "modifiers": [
       {
         "id": "b79f6cca-3911-418a-a248-c0b690b89790",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.02,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "b79f6cca-3911-418a-a248-c0b690b89790",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 16,
+        "amount": 18,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "b79f6cca-3911-418a-a248-c0b690b89790",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -3,
+        "amount": -3.2,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "b79f6cca-3911-418a-a248-c0b690b89790",
         "attribute": "minecraft:player.block_break_speed",
-        "amount": 1,
+        "amount": 0.25,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -73,8 +46,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

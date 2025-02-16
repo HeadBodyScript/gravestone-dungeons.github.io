@@ -6,21 +6,6 @@
         "text": "Heavy",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "+3 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+6 Health",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "-20% Speed",
-        "color": "red",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -29,28 +14,28 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "53ab151a-b8a4-463f-bc48-ab0862c2eb15",
+        "id": "2a6be489-b424-46f0-a82d-15a77be13ef5",
         "attribute": "minecraft:generic.armor",
         "amount": 3,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "53ab151a-b8a4-463f-bc48-ab0862c2eb15",
+        "id": "2a6be489-b424-46f0-a82d-15a77be13ef5",
         "attribute": "minecraft:generic.max_health",
         "amount": 6,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "53ab151a-b8a4-463f-bc48-ab0862c2eb15",
+        "id": "2a6be489-b424-46f0-a82d-15a77be13ef5",
         "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.02,
+        "amount": -0.01,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "53ab151a-b8a4-463f-bc48-ab0862c2eb15",
+        "id": "2a6be489-b424-46f0-a82d-15a77be13ef5",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 2,
         "operation": "add_value",
@@ -62,8 +47,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

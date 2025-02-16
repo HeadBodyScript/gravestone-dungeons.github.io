@@ -6,11 +6,6 @@
         "text": "Honed",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "+5% Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -19,23 +14,30 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "99d27ce5-595a-47c3-87f1-e421208d3c96",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.005,
+        "id": "5ac4cb93-673a-43fe-b05c-e93487a4ee19",
+        "attribute": "minecraft:player.sneaking_speed",
+        "amount": 0.1,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "99d27ce5-595a-47c3-87f1-e421208d3c96",
+        "id": "5ac4cb93-673a-43fe-b05c-e93487a4ee19",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 1,
+        "amount": 4.5,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "99d27ce5-595a-47c3-87f1-e421208d3c96",
+        "id": "5ac4cb93-673a-43fe-b05c-e93487a4ee19",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -1,
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "5ac4cb93-673a-43fe-b05c-e93487a4ee19",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": 2,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -44,8 +46,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

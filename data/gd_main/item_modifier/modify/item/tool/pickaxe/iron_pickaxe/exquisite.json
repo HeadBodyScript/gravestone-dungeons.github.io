@@ -6,26 +6,6 @@
         "text": "Exquisite",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+30% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Submerged Efficiency ",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+75% Efficiency",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Range",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -35,8 +15,8 @@
     "modifiers": [
       {
         "id": "fd7953db-0e65-489d-bec3-aefbbce75794",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.03,
+        "attribute": "minecraft:player.sneaking_speed",
+        "amount": 0.3,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -57,13 +37,6 @@
       {
         "id": "fd7953db-0e65-489d-bec3-aefbbce75794",
         "attribute": "minecraft:player.submerged_mining_speed",
-        "amount": 0.5,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "fd7953db-0e65-489d-bec3-aefbbce75794",
-        "attribute": "minecraft:player.block_break_speed",
         "amount": 0.75,
         "operation": "add_value",
         "slot": "mainhand"
@@ -80,8 +53,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

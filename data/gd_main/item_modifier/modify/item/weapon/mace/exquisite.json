@@ -6,31 +6,6 @@
         "text": "Exquisite",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+25% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+150% Jump Strength",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "14 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "+100% Knockback",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+10% Attack Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -41,21 +16,14 @@
       {
         "id": "eaa307ab-43fa-4c05-b551-5a37f002c84e",
         "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.025,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "eaa307ab-43fa-4c05-b551-5a37f002c84e",
-        "attribute": "minecraft:generic.jump_strength",
-        "amount": 0.2,
+        "amount": 0.015,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "eaa307ab-43fa-4c05-b551-5a37f002c84e",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 14,
+        "amount": 6,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -69,7 +37,7 @@
       {
         "id": "eaa307ab-43fa-4c05-b551-5a37f002c84e",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -3.3,
+        "amount": -2.9,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -78,8 +46,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

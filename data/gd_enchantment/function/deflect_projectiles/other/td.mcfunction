@@ -19,5 +19,6 @@ execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraf
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=attack.devil.dart,distance=..4]
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=fire_wavea,distance=..4]
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=marker.fire_burst,distance=..4]
+execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=projectile.greatblade_defense,distance=..4]
 
 execute if score @s enchantment.deflect_TD matches 1 run scoreboard players reset @s enchantment.deflect_TD

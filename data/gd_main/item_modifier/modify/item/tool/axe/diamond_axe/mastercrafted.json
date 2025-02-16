@@ -1,0 +1,57 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Mastercrafted",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "96593460-4e04-4981-a4f2-1b455c481ad0",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.02,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "96593460-4e04-4981-a4f2-1b455c481ad0",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 12,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "96593460-4e04-4981-a4f2-1b455c481ad0",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3.0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "96593460-4e04-4981-a4f2-1b455c481ad0",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": 0.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "96593460-4e04-4981-a4f2-1b455c481ad0",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

@@ -23,14 +23,14 @@
       {
         "id": "435a6bc1-0299-490d-a5b5-e042da376bbc",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 7,
+        "amount": 6,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "435a6bc1-0299-490d-a5b5-e042da376bbc",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -3,
+        "amount": -2.4,
         "operation": "add_value",
         "slot": "mainhand"
       },

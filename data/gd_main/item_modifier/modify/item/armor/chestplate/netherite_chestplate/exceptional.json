@@ -1,0 +1,58 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Exceptional",
+        "color": "#9900ff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
+        "attribute": "minecraft:generic.armor",
+        "amount": 8,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
+        "attribute": "minecraft:generic.max_health",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.005,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
+        "attribute": "minecraft:generic.burning_time",
+        "amount": -0.25,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
+        "attribute": "minecraft:generic.armor_toughness",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "armor"
+      }
+      
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

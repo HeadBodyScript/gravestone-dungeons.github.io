@@ -4,12 +4,7 @@
     "lore": [
       {
         "text": "Flimsy",
-        "color": "#888888",
-        "italic": false
-      },
-      {
-        "text": "+1 Armor",
-        "color": "blue",
+        "color": "#669900",
         "italic": false
       }
     ],
@@ -19,14 +14,28 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "dc959cb4-8f57-4a21-af66-9f97cb628d9b",
+        "id": "b1ea5bb2-d021-4638-9da4-b787147fdf10",
         "attribute": "minecraft:generic.armor",
         "amount": 1,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "dc959cb4-8f57-4a21-af66-9f97cb628d9b",
+        "id": "b1ea5bb2-d021-4638-9da4-b787147fdf10",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "b1ea5bb2-d021-4638-9da4-b787147fdf10",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": 2,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "b1ea5bb2-d021-4638-9da4-b787147fdf10",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -38,8 +47,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

@@ -6,31 +6,6 @@
         "text": "Legendary",
         "color": "gold",
         "italic": false
-      },
-      {
-        "text": "+2 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+5 Health",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+10% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Jump Strength",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Water Movement Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -39,42 +14,42 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "95080615-38c5-411f-8e77-44e7ae482721",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor",
         "amount": 2,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "95080615-38c5-411f-8e77-44e7ae482721",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.max_health",
         "amount": 5,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "95080615-38c5-411f-8e77-44e7ae482721",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.movement_speed",
         "amount": 0.01,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "95080615-38c5-411f-8e77-44e7ae482721",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.jump_strength",
         "amount": 0.1,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "95080615-38c5-411f-8e77-44e7ae482721",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.water_movement_efficiency",
         "amount": 0.5,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "95080615-38c5-411f-8e77-44e7ae482721",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -86,8 +61,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

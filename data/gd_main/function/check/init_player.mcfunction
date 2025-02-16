@@ -15,7 +15,7 @@ scoreboard players set @s enchantment.cultivation_INT 0
 # RUNE
 scoreboard players set @s rune.block_interaction_range 0
 scoreboard players set @s rune.max_health 0
-scoreboard players set @s rune.max_mana 1500
+scoreboard players set @s rune.max_mana 2000
 scoreboard players set @s rune.oxygen_bonus 0
 scoreboard players set @s rune.safe_fall 0
 
@@ -25,7 +25,7 @@ scoreboard players set @s rune.max_mana_MAX 16000
 scoreboard players set @s rune.oxygen_bonus_MAX 10
 scoreboard players set @s rune.safe_fall_MAX 10
 
-scoreboard players set @s mana_max 1500
+scoreboard players set @s mana_max 2000
 scoreboard players set @s mana_boost 1
 
 scoreboard players operation @s enchantment.knife_pouch_MAX = DAGGER.max INT

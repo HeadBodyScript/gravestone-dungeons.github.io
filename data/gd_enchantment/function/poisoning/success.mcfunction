@@ -6,6 +6,9 @@ particle minecraft:campfire_cosy_smoke ~ ~.1 ~ 0.2 .1 0.2 0.01 5
 playsound minecraft:entity.breeze.inhale master @a ~ ~ ~ 20 .5 1
 playsound minecraft:entity.player.attack.knockback master @a ~ ~ ~ 20 .5 1
 
+execute as @s[type=player,scores={enchantment.poisoning_INT=4..}] run damage @s 10
+execute as @s[type=!player,scores={enchantment.poisoning_INT=4..}] run damage @s 15 player_attack by @p
+
 effect give @s minecraft:slowness 5 1 true
 effect give @s minecraft:poison 11 3 true
 

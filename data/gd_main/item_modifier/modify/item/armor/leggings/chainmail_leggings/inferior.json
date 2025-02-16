@@ -4,22 +4,7 @@
     "lore": [
       {
         "text": "Inferior",
-        "color": "#cc0000",
-        "italic": false
-      },
-      {
-        "text": "+4 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "-1 Health",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "-10% Speed",
-        "color": "red",
+        "color": "#888888",
         "italic": false
       }
     ],
@@ -29,28 +14,21 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "b98f4821-6216-4f12-805e-72b2ab6b49fe",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor",
         "amount": 4,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "b98f4821-6216-4f12-805e-72b2ab6b49fe",
-        "attribute": "minecraft:generic.max_health",
-        "amount": -1,
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": -0.05,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "b98f4821-6216-4f12-805e-72b2ab6b49fe",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.01,
-        "operation": "add_value",
-        "slot": "armor"
-      },
-      {
-        "id": "b98f4821-6216-4f12-805e-72b2ab6b49fe",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -62,8 +40,8 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]
+
+
+

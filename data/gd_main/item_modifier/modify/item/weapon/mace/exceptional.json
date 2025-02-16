@@ -6,21 +6,6 @@
         "text": "Exceptional",
         "color": "#9900ff",
         "italic": false
-      },
-      {
-        "text": "+15% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "12 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "+10% Attack Speed",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -31,21 +16,21 @@
       {
         "id": "9a12163f-5596-4f15-b0ff-60732aa40552",
         "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.015,
+        "amount": 0.01,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "9a12163f-5596-4f15-b0ff-60732aa40552",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 12,
+        "amount": 10,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
         "id": "9a12163f-5596-4f15-b0ff-60732aa40552",
         "attribute": "minecraft:generic.attack_speed",
-        "amount": -3.3,
+        "amount": -3.4,
         "operation": "add_value",
         "slot": "mainhand"
       }
@@ -54,8 +39,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

@@ -6,26 +6,6 @@
         "text": "Heavy",
         "color": "#33ccff",
         "italic": false
-      },
-      {
-        "text": "-10% Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "13 Attack Damage",
-        "color": "green",
-        "italic": false
-      },
-      {
-        "text": "+150% Knockback",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "-25% Attack Speed",
-        "color": "red",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -42,8 +22,15 @@
       },
       {
         "id": "11377bce-d0a7-477d-b25e-ebecc17e5607",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": -0.1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "11377bce-d0a7-477d-b25e-ebecc17e5607",
         "attribute": "minecraft:generic.attack_damage",
-        "amount": 13,
+        "amount": 20,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -66,8 +53,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

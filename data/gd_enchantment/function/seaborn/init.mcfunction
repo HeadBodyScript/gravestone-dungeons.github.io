@@ -1,0 +1,2 @@
+execute if predicate gd_main:weather_rain_check run function gd_enchantment:seaborn/success1
+execute unless predicate gd_main:weather_rain_check run function gd_enchantment:seaborn/success2

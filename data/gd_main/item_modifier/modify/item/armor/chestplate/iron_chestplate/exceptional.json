@@ -6,26 +6,6 @@
         "text": "Exceptional",
         "color": "#9900ff",
         "italic": false
-      },
-      {
-        "text": "+6 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+3 Health",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+5% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "-10% Burning Time",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -34,35 +14,35 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "3f2c805d-f12f-4c7e-a250-08963557ae37",
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
         "attribute": "minecraft:generic.armor",
         "amount": 6,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "3f2c805d-f12f-4c7e-a250-08963557ae37",
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
         "attribute": "minecraft:generic.max_health",
         "amount": 3,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "3f2c805d-f12f-4c7e-a250-08963557ae37",
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
         "attribute": "minecraft:generic.movement_speed",
         "amount": 0.005,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "3f2c805d-f12f-4c7e-a250-08963557ae37",
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
         "attribute": "minecraft:generic.burning_time",
-        "amount": -0.1,
+        "amount": -0.25,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "3f2c805d-f12f-4c7e-a250-08963557ae37",
+        "id": "5192dc42-c833-4b0d-807b-7327cee57807",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -74,8 +54,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

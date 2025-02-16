@@ -1,0 +1,50 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Exceptional",
+        "color": "#9900ff",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "b79f6cca-3911-418a-a248-c0b690b89790",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 16,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "b79f6cca-3911-418a-a248-c0b690b89790",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3.2,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "b79f6cca-3911-418a-a248-c0b690b89790",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": 0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "b79f6cca-3911-418a-a248-c0b690b89790",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": 1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

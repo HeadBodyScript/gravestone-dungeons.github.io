@@ -4,12 +4,7 @@
     "lore": [
       {
         "text": "Flimsy",
-        "color": "#888888",
-        "italic": false
-      },
-      {
-        "text": "+4 Armor",
-        "color": "blue",
+        "color": "#669900",
         "italic": false
       }
     ],
@@ -19,14 +14,21 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "ff9dfc04-f2bc-41ab-be70-5ae8e5718a0c",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor",
         "amount": 4,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "ff9dfc04-f2bc-41ab-be70-5ae8e5718a0c",
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "armor"
+      },
+      {
+        "id": "31bae239-7aac-457d-b000-e804faae2c4e",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -38,8 +40,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]

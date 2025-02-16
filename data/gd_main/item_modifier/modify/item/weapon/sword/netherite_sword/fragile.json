@@ -1,0 +1,43 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Fragile",
+        "color": "#888888",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "01861a79-9029-43d3-aa3f-6b4cb74adb0c",
+        "attribute": "minecraft:generic.movement_speed",
+        "amount": 0.005,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "01861a79-9029-43d3-aa3f-6b4cb74adb0c",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "01861a79-9029-43d3-aa3f-6b4cb74adb0c",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -1.7,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

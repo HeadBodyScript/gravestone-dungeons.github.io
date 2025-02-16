@@ -7,16 +7,16 @@ execute if predicate gd_main:reinforcement_tool2 run item replace entity @s weap
 execute if predicate gd_main:reinforcement_tool1 run item replace entity @s weapon.mainhand with shears[damage=2,max_damage=3,repair_cost=100,max_stack_size=1,custom_name='[{"text":"Smithing Tongs","italic":true,"color":"#660033"}]',lore=['[{"text":"🪓 Reinforcement Tool","italic":false,"color":"gray"}]','[{"text":"Used to reinforce tools","italic":false,"color":"gray"}]','[{"text":"from the Lands Beyond.","italic":false,"color":"gray"}]'],custom_data={tongs:1b},custom_model_data=1,food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:100017}]
 execute if predicate gd_main:reinforcement_tool0 run item replace entity @s weapon.mainhand with shears[damage=1,max_damage=3,repair_cost=100,max_stack_size=1,custom_name='[{"text":"Smithing Tongs","italic":true,"color":"#660033"}]',lore=['[{"text":"🪓 Reinforcement Tool","italic":false,"color":"gray"}]','[{"text":"Used to reinforce tools","italic":false,"color":"gray"}]','[{"text":"from the Lands Beyond.","italic":false,"color":"gray"}]'],custom_data={tongs:1b},custom_model_data=1,food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:100017}]
 
-execute if score @s INT matches ..50 if score .INT1 randomNumber matches 1 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/cracked
-execute if score @s INT matches ..50 if score .INT1 randomNumber matches 2 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/damaged
-execute if score @s INT matches ..50 if score .INT1 randomNumber matches 3 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/rusted
-execute if score @s INT matches ..50 if score .INT1 randomNumber matches 4 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/weak
-execute if score @s INT matches ..50 if score .INT1 randomNumber matches 5 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/brittle
-execute if score @s INT matches ..50 if score .INT1 randomNumber matches 6 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/flimsy
+execute if score @s INT matches ..50 if score .INT1 randomNumber matches 1 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/fragile
+execute if score @s INT matches ..50 if score .INT1 randomNumber matches 2 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/inferior
+execute if score @s INT matches ..50 if score .INT1 randomNumber matches 3 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/weak
+execute if score @s INT matches ..50 if score .INT1 randomNumber matches 4 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/flimsy
+execute if score @s INT matches ..50 if score .INT1 randomNumber matches 5 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/ordinary
+execute if score @s INT matches ..50 if score .INT1 randomNumber matches 6 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/reliable
 
-execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 1 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/weak
-execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 2 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/brittle
-execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 3 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/flimsy
+execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 1 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/flimsy
+execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 2 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/ordinary
+execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 3 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/reliable
 execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 4 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/heavy
 execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 5 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/sharp
 execute if score @s INT matches 51..150 if score .INT1 randomNumber matches 6 run item modify entity @s weapon.offhand gd_main:modify/item/tool/shovel/netherite_shovel/honed

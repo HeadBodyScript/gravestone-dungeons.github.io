@@ -23,12 +23,12 @@ execute if entity @e[type=minecraft:villager,distance=..4,tag=villager] run func
 
 execute if predicate gd_main:rideable/is_riding run function gd_main:misc/saddle/test_saddle
 
-execute if predicate gd_main:armor_leather run effect give @s speed 5 0 true
-execute if predicate gd_main:armor_chainmail run effect give @s luck 5 0 true
-execute if predicate gd_main:armor_iron run effect give @s strength 5 0 true
-execute if predicate gd_main:armor_gold run effect give @s haste 5 0 true
-execute if predicate gd_main:armor_diamond run effect give @s resistance 5 0 true
-execute if predicate gd_main:armor_netherite run effect give @s health_boost 5 0 true
+# execute if predicate gd_main:armor_leather run effect give @s speed 5 0 true
+# execute if predicate gd_main:armor_chainmail run effect give @s luck 5 0 true
+# execute if predicate gd_main:armor_iron run effect give @s strength 5 0 true
+# execute if predicate gd_main:armor_gold run effect give @s haste 5 0 true
+# execute if predicate gd_main:armor_diamond run effect give @s resistance 5 0 true
+# execute if predicate gd_main:armor_netherite run effect give @s health_boost 5 0 true
 
 execute if predicate gd_main:tag_test/armor_ram if predicate gd_main:is_sneaking if score @s mana matches 100.. run function gd_main:misc/armor_sets/ram
 execute if predicate gd_main:tag_test/armor_axolotl if predicate gd_main:in_water run function gd_main:misc/armor_sets/axolotl

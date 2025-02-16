@@ -4,27 +4,7 @@
     "lore": [
       {
         "text": "Inferior",
-        "color": "#cc0000",
-        "italic": false
-      },
-      {
-        "text": "+2 Armor",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "-1 Health",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "-10% Speed",
-        "color": "red",
-        "italic": false
-      },
-      {
-        "text": "-1 Safe Fall Distance",
-        "color": "red",
+        "color": "#888888",
         "italic": false
       }
     ],
@@ -34,35 +14,21 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "34bde597-6a2f-4b6d-89d6-a351d96d73d7",
+        "id": "b1ea5bb2-d021-4638-9da4-b787147fdf10",
         "attribute": "minecraft:generic.armor",
         "amount": 2,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "34bde597-6a2f-4b6d-89d6-a351d96d73d7",
-        "attribute": "minecraft:generic.max_health",
-        "amount": -1,
+        "id": "b1ea5bb2-d021-4638-9da4-b787147fdf10",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": -0.05,
         "operation": "add_value",
         "slot": "armor"
       },
       {
-        "id": "34bde597-6a2f-4b6d-89d6-a351d96d73d7",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": -0.01,
-        "operation": "add_value",
-        "slot": "armor"
-      },
-      {
-        "id": "34bde597-6a2f-4b6d-89d6-a351d96d73d7",
-        "attribute": "minecraft:generic.safe_fall_distance",
-        "amount": -1,
-        "operation": "add_value",
-        "slot": "armor"
-      },
-      {
-        "id": "34bde597-6a2f-4b6d-89d6-a351d96d73d7",
+        "id": "b1ea5bb2-d021-4638-9da4-b787147fdf10",
         "attribute": "minecraft:generic.armor_toughness",
         "amount": 0,
         "operation": "add_value",
@@ -74,8 +40,8 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]
+
+
+

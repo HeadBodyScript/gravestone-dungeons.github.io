@@ -1,0 +1,57 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Fragile",
+        "color": "#888888",
+        "italic": false
+      }
+    ],
+    "mode": "insert"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "7c5648cd-2dfe-4b4a-8a53-b070f2600402",
+        "attribute": "minecraft:player.sneaking_speed",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7c5648cd-2dfe-4b4a-8a53-b070f2600402",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": 5.5,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7c5648cd-2dfe-4b4a-8a53-b070f2600402",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": -3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7c5648cd-2dfe-4b4a-8a53-b070f2600402",
+        "attribute": "minecraft:player.submerged_mining_speed",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "7c5648cd-2dfe-4b4a-8a53-b070f2600402",
+        "attribute": "minecraft:player.block_break_speed",
+        "amount": -0.25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{modified:1b}"
+  }
+]

@@ -6,26 +6,6 @@
         "text": "Exceptional",
         "color": "#9900ff",
         "italic": false
-      },
-      {
-        "text": "+20% Speed",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+25% Submerged Efficiency ",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+50% Efficiency",
-        "color": "blue",
-        "italic": false
-      },
-      {
-        "text": "+25% Range",
-        "color": "blue",
-        "italic": false
       }
     ],
     "mode": "insert"
@@ -34,42 +14,42 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "id": "f2b4e19e-5638-488a-95b0-5d6438fed35a",
-        "attribute": "minecraft:generic.movement_speed",
-        "amount": 0.02,
+        "id": "719c3465-2db9-45fc-ad45-9141c4807a07",
+        "attribute": "minecraft:player.sneaking_speed",
+        "amount": 0.3,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "f2b4e19e-5638-488a-95b0-5d6438fed35a",
+        "id": "719c3465-2db9-45fc-ad45-9141c4807a07",
         "attribute": "minecraft:generic.attack_damage",
         "amount": 6.5,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "f2b4e19e-5638-488a-95b0-5d6438fed35a",
+        "id": "719c3465-2db9-45fc-ad45-9141c4807a07",
         "attribute": "minecraft:generic.attack_speed",
         "amount": -3,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "f2b4e19e-5638-488a-95b0-5d6438fed35a",
+        "id": "719c3465-2db9-45fc-ad45-9141c4807a07",
         "attribute": "minecraft:player.submerged_mining_speed",
+        "amount": 0.1,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "id": "719c3465-2db9-45fc-ad45-9141c4807a07",
+        "attribute": "minecraft:player.block_break_speed",
         "amount": 0.25,
         "operation": "add_value",
         "slot": "mainhand"
       },
       {
-        "id": "f2b4e19e-5638-488a-95b0-5d6438fed35a",
-        "attribute": "minecraft:player.block_break_speed",
-        "amount": 0.5,
-        "operation": "add_value",
-        "slot": "mainhand"
-      },
-      {
-        "id": "f2b4e19e-5638-488a-95b0-5d6438fed35a",
+        "id": "719c3465-2db9-45fc-ad45-9141c4807a07",
         "attribute": "minecraft:player.block_interaction_range",
         "amount": 1,
         "operation": "add_value",
@@ -80,8 +60,5 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": "{modified:1b}"
-  },
-  {
-    "function":"toggle_tooltips",
-	"toggles":{"attribute_modifiers":false}}
+  }
 ]
