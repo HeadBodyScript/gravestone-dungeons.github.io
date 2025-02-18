@@ -59,8 +59,8 @@ execute if predicate gd_main:weapon.offhand/iron_shovel run function gd_main:mod
 execute if predicate gd_main:weapon.offhand/diamond_shovel run function gd_main:modify/item/tool/shovel/diamond_shovel
 execute if predicate gd_main:weapon.offhand/netherite_shovel run function gd_main:modify/item/tool/shovel/netherite_shovel
 
-execute if predicate gd_main:weapon.offhand/iron_axe run function gd_main:modify/item/tool/axe/stone_axe
-execute if predicate gd_main:weapon.offhand/diamond_axe run function gd_main:modify/item/tool/axe/stone_axe
+execute if predicate gd_main:weapon.offhand/iron_axe run function gd_main:modify/item/tool/axe/iron_axe
+execute if predicate gd_main:weapon.offhand/diamond_axe run function gd_main:modify/item/tool/axe/diamond_axe
 execute if predicate gd_main:weapon.offhand/netherite_axe run function gd_main:modify/item/tool/axe/netherite_axe
 
 execute if predicate gd_main:weapon.offhand/iron_hoe run function gd_main:modify/item/tool/hoe/iron_hoe

@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "components": {
+      "minecraft:custom_name": "{\"color\":\"#993366\",\"italic\":true,\"text\":\"Lamb and Barley Stew\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Healthboost I\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance I\"}",
+        "\"   \"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"A rich and satisfying stew\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"featuring tender pieces of lamb,\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"barley grains, and vegetables like\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"carrots, onions, and leeks, cooked\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"slowly until the flavors meld together.\"}"
+      ],
+      "minecraft:custom_model_data": 3,
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:resistance",
+          "duration": 9600
+        },
+        {
+          "id": "minecraft:health_boost",
+          "duration": 9600
+        },
+        {
+          "id": "minecraft:nausea",
+          "duration": 300
+        }
+      ],
+      "minecraft:max_stack_size": 3
+    },
+    "count": 1
+  }
+}

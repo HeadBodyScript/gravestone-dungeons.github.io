@@ -25,6 +25,7 @@ scoreboard objectives add tick6 dummy
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add playerCount dummy
 scoreboard objectives add bossTick dummy
+scoreboard objectives add difficulty dummy
 
 scoreboard objectives add companion_TD dummy
 

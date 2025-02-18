@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "components": {
+      "minecraft:custom_name": "{\"color\":\"#cc3300\",\"italic\":true,\"text\":\"Bean and Sausage Stew\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed I\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost I\"}",
+        "\"   \"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"A hearty stew made with white beans,\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"smoked sausage or bacon, and\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"seasonal vegetables, simmered\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"together until the beans are tender\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"and the flavors are well blended.\"}"
+      ],
+      "minecraft:custom_model_data": 5,
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:saturation",
+          "duration": 3600
+        },
+        {
+          "id": "minecraft:mining_fatigue",
+          "duration": 600
+        },
+        {
+          "id": "minecraft:speed",
+          "duration": 9600
+        },
+        {
+          "id": "minecraft:jump_boost",
+          "duration": 9600
+        }
+      ],
+      "minecraft:max_stack_size": 3
+    },
+    "count": 1
+  }
+}

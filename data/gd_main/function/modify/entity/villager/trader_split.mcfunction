@@ -18,4 +18,5 @@ execute if entity @e[tag=fletcher_1] run function gd_main:modify/entity/villager
 # execute if entity @e[tag=merchant] run function gd_main:modify/entity/villager/trader
 execute if entity @e[tag=ysabell] run function gd_main:modify/entity/villager/ysabel
 execute if entity @e[tag=ysembert] run function gd_main:modify/entity/villager/ysembert
-execute if entity @e[tag=librarian_1] run function gd_main:modify/entity/villager/librarian_1
+execute if entity @e[tag=librarian_1] run function gd_main:modify/entity/villager/librarian_11
+execute if entity @e[tag=armor_smith_1] run function gd_main:modify/entity/villager/armor_smith_1

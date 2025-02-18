@@ -190,15 +190,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/ragnvald_frostbeard",
-        "projection": "rigid",
-        "processors": "gd:direwood"
-      }
-    },{
-      "weight": 20,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/alaric_stormweaver",
+        "location": "gd:direwood/alaric",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -214,7 +206,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/eldrid_grayhair",
+        "location": "gd:direwood/eldrid",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -222,7 +214,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/faendil_boldtongue",
+        "location": "gd:direwood/faendal",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -230,7 +222,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/gilbert_silverhand",
+        "location": "gd:direwood/gilbert",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -238,7 +230,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/harlan_ironmug",
+        "location": "gd:direwood/harlan",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -254,7 +246,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/lyra_frostwind",
+        "location": "gd:direwood/lyra",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -262,7 +254,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/monk_zaccarius",
+        "location": "gd:direwood/zaccarius",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -270,7 +262,7 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/ragnar_thornvale",
+        "location": "gd:direwood/ragnar",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
@@ -311,6 +303,14 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:direwood/finlay",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/duncan",
         "projection": "rigid",
         "processors": "gd:direwood"
       }

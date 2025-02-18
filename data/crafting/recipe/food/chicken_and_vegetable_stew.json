@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "components": {
+      "minecraft:custom_name": "{\"color\":\"#999900\",\"italic\":true,\"text\":\"Chicken and Vegetable Stew\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Regeneration I\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Speed I\"}",
+        "\"   \"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"A comforting stew made with tender\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"chicken pieces, assorted vegetables\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"such as celery, peas, and turnips,\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"cooked together in a flavorful\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"chicken broth.\"}"
+      ],
+      "minecraft:custom_model_data": 2,
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:saturation",
+          "duration": 3600
+        },
+        {
+          "id": "minecraft:speed",
+          "duration": 9600
+        },
+        {
+          "id": "regeneration",
+          "duration": 9600
+        }
+      ],
+      "minecraft:max_stack_size": 3
+    },
+    "count": 1
+  }
+}

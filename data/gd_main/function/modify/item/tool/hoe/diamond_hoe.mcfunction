@@ -42,6 +42,6 @@ execute if score @s INT matches 401..500 if score .INT1 randomNumber matches 6 r
 
 scoreboard players operation @s INT -= .INT0 randomNumber
 execute at @s run playsound minecraft:entity.villager.work_toolsmith player @s ~ ~ ~
-execute if predicate gd_main:weapon.offhand/diamond_axe run tellraw @s "My diamond axe has been modified"
-execute if predicate gd_main:weapon.offhand/netherite_axe run tellraw @s "My netherite axe has been modified"
+execute if predicate gd_main:weapon.offhand/diamond_hoe run tellraw @s "My diamond hoe has been modified"
+execute if predicate gd_main:weapon.offhand/netherite_hoe run tellraw @s "My netherite hoe has been modified"
 execute if score @s INT matches ..299 run scoreboard players add @s INT 1

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "components": {
+      "minecraft:custom_name": "{\"color\":\"#003366\",\"italic\":true,\"text\":\"Fisherman's Stew\"}",
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Dolphin's Grace I\"}",
+        "\"   \"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"A rustic seafood stew made with a\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"variety of fish and shellfish such\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"as cod, shrimp, mussels, and clams,\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"simmered in a tomato-based broth\"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"with aromatic herbs and garlic.\"}"
+      ],
+      "minecraft:custom_model_data": 4,
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:saturation",
+          "duration": 3600
+        },
+        {
+          "id": "minecraft:dolphins_grace",
+          "duration": 9600
+        }
+      ],
+      "minecraft:max_stack_size": 3
+    },
+    "count": 1
+  }
+}

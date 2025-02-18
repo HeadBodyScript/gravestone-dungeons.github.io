@@ -1,0 +1,31 @@
+{
+	"description": {
+		"translate": "enchantment.minecraft.bounty_claim",
+		"fallback": "Bounty Claim"
+	  },
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"slots": [
+	  "hand"
+	],
+	"weight": 1,
+	"anvil_cost": 12,
+	"min_cost": {
+	  "base": 10,
+	  "per_level_above_first": 10
+	},
+	"max_cost": {
+	  "base": 25,
+	  "per_level_above_first": 10
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:block_experience": [
+			{
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
+				}
+			}
+	  ]
+	}
+  }

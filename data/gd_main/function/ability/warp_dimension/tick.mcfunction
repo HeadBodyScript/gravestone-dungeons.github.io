@@ -45,12 +45,11 @@ execute as @s[scores={tick=221}] run playsound minecraft:block.beacon.activate m
 
 execute if score @s tick matches 240 run effect give @p minecraft:slow_falling 15 0 true
 
-execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 0 if score @s warp_y matches ..10 as @p in minecraft:overworld run teleport ~ 10 ~
-execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 1 if score @s warp_y matches ..10 as @p in minecraft:the_nether run teleport ~ 33 ~
+execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 0 as @p in minecraft:overworld run teleport ~ ~ ~
+execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 1 if score @s warp_y matches ..32 as @p in minecraft:the_nether run teleport ~ 33 ~
 execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 2 if score @s warp_y matches ..10 as @p in minecraft:the_end run teleport ~ 10 ~
 
-execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 0 if score @s warp_y matches 11.. as @p in minecraft:overworld run teleport ~ ~1 ~
-execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 1 if score @s warp_y matches 11.. as @p in minecraft:nether run teleport ~ ~1 ~
+execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 1 if score @s warp_y matches 33.. as @p in minecraft:the_nether run teleport ~ ~1 ~
 execute if score @s tick matches 245 if score @s enchantment.mistbreaker_INT matches 2 if score @s warp_y matches 11.. as @p in minecraft:the_end run teleport ~ ~1 ~
 
 execute as @s[scores={tick=250}] at @s run kill @e[tag=armor_stand.ability_warp_dimension1,distance=..1]

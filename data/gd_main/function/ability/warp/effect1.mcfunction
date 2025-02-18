@@ -1,5 +1,7 @@
 tp @e[type=#gd_main:rideable,distance=..30,sort=nearest,limit=1] @e[type=marker,tag=marker.ability_warp,limit=1,sort=nearest]
 tp @e[tag=companion,distance=..24,limit=3] @e[type=marker,tag=marker.ability_warp,limit=1,sort=nearest]
+tp @e[name="TELEPORT",limit=1] @e[type=marker,tag=marker.ability_warp,limit=1,sort=nearest]
+
 execute at @s as @a if score @s ability.link = @e[type=marker,limit=1,sort=nearest] ability.link run tp @s ~ ~ ~
 clear @p minecraft:written_book[minecraft:custom_data={warp_book:1b}] 1
 
