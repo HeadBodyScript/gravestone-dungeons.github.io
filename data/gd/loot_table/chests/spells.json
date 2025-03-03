@@ -341,7 +341,8 @@
                   "generation": 1,
                   "pages": [
                     "[\"   Teleportation Spell\\n\\n            ۩\\n\\n\\n\",{\"text\":\"⇨    \"},{\"text\":\"Save location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd_main:ability/warp/set_point\"},\"underlined\":true},\"\\n\\n\\n\\n\",{\"text\":\"⇨ \"},{\"text\":\"Teleport to location\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute at @s run function gd_main:ability/warp/summon\"},\"underlined\":true}]",
-                    "[\"Use it without leaving this world, otherwise the saved location will be deleted.\"]"
+                    "[\"Use it without leaving this world, otherwise the saved location will be deleted.\\n\\nSave location must be set again, everytime the world has been entered.\"]",
+                    "[\"- Can take up to 3 companions with you.\\n\\n- Can take one mount with you.\\n\\n- Can take one entity with the name \\\"TELEPORT\\\" with you.\\n\\n- Must be in a 24 block radius.\"]"
                   ],
                   "resolved": true
                 }

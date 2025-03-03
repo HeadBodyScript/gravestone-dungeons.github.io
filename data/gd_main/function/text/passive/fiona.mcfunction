@@ -1,16 +1,12 @@
-scoreboard players set @s talked_to_villager_CD 300
-execute store result score .INT0 randomNumber run random value 1..10
+scoreboard players set @s talked_to_villager_CD 500
+execute store result score .INT0 randomNumber run random value 1..12
 
-execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-
-execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-
-execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
-
-execute if score .INT0 randomNumber matches 10 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": I’m in need of a lot of ingredients for my stews and drinks. If you can spare some, I’d be willing to pay a good price."}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": Want to stay for a night or two? We’ve got rooms for all kinds of purses, dear."}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": You look like you've had quite the journey. Why not rest by the chimney and have a nice drink of ale? It works wonders, I promise."}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": Harlan and I have been running this inn for years now. Though he's mostly busy with his horses, he’s always there to lend a hand when I’m too tired to manage it all."}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": Mead, ale, wine- you name it, we've got a full cellar stocked to the brim. Not even a whole army could drink it dry!"}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": Come on in, stranger, and take a seat. I’ll bring you some warm food and mead in no time!"}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": This keep’s full of interesting folks. Might be worth your time to have a chat with them. Never hurts to know a few people, after all."}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": If you're looking to buy a horse or any equipment, you’ll want to talk to my husband, Harlan. He’s probably over at the stables right now."}]
+execute if score .INT0 randomNumber matches 9.. at @p run function gd_main:text/talking_to/fiona/fiona_questions

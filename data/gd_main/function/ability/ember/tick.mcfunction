@@ -4,7 +4,7 @@ execute as @e[type=#gd_main:entity,distance=..5] run function gd_main:ability/em
 particle small_flame ~ ~1.5 ~ 2 2 2 0.001 1 force
 execute as @e[type=arrow,nbt=!{inGround:1b},distance=..5] run data merge entity @s {Fire:300s}
 
-execute as @e[type=arrow,nbt=!{inGround:1b},distance=..5] run data merge entity @s[type=arrow] {item:{components:{"minecraft:custom_data":{fire_arrow:1b,freezing_arrow:0b,lightning_arrow:0b}}}}
+# execute as @e[type=arrow,nbt=!{inGround:1b},distance=..5] run data merge entity @s[type=arrow] {item:{components:{"minecraft:custom_data":{fire_arrow:1b,freezing_arrow:0b,lightning_arrow:0b}}}}
 
 execute if entity @s[scores={tick=1}] run playsound minecraft:block.beacon.activate master @a ~ ~ ~ 40 .1
 execute if entity @s[scores={tick=600}] run playsound minecraft:block.beacon.deactivate master @a ~ ~ ~ 40 .5

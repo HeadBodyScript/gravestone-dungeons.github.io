@@ -48,10 +48,10 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#336699\",\"italic\":true,\"text\":\"Stone Rune of Magicka\"}",
                 "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Unlocking +500 Max Magicka\"}]"
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Unlocking +1000 Max Magicka\"}]"
                 ],
            	"minecraft:max_stack_size": 1,
-                "minecraft:custom_model_data": 6,
+                "minecraft:custom_model_data": 2,
                 "minecraft:custom_data": "{magicka1:1b}",
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:food": {
@@ -81,7 +81,7 @@
                   "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Unlocking +1 Save Fall Distance\"}]"
                 ],
            	"minecraft:max_stack_size": 1,
-                "minecraft:custom_model_data": 11,
+                "minecraft:custom_model_data": 3,
                 "minecraft:custom_data": "{falldistance1:1b}",
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:food": {
@@ -111,7 +111,7 @@
                   "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Unlocking +1 Range\"}]"
                 ],
            	"minecraft:max_stack_size": 1,
-                "minecraft:custom_model_data": 16,
+                "minecraft:custom_model_data": 4,
                 "minecraft:custom_data": "{range1:1b}",
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:food": {
@@ -141,7 +141,7 @@
                   "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Unlocking +20% Longer Breath\"}]"
                 ],
            	"minecraft:max_stack_size": 1,
-                "minecraft:custom_model_data": 21,
+                "minecraft:custom_model_data": 5,
                 "minecraft:custom_data": "{oxygen1:1b}",
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:food": {

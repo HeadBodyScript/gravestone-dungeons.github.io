@@ -1,44 +1,37 @@
+tellraw @s[scores={talked_to_villager=1}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Ah! Greetings, traveler! "}]
 execute at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.yes player @s[scores={talked_to_villager=1}] ~ ~ ~ 80
-tellraw @s[scores={talked_to_villager=1}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Heeey! You there!"}]
 
-tellraw @s[scores={talked_to_villager=10}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Greetings stranger!"}]
-tellraw @s[scores={talked_to_villager=80}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Seems like you're not from the Lands Beyond.. Welcome!"}]
-tellraw @s[scores={talked_to_villager=140}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Looking for an adventure? My master pays well, for good work."}]
-tellraw @s[scores={talked_to_villager=200}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": You can find him at Direwood Keep. I can sell you a map to the castle."}]
+tellraw @s[scores={talked_to_villager=40}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Ye’ve the look of one who’s seen a fair bit of the road — dust on yer boots, a hunger for coin in yer eyes. "}]
+tellraw @s[scores={talked_to_villager=100}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Ye don’t look like ye’re from the Lands Beyond, that’s for sure. Ha! I know the type well."}]
+tellraw @s[scores={talked_to_villager=200}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Name’s Ysembert, a trader of fine goods, treasures, and things of hidden worth. "}]
+execute at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @s[scores={talked_to_villager=200}] ~ ~ ~ 80
 
-give @s[scores={talked_to_villager=310}] gold_nugget[max_stack_size=96,custom_name='[{"text":"Gold Coin","italic":true,"color":"#ffcc33"}]',custom_data={gold_coin:1b},custom_model_data=1] 4
+tellraw @s[scores={talked_to_villager=340}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": I’ve wandered these lands more years than I care to count, seekin’ trinkets, relics, and oddities folk might overlook. "}]
+tellraw @s[scores={talked_to_villager=460}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Now, I keep a shop in Direwood Keep, right in the main tower — nice place, if ye don’t mind the draft."}]
+tellraw @s[scores={talked_to_villager=620}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": If ye’ve got questions about the Lands Beyond, ask away! "}]
+execute at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @s[scores={talked_to_villager=620}] ~ ~ ~ 80
 
-tellraw @s[scores={talked_to_villager=320}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I see you own a few gold coins! You can use them to buy a parcel with class goods from me."}]
-execute at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @s[scores={talked_to_villager=320}] ~ ~ ~ 80
+tellraw @s[scores={talked_to_villager=700}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": I might not have all the answers, but I’ve heard many a tale in my time. "}]
 
-tellraw @s[scores={talked_to_villager=420}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Just come to me, in the next few minutes and equip a class. I'll make a short break here."}]
-tellraw @s[scores={talked_to_villager=480}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I can also answer a few questions, as long, as I am here."}]
+give @s[scores={talked_to_villager=780}] gold_nugget[max_stack_size=96,custom_name='[{"text":"Gold Coin","italic":true,"color":"#ffcc33"}]',custom_data={gold_coin:1b},custom_model_data=1] 4
+tellraw @s[scores={talked_to_villager=780}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Or, if ye fancy, take a look at what I’ve got for sale. "}]
+tellraw @s[scores={talked_to_villager=880}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Never know what might catch yer fancy. "}]
+tellraw @s[scores={talked_to_villager=940}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Either way, I reckon we’ll do good business together!"}]
+execute at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @s[scores={talked_to_villager=980}] ~ ~ ~ 80
 
-tellraw @s[scores={talked_to_villager=480}] "Do you have any questions?"
+execute as @s[scores={talked_to_villager=0..}] at @s run scoreboard players set @s talked_to_villager_CD 10
 
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ What are Gold and Silver Coins?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 1"}}
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ Do I have to use these?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 2"}}
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ How can I find dungeons?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 3"}}
+execute as @s[scores={talked_to_villager=940}] at @s run function gd_main:text/talking_to/ysembert/ysembert_questions
 
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ Where do I find special weapons and armor?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 4"}}
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ Are there any challenging fights?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 5"}}
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ What are Arcane Nodes? ","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 6"}}
+tag @s[scores={talked_to_villager=970}] add pause
+tag @s[scores={talked_to_villager=970..},advancements={gd_main:villager_trade=true}] remove pause
+tellraw @s[scores={talked_to_villager=1000}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": I'm glad ye found a bundle o’ goods to yer likin’!"}]
+execute as @s[scores={talked_to_villager=1000}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.yes player @p ~ ~ ~ 80
 
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ Are there any other special items in these lands?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 7"}}
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ I've heard rumors about companions and spellcasters..","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 8"}}
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ How strong are horses from the Lands Beyond?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 9"}}
+tellraw @s[scores={talked_to_villager=1600}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Can’t sit around all day, aye? Break’s over. I best be gettin’ back to it."}]
+tellraw @s[scores={talked_to_villager=1700}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Safe travels, traveler, and should ye find any more treasures or have more questions, ye know where to find me!"}]
+execute as @s[scores={talked_to_villager=1700}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @p ~ ~ ~ 80
+tellraw @s[scores={talked_to_villager=1750}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Bye!"}]
 
-tellraw @s[scores={talked_to_villager=480}] {"text":"⇨ What about the black smiths here? Are they good?","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 10"}}
+execute as @s[scores={talked_to_villager=1780}] run function gd_main:text/talking_to/ysembert/ysembert_stop
 
-tag @s[scores={talked_to_villager=490}] add pause
-tag @s[scores={talked_to_villager=490..},advancements={gd_main:villager_trade=true}] remove pause
-tellraw @s[scores={talked_to_villager=500}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I'm happy, that you found a class for you."}]
-execute as @s[scores={talked_to_villager=500}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.yes player @p ~ ~ ~ 80
-
-tellraw @s[scores={talked_to_villager=1100}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Now my break is over and I'll move on."}]
-tellraw @s[scores={talked_to_villager=1200}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Maybe we will meet again. You can meet me in the maintower at Direwood Keep sometimes."}]
-tellraw @s[scores={talked_to_villager=1300}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": I wish you a great journey."}]
-execute as @s[scores={talked_to_villager=1300}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @p ~ ~ ~ 80
-tellraw @s[scores={talked_to_villager=1350}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert]"},{"text":": Bye!"}]
-
-execute as @s[scores={talked_to_villager=1280}] run function gd_main:text/talking_to/ysembert/ysembert_stop

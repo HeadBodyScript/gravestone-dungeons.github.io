@@ -1,17 +1,12 @@
-scoreboard players set @s talked_to_villager_CD 300
+scoreboard players set @s talked_to_villager_CD 500
 execute store result score .INT0 randomNumber run random value 1..11
 
-execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-
-execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-
-execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-
-execute if score .INT0 randomNumber matches 10 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
-execute if score .INT0 randomNumber matches 11 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": xxx"}]
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": Ah, come forth! Come forth, ye brave soul! D’ye wish to throw yer hat in the ring? Show the fine folk watchin’ how ye fare against the odds! Unveil yer true nature, and prove ye can survive the brutal dance o' life and death!"}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": Many a young lad’s come to me for a ticket, and many’ve left with a title of 'man.' Well... at least some did, as far as my memory holds up... which, between ye and me, ain't what it used to be."}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": The fights, they be cruel, lad. Brutal as the day is long. A sight every man ought to witness, if he wishes to see pure instinct at its finest—survival, stripped o' all but blood and bone."}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": Many a champion’s stepped in these rings over the years, unbeaten, some not even close to a scratch. Think ye’ve got the mettle to prove yer worth? Then take a ticket, step into the arena, and show 'em what ye're made of."}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": Every soul who enters the ring does so o' their own free will. We don’t force ‘em, nor do we line anyone’s pockets to make 'em fight. If they step up, it’s because they want to—whether they know what they’re in for or not."}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": If ye die, well, ye die. If ye win, ye become champion. Simple as that. But, o’ course, there’s a small fee to join the fun. Nothing’s ever free, eh?"}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": Ah, young lad, ye look like ye’re not quite ready to face the arena just yet. Might want to spend a bit more time training, eh? Otherwise, ye’ll be like a sail in a storm—lost and blown about, with nothin’ to show for it."}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": Another one’s gone... and another one's gone... another one bites the dust. Heh, we’ll gonne get you too, until another bites the dust!"}]
+execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=arthur]"},{"text":": Bring the wine, toss out the bread, and blow the horns! A new tournament’s about to begin. Still haven’t joined, eh? Well, for a small fee, ye can be right in the thick of it—ready or not!"}]

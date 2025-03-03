@@ -7,4 +7,4 @@ execute as @e[scores={enchantment.blessing_INT=7..}] run function gd_enchantment
 
 scoreboard players remove @s mana 3000
 scoreboard players set @s enchantment.illumination_VFX 0
-scoreboard players set @s enchantment.illumination_CD 600
+scoreboard players set @s enchantment.illumination_CD 300

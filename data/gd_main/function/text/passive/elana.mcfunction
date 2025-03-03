@@ -1,4 +1,4 @@
-scoreboard players set @s talked_to_villager_CD 300
+scoreboard players set @s talked_to_villager_CD 500
 execute store result score .INT0 randomNumber run random value 1..10
 
 execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=elana]"},{"text":": Life's too short to be serious all the time. Unless you owe me money."}]

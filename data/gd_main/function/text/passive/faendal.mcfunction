@@ -1,9 +1,19 @@
-scoreboard players set @s talked_to_villager_CD 300
-execute store result score .INT0 randomNumber run random value 1..5
+scoreboard players set @s talked_to_villager_CD 500
+execute store result score .INT0 randomNumber run random value 1..12
 
-execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": In need of work? I pay good coins!"}]
-execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": I have a few contracts from the surrounding villages."}]
-execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Who are you? Here to cause trouble? I advise you to leave."}]
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": You may exchange your gold and silver coins with me, free of any fee. The current standard stands at one gold for ninety-six silver coins. This is the accepted course in these lands."}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Have you purged any dungeon of its foul inhabitants? Have you uncovered trinkets and discarded ballast among the ruins? Speak with Ysembert on the third floor—he may yet reward your efforts with coin."}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Dungeon guardians, witches, and bandits alike are a blight upon these lands. Rid our realm of these pests and return with proof of your deed, and you shall be rewarded handsomely for your valor."}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Within these walls, masters of archery, melee combat, and armory ply their venerable crafts. If coin you have to spare, you would do well to pay them a visit."}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": This keep, though aged by time, was erected upon the ruins left in the wake of the Great War. Evil, once entombed to never see the light again, yet lingers still in the dark."}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Hearken well: atop the smithery lies a room available for purchase. Should you wish to take root within these walls, securing this dwelling would serve as a fine beginning."}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Ah, yet another report. Monsters and beasts have been sighted near the Blackwell Catacombs. We must act swiftly."}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Adventurers whisper that undead now prowl the Overgrown Caves of Mirehaven. Dispatch a recon party forthwith to confirm this."}]
+execute if score .INT0 randomNumber matches 9.. at @p run function gd_main:text/talking_to/faendal/faendal_questions
 
-execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Already visited Places of Power?"}]
-execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Maybe you should talk to Duke Ragnvald. He rules over these Lands."}]
+execute if score .INT0 randomNumber matches 13 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": A monk arrived from Highpeak Monastery. He claims a great evil has taken hold and now binds the place in darkness."}]
+execute if score .INT0 randomNumber matches 14 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": A flying rock the size of a castle, he says… the Emberstone Bastion. Such a thing is far from natural. I’ll have words with Alaric—this demands the counsel of one versed in the arcane."}]
+execute if score .INT0 randomNumber matches 15 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Reports tell of witches taking refuge in the old temples. Whatever they're plotting there, it will bring no good."}]
+execute if score .INT0 randomNumber matches 16 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": Alaric spoke of a vast maze, hidden deep within the Molten Abyss, made of blackstone. I pray it is no longer inhabited, but caution is wise."}]
+# execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": xxxx"}]
+# execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=faendal]"},{"text":": xxxx"}]

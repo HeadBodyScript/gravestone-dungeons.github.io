@@ -1,16 +1,12 @@
-scoreboard players set @s talked_to_villager_CD 300
-execute store result score .INT0 randomNumber run random value 1..10
+scoreboard players set @s talked_to_villager_CD 500
+execute store result score .INT0 randomNumber run random value 1..8
 
-execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": Uh... h-hi there... you—you’re looking for tools, right? W-well, I make the b-best tools in all the lands! They’re... they’re durable, sharp, and... and they’ll definitely help you... you know, with your work."}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": I-I make them with my own hands, every single one. You can trust them! I-I think... uh, I’m sure you’ll find them... useful..."}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": M-m-m... my brothers don't w-want me to talk too much. Y-you should... um, talk to my older brother Gilbert. He's... he's the one who does the trading and... and all that other stuff..."}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": C-c-can I help you? L-looking for a new pickaxe? I-I can get yours... yours done by tomorrow, if you can pay. Which... w-well, I’m sure you can, or you... you wouldn’t be here, right?"}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": P-please, d-don't disturb me... T-talk to my brothers."}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": L-look at this axe... A greataxe of masterful quality and high durability! I-I guess it would fit p-perfectly for a traveler like you, if you don’t mind me, um, supposing..."}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": I-I usually have to melt the ores... Duncan... he calls it apprentice work, even though I’m not... I-I’m still the youngest, so I have to do it."}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": W-we visit Edinborough Fair every year, at the Midsummer Festival... Th-there’s a bard, called Elena, who plays beautiful songs. She... she enchanted me... and my heart. I-I would love to see her more often... b-but, I don’t know if that’s possible..."}]
 
-execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-
-execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]
-
-execute if score .INT0 randomNumber matches 10 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=finlay]"},{"text":": TEMP"}]

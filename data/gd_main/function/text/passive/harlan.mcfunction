@@ -1,16 +1,12 @@
-scoreboard players set @s talked_to_villager_CD 300
-execute store result score .INT0 randomNumber run random value 1..10
+scoreboard players set @s talked_to_villager_CD 500
+execute store result score .INT0 randomNumber run random value 1..12
 
-execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": A room for the night? Absolutely, just a small, negligible sum that you won't even notice."}]
-execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Looking for a horse? Magnificent creatures, indeed. Let's say, a price that reflects their majestic splendor?"}]
-execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Why settle for ordinary when you can experience the extraordinary? Just a trifle of payment, and it's all yours."}]
-
-execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Ah, welcome! The finest establishment in the lands, where you can rest your weary bones for a mere..."}]
-execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Every sip of our ale is like a journey through the finest vineyards."}]
-execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Looking to enhance your noble steed? A selection of horse armor awaits, each piece more remarkable than the last."}]
-
-execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Now, let's talk about horse armor. The difference between ordinary and legendary rides on the strength of these plates."}]
-execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": You won't find craftsmanship like this anywhere else!"}]
-execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Horse armor fit for the grandest of quests! And I assure you, the price won't be as grand as the adventure itself."}]
-
-execute if score .INT0 randomNumber matches 10 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Saddles that make the heart of any rider race! Trust me, you'll hardly notice the coin you part with for such excellence."}]
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Ah, traveler! Come, take a seat by the fire. Grab yourself a warm cup of mead—Fiona’s brew, I promise you, it’s the finest you’ll ever taste. Settle in and tell me about your journeys. I’m all ears, and we’ve got time enough for a good story or two."}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Ah, lookin’ to rest for the night, are ye? We’ve got cozy beds up on the top floor for just a little coin, or if you’re lookin’ for something a bit more private, I’ve got rooms with beds at a fair price."}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Look at your feet—seem tired from all the walkin’ today. Why not get yourself a mount? Maybe somethin' from my stables will catch your eye.*"}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": I’m no magician, but with mystical hearts, I can perfect the art of breeding."}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": A good horse ain’t just about speed or strength—it’s about trust. Treat ‘em right, and they’ll carry you through any storm."}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": You can tell a rider by their mount. A well-trained horse speaks volumes about its owner."}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Mules get a bad name, but I’ll tell you this—one of ‘em will outthink a stubborn rider faster than any horse ever will."}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=harlan]"},{"text":": Seen a man try to outrun a wolf pack on foot once… let’s just say he should’ve spent his coin on a horse instead of ale. Though, to be fair, he bought that ale from Fiona—so it was a good decision, just not a wise one."}]
+execute if score .INT0 randomNumber matches 9.. at @p run function gd_main:text/talking_to/harlan/harlan_questions

@@ -5,9 +5,9 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_horse_armor",
+          "name": "iron_horse_armor",
           "weight": 46,
-          "quality": 2,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -16,82 +16,38 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"color\":\"#996633\",\"italic\":true,\"text\":\"Leather Horse Armor\"}",
+                "minecraft:custom_name": "{\"color\":\"#9E6C15\",\"italic\":true,\"text\":\"Light Horse Armor\"}",
                 "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost I\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Leather Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"lightweight and flexible choice for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"those seeking protection without\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"compromising mobility.\"}]"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"The Light Horse Armor is a\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"lightweight and flexible choice for\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"those seeking protection without\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"compromising mobility.\"}"
                 ],
                 "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_1:1b,jump_1:1b}"
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 5,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:generic.max_health",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "body"
+                    }
+                  ]
+                }
               }
             }
           ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:leather_horse_armor",
-          "weight": 44,
-          "quality": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#8FCAE3\",\"italic\":true,\"text\":\"Fancy Leather Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost II\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Leather Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"lightweight and flexible choice for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"those seeking protection without\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"compromising mobility.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_1:1b,jump_2:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:leather_horse_armor",
-          "weight": 42,
-          "quality": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#C5FF3D\",\"italic\":true,\"text\":\"Superior Leather Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost III\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Leather Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"lightweight and flexible choice for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"those seeking protection without\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"compromising mobility.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_1:1b,jump_3:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:leather_horse_armor",
-          "weight": 40,
-          "quality": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#ffcc00\",\"italic\":true,\"text\":\"Mastercrafted Leather Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance I\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost IV\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Leather Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"lightweight and flexible choice for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"those seeking protection without\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"compromising mobility.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_1:1b,jump_4:1b}"
-              }
-            }
-          ]
-        },{
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_horse_armor",
           "weight": 36,
@@ -104,107 +60,42 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"color\":\"#996633\",\"italic\":true,\"text\":\"Iron Horse Armor\"}",
+                "minecraft:custom_name": "{\"color\":\"#6A829E\",\"italic\":true,\"text\":\"Steel Horse Armor\"}",
                 "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance II\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost I\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Iron Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"sturdy and resilient piece of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"equipment for your loyal steed.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Crafted with the finest iron, it\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"provides superior protection.\"}]"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"The Steel Horse Armor is a\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"sturdy and resilient piece of\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"equipment for your loyal steed.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Crafted with the finest iron, it\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"provides superior protection.\"}"
                 ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_2:1b,jump_1:1b}"
+                "minecraft:custom_model_data": 2,
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 7,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:generic.max_health",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 8,
+                      "operation": "add_value",
+                      "slot": "body"
+                    }
+                  ]
+                }
               }
             }
           ]
-        },{
+        },
+        {
           "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 34,
-          "quality": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#8FCAE3\",\"italic\":true,\"text\":\"Fancy Iron Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance II\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost II\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Iron Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"sturdy and resilient piece of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"equipment for your loyal steed.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Crafted with the finest iron, it\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"provides superior protection.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_2:1b,jump_2:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 32,
-          "quality": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#C5FF3D\",\"italic\":true,\"text\":\"Superior Iron Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance II\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost III\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Iron Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"sturdy and resilient piece of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"equipment for your loyal steed.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Crafted with the finest iron, it\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"provides superior protection.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_2:1b,jump_3:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 30,
-          "quality": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#ffcc00\",\"italic\":true,\"text\":\"Mastercrafted Iron Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance II\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost IV\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Iron Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"sturdy and resilient piece of\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"equipment for your loyal steed.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Crafted with the finest iron, it\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"provides superior protection.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_2:1b,jump_4:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
+          "name": "iron_horse_armor",
           "weight": 26,
-          "quality": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#996633\",\"italic\":true,\"text\":\"Golden Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance III\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost I\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Golden Horse Armor is a marvel\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of craftsmanship and elegance,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"adorned with intricate designs and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"luxurious materials. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is fit for the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"most discerning riders and their\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"noble steeds.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_3:1b,jump_1:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 24,
           "quality": 4,
           "functions": [
             {
@@ -214,107 +105,44 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"color\":\"#8FCAE3\",\"italic\":true,\"text\":\"Fancy Golden Horse Armor\"}",
+                "minecraft:custom_name": "{\"color\":\"#3A4757\",\"italic\":true,\"text\":\"Heavy Horse Armor\"}",
                 "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance III\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost II\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Golden Horse Armor is a marvel\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of craftsmanship and elegance,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"adorned with intricate designs and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"luxurious materials. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is fit for the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"most discerning riders and their\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"noble steeds.\"}]"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"The Heavy Horse Armor is a marvel\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"of craftsmanship and elegance,\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"adorned with intricate designs and\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"luxurious materials. This\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is fit for the\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"most discerning riders and their\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"noble steeds.\"}"
                 ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_3:1b,jump_2:1b}"
+                "minecraft:custom_model_data": 3,
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 9,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:generic.max_health",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 12,
+                      "operation": "add_value",
+                      "slot": "body"
+                    }
+                  ]
+                }
               }
             }
           ]
-        },{
+        },
+        {
           "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 22,
-          "quality": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#C5FF3D\",\"italic\":true,\"text\":\"Superior Golden Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance III\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost III\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Golden Horse Armor is a marvel\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of craftsmanship and elegance,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"adorned with intricate designs and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"luxurious materials. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is fit for the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"most discerning riders and their\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"noble steeds.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_3:1b,jump_3:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 20,
-          "quality": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#ffcc00\",\"italic\":true,\"text\":\"Mastercrafted Golden Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance III\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost IV\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Golden Horse Armor is a marvel\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of craftsmanship and elegance,\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"adorned with intricate designs and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"luxurious materials. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is fit for the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"most discerning riders and their\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"noble steeds.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_3:1b,jump_4:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
+          "name": "iron_horse_armor",
           "weight": 16,
-          "quality": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#996633\",\"italic\":true,\"text\":\"Diamond Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance IV\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost I\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Diamond Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"testament to the skill and artistry\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of the finest armorers. Carefully\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"crafted with rare materials and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"enchantments, it bestows the horse\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"with extraordinary protection. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is reserved for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the bravest of steeds, ready to\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"face the most perilous of battles.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_4:1b,jump_1:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 14,
-          "quality": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#8FCAE3\",\"italic\":true,\"text\":\"Fancy Diamond Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance IV\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost II\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Diamond Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"testament to the skill and artistry\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of the finest armorers. Carefully\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"crafted with rare materials and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"enchantments, it bestows the horse\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"with extraordinary protection. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is reserved for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the bravest of steeds, ready to\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"face the most perilous of battles.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_4:1b,jump_2:1b}"
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 12,
           "quality": 6,
           "functions": [
             {
@@ -324,38 +152,50 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"color\":\"#C5FF3D\",\"italic\":true,\"text\":\"Superior Diamond Horse Armor\"}",
+                "minecraft:custom_name": "{\"color\":\"#1755A6\",\"italic\":true,\"text\":\"Platted Horse Armor\"}",
                 "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance IV\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost III\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Diamond Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"testament to the skill and artistry\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of the finest armorers. Carefully\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"crafted with rare materials and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"enchantments, it bestows the horse\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"with extraordinary protection. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is reserved for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the bravest of steeds, ready to\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"face the most perilous of battles.\"}]"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"The Platted Horse Armor is a\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"testament to the skill and artistry\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"of the finest armorers. Carefully\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"crafted with rare materials and\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"enchantments, it bestows the horse\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"with extraordinary protection. This\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is reserved for\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"the bravest of steeds, ready to\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"face the most perilous of battles.\"}"
                 ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_4:1b,jump_3:1b}"
+                "minecraft:custom_model_data": 4,
+                "minecraft:rarity": "uncommon",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 13,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:generic.max_health",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 16,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:generic.armor_toughness",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "body"
+                    }
+                  ]
+                }
               }
             }
           ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 10,
-          "quality": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#ffcc00\",\"italic\":true,\"text\":\"Mastercrafted Diamond Horse Armor\"}",
-                "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance IV\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost IV\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"The Diamond Horse Armor is a\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"testament to the skill and artistry\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"of the finest armorers. Carefully\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"crafted with rare materials and\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"enchantments, it bestows the horse\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"with extraordinary protection. This\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"prestigious armor is reserved for\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the bravest of steeds, ready to\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"face the most perilous of battles.\"}]"
-                ],
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_4:1b,jump_4:1b}"
-              }
-            }
-          ]
-        },{
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_horse_armor",
           "weight": 1,
@@ -370,14 +210,51 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#99483F\",\"italic\":true,\"text\":\"Netherite Horse Armor\"}",
                 "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Resistance V\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Jump Boost V\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Fire Resistance\"}]","[{\"text\":\"\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"This enchanted armor, forged in\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the infernal depths of the\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Nether, not only offers\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"unparalleled protection but also\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"lightens your horse\'s burden.\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"Imbued with netherite\'s resilient\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"essence, it strengthens your\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"steed and allows it to move with\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"a supernatural agility, defying\"}]","[{\"color\":\"gray\",\"italic\":false,\"text\":\"the weight of the world.\"}]"
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Fire Resistance\"}",
+                  "\"   \"",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"This enchanted armor, forged in\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"the infernal depths of the\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Molten Abyss, not only offers\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"unparalleled protection but also\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"lightens your horse's burden.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Imbued with netherite's resilient\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"essence, it strengthens your\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"steed and allows it to move with\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"a supernatural agility, defying\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"the weight of the world.\"}"
                 ],
                 "minecraft:custom_model_data": 1,
-                "minecraft:custom_model_data": 1,
-                "minecraft:custom_data": "{armor_4:1b,jump_4:1b}",
                 "minecraft:dyed_color": {
                   "rgb": 7036767,
                   "show_in_tooltip": false
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:fire_resistant": {},
+                "minecraft:custom_data": "{fire_res:1b}",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.armor",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 17,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:generic.max_health",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 20,
+                      "operation": "add_value",
+                      "slot": "body"
+                    },
+                    {
+                      "type": "minecraft:generic.armor_toughness",
+                      "id": "2c71cbb6-8b27-4b66-a046-a726e79c148d",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "body"
+                    }
+                  ]
                 }
               }
             }

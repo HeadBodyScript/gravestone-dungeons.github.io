@@ -1,0 +1,12 @@
+tellraw @s[scores={trigger.talked_to_villager=31}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": Ah, seems the rumors have reached your ears, huh? Ha ha. Yes, I can indeed cook up something special\u2014 if you bring me the prime ingredients, of course, and a small fee to cover the effort. Most folks just toss their meat in the oven and hope for the best, but that\u2019s not how I work. I\u2019ll prepare you a masterful dinner, something that'll not only fill you up but leave you feelin' better than any regular meal could."}]
+
+tellraw @s[scores={trigger.talked_to_villager=32}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": You can get prime cuts from cows, sheep, goats, and even fish\u2014but not every animal has those special cuts. Sometimes, it\u2019s all about luck, especially when it comes to breeding the right kind of cow for prime beef. Now, there's talk of something interesting. Rumors say that the meat from mushroom cows is far superior to that of regular cows. I\u2019ve never seen one myself, but plenty of travelers have spun stories about their quality. Could be just that\u2014rumors\u2014but who knows?"}]
+
+tellraw @s[scores={trigger.talked_to_villager=33}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": Ah, goat meat, now there\u2019s a hidden gem! It's actually more nutritious than steak, but not many folks know how to properly prepare it. Most just throw it in the oven and hope for the best, but that\u2019s where I come in. If you bring me some goat meat, I\u2019ll cook you a meal that\u2019ll make your mouth water. It\u2019ll be tender, flavorful, and packed with the kind of nutrition that\u2019ll keep you going for days."}]
+
+tellraw @s[scores={trigger.talked_to_villager=34}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": Ah yes, we offer a variety of stews and drinks here, each with their own little magic. The effects can be quite powerful\u2014some even stronger than your typical potions\u2014lasting about 8 minutes, depending on the ingredients. The best part? If you\u2019ve got the right ingredients, you can even craft them yourself at a crafting table. I\u2019d recommend giving them a try!"}]
+
+tellraw @s[scores={trigger.talked_to_villager=35}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=fiona]"},{"text":": TEMP"}]
+
+scoreboard players reset @s trigger.talked_to_villager
+scoreboard players enable @s trigger.talked_to_villager

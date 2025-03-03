@@ -1,4 +1,4 @@
-scoreboard players set @s talked_to_villager_CD 300
+scoreboard players set @s talked_to_villager_CD 500
 execute store result score .INT0 randomNumber run random value 1..10
 
 execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=guillaume]"},{"text":": The monks and I owe you a debt of gratitude. Blessings to you."}]

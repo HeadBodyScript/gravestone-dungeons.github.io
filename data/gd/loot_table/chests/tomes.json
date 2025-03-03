@@ -24,7 +24,7 @@
                 "minecraft:custom_model_data": 1,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:fortune": 3
+                  "minecraft:fortune": 4
                 }
               }
             }
@@ -50,7 +50,7 @@
                 "minecraft:custom_model_data": 2,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:looting": 3
+                  "minecraft:looting": 4
                 }
               }
             }
@@ -76,7 +76,7 @@
                 "minecraft:custom_model_data": 3,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:power": 5
+                  "minecraft:power": 6
                 }
               }
             }
@@ -102,7 +102,7 @@
                 "minecraft:custom_model_data": 4,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:protection": 4
+                  "minecraft:protection": 5
                 }
               }
             }
@@ -128,7 +128,7 @@
                 "minecraft:custom_model_data": 5,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:sharpness": 5
+                  "minecraft:sharpness": 6
                 }
               }
             }
@@ -154,7 +154,7 @@
                 "minecraft:custom_model_data": 11,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:efficiency": 5
+                  "minecraft:efficiency": 6
                 }
               }
             }
@@ -180,7 +180,7 @@
                 "minecraft:custom_model_data": 12,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:luck_of_the_sea": 3
+                  "minecraft:luck_of_the_sea": 4
                 }
               }
             }
@@ -206,7 +206,7 @@
                 "minecraft:custom_model_data": 13,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:unbreaking": 3
+                  "minecraft:unbreaking": 4
                 }
               }
             }
@@ -232,7 +232,7 @@
                 "minecraft:custom_model_data": 14,
                 "minecraft:custom_data": "{elder_tome:1b}",
                 "minecraft:stored_enchantments": {
-                  "minecraft:thorns": 3
+                  "minecraft:thorns": 4
                 }
               }
             }

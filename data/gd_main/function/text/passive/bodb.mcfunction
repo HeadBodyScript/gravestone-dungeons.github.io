@@ -1,17 +1,13 @@
-scoreboard players set @s talked_to_villager_CD 300
-execute store result score .INT0 randomNumber run random value 1..11
+scoreboard players set @s talked_to_villager_CD 500
+execute store result score .INT0 randomNumber run random value 1..9
 
-execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": I don't have time for they."}]
-execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Have they already visited Atta Aikhjarto? He's one of the speaking trees. Maybe they've overlooked him..."}]
-execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": I can sell they a few spells, suit your level of... magic. Sure they can handle this?"}]
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Ah, don’t mind me. Just pondering how to turn this pile of junk into a treasure."}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Ah, ye’re lookin’ for something, are ye? Well, I’ve got... uh, I’ve got a lot of things. Mostly chickens, though. Do ye need some chickens?"}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Summon a princess, ye say? Aye, I’ve heard of summoning things. Mostly cows. But a princess? Huh. That’s a new one."}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": So ye’re after treasure, eh? Well, I don’t know about treasure, but if ye dig deep enough, ye’ll probably find a lot of... dirt. Or maybe a rock. Depends on where yer diggin’, really."}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Me? Oh, I’m just Bodb. One of the brothers. We run a farm here. At least, I think we do. There’s a lot of mud... and cows... and, well, I can’t remember half of it, honestly."}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Oh, I can sell ye a cow or two, if ye’re needin’ one. Goats too, if that’s more yer thing. Uh... well, ye can take both if ye want. I won’t tell a soul, and no one’s gonna tell me, either. We’re all just... doin’ our thing, right?"}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": I reckon I’ve gotten pretty good at farm’n since I bought that new hoe from the local smith. Cost me half me daughter and me whole draft... or was it the other way ‘round? Wait, do I even have a daughter or a draft? Who are ye again?"}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": A good seed’ll grow if ye water it and give it sunlight... but don’t forget to talk to it, too. I swear, the carrots like it when I sing to ‘em. Or maybe that’s just me. Anyway, don’t try it with the potatoes, they’re stubborn."}]
+execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Never trust a rooster who doesn’t crow at dawn. He’s probably got a secret, or worse, he’s just lazy. Or both. Lazy with secrets, that one."}]
 
-execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Please do not touch anything!"}]
-execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Seems like they thinks it's the local tavern. It's up the street."}]
-execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Speak or go. Stop spelunking in my house!"}]
-
-execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": Have they ever had a confrontation with a powerful wizard? No, of course not. They wouldn't be here in that case.."}]
-execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": The spells i sell, have no need of casting capabilities... Easy use for non wizards."}]
-execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": An advice: Stop only seeing the obvious. There's often more than meets the eye."}]
-
-execute if score .INT0 randomNumber matches 10 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": An advice: Stop only seeing the obvious. There's often more than meets the eye."}]
-execute if score .INT0 randomNumber matches 11 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=bodb]"},{"text":": This castle has been built on the ruins of an old fortress of the Veilbreakers. There's more undernea.. Why am i talking to them?!"}]

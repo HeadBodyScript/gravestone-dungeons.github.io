@@ -129,6 +129,90 @@
               }
             }
           ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Retaliation Pulse Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Shields\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Absorbs dealt damage until fully charged.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Creates a save area for a short duration.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Charged by blocking attacks.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd_enchantment:retaliation_pulse": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Seppuku Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Sacrifices health for damage increase.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Can be done while crouching.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 2000/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd_enchantment:seppuku": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Blackthorn Arrow Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Ranged Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Turns arrows into withering arrows.\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd_enchantment:blackthorn_arrow": 1
+                }
+              }
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#B300FF\",\"italic\":true,\"text\":\"Lightning Strike Enchantment\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Maces\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Summons a circle of lightning bolts.\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Magicka Cost: 3000/usage\"}"
+                ],
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 9,
+                "minecraft:stored_enchantments": {
+                  "gd_enchantment:lightning_strike": 1
+                }
+              }
+            }
+          ]
         }
       ]
     }
