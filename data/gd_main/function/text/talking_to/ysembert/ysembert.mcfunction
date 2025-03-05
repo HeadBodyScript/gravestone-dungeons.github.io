@@ -33,5 +33,5 @@ tellraw @s[scores={talked_to_villager=1700}] ["",{"selector":"@e[type=minecraft:
 execute as @s[scores={talked_to_villager=1700}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @p ~ ~ ~ 80
 tellraw @s[scores={talked_to_villager=1750}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Bye!"}]
 
-execute as @s[scores={talked_to_villager=1780}] run function gd_main:text/talking_to/ysembert/ysembert_stop
+execute as @s[scores={talked_to_villager=1750}] run function gd_main:text/talking_to/ysembert/ysembert_stop
 

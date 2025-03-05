@@ -1,5 +1,5 @@
 # NOTE: if a player clicks a dialog option in the chat this function will determine what answer should be played and by who
-
+scoreboard players enable @s trigger.talked_to_villager
 execute if entity @e[type=villager,tag=ysembert,limit=1,distance=..8] run function gd_main:text/trigger/ysembert/answer
 
 execute if entity @e[type=villager,tag=harlan,limit=1,distance=..8] run function gd_main:text/trigger/harlan/answer
@@ -18,4 +18,3 @@ execute if entity @e[type=villager,tag=alaric,limit=1,distance=..8] run function
 
 
 
-scoreboard players enable @s trigger.talked_to_villager
