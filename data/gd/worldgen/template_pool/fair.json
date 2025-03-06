@@ -274,6 +274,14 @@
         "projection": "rigid",
         "processors": "gd:fair"
       }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/elana",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
     }
 
 

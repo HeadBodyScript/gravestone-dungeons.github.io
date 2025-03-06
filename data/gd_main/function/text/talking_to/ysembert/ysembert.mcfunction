@@ -31,7 +31,7 @@ execute as @s[scores={talked_to_villager=1000}] at @e[type=minecraft:villager,ta
 tellraw @s[scores={talked_to_villager=1600}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Can’t sit around all day, aye? Break’s over. I best be gettin’ back to it."}]
 tellraw @s[scores={talked_to_villager=1700}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Safe travels, traveler, and should ye find any more treasures or have more questions, ye know where to find me!"}]
 execute as @s[scores={talked_to_villager=1700}] at @e[type=minecraft:villager,tag=ysembert_start,distance=..32,limit=1] run playsound minecraft:entity.villager.celebrate player @p ~ ~ ~ 80
-tellraw @s[scores={talked_to_villager=1750}] ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=ysembert_start]"},{"text":": Bye!"}]
-
 execute as @s[scores={talked_to_villager=1750}] run function gd_main:text/talking_to/ysembert/ysembert_stop
+
+
 
