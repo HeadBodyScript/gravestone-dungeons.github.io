@@ -190,6 +190,9 @@ namespace
         Custom amount of projectiles that spawn [example: star shower]
         New file error.mcfunction => for when the user tries to cast the spell but doesn't have the recources
 
+        New enchantment: name? on hit applies 2 stacks per hit on a mob
+        Use suspicious sand + loottable
+
 
 ## SCRAPPED
 save arrows in scoreboard switch between arrows in quiver (dont think this is possible)
@@ -198,3 +201,9 @@ save arrows in scoreboard switch between arrows in quiver (dont think this is po
 * Buy/unlock ultimate abilities per class
 * Change some classes to mini classes
 * A boss for each class that upgrades something about that cless specifically
+
+
+
+
+
+
