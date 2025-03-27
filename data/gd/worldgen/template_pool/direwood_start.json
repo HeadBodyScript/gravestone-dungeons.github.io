@@ -6,7 +6,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:direwood/direwood1",
+        "location": "gd:direwood/direwood14",
         "projection": "rigid",
         "processors": "gd:direwood"
       }
