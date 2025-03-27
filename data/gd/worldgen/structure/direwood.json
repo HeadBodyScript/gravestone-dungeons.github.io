@@ -8,7 +8,7 @@
   "size": 7,
   "start_height": {
 	"type": uniform,
-    "absolute": -3
+    "absolute": 17
 	
   },
   "project_start_to_heightmap": "WORLD_SURFACE",
