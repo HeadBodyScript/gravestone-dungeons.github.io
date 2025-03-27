@@ -4,6 +4,8 @@ Ability Strenght            : how powerful the ability is               Base: 10
 Ability Duration            : the duration of the ability               Base: 100(%)
 Ability Efficiency          : how much mana the ability consumes        Base: 100(%)
 Ability Range               : how much range the ability has            Base: 100(%)
+## Maybe runes to level not only magicka/mana amount to be recharged, but also to increase power/strength of some single use or ritualistic spells. Runes only in exchange for defeated bosses? 
+
 # User-recources
 # INFO : resources that are used to cast abilities
 # EXAMPLE: an ability will temporarily reduce your armor by X when cast || an ability will make the caster take damage when cast
@@ -18,52 +20,53 @@ Armor
 ├─  stat.oxygen_bonus
 ├─  stat.safe_fall_distance
 # Runes - possible in 1.21.4
-├─  ability.cooldown_reduction
-├─  ability.strenght
+├─  ability.cooldown_reduction (rune of haste for faster hitting tools and weapons?)
+├─  ability.strenght 
 ├─  ability.duration
 ├─  ability.efficiency
-├─  ability.range
+├─  ability.range (no, but i want to use this for lang range weapons like pike and spears)
+
 # Enchantments
-├─  adrenaline_boost        : when the user crouches a gauge fills up. When the gauge is full gain speed and jump_boost
+├─  adrenaline_boost        : active: when the user crouches a gauge fills up. When the gauge is full gain speed and jump_boost
     └─ scaling              : CDR, AD
-├─  blackthorn_arrow        :
+├─  blackthorn_arrow        : adds withering effect to hit target for every type of arrow shot
 ├─  bleeding                : passive: deal bonus damage when a gauge fills up
 ├─  blessing                : passive: deal bonus damage to undead entities when a gauge fills up
 ├─  bonecaller              : active: summon a skull that circles the player dealing wither damage to entities hit
-├─  bounty_claim            :
-├─  chorus_void             : 
+├─  bounty_claim            : passive: increases drop chance of coins by raid-mobs
+├─  chorus_void             : active: if shot while crouching, every arrow turns into enderarrow
 ├─  cultivation             : active: plant / harvest a large area of plants
 ├─  deflect_projectiles     : active: deflect all projectiles away from the user
 ├─  disarming               : active: drops the item that an entity is holding in their main hand
 ├─  evoker_fangs            : active: summon waves of evoker fangs that deal damage
 ├─  experience_boost        : gain bonus EXP after killing a mob or mining ores
-├─  fire_burst              :
-├─  floating                :
-├─  freezing                : 
-├─  greatblade_defence      :
-├─  horse                   :
-├─  horse                   :
-├─  horse                   :
+├─  fire_burst              : active: when the user crouches a gauge fills up. summons fire blast in front of player
+├─  floating                : passive: adds levitation effect when a gauge fills up
+├─  freezing                : passive: freezes and deals bonus damage when a gauge fills up
+├─  greatblade_defence      : active: summons 3 swords above player, shootable on nearest target. vanish after a few minutes if unused.
+├─  horse 1                 : Infernal Steed: adds speed boost if on specific blocks
+├─  horse 2                 : Ebon Soulsteed: adds speed/ resistance boost if on specific blocks 
+├─  horse 3                 : Ashen Basaltclimber: adds jump boost  if on specific blocks + effects for riding player
 ├─  illumination            : active: gives the glowing effect to entities
 ├─  knife_pouch             : active: throw a copy of your sword
-├─  levitation              : 
-├─  light_wave              : active: summon a wave of light
-├─  lightning_bow           : passsive: summon lighting at the target after the gauge fills
-├─  lightning_strike        :
+├─  levitation              : active: when the user crouches a gauge fills up. gives player levitation effect.
+├─  light_wave              : active: summon a wave of light which deals damage
+├─  lightning_bow           : passsive: summon lighting at the target by chance
+├─  lightning_strike        : active: summons an expanding circle of lightning strikes around the player
 ├─  magma_walker            : passive: turns lava into a solid block
-├─  mistbreaker             :
-├─  molten_touch            : 
+├─  mistbreaker             : active: tp the player to another dimension. dimension is chosen by holding a dimension specific block in the offhand while crouching.
+├─  molten_touch            : passive: instant melting for ores and wood logs
 ├─  poisoning               : passive: affect the target with poison after the gauge fills
-├─  potion_bag              : passive: allow potions to stack to amount?
-├─  quiver                  : passive: allow arrows to stack to amount?
-├─  retaliation_pulse       :
-├─  seaborn                 :
-├─  seppuku                 :
-├─  star_shard              : active: summon a single bolt of fire that set enemies on fire
+├─  potion_bag              : passive: increases stack size of potions
+├─  quiver                  : passive: increases stack size of arrows
+├─  retaliation_pulse       : active: charges up by blocking attacks with the shield. summons "forcefield spell" if crouching when full
+├─  seaborn                 : passive: adds positive effects to wearer when in water or rain, but negative effects if dry
+├─  seppuku                 : active: deals 18 life points = 9 hearts of damage to give strength 3 for 60s
+├─  star_shard              : active: summon a single bolt of fire that set enemies on fire and deals damage
 ├─  star_shower             : active: summon a sun of fire that summons flames that set enemies on fire
 ├─  telekinesis             : active: teleport nearby items into your inventory
-├─  tongue_of_fire          : passive: deal massive fire damage after a gauge fills up
-├─  veil_of_shadows         : passive: become invisible and fast when sneaking close to entities
+├─  tongue_of_fire          : passive: deal massive fire damage to target and surrounding mobs after a gauge fills up
+├─  veil_of_shadows         : passive: become invisible and fast when sneaking
 ├─  void_sphere             : active: summon a black hole that sucks in entities
 ├─  warp_strike             : passsive: Teleport the player to the landing place of the trident
 └─  withering               : passsive: affect the target with wither and blindness after the gauge fills
@@ -78,30 +81,34 @@ Armor
 ├─  transform               : if arrow hit enemy summon a structure of nature
 └─  weaving                 : both summon a cobweb at location
 # Factions (add all factions here)
-├─  Direwood
+├─  Lands Beyond - Direwood
+├─  Molten Abyss - Abyss (later)
+├─  Shadowlands (Eternal Frost?) - Mist (later)
+ 
 # Custom-villagers
-├─  alaric
-├─  arthur
-├─  bodb?
-├─  cedric
-├─  duncan
-├─  elana
-├─  eldrid
-├─  faendal
-├─  finlay
-├─  fiona
-├─  gilbert
-├─  guillauma
-├─  guinemar
-├─  harlan
-├─  jerome
-├─  lyra
-├─  odo
-├─  ragnar
+├─  alaric					||wizard
+├─  arthur					||master of the arena
+├─  bodb					||farmer
+├─  cedric					||bard
+├─  duncan					||armor smith
+├─  elana					||bard
+├─  eldrid					||cartographer
+├─  faendal					||coin exchanger, reward giver
+├─  finlay					||tool smith
+├─  fiona					||cook
+├─  gilbert					||weapon smith
+├─  guillaume				||librarian
+├─  guinemar				||beekeeper
+├─  harlan					||horse breeder
+├─  jerome					||cloud nomad captain
+├─  lyra					||potion brewer
+├─  odo						||cloud nomad captain
+├─  ragnar					||fletcher
 ├─  ragnvald
-├─  ysabell
-├─  ysembert                : information guide || sells classes
-└─  zaccarius
+├─  ysabell					||cloud nomad captain
+├─  ysembert       			||sells classes, trinket trader
+└─  zaccarius				||librarian
+
 # Custom-bosses
 ├─  devil
 │    ├─ stage 1
@@ -187,7 +194,7 @@ Armor
 │    ├─ type                plains
 ├─  witch
 │    ├─ type                plains
-
 # Temp info / ideas
-Abilities can scale with player health, armor, strenght + the ability scaling in #user-stats
+Abilities can scale with player health (rune of health would be too powerful then!), armor (would break vanilla armor scale system), strenght (makes potions/food useless) + the ability scaling in #user-stats
+- not sure about this system. we have to figure it out in the future.
 
