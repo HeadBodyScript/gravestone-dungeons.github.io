@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "template": {
+    "item": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "components": {
+      "minecraft:max_damage": 842,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
       "stepping_on": {
-        "structures": "gd:arcane_nodes"
+        "structures": "gd:arcane_node"
       }
     }
   }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:shield"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "template": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:max_damage": 2336,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very High Durability\"}"
+      ],
+      "minecraft:fire_resistant": {}
+    },
+    "count": 1
+  }
+}

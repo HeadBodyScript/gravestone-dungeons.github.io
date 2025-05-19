@@ -21,12 +21,12 @@ particle minecraft:scrape ~ ~-1 ~ 0.2 .5 0.2 .1 5
 particle minecraft:glow ~ ~-1 ~ 0.2 .5 0.2 .03 20
 
 execute as @s[scores={tick=15}] run particle trial_spawner_detection_ominous ^ ^-3 ^ 0.3 1 0.3 .1 60
-execute as @s[scores={tick=15}] run summon wolf ~ ~-2.7 ~ {Sitting:0b,variant:"black",CollarColor:15b,CustomName:'[{"text":"Dire Wolf","color":"#68BABD"}]',Health:70,PersistenceRequired:1b,Tags:["companion"],Team:DIREWOOD,HandItems:[{id:iron_sword,components:{enchantments:{levels:{knockback:1,"gd_enchantment:bleeding":1,sharpness:2,sweeping_edge:3,unbreaking:10}}},count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:netherite_boots,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_leggings,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_chestplate,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_helmet,components:{enchantments:{levels:{unbreaking:10}}},count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"minecraft:generic.attack_damage",base:10},{id:"minecraft:generic.attack_speed",base:0.1},{id:"minecraft:generic.max_health",base:70},{id:"minecraft:generic.movement_speed",base:0.4},{id:"minecraft:generic.scale",base:2},{id:"minecraft:generic.knockback_resistance",base:90}]}
+execute as @s[scores={tick=15}] run summon wolf ~ ~-2.7 ~ {Sitting:0b,variant:"black",CollarColor:15b,CustomName:'[{"text":"Dire Wolf","color":"#14C1E3"}]',Health:70,PersistenceRequired:1b,DeathLootTable:"empty",Team:DIREWOOD,Tags:["companion"],HandItems:[{id:iron_sword,components:{enchantments:{levels:{knockback:1,"gd_enchantment:bleeding":1,sharpness:2,sweeping_edge:3,unbreaking:10}}},count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:netherite_boots,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_leggings,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_chestplate,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_helmet,components:{enchantments:{levels:{unbreaking:10}}},count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"minecraft:generic.attack_damage",base:10},{id:"minecraft:generic.attack_speed",base:0.1},{id:"minecraft:generic.max_health",base:70},{id:"minecraft:generic.movement_speed",base:0.3},{id:"minecraft:generic.scale",base:2}]}
 
-execute as @s[scores={tick=2}] run playsound minecraft:entity.wolf.growl master @s ~ ~ ~ 1 .5
-execute as @s[scores={tick=8}] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 20 2 .9
-execute as @s[scores={tick=10}] run playsound minecraft:entity.illusioner.cast_spell master @s ~ ~ ~ 1 .6
-execute as @s[scores={tick=20}] run playsound minecraft:particle.soul_escape master @s ~ ~ ~ 1 .5
+execute as @s[scores={tick=2}] run playsound minecraft:entity.wolf.growl master @a[distance=..10] ~ ~ ~ 1 .5
+execute as @s[scores={tick=8}] run playsound minecraft:block.beacon.power_select master @a[distance=..10] ~ ~ ~ 20 2 .9
+execute as @s[scores={tick=10}] run playsound minecraft:entity.illusioner.cast_spell master @a[distance=..10] ~ ~ ~ 1 .6
+execute as @s[scores={tick=20}] run playsound minecraft:particle.soul_escape master @a[distance=..10] ~ ~ ~ 1 .5
 
 execute as @s[scores={tick=5..15}] run particle firework ^ ^-3 ^ 0.1 0.1 0.1 .1 15
 execute as @s[scores={tick=15..}] run particle firework ^ ^-3 ^ 0.1 0.1 0.1 .1 30

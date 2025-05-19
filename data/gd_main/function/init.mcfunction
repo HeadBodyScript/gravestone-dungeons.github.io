@@ -5,6 +5,8 @@ scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 scoreboard objectives add trigger.talked_to_villager trigger
 scoreboard objectives add settings trigger
 
+scoreboard objectives add talked_to_sword_CD dummy
+scoreboard objectives add talked_to_sword_equip_CD dummy
 scoreboard objectives add talked_to_villager_CD dummy
 scoreboard objectives add node_CD dummy
 scoreboard objectives add node_VFX dummy
@@ -21,6 +23,8 @@ scoreboard objectives add tick3 dummy
 scoreboard objectives add tick4 dummy
 scoreboard objectives add tick5 dummy
 scoreboard objectives add tick6 dummy
+scoreboard objectives add tick7 dummy
+scoreboard objectives add tick8 dummy
 
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add playerCount dummy
@@ -28,14 +32,19 @@ scoreboard objectives add bossTick dummy
 scoreboard objectives add difficulty dummy
 
 scoreboard objectives add companion_TD dummy
+scoreboard objectives add companionCount dummy
 
 scoreboard objectives add foodLevel dummy
 scoreboard objectives add seppuku_health dummy
-
 scoreboard objectives add ability.link dummy
 scoreboard objectives add warp_y dummy
-
 scoreboard objectives add breeding_stone_CD dummy
+
+#oils
+scoreboard objectives add oil_poison dummy
+scoreboard objectives add oil_holy dummy
+scoreboard objectives add oil_frostbite dummy
+scoreboard objectives add oil_wither dummy
 
 # enchantment
 scoreboard objectives add enchantment.adrenaline_boost_CD dummy
@@ -44,8 +53,8 @@ scoreboard objectives add enchantment.adrenaline_boost_INT dummy
 scoreboard objectives add enchantment.bleeding_VFX dummy
 scoreboard objectives add enchantment.bleeding_INT dummy
 
-scoreboard objectives add enchantment.blessing_VFX dummy
-scoreboard objectives add enchantment.blessing_INT dummy
+scoreboard objectives add enchantment.holy_VFX dummy
+scoreboard objectives add enchantment.holy_INT dummy
 
 scoreboard objectives add enchantment.bonecaller_TD dummy
 scoreboard objectives add enchantment.bonecaller_CD dummy
@@ -71,8 +80,8 @@ scoreboard objectives add enchantment.fire_burst_VFX dummy
 
 scoreboard objectives add enchantment.floating_INT dummy
 
-scoreboard objectives add enchantment.freezing_INT dummy
-scoreboard objectives add enchantment.freezing_VFX dummy
+scoreboard objectives add enchantment.frostbite_INT dummy
+scoreboard objectives add enchantment.frostbite_VFX dummy
 
 scoreboard objectives add enchantment.greatblade_defense_INT dummy
 scoreboard objectives add enchantment.greatblade_defense_TD dummy
@@ -150,12 +159,14 @@ scoreboard objectives add rune.max_health dummy
 scoreboard objectives add rune.max_mana dummy
 scoreboard objectives add rune.oxygen_bonus dummy
 scoreboard objectives add rune.safe_fall dummy
+scoreboard objectives add rune.max_companionCount dummy
 
 scoreboard objectives add rune.block_interaction_range_MAX dummy
 scoreboard objectives add rune.max_health_MAX dummy
 scoreboard objectives add rune.max_mana_MAX dummy
 scoreboard objectives add rune.oxygen_bonus_MAX dummy
 scoreboard objectives add rune.safe_fall_MAX dummy
+scoreboard objectives add rune.max_companionCount_MAX dummy
 
 # BOSS
 bossbar add boss.arena {"text":"Arena Boss","color":"gray"}
@@ -167,12 +178,14 @@ bossbar set boss.grimgar style notched_12
 bossbar set boss.grimgar color blue
 scoreboard objectives add boss.grimgar_minion dummy
 scoreboard objectives add boss.grimgar_minion_INT dummy
+scoreboard objectives add boss.grimgar_health dummy
 
 bossbar add boss.marrow {"text":"The Blighted Marrow","color":"gray"}
 bossbar set boss.marrow style notched_12
 bossbar set boss.marrow color green
 scoreboard objectives add boss.marrow_minion dummy
 scoreboard objectives add boss.marrow_minion_INT dummy
+scoreboard objectives add boss.marrow_health dummy
 
 bossbar add boss.devil {"text":"The Blazing Devil","color":"gray"}
 bossbar set boss.devil style notched_20
@@ -189,9 +202,14 @@ bossbar set boss.witch style notched_6
 bossbar set boss.witch color purple
 scoreboard objectives add boss.witch_health dummy
 
+bossbar add boss.shadow {"text":"The Shadow","color":"#003952"}
+bossbar set boss.shadow style notched_12
+bossbar set boss.shadow color blue
+scoreboard objectives add boss.shadow_health dummy
 
 
-# bossbar set minecraft:boss.grimgar players
+
+
 
 team add ENEMY
 team add DIREWOOD

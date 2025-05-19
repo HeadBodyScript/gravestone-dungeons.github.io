@@ -1,0 +1,212 @@
+{
+  "values": [
+#caves cold
+
+#caves temperate
+	"minecraft:dripstone_caves",
+    {
+      "id": "terralith:andesite_caves",
+      "required": false
+    },    {
+      "id": "terralith:diorite_caves",
+      "required": false
+    },    {
+      "id": "terralith:granite_caves",
+      "required": false
+    },    {
+      "id": "terralith:tuff_caves",
+      "required": false
+    },
+
+#caves tropical
+    {
+      "id": "terralith:fungal_caves",
+      "required": false
+    },    {
+      "id": "terralith:infested_caves",
+      "required": false
+    },    {
+      "id": "terralith:thermal_caves",
+      "required": false
+    },    {
+      "id": "terralith:underground_jungle",
+      "required": false
+    },
+
+#caves arid
+
+#caves hot
+
+#water
+	"minecraft:river",
+
+#cold
+
+#cold special
+
+#temperate
+	"minecraft:plains",
+	"minecraft:sunflower_plains",
+	"minecraft:meadow",
+	"minecraft:cherry_grove",
+	"minecraft:windswept_hills",
+	"minecraft:windswept_gravelly_hills",
+	"minecraft:windswept_forest",
+	"minecraft:forest",
+	"minecraft:flower_forest",
+	"minecraft:taiga",
+	"minecraft:old_growth_pine_taiga",
+	"minecraft:old_growth_spruce_taiga",
+	"minecraft:birch_forest",
+	"minecraft:old_growth_birch_forest",
+	"minecraft:dark_forest",
+	"minecraft:swamp",
+	"minecraft:mangrove_swamp",
+    {
+      "id": "terralith:alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:birch_taiga",
+      "required": false
+    },
+    {
+      "id": "terralith:blooming_plateau",
+      "required": false
+    },
+    {
+      "id": "terralith:brushland",
+      "required": false
+    },
+    {
+      "id": "terralith:cloud_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:lush_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:moonlight_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:moonlight_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:orchid_swamp",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:shield_clearing",
+      "required": false
+    },
+    {
+      "id": "terralith:shield",
+      "required": false
+    },
+    {
+      "id": "terralith:steppe",
+      "required": false
+    },
+    {
+      "id": "terralith:valley_clearing",
+      "required": false
+    },
+    {
+      "id": "terralith:yosemite_lowlands",
+      "required": false
+    },
+
+#temperate special
+    {
+      "id": "terralith:blooming_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:forested_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:gravel_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:haze_mountain",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_autumn",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_spring",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_summer",
+      "required": false
+    },
+    {
+      "id": "terralith:temperate_highlands",
+      "required": false
+    },
+
+#tropical
+	"minecraft:jungle",
+	"minecraft:sparse_jungle",
+	"minecraft:bamboo_jungle",
+    {
+      "id": "terralith:tropical_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_rainforest",
+      "required": false
+    }
+
+#tropical special
+
+#arid
+
+#arid special
+
+#hot
+
+#hot special
+
+  ]
+}

@@ -1,0 +1,27 @@
+{ "values": 
+	[
+	"gd_enchantment:bleeding",
+	"gd_enchantment:holy",
+	"gd_enchantment:poisoning",
+	"gd_enchantment:floating",
+	"gd_enchantment:lightning_rod",
+
+    "minecraft:binding_curse",
+    "minecraft:vanishing_curse",
+    "minecraft:channeling",
+    "minecraft:wind_burst",
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:impaling",
+    "minecraft:density",
+    "minecraft:breach",
+    "minecraft:sweeping_edge",
+    "minecraft:knockback",
+    "minecraft:fortune",
+    "minecraft:looting",
+    "minecraft:efficiency",
+    "minecraft:unbreaking"
+
+	]
+}

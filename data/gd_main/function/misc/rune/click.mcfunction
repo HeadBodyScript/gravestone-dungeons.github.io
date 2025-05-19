@@ -15,4 +15,7 @@ execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance1:1b}] if score @s rune.safe_fall < @s rune.safe_fall_MAX run function gd_main:misc/rune/safe_fall_distance/init
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance1:1b}] if score @s rune.safe_fall = @s rune.safe_fall_MAX run tellraw @s [{"text":"Maximum modifier reached.","color":"#339900"}]
 
+execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={companion1:1b}] if score @s rune.max_companionCount < @s rune.max_companionCount_MAX run function gd_main:misc/rune/companion/init
+execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={companion1:1b}] if score @s rune.max_companionCount = @s rune.max_companionCount_MAX run tellraw @s [{"text":"Maximum modifier reached.","color":"#30FFCF"}]
+
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={stone_rune_delete:1b}] run function gd_main:misc/rune/stone_rune_delete/init

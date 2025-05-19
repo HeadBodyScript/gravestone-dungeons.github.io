@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_helmet",
+          "value": "gd:equipment/armor/iron_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_chestplate",
+          "value": "gd:equipment/armor/iron_chestplate",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_leggings",
+          "value": "gd:equipment/armor/iron_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_boots",
+          "value": "gd:equipment/armor/iron_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_helmet",
+          "value": "gd:equipment/armor/diamond_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_chestplate",
+          "value": "gd:equipment/armor/diamond_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_leggings",
+          "value": "gd:equipment/armor/diamond_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:iron_boots",
+          "value": "gd:equipment/armor/diamond_boots",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 4
+      }
+    }
+  ],
+  "random_sequence": "gd:equipment/armor/armor_hard"
+}

@@ -9,7 +9,7 @@
   "start_height": {
     "type": "constant",
     "value": {
-        "above_bottom": 150
+        "absolute": 140
     }
 }
 ,

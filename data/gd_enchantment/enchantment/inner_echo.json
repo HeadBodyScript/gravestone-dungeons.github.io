@@ -1,0 +1,52 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.inner_echo",
+    "fallback": "Inner Echo",
+    "with": []
+  },
+  "supported_items": "#minecraft:swords",
+  "slots": [
+    "mainhand",
+    "mainhand"
+  ],
+  "weight": 1,
+  "anvil_cost": 14,
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "exclusive_set": "#minecraft:exclusive_set/gd_inner_echo",
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gd_enchantment:inner_echo/post_attack"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 1.5
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gd_enchantment:inner_echo/tick"
+        }
+      }
+    ]
+  }
+}

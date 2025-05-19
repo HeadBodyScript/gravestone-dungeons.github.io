@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:trident"
+  },
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "template": {
+    "item": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "minecraft:trident",
+    "components": {
+      "minecraft:max_damage": 750,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

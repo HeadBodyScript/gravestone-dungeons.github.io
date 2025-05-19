@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "item": "minecraft:gold_block"
+  },
+  "template": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "components": {
+      "minecraft:max_damage": 745,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

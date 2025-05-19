@@ -1,4 +1,4 @@
-summon armor_stand ^ ^ ^-1.08 {Invisible:1b,NoGravity:1b,Tags:["projectile.star_shard"]}
+summon armor_stand ^ ^ ^-1.08 {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.star_shard"]}
 playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 20 2
 effect give @s slowness 1 4 true
 scoreboard players remove @s mana 1600

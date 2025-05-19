@@ -4,6 +4,7 @@ scoreboard players set @s rune.max_mana 2000
 scoreboard players set @s mana_max 2000
 scoreboard players set @s rune.oxygen_bonus 0
 scoreboard players set @s rune.safe_fall 0
+scoreboard players set @s rune.max_companionCount 1
 
 attribute @s minecraft:player.entity_interaction_range modifier remove range
 attribute @s minecraft:generic.max_health modifier remove health

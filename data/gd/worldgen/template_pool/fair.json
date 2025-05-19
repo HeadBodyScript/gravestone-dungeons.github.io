@@ -206,7 +206,39 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/bodb1",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/bodb2",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:fair/edward",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/edward1",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/edward2",
         "projection": "rigid",
         "processors": "gd:fair"
       }
@@ -222,7 +254,39 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/otis1",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/otis2",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:fair/peter",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/peter1",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/peter2",
         "projection": "rigid",
         "processors": "gd:fair"
       }
@@ -270,6 +334,22 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/annie1",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/annie2",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:fair/arthur",
         "projection": "rigid",
         "processors": "gd:fair"
@@ -278,7 +358,39 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/arthur1",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/arthur2",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:fair/elana",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/elana1",
+        "projection": "rigid",
+        "processors": "gd:fair"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:fair/elana2",
         "projection": "rigid",
         "processors": "gd:fair"
       }

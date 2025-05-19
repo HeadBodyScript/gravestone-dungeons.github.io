@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:potion"
+  },
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "template": {
+    "item": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "minecraft:custom_name": "{\"italic\":true,\"text\":\"Fish Oil\"}"
+    },
+    "count": 1
+  }
+}

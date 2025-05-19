@@ -1,0 +1,14 @@
+summon silverfish ~ ~1 ~ {Team:"ENEMY",Health:1024f,Tags:["minion.arena","boss.arena"],CustomName:'{"color":"#8F4710","italic":false,"text":"Skanka"}',HandItems:[{id:"minecraft:iron_sword",count:1,components:{"minecraft:enchantments":{levels:{"gd_enchantment:withering":1}}}},{}],HandDropChances:[0.000F,0.085F],attributes:[{id:"minecraft:generic.armor",base:8},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.knockback_resistance",base:.5},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.movement_speed",base:0.3},{id:"minecraft:generic.scale",base:4},{id:"minecraft:generic.water_movement_efficiency",base:0.9}]}
+
+summon silverfish ~ ~1 ~ {Team:"ENEMY",Health:25f,Tags:["minion.arena"],CustomName:'{"color":"#8F4710","italic":false,"text":"Skankas Minion"}',attributes:[{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.max_health",base:25},{id:"minecraft:generic.movement_speed",base:0.28},{id:"minecraft:generic.scale",base:1},{id:"minecraft:generic.water_movement_efficiency",base:0.9}]}
+
+summon silverfish ~ ~1 ~ {Team:"ENEMY",Health:25f,Tags:["minion.arena"],CustomName:'{"color":"#8F4710","italic":false,"text":"Skankas Minion"}',attributes:[{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.max_health",base:25},{id:"minecraft:generic.movement_speed",base:0.28},{id:"minecraft:generic.scale",base:1},{id:"minecraft:generic.water_movement_efficiency",base:0.9}]}
+
+summon silverfish ~ ~1 ~ {Team:"ENEMY",Health:25f,Tags:["minion.arena"],CustomName:'{"color":"#8F4710","italic":false,"text":"Skankas Minion"}',attributes:[{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.max_health",base:25},{id:"minecraft:generic.movement_speed",base:0.28},{id:"minecraft:generic.scale",base:1},{id:"minecraft:generic.water_movement_efficiency",base:0.9}]}
+
+summon silverfish ~ ~1 ~ {Team:"ENEMY",Health:25f,Tags:["minion.arena"],CustomName:'{"color":"#8F4710","italic":false,"text":"Skankas Minion"}',attributes:[{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.max_health",base:25},{id:"minecraft:generic.movement_speed",base:0.28},{id:"minecraft:generic.scale",base:1},{id:"minecraft:generic.water_movement_efficiency",base:0.9}]}
+
+summon silverfish ~ ~1 ~ {Team:"ENEMY",Health:25f,Tags:["minion.arena"],CustomName:'{"color":"#8F4710","italic":false,"text":"Skankas Minion"}',attributes:[{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.max_health",base:25},{id:"minecraft:generic.movement_speed",base:0.28},{id:"minecraft:generic.scale",base:1},{id:"minecraft:generic.water_movement_efficiency",base:0.9}]}
+
+playsound minecraft:entity.cat.hiss master @a[tag=fighting.arena] ~ ~ ~ 1 .5
+playsound minecraft:entity.cat.hiss master @a[tag=fighting.arena] ~ ~ ~ 1 .7

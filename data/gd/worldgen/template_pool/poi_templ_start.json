@@ -1,0 +1,87 @@
+{
+  "name": "gd:poi_templ_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_4",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_5",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_6",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_7",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_8",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_9",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/temp/high/templ_10",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    }
+  ]
+}

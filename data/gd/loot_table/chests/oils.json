@@ -1,0 +1,476 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#459E00\",\"italic\":true,\"text\":\"Weak Poison Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ☠ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a poison effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 100 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 4562432,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{weak_poison:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#5CD400\",\"italic\":true,\"text\":\"Moderate Poison Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ☠ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a poison effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 250 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 6083584,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{moderate_poison:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#6FFF00\",\"italic\":true,\"text\":\"Strong Poison Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ☠ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a poison effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 500 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 7339776,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{strong_poison:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+	{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#BDBD13\",\"italic\":true,\"text\":\"Weak Holy Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❇ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a holy effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 100 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 12434707,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{weak_holy:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#CFCF15\",\"italic\":true,\"text\":\"Moderate Holy Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❇ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a holy effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 250 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 13618965,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{moderate_holy:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#EDED18\",\"italic\":true,\"text\":\"Strong Holy Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❇ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a holy effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 500 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 15592728,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{strong_holy:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+	{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#3DA2AD\",\"italic\":true,\"text\":\"Weak Frostbite Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❄ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a frostbite effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 100 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 4039341,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{weak_frostbite:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#4DCFDE\",\"italic\":true,\"text\":\"Moderate Frostbite Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❄ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a frostbite effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 250 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 5099486,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{moderate_frostbite:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#59EEFF\",\"italic\":true,\"text\":\"Strong Frostbite Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❄ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a frostbite effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 500 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 5893887,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{strong_frostbite:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+	{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#A1A1A1\",\"italic\":true,\"text\":\"Weak Wither Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ‡ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a wither effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 100 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 10263708,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{weak_wither:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#858585\",\"italic\":true,\"text\":\"Moderate Wither Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ‡ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a wither effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 250 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 8750469,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{moderate_wither:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#636363\",\"italic\":true,\"text\":\"Strong Wither Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ‡ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a wither effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 500 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 6513507,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{strong_wither:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

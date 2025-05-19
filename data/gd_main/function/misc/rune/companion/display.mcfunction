@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Current Modifier: "},{"score":{"name":"@s","objective":"rune.max_companionCount"}},{"text":" / "},{"score":{"name":"@s","objective":"rune.max_companionCount_MAX"}},{"text":" Simultaneous Companions","color":"#30FFCF"}]

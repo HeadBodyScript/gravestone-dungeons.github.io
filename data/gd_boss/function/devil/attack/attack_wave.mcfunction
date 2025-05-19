@@ -1,5 +1,5 @@
 scoreboard players add @s tick4 1
-execute if score @s tick4 matches 1 run playsound entity.illusioner.cast_spell ambient @a ~ ~ ~ 20 .5
+execute if score @s tick4 matches 1 run playsound entity.illusioner.cast_spell ambient @a[distance=..48] ~ ~ ~ 20 .5
 execute if score @s tick4 matches 1 at @s run summon armor_stand ~ ~ ~ {HasVisualFire:1b,Invisible:1b,NoGravity:1b,Tags:["fire_wave1","fire_wavea"]}
 execute if score @s tick4 matches 1 at @s run summon armor_stand ~ ~ ~ {HasVisualFire:1b,Invisible:1b,NoGravity:1b,Tags:["fire_wave2","fire_wavea"]}
 execute if score @s tick4 matches 1 at @s run summon armor_stand ~ ~ ~ {HasVisualFire:1b,Invisible:1b,NoGravity:1b,Tags:["fire_wave3","fire_wavea"]}
@@ -36,6 +36,5 @@ execute if score @s tick4 matches 150 as @e[type=armor_stand,tag=fire_wavea] run
 execute if score @s tick4 matches 150 run tag @s remove wave
 scoreboard players set @s[scores={tick4=150}] tick4 0
 
-# I assume this VVV = damage the player that it hits?
-
-execute at @e[type=armor_stand,tag=fire_wavea,limit=3,sort=random] run damage @e[tag=!boss.devil,tag=!minion.devil,distance=..2,limit=1] 10 on_fire
+execute at @e[type=armor_stand,tag=fire_wavea,limit=3,sort=random] run damage @e[tag=!boss.devil,tag=!devil_flame,distance=.1..2,limit=1] 10 on_fire
+execute as @e[type=armor_stand,tag=fire_wavea] at @s as @e[distance=.1..2,tag=!boss.devil,tag=!devil_flame,limit=1,sort=nearest] run function gd_boss:devil/attack/attack_hit

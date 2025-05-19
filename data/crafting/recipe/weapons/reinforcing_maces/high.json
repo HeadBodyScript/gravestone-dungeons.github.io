@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:mace"
+  },
+  "addition": {
+    "item": "minecraft:diamond_block"
+  },
+  "template": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "components": {
+      "minecraft:max_damage": 1500,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

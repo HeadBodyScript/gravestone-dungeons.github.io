@@ -1,0 +1,209 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:equipment/armor/spawner_armor_temp"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:equipment/armor/shield"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0,
+                "conditions": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": false,
+                    "thundering": false
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "gd:equipment/weapon/weapon_easy",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-time-weapon",
+                            "amount": 10,
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": [
+                          {
+                            "condition": "minecraft:time_check",
+                            "value": {
+                              "min": 12000,
+                              "max": 24000
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": {
+                          "type": "minecraft:uniform",
+                          "min": 0,
+                          "max": 15
+                        },
+                        "options": "#minecraft:enchantment_temp_melee",
+                        "conditions": [
+                          {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": []
+                  }
+                ],
+                "rolls": 1
+              },
+              {
+                "bonus_rolls": 0,
+                "conditions": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true,
+                    "thundering": false
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "gd:equipment/weapon/weapon_mid",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-time-weapon",
+                            "amount": 10,
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": [
+                          {
+                            "condition": "minecraft:time_check",
+                            "value": {
+                              "min": 12000,
+                              "max": 24000
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": {
+                          "type": "minecraft:uniform",
+                          "min": 0,
+                          "max": 15
+                        },
+                        "options": "#minecraft:enchantment_temp_melee",
+                        "conditions": [
+                          {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.75
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": []
+                  }
+                ],
+                "rolls": 1
+              },
+              {
+                "bonus_rolls": 0,
+                "conditions": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true,
+                    "thundering": true
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "gd:equipment/weapon/weapon_hard",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-time-weapon",
+                            "amount": 10,
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": [
+                          {
+                            "condition": "minecraft:time_check",
+                            "value": {
+                              "min": 12000,
+                              "max": 24000
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": {
+                          "type": "minecraft:uniform",
+                          "min": 0,
+                          "max": 15
+                        },
+                        "options": "#minecraft:enchantment_temp_melee"
+                      }
+                    ],
+                    "conditions": []
+                  }
+                ],
+                "rolls": 1
+              }
+            ]
+          }
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "gd:equipment/armor/spawner_temp_melee"
+}

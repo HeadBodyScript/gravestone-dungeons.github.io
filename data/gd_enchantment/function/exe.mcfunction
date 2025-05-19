@@ -34,8 +34,10 @@ execute as @e[type=minecraft:armor_stand,tag=marker.fire_burst] at @s run functi
 
 # floating
 
-# freezing
-execute as @e[scores={enchantment.freezing_VFX=0..}] at @s run function gd_enchantment:freezing/other/vfx
+# frostbite
+execute as @e[scores={enchantment.frostbite_VFX=0..}] at @s run function gd_enchantment:frostbite/other/vfx
+execute unless entity @e[scores={enchantment.frostbite_VFX=0..}] run kill @e[type=armor_stand,tag=marker_frostbite]
+execute unless entity @e[scores={enchantment.frostbite_VFX=0..}] run kill @e[type=item_display,tag=marker_frostbite]
 
 # greatblade_defense
 execute as @e[tag=projectile.greatblade_defense] at @s run function gd_enchantment:greatblade_defense/tick
@@ -43,6 +45,8 @@ execute as @e[scores={enchantment.greatblade_defense_TD=0..}] at @s run function
 execute as @a[scores={enchantment.greatblade_defense_CD=0..}] run scoreboard players remove @s enchantment.greatblade_defense_CD 1
 
 # horse
+
+#inner_echo
 
 # illumination
 execute as @e[scores={enchantment.illumination_VFX=0..}] at @s run function gd_enchantment:illumination/other/vfx
@@ -60,7 +64,7 @@ execute if entity @e[scores={enchantment.light_wave_TD=25..}] at @e[tag=projecti
 execute as @e[scores={enchantment.light_wave_TD=0..}] at @s run function gd_enchantment:light_wave/other/vfx
 execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players remove @s enchantment.light_wave_CD 1
 
-# lightling
+# lightning_rod
 
 # lightning_strike
 execute as @e[tag=projectile.lightning_strike] at @s run function gd_enchantment:lightning_strike/other/vfx
@@ -105,7 +109,8 @@ execute as @a[scores={enchantment.void_sphere_CD=0..}] run scoreboard players re
 execute as @e[tag=void_sphere] at @s run function gd_enchantment:void_sphere/other/td
 
 # warpstrike
-execute as @e[scores={enchantment.warpstrike_VFX=0..}] at @s run function gd_enchantment:warpstrike/vfx
 
 # withering
 execute as @e[scores={enchantment.withering_VFX=0..}] at @s run function gd_enchantment:withering/other/vfx
+execute unless entity @e[scores={enchantment.withering_VFX=0..}] run kill @e[type=armor_stand,tag=marker_withering_animation]
+execute unless entity @e[scores={enchantment.withering_VFX=0..}] run kill @e[type=item_display,tag=marker_withering_animation]

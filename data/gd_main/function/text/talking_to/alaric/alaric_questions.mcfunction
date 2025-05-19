@@ -18,4 +18,13 @@ tellraw @a[distance=..8] {"text":"⇨ Tell me about Mystical Horses.","color":"a
 
 tellraw @a[distance=..8] {"text":"⇨  What can you tell me about that floating rock Faendal was mentioning?","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 64"}}
 
-# tellraw @a[distance=..8] {"text":"⇨ yyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 65"}}
+
+
+
+
+
+
+
+
+# last talked to number for questions
+# tellraw @a[distance=..8] {"text":"⇨ yyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 75"}}

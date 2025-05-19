@@ -1,4 +1,5 @@
 scoreboard players add @s bossTick 1
+execute if score @s bossTick matches 10 run function gd_main:check/edit_me
 
 tag @a add fighting.witch
 execute as @s[scores={bossTick=1..5}] store result score @s randomNumber run random value 1..3
@@ -42,17 +43,17 @@ execute if score @s bossTick matches 110 if score @s randomNumber matches 3 run 
 execute if score @s bossTick matches 270 if score @s randomNumber matches 3 run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : I’ve neither the patience nor the mercy for fools who cross me."}] 
 execute if score @s bossTick matches 440 if score @s randomNumber matches 3 run tellraw @a[tag=fighting.witch] ["",{"text":"Sylvanaia","color":"#0099cc"},{"text":" : So, unless you enjoy pain, prepare to regret every step you’ve taken toward me!"}] 
 
-execute as @s[scores={bossTick=60}] run playsound minecraft:entity.witch.celebrate ambient @a ~ ~ ~ 20 1
-execute as @s[scores={bossTick=160}] run playsound minecraft:entity.evoker.celebrate ambient @a ~ ~ ~ 20 1.6
-execute as @s[scores={bossTick=290}] run playsound minecraft:entity.witch.celebrate ambient @a ~ ~ ~ 20 1
-execute as @s[scores={bossTick=400}] run playsound minecraft:entity.evoker.celebrate ambient @a ~ ~ ~ 20 1.6
+execute as @s[scores={bossTick=60}] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..32] ~ ~ ~ 20 1
+execute as @s[scores={bossTick=160}] run playsound minecraft:entity.evoker.celebrate ambient @a[distance=..32] ~ ~ ~ 20 1.6
+execute as @s[scores={bossTick=290}] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..32] ~ ~ ~ 20 1
+execute as @s[scores={bossTick=400}] run playsound minecraft:entity.evoker.celebrate ambient @a[distance=..32] ~ ~ ~ 20 1.6
 
-execute as @s[scores={bossTick=190}] run playsound minecraft:godrick_the_crafted_witch record @s[distance=..30] ~ ~1 ~ 25 1
+execute as @s[scores={bossTick=190}] run playsound minecraft:godrick_the_crafted_witch record @a[distance=..32] ~ ~1 ~ 25 1
 
-execute as @s[scores={bossTick=160}] run playsound minecraft:entity.witch.celebrate ambient @a ~ ~ ~ 20 1
-execute as @s[scores={bossTick=289}] run playsound minecraft:entity.witch.celebrate ambient @a ~ ~ ~ 20 1
-execute as @s[scores={bossTick=349}] run playsound minecraft:entity.illusioner.cast_spell ambient @a ~ ~ ~ 20 1
-execute as @s[scores={bossTick=350}] run playsound minecraft:entity.illusioner.prepare_blindness ambient @a ~ ~ ~ 20 .5
+execute as @s[scores={bossTick=160}] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..32] ~ ~ ~ 20 1
+execute as @s[scores={bossTick=289}] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..32] ~ ~ ~ 20 1
+execute as @s[scores={bossTick=349}] run playsound minecraft:entity.illusioner.cast_spell ambient @a[distance=..32] ~ ~ ~ 20 1
+execute as @s[scores={bossTick=350}] run playsound minecraft:entity.illusioner.prepare_blindness ambient @a[distance=..32] ~ ~ ~ 20 .5
 
 execute as @s[scores={bossTick=500..510,},tag=witch_1] run particle minecraft:dripping_dripstone_lava ~ ~1 ~ 0.2 1 0.2 0.1 10
 execute as @s[scores={bossTick=350..530,},tag=witch_1] run particle minecraft:firework ~ ~1 ~ .1 1 .1 0.1 5
@@ -66,7 +67,7 @@ execute as @s[scores={bossTick=500..510,},tag=witch_3] run particle minecraft:so
 execute as @s[scores={bossTick=350..530,},tag=witch_3] run particle minecraft:firework ~ ~1 ~ .1 1 .1 0.1 5
 execute as @s[scores={bossTick=200..450,},tag=witch_3] run particle minecraft:soul ~ ~1 ~ 0.1 1 0.1 0.1 5
 
-execute as @s[scores={bossTick=500}] run playsound minecraft:entity.witch.celebrate ambient @a ~ ~ ~ 20 1
+execute as @s[scores={bossTick=500}] run playsound minecraft:entity.witch.celebrate ambient @a[distance=..32] ~ ~ ~ 20 1
 
 execute as @s[scores={bossTick=250..500,},tag=witch_1] run particle minecraft:wax_on ~ ~4 ~ 6 6 6 .3 10
 execute as @s[scores={bossTick=500},tag=witch_1] run particle minecraft:dripping_dripstone_lava ~ ~1 ~ .3 1 .3 0.4 100
@@ -83,8 +84,8 @@ execute as @s[scores={bossTick=500},tag=witch_3] run particle minecraft:soul_fir
 execute as @s[scores={bossTick=500},tag=witch_3] run particle minecraft:soul ~ ~1 ~ 0.1 1 0.1 0.3 150
 execute as @s[scores={bossTick=500},tag=witch_3] run particle minecraft:sonic_boom ~ ~1 ~ 0.2 1 0.2 0.1 5
 
-execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_block.chime ambient @a ~ ~ ~ 20 .1
-execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_block.resonate ambient @a ~ ~ ~ 20 .1
+execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_block.chime ambient @a[distance=..32] ~ ~ ~ 20 .1
+execute as @s[scores={bossTick=500}] run playsound minecraft:block.amethyst_block.resonate ambient @a[distance=..32] ~ ~ ~ 20 .1
 execute as @s[scores={bossTick=485..490}] run particle minecraft:explosion_emitter ~1 ~1 ~ 0.2 1 0.2 0.1 1
 
 execute as @s[scores={bossTick=500},tag=witch_1] run summon witch ~ ~1 ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.witch","witch_1","boss"],CustomName:'{"color":"#FF0033","text":"Kaidaia the Alluring"}',attributes:[{id:"minecraft:generic.armor",base:16},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.burning_time",base:0.5},{id:"minecraft:generic.water_movement_efficiency",base:1}]}

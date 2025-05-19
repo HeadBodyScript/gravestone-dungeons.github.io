@@ -33,69 +33,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Poisoning Enchantment\"}",
-                "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a poison gauge, dealing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"poison damage to living targets.\"}"
-                ],
-                "minecraft:rarity": "common",
-                "minecraft:custom_model_data": 8,
-                "minecraft:stored_enchantments": {
-                  "gd_enchantment:poisoning": 1
-                }
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Blessing Enchantment\"}",
-                "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a blessing gauge, dealing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"holy damage to undead targets.\"}"
-                ],
-                "minecraft:rarity": "common",
-                "minecraft:custom_model_data": 8,
-                "minecraft:stored_enchantments": {
-                  "gd_enchantment:blessing": 1
-                }
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Freezing Enchantment\"}",
-                "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a freeze gauge, freezing\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"targets and dealing damage over time.\"}"
-                ],
-                "minecraft:rarity": "common",
-                "minecraft:custom_model_data": 8,
-                "minecraft:stored_enchantments": {
-                  "gd_enchantment:freezing": 1
-                }
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
                 "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Floating Enchantment\"}",
                 "minecraft:lore": [
                   "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Sharp Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Builds up a float gauge, which\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"causes targets to levitate.\"}"
@@ -167,27 +104,6 @@
                 "minecraft:custom_model_data": 8,
                 "minecraft:stored_enchantments": {
                   "gd_enchantment:knife_pouch": 1
-                }
-              }
-            }
-          ]
-        },{
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 1,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"color\":\"#03FFFF\",\"italic\":true,\"text\":\"Lightning Enchantment\"}",
-                "minecraft:lore": [
-                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used on: Ranged Weapons\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"Sometimes casts lightning\"}","{\"color\":\"gray\",\"italic\":false,\"text\":\"bolts at targets.\"}"
-                ],
-                "minecraft:rarity": "common",
-                "minecraft:custom_model_data": 8,
-                "minecraft:stored_enchantments": {
-                  "gd_enchantment:lightning_bow": 1
                 }
               }
             }

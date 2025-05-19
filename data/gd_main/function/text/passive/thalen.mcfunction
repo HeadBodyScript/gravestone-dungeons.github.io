@@ -1,0 +1,12 @@
+scoreboard players set @s talked_to_villager_CD 500
+execute store result score .INT0 randomNumber run random value 1..12
+
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": Such an interesting creature... neither silverfish nor enderman. A mix of the two? Curious. Quite curious indeed."}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": Been down in the catacombs, have you? Hah, most greenhorns don\u2019t crawl back out. Congratulations\u2014either you\u2019re lucky, or you\u2019ve got a spine of steel."}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": I\u2019m always in need of rare ingredients for my potions and tinctures. Got anything spare, traveler? I'm sure we could strike a... mutually beneficial exchange."}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": If only I could perfect a stronger Frostbite oil... one that freezes someone forever. That would certainly solve the ‘barking dog’ problem once and for all."}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": Dragon's breath... rare as can be in these lands. Though, perhaps that\u2019s because only the most inexperienced adventurers dare venture into the Shadowlands."}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": If you're not careful, the wrong tincture could leave you seeing the world in... quite a different way."}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": Don't worry about the smoke. It's just... temporary. Nothing a few hours can't fix."}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": If you find yourself wandering the Shadowlands, be sure to bring back something... interesting. I could always use new ingredients."}]
+execute if score .INT0 randomNumber matches 9.. at @p run function gd_main:text/talking_to/thalen/thalen_questions

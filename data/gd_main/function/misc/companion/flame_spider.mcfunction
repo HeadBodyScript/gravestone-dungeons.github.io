@@ -21,11 +21,11 @@ particle minecraft:smoke ~ ~-1 ~ 0.2 .5 0.2 .1 5
 particle minecraft:small_flame ~ ~-1 ~ 0.2 .5 0.2 .03 20
 
 execute as @s[scores={tick=15}] run particle minecraft:flame ^ ^-3 ^ 0.3 1 0.3 .1 60
-execute as @s[scores={tick=15}] run summon cave_spider ~ ~-2.7 ~ {CustomName:'[{"text":"Flame Spider","color":"#FF6600"}]',Health:60,HasVisualFire:1b,PersistenceRequired:1b,Tags:["companion"],Team:DIREWOOD,active_effects:[{id:invisibility,duration:-1,amplifier:0,ambient:1b,show_particles:1b}],HandItems:[{id:iron_sword,components:{enchantments:{levels:{fire_aspect:5,unbreaking:10}}},count:1},{}],HandDropChances:[0.25f,0f],ArmorItems:[{id:netherite_boots,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_leggings,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_chestplate,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_helmet,components:{enchantments:{levels:{unbreaking:10}}},count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:60f},{id:"minecraft:generic.knockback_resistance",base:90}]}
+execute as @s[scores={tick=15}] run summon cave_spider ~ ~-2.7 ~ {CustomName:'[{"text":"Flame Spider","color":"#ff6600"}]',Health:60,HasVisualFire:1b,PersistenceRequired:1b,Tags:["companion"],DeathLootTable:"empty",Team:DIREWOOD,active_effects:[{id:invisibility,duration:-1,amplifier:0,ambient:1b,show_particles:1b}],HandItems:[{id:iron_sword,components:{enchantments:{levels:{fire_aspect:5,unbreaking:10}}},count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:netherite_boots,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_leggings,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_chestplate,components:{enchantments:{levels:{unbreaking:10}}},count:1},{id:netherite_helmet,components:{enchantments:{levels:{unbreaking:10}}},count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:60f}]}
 
-execute as @s[scores={tick=2}] run playsound minecraft:item.firecharge.use master @s ~ ~ ~ 1 .1
-execute as @s[scores={tick=8}] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 20 2 .9
-execute as @s[scores={tick=10}] run playsound minecraft:entity.illusioner.cast_spell master @s ~ ~ ~ 1 .6
+execute as @s[scores={tick=2}] run playsound minecraft:item.firecharge.use master @a[distance=..10] ~ ~ ~ 1 .1
+execute as @s[scores={tick=8}] run playsound minecraft:block.beacon.power_select master @a[distance=..10] ~ ~ ~ 20 2 .9
+execute as @s[scores={tick=10}] run playsound minecraft:entity.illusioner.cast_spell master @a[distance=..10] ~ ~ ~ 1 .6
 
 execute as @s[scores={tick=5..15}] run particle minecraft:flame ^ ^-3 ^ 0.1 0.1 0.1 .1 15
 execute as @s[scores={tick=15..}] run particle minecraft:flame ^ ^-3 ^ 0.1 0.1 0.1 .1 30

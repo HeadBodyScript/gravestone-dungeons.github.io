@@ -1,11 +1,12 @@
 scoreboard players add @s enchantment.fire_burst_VFX 1
-execute as @s[scores={enchantment.fire_burst_VFX=1}] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 20 2
-execute as @s[scores={enchantment.fire_burst_VFX=2}] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 20 .1
-execute as @s[scores={enchantment.fire_burst_VFX=7}] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 20 .1
-execute as @s[scores={enchantment.fire_burst_VFX=12}] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 20 .1
+execute as @s[scores={enchantment.fire_burst_VFX=1}] run playsound minecraft:entity.blaze.shoot master @a[distance=..10] ~ ~ ~ 20 2
+execute as @s[scores={enchantment.fire_burst_VFX=2}] run playsound minecraft:entity.blaze.shoot master @a[distance=..10] ~ ~ ~ 20 .1
+execute as @s[scores={enchantment.fire_burst_VFX=7}] run playsound minecraft:entity.blaze.shoot master @a[distance=..10] ~ ~ ~ 20 .1
+execute as @s[scores={enchantment.fire_burst_VFX=12}] run playsound minecraft:entity.blaze.shoot master @a[distance=..10] ~ ~ ~ 20 .1
 execute as @s[scores={enchantment.fire_burst_VFX=1..5}] run particle minecraft:large_smoke ~ ~1 ~ .1 .1 .1 .1 5
-# execute as @s[scores={enchantment.fire_burst_VFX=2..5}] run tp @s ^ ^ ^ facing entity @p eyes
-execute as @s[scores={enchantment.fire_burst_VFX=2..5}] run tp @s @p
+execute as @s[scores={enchantment.fire_burst_VFX=2}] run tp @s ^ ^ ^-1
+execute as @s[scores={enchantment.fire_burst_VFX=2..5}] run tp @s ^ ^ ^ facing entity @e[sort=nearest,limit=1] feet
+execute as @s[scores={enchantment.fire_burst_VFX=5}] run tp @s @e[sort=nearest,limit=1]
 execute as @s[scores={enchantment.fire_burst_VFX=5}] run tp @s ~ ~1 ~
 
 execute as @s[scores={enchantment.fire_burst_VFX=6..}] run tp @s ^ ^ ^.2

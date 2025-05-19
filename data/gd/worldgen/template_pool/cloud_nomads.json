@@ -190,6 +190,14 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/main_ship_start",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:cloud_nomads/main_ship_1",
         "projection": "rigid",
         "processors": "gd:cloud_nomads"
@@ -510,7 +518,39 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/captain_blue1",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/captain_blue2",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:cloud_nomads/captain_red",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/captain_red1",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/captain_red2",
         "projection": "rigid",
         "processors": "gd:cloud_nomads"
       }
@@ -526,7 +566,39 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/captain_green1",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/captain_green2",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:cloud_nomads/villager",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/villager1",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/villager2",
         "projection": "rigid",
         "processors": "gd:cloud_nomads"
       }
@@ -543,6 +615,22 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:cloud_nomads/guinemar",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/guinemar1",
+        "projection": "rigid",
+        "processors": "gd:cloud_nomads"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:cloud_nomads/guinemar2",
         "projection": "rigid",
         "processors": "gd:cloud_nomads"
       }

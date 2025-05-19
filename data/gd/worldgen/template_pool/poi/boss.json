@@ -1,0 +1,71 @@
+{
+  "name": "gd:poi/merchant",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 25,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_empty",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_4",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_5",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_6",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/boss/boss_7",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    }
+  ]
+}

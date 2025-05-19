@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wooden_sword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wooden_axe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wooden_hoe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wooden_pickaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wooden_shovel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_sword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_axe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_hoe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_shovel",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "gd:equipment/weapon/weapon_easy"
+}

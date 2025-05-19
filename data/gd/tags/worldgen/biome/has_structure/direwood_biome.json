@@ -1,53 +1,20 @@
 {
   "values": [
+#caves cold
+
+#caves temperate
+
+#caves tropical
+
+#caves arid
+
+#caves hot
+
+#water
+
 #cold
-	"minecraft:snowy_taiga",
-	"minecraft:snowy_plains",
-	"minecraft:grove",
-    {
-      "id": "terralith:alpine_grove",
-      "required": false
-    },
-    {
-      "id": "terralith:cold_shrubland",
-      "required": false
-    },
-    {
-      "id": "terralith:siberian_grove",
-      "required": false
-    },
-    {
-      "id": "terralith:siberian_taiga",
-      "required": false
-    },
-    {
-      "id": "terralith:snowy_badlands",
-      "required": false
-    },
-    {
-      "id": "terralith:snowy_cherry_grove",
-      "required": false
-    },
-    {
-      "id": "terralith:snowy_maple_forest",
-      "required": false
-    },
-    {
-      "id": "terralith:snowy_shield",
-      "required": false
-    },
-    {
-      "id": "terralith:wintry_forest",
-      "required": false
-    },
-    {
-      "id": "terralith:wintry_lowlands",
-      "required": false
-    },
-    {
-      "id": "terralith:ice_marsh",
-      "required": false
-    },
+
+#cold special
 
 #temperate
 	"minecraft:plains",
@@ -130,6 +97,88 @@
     {
       "id": "terralith:yosemite_lowlands",
       "required": false
+    },
+
+#temperate special
+    {
+      "id": "terralith:blooming_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:forested_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:gravel_desert",
+      "required": false
+    },
+    {
+      "id": "terralith:haze_mountain",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_forest",
+      "required": false
+    },
+    {
+      "id": "terralith:lavender_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:rocky_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_grove",
+      "required": false
+    },
+    {
+      "id": "terralith:sakura_valley",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_autumn",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_spring",
+      "required": false
+    },
+    {
+      "id": "terralith:skylands_summer",
+      "required": false
+    },
+    {
+      "id": "terralith:temperate_highlands",
+      "required": false
+    },
+
+#tropical
+	"minecraft:jungle",
+	"minecraft:sparse_jungle",
+	"minecraft:bamboo_jungle",
+    {
+      "id": "terralith:tropical_jungle",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:amethyst_rainforest",
+      "required": false
     }
+
+#tropical special
+
+#arid
+
+#arid special
+
+#hot
+
+#hot special
+
   ]
 }

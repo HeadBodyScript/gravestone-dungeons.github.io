@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "template": {
+    "item": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "minecraft:diamond_boots",
+    "components": {
+      "minecraft:max_damage": 554,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

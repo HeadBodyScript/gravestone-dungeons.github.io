@@ -54,7 +54,7 @@
           "type": "minecraft:item",
           "name": "minecraft:rabbit_hide",
           "functions": [
-           {
+            {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
@@ -94,6 +94,12 @@
               }
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
         }
       ]
     }

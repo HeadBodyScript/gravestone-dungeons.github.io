@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "minecraft:diamond_block"
+  },
+  "template": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "minecraft:max_damage": 3561,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very High Durability\"}"
+      ],
+      "minecraft:fire_resistant": {}
+    },
+    "count": 1
+  }
+}

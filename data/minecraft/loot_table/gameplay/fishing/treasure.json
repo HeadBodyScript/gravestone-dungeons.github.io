@@ -1,0 +1,159 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/coins",
+          "weight": 15,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/enchantments_uncommon",
+          "weight": 5,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/enchantments_rare",
+          "weight": 2,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/enchantments_epic",
+          "weight": 1,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Barrel of Arrows"
+              }
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "gd:chests/barrel_of_arrows"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Barrel of Ores"
+              }
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "gd:chests/barrel_of_ores"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Barrel of Potions"
+              }
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "type": "minecraft:barrel",
+              "name": "gd:chests/barrel_of_potions"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}

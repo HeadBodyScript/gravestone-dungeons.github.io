@@ -11,6 +11,10 @@ stopsound @a record minecraft:blood_and_banner_marrow
 
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick
+scoreboard players reset @s tick0
+scoreboard players reset @s tick1
+scoreboard players reset @s tick2
+scoreboard players reset @s tick3
 scoreboard players reset marrow.minion.count_dummy INT
 bossbar set minecraft:boss.marrow players
 
@@ -43,6 +47,7 @@ kill @e[type=minecraft:skeleton,distance=..32]
 kill @e[type=minecraft:husk,distance=..32]
 kill @e[type=minecraft:stray,distance=..32]
 kill @e[type=minecraft:bogged,distance=..32]
+kill @e[type=armor_stand,tag=attack.marrow.sword]
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=marrow,distance=..32] run kill @s
 execute as @e[type=minecraft:wither_skeleton,limit=1,sort=nearest,tag=boss.marrow,distance=..64] run tp @s ~ ~-300 ~

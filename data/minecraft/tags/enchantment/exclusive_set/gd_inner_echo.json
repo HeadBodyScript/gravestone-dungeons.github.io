@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"gd_enchantment:inner_echo",
+	"gd_enchantment:experience_boost",
+	"minecraft:sweeping_edge"
+  ]
+}

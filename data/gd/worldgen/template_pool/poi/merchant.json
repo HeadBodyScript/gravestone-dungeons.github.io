@@ -1,0 +1,351 @@
+{
+  "name": "gd:poi/merchant",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/horse_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/horse_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/horse_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/horse_4",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/horse_5",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/horse_6",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_4",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_5",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_6",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_7",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_8",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_9",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/temp/wagon_10",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_11",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_12",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_13",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_14",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_15",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_16",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_17",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_18",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_19",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/cold/wagon_20",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_21",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_22",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_23",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_24",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_25",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_26",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_27",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_28",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_29",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/hot/wagon_30",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/trader_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/trader_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/trader_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/trader_4",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/trader_5",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/trader_6",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/merchant/trader_7",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    }
+  ]
+}

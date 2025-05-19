@@ -1,0 +1,87 @@
+{
+  "name": "gd:poi/spawner",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/cold_spawner_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/cold_spawner_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/cold_spawner_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/boss_temp_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/boss_temp_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/boss_temp_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/boss_temp_5",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/boss_temp_6",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/boss_temp_8",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/spawner/boss_temp_9",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    }
+  ]
+}

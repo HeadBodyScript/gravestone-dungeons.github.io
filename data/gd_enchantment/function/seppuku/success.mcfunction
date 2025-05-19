@@ -6,7 +6,7 @@ effect give @s minecraft:weakness 3 0 true
 effect give @s minecraft:strength 60 2 true
 damage @s 18
 
-scoreboard players add @s enchantment.bleeding_INT 6
+scoreboard players add @s enchantment.bleeding_INT 3
 execute as @s[scores={enchantment.bleeding_INT=6..}] run function gd_enchantment:bleeding/success
 
 scoreboard players remove @s mana 2000

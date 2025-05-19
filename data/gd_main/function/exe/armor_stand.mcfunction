@@ -11,6 +11,8 @@ execute as @s[tag=armor_stand.ability_breeding_stone] at @s run function gd_main
 
 execute as @s[tag=armor_stand.modify] at @s run function gd_main:misc/mystical_horse/modify
 
+
+
 execute as @s[tag=rotate_clockwise] at @s run tp @s ~ ~ ~ ~0.5 ~
 execute as @s[tag=rotate_counterclockwise] at @s run tp @s ~ ~ ~ ~-0.5 ~
 
@@ -24,10 +26,14 @@ execute as @s[tag=marker.rune.max_mana] at @s run function gd_main:misc/rune/max
 execute as @s[tag=marker.rune.oxygen_bonus] at @s run function gd_main:misc/rune/oxygen_bonus/vfx
 execute as @s[tag=marker.rune.safe_fall_distance] at @s run function gd_main:misc/rune/safe_fall_distance/vfx
 execute as @s[tag=marker.rune.stone_rune_delete] at @s run function gd_main:misc/rune/stone_rune_delete/vfx
-
+execute as @s[tag=marker.rune.max_companionCount] at @s run function gd_main:misc/rune/companion/vfx
 
 # COMPANION
 execute as @s[tag=marker_companion] at @s run function gd_main:misc/companion/check
+
+execute as @s[tag=marker.fire_ring] at @s run function gd_main:misc/companion/attack/fire_hit
+execute as @s[tag=marker.poison_sphere] at @s run function gd_main:misc/companion/attack/poison_hit
+execute as @s[tag=marker.ice_sphere] at @s run function gd_main:misc/companion/attack/ice_hit
 
 # BOSS
 execute as @e[type=armor_stand,tag=experience_enemy] at @s run function gd_boss:xp/experience_enemy

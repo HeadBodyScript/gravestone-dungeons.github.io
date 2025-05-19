@@ -1,15 +1,15 @@
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike1","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike2","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike3","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike4","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike5","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike6","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike7","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike8","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike9","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike10","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike11","projectile.lightning_strike"]}
-summon armor_stand ~ ~1 ~ {Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike12","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike1","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike2","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike3","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike4","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike5","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike6","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike7","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike8","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike9","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike10","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike11","projectile.lightning_strike"]}
+summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike12","projectile.lightning_strike"]}
 
 execute at @e[type=armor_stand,tag=projectile.lightning_strike1] run tp @e[type=armor_stand,tag=projectile.lightning_strike1] ^ ^ ^ ~ ~
 execute at @e[type=armor_stand,tag=projectile.lightning_strike2] run tp @e[type=armor_stand,tag=projectile.lightning_strike2] ^ ^ ^ ~30 ~

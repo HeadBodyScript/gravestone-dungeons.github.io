@@ -1,5 +1,5 @@
 scoreboard players add @s tick 1
-execute if score @s tick matches 1 store result score @s randomNumber run random value 1..11
+execute if score @s tick matches 1 store result score @s randomNumber run random value 1..12
 
 execute if score @s tick matches 1 if score @s randomNumber matches 1 run function gd_boss:witch/attack/attack_minions
 execute if score @s[tag=!potion] tick matches 1 if score @s randomNumber matches 1 run tag @s add potion
@@ -18,12 +18,16 @@ execute if score @s[tag=!dart] tick matches 1 if score @s randomNumber matches 8
 execute if score @s[tag=!summon] tick matches 1 if score @s randomNumber matches 9 run tag @s add summon
 execute if score @s[tag=!morph] tick matches 1 if score @s randomNumber matches 10 run tag @s add morph
 execute if score @s[tag=!dart] tick matches 1 if score @s randomNumber matches 11 run tag @s add dart
+
+execute if score @s[tag=!potion_attack] tick matches 1 if score @s randomNumber matches 1.. run tag @s add potion_attack
+
 execute if score @s tick matches 1 if score @s randomNumber matches 8.. run function gd_boss:witch/other/text
 
 execute as @s[tag=potion] run function gd_boss:witch/attack/attack_potion
 execute as @s[tag=dart] run function gd_boss:witch/attack/attack_dart
 execute as @s[tag=summon] run function gd_boss:witch/attack/attack_summon
 execute as @s[tag=morph] run function gd_boss:witch/attack/attack_morph
+execute as @s[tag=potion_attack] run function gd_boss:witch/attack/attack_potion_attack
 
 execute store result score @s boss.witch_health run data get entity @s Health
 execute store result bossbar minecraft:boss.witch value run data get entity @s Health

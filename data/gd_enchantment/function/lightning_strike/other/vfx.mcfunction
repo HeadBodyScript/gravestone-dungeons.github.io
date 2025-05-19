@@ -11,7 +11,9 @@ execute if score @s[tag=projectile.lightning_strike1] enchantment.lightning_stri
 execute if score @s enchantment.lightning_strike_VFX matches 20..170 at @s run tp @s ^ ^ ^.1
 
 execute if score @s enchantment.lightning_strike_VFX matches 30..170 store result score @p INT run random value 1..35
-execute if score @p INT matches 1 at @e[tag=projectile.lightning_strike,limit=3,sort=random] run summon minecraft:lightning_bolt ~ ~ ~
+execute if score @s enchantment.lightning_strike_VFX matches 30..50 if score @p INT matches 1 at @e[tag=projectile.lightning_strike,limit=1,sort=random] run summon minecraft:lightning_bolt ~ ~ ~
+execute if score @s enchantment.lightning_strike_VFX matches 51..90 if score @p INT matches 1 at @e[tag=projectile.lightning_strike,limit=2,sort=random] run summon minecraft:lightning_bolt ~ ~ ~
+execute if score @s enchantment.lightning_strike_VFX matches 91..170 if score @p INT matches 1 at @e[tag=projectile.lightning_strike,limit=3,sort=random] run summon minecraft:lightning_bolt ~ ~ ~
 
 execute if score @s enchantment.lightning_strike_VFX matches 170.. run kill @s
 

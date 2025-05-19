@@ -28,7 +28,14 @@
 			"type": "minecraft:run_function",
 			"function": "gd_enchantment:withering/post_attack"
 		  }
-		}
+		},{
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gd_enchantment:withering/oil_test"
+        }
+      }
 	  ]
 	}
   }

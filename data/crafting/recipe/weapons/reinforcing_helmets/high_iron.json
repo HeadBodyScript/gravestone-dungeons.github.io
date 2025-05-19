@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "item": "minecraft:gold_block"
+  },
+  "template": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "minecraft:iron_helmet",
+    "components": {
+      "minecraft:max_damage": 287,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

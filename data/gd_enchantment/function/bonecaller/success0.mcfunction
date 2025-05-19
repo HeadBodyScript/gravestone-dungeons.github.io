@@ -1,4 +1,4 @@
-summon armor_stand ~ ~1.5 ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["projectile_bonecaller"],ArmorItems:[{},{},{},{id:"minecraft:wither_skeleton_skull"}]}
+summon armor_stand ~ ~1.5 ~ {DisabledSlots:4144959,NoGravity:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["projectile_bonecaller"],ArmorItems:[{},{},{},{id:"minecraft:wither_skeleton_skull"}]}
 
 scoreboard players operation @e[type=minecraft:armor_stand,tag=projectile_bonecaller,sort=nearest,limit=1] UUID = @s UUID
 scoreboard players set @e[type=minecraft:armor_stand,tag=projectile_bonecaller,sort=nearest,limit=1] enchantment.bonecaller_TD 300

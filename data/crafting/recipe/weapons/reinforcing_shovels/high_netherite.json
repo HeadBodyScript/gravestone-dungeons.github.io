@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "minecraft:iron_block"
+  },
+  "template": {
+    "item": "minecraft:iron_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel",
+    "components": {
+      "minecraft:max_damage": 4031,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

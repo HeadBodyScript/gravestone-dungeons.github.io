@@ -1,0 +1,192 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/stone_runes",
+          "weight": 1,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/tomes",
+          "weight": 3,
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 12
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ice",
+          "weight": 6,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:packed_ice",
+          "weight": 3,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_ice",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+	{
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#3DA2AD\",\"italic\":true,\"text\":\"Weak Frostbite Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❄ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a frostbite effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 100 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 4039341,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{weak_frostbite:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#4DCFDE\",\"italic\":true,\"text\":\"Moderate Frostbite Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❄ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a frostbite effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 250 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 5099486,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{moderate_frostbite:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"#59EEFF\",\"italic\":true,\"text\":\"Strong Frostbite Oil\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\" ❄ Weapon Oil\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Used to add a frostbite effect\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"for 500 hits to a weapon.\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Right click weapon with oil in offhand.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:potion_contents": {
+                  "custom_color": 5893887,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 0,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true,
+                  "eat_seconds": 100023
+                },
+                "minecraft:custom_data": "{strong_frostbite:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/coins",
+          "weight": 1,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

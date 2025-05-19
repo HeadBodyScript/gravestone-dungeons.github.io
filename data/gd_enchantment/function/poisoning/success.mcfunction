@@ -6,11 +6,16 @@ particle minecraft:campfire_cosy_smoke ~ ~.1 ~ 0.2 .1 0.2 0.01 5
 playsound minecraft:entity.breeze.inhale master @a ~ ~ ~ 20 .5 1
 playsound minecraft:entity.player.attack.knockback master @a ~ ~ ~ 20 .5 1
 
-execute as @s[type=player,scores={enchantment.poisoning_INT=4..}] run damage @s 10
-execute as @s[type=!player,scores={enchantment.poisoning_INT=4..}] run damage @s 15 player_attack by @p
+execute as @s[type=player] run damage @s 12
+execute as @s[type=!player] run damage @s 22 player_attack by @p
 
-effect give @s minecraft:slowness 5 1 true
-effect give @s minecraft:poison 11 3 true
+execute if score @p oil_poison matches ..100 run effect give @s minecraft:slowness 4 1 true
+execute if score @p oil_poison matches 101..250 run effect give @s minecraft:slowness 6 1 true
+execute if score @p oil_poison matches 251..500 run effect give @s minecraft:slowness 8 1 true
+
+execute if score @p oil_poison matches ..100 run effect give @s minecraft:poison 6 3 false
+execute if score @p oil_poison matches 101..250 run effect give @s minecraft:poison 10 3 false
+execute if score @p oil_poison matches 251..500 run effect give @s minecraft:poison 14 3 false
 
 scoreboard players reset @s enchantment.poisoning_INT
 scoreboard players set @s enchantment.poisoning_VFX 0

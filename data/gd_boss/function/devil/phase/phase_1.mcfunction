@@ -2,6 +2,7 @@ execute as @e[type=armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=dev
 tag @a[distance=..64] add fighting.devil
 tp @s ~ ~ ~ ~10 ~
 function gd_boss:devil/other/vfx_fire_spiral
+execute if score @s bossTick matches 10 run function gd_main:check/edit_me
 
 execute if score @s bossTick matches 10 as @a[tag=fighting.devil] run function gd:boss/devil
 execute if score @s bossTick matches 10 run execute store result score @s randomNumber run random value 1..2
@@ -45,8 +46,8 @@ execute if score @s bossTick matches 200 if score @s randomNumber matches 1 run 
 execute if score @s bossTick matches 200 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Leave or I'll burn your bones!"}] 
 execute if score @s bossTick matches 350 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : Let's see if you're fireproof. "}] 
 execute if score @s bossTick matches 350 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.devil] ["",{"text":"Blazing Devil","color":"gold"},{"text":" : I will make sure you disappear from this realm."}] 
-execute if score @s bossTick matches 200 run playsound minecraft:entity.blaze.ambient ambient @a ~ ~ ~ 20 1
-execute if score @s bossTick matches 350 run playsound minecraft:entity.ravager.roar ambient @a ~ ~ ~ 20 0.1
+execute if score @s bossTick matches 200 run playsound minecraft:entity.blaze.ambient ambient @a[distance=..48] ~ ~ ~ 20 1
+execute if score @s bossTick matches 350 run playsound minecraft:entity.ravager.roar ambient @a[distance=..48] ~ ~ ~ 20 0.1
 execute if score @s bossTick matches 500 at @e[type=marker,tag=marker.minion,tag=devil,distance=..32] run function gd_boss:devil/other/minion
 
 execute if score @s bossTick matches 200..300 run particle minecraft:smoke ^-3 ^-0.5 ^ .1 .1 .1 0.05 10
@@ -60,14 +61,15 @@ execute if score @s bossTick matches 650..810 run particle minecraft:large_smoke
 execute if score @s bossTick matches 350..500 run particle minecraft:lava ^ ^1 ^ .1 1 .1 0.3 2
 execute if score @s bossTick matches 500..650 run particle minecraft:lava ^ ^1 ^ .1 1 .1 0.3 8
 execute if score @s bossTick matches 650..830 run particle minecraft:lava ^ ^1 ^ .1 1 .1 0.3 15
-execute if score @s bossTick matches 500 run playsound minecraft:entity.blaze.ambient ambient @a ~ ~ ~ 20 1
-execute if score @s bossTick matches 500..750 run playsound minecraft:block.beacon.activate ambient @a ~ ~ ~ 20 1
-execute if score @s bossTick matches 800 run playsound minecraft:entity.ravager.celebrate ambient @a ~ ~ ~ 20 1
-execute if score @s bossTick matches 800 run playsound minecraft:entity.enderman.scream ambient @a ~ ~ ~ 20 .1
+execute if score @s bossTick matches 500 run playsound minecraft:entity.blaze.ambient ambient @a[distance=..48] ~ ~ ~ 20 1
+execute if score @s bossTick matches 500..750 run playsound minecraft:block.beacon.activate ambient @a[distance=..48] ~ ~ ~ 20 1
+execute if score @s bossTick matches 800 run playsound minecraft:entity.ravager.celebrate ambient @a[distance=..48] ~ ~ ~ 20 1
+execute if score @s bossTick matches 800 run playsound minecraft:entity.enderman.scream ambient @a[distance=..48] ~ ~ ~ 20 .1
 execute if score @s bossTick matches 800..815 run summon lightning_bolt ~ ~3 ~
+
 execute if score @s bossTick matches 800 run summon blaze ~ ~ ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.devil","boss"],CustomName:'{"color":"gold","text":"Blazing Devil"}',attributes:[{id:"minecraft:generic.armor",base:30},{id:"minecraft:generic.armor_toughness",base:5},{id:"minecraft:generic.attack_damage",base:20},{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.movement_speed",base:0.5},{id:"minecraft:generic.scale",base:1.5},{id:"minecraft:generic.water_movement_efficiency",base:1},{id:"generic.knockback_resistance",base:0.5f}]}
 
-execute if score @s bossTick matches 800..810 store result entity @e[limit=1,tag=boss.devil] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get devil.boss.health INT
+execute if score @s bossTick matches 800.. store result entity @e[limit=1,tag=boss.devil,sort=nearest] attributes[{id:"minecraft:generic.max_health"}].base int 1 run scoreboard players get devil.boss.health INT
 
 execute if score @s bossTick matches 810 run bossbar set minecraft:boss.devil players @a[distance=..32,tag=fighting.devil]
 execute if score @s bossTick matches 810 run tag @s add phase_2

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "addition": {
+    "item": "minecraft:copper_block"
+  },
+  "template": {
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "minecraft:diamond_shovel",
+    "components": {
+      "minecraft:max_damage": 2061,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

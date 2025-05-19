@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:crossbow"
+  },
+  "addition": {
+    "item": "minecraft:diamond_block"
+  },
+  "template": {
+    "item": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:crossbow",
+    "components": {
+      "minecraft:max_damage": 965,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

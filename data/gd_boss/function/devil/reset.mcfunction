@@ -10,6 +10,12 @@ stopsound @a record minecraft:sword_and_faith_devil
 scoreboard players reset #boss_devil INT
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick
+scoreboard players reset @s tick0
+scoreboard players reset @s tick1
+scoreboard players reset @s tick2
+scoreboard players reset @s tick3
+scoreboard players reset @s tick4
+scoreboard players reset @s tick5
 scoreboard players reset @s playerCount
 bossbar set minecraft:boss.devil players
 
@@ -44,15 +50,11 @@ execute as @e[type=minecraft:marker,tag=marker.barrier,tag=devil,distance=..32] 
 execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~8 ~5 ~ air
 execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~8 ~4 ~ air
 execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~8 ~3 ~ air
-execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~5 ~8 air
-execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~4 ~8 air
-execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~3 ~8 air
+execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~-1 ~8 air
 execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~-8 ~5 ~ air
 execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~-8 ~4 ~ air
 execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~-8 ~3 ~ air
-execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~5 ~-8 air
-execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~4 ~-8 air
-execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~3 ~-8 air
+execute as @e[type=minecraft:marker,tag=marker.boss,tag=devil,distance=..32] at @s run setblock ~ ~-1 ~-8 air
 
 execute at @s as @e[type=minecraft:armor_stand,tag=attack.devil.dart,distance=..48] at @s run kill @s
 kill @e[type=minecraft:skeleton,distance=..48]

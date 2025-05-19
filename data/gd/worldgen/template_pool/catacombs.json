@@ -1,0 +1,327 @@
+{
+  "name": "gd:catacombs",
+  "fallback": "gd:catacombs",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_1",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_2",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_3",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_4",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_5",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_6",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_7",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_8",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_9",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_10",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_11",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/catacombs_12",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest1",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest2",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest3",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest4",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest5",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest6",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest7",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest8",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest9",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest10",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest11",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest12",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest13",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest14",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest15",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest16",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest17",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest18",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest19",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest20",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest21",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest22",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest23",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest24",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/chest25",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/spawner_trap1",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/spawner_trap2",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    }
+
+
+
+
+
+
+
+
+  ]
+}

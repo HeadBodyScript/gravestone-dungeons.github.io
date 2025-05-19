@@ -16,11 +16,11 @@ execute if score .INT randomNumber matches 20 at @s[type=!player,tag=arrow_curse
 
 #gamerule doMobLoot false
 kill @s[type=!player,tag=!companion,tag=!boss,tag=arrow_cursed]
-execute if entity @s[type=player,tag=arrow_cursed] run damage @s 6 minecraft:magic
+execute if entity @s[type=player,tag=arrow_cursed] run damage @s 6 minecraft:magic by @p
 execute if entity @s[type=player,tag=arrow_cursed] run effect give @s minecraft:nausea 12 1
 #gamerule doMobLoot true
 
-playsound minecraft:entity.ravager.death master @a ~ ~ ~ 60 2
-playsound minecraft:entity.vex.hurt master @a ~ ~ ~ 60
+playsound minecraft:entity.ravager.death master @a[distance=..12] ~ ~ ~ 60 2
+playsound minecraft:entity.vex.hurt master @a[distance=..12] ~ ~ ~ 60
 
 execute as @s[type=minecraft:arrow] run kill @s

@@ -16,6 +16,12 @@ stopsound @a record minecraft:godrick_the_crafted_witch
 scoreboard players reset #boss_witch INT
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick
+scoreboard players reset @s tick0
+scoreboard players reset @s tick1
+scoreboard players reset @s tick2
+scoreboard players reset @s tick3
+scoreboard players reset @s tick4
+
 scoreboard players reset @s playerCount
 bossbar set minecraft:boss.witch players
 

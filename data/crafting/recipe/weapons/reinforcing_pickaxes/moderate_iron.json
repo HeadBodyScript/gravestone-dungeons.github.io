@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:copper_block"
+  },
+  "template": {
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "components": {
+      "minecraft:max_damage": 500,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

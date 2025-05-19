@@ -1,0 +1,23 @@
+tellraw @s[scores={trigger.talked_to_villager=66}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": I am Thalen Draemoor \u2014 Grand Master of Alchemy, Alteration, and Conjuration, once of the Academy of Kareth. I walk the Lands Beyond in pursuit of knowledge, in whatever curious form it chooses to reveal itself. That, truly, is all that need concern you.\nDo not trouble me, and I shall not trouble you.\nIf it is oils you seek, I offer a few \u2014 brewed with precision, and quite stable, even in the volatile energies that stir beneath this place."}]
+
+tellraw @s[scores={trigger.talked_to_villager=67}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": I understand the unease that may cling to your first impressions of this place. But look beyond the damp stone and shadowed halls \u2014 truly "},{"text":"see","italic":true},{"text":" it. These people have carved out a life where none was offered. They\u2019ve claimed refuge, and in doing so, forged something resembling harmony with the dungeon itself. They trade, they hunt, they celebrate \u2014 free from the reach of kings and their ever-hungry taxmen. As for me, I am left in peace to study, to observe, to "},{"text":"learn","italic":true},{"text":". The folk here neither fear my research nor interfere with it\u2026 and I extend the same courtesy to their\u2014ah\u2014"},{"text":"occupations","italic":true},{"text":", should we call them that.\nThere is power in this place. A deep, old magic that hums beneath the stone like a slumbering heart. I cannot abandon it \u2014 not until I\u2019ve uncovered what waits in the very lowest floors.\nKnowledge is power, young one. And some power is worth descending for."}]
+
+tellraw @s[scores={trigger.talked_to_villager=68}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": If coin is scarce, then yes \u2014 you might attempt to brew the oils yourself. Though, as a novice, I would strongly advise you begin with simpler decoctions \u2014 potions crafted at a brewing stand, where the risks are fewer and the explosions smaller.\nStill, if you're "},{"text":"determined","italic":true},{"text":", you may take my tome on the School of Alchemy. Within, you\u2019ll find the foundational principles for oil-brewing, laid out clearly. Follow them precisely. Precision is not a suggestion in alchemy \u2014 it is survival.\nBut do me this courtesy: find somewhere else to conduct your experiments. If you err \u2014 and you likely will \u2014 I\u2019d rather not be within the blast radius.\nAnd return the book when you\u2019re done. Others may yet benefit from its pages\u2026 should you leave them unscorched."}]
+
+tellraw @s[scores={trigger.talked_to_villager=69}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": *quietly to himself* Knowledge belongs to all, even those whom privilege has passed by. \nNow, to apply an oil \u2014 take the weapon in your dominant hand, and the oil in the other. Use it \u2014 a simple gesture, a rightward flick of the wrist \u2014 and the mixture will coat the blade or bludgeon.\nBut take heed: a weapon may bear only one oil at a time. Any residue from a prior concoction will be dissolved in the process \u2014 wasted. Stronger oils endure longer, binding more stubbornly to the weapon\u2019s surface, but even they will fade with repeated use. Once depleted, the weapon will strike as normal \u2014 but no longer carry the oil\u2019s effect.\nAnd be warned: not all oils work on all foes. Some creatures are immune by nature\u2026 others, simply indifferent. It is your responsibility to know what you fight, and prepare accordingly."}]
+
+tellraw @s[scores={trigger.talked_to_villager=70}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": yyyy"}]
+
+tellraw @s[scores={trigger.talked_to_villager=71}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": yyyy"}]
+
+tellraw @s[scores={trigger.talked_to_villager=72}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": yyyy"}]
+
+tellraw @s[scores={trigger.talked_to_villager=73}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": yyyy"}]
+
+tellraw @s[scores={trigger.talked_to_villager=74}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": yyyy"}]
+
+tellraw @s[scores={trigger.talked_to_villager=75}] [{"selector":"@e[type=minecraft:villager,limit=1,tag=thalen]"},{"text":": TEMP"}]
+
+scoreboard players reset @s trigger.talked_to_villager
+scoreboard players enable @s trigger.talked_to_villager
+

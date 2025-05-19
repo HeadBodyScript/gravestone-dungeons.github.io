@@ -9,3 +9,13 @@ tellraw @a[distance=..8] {"text":"⇨ You've a nice blast furnace at your house.
 tellraw @a[distance=..8] {"text":"⇨ Wy not crafting wooden weapons and shields?","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 29"}}
 
 tellraw @a[distance=..8] {"text":"⇨ Who's creating those masterpieces of horse euqipment the local innkeeper's selling?","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 30"}}
+
+tellraw @a[distance=..8] {"text":"⇨ What can you tell me about short- and longswords?","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 71"}}
+
+# tellraw @a[distance=..8] {"text":"⇨ yyyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 72"}}
+
+# tellraw @a[distance=..8] {"text":"⇨ yyyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 73"}}
+
+# tellraw @a[distance=..8] {"text":"⇨ yyyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 74"}}
+
+# tellraw @a[distance=..8] {"text":"⇨ yyyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 75"}}

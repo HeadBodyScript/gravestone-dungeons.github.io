@@ -1,0 +1,80 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.lightning_rod",
+    "fallback": "Lightning Rod"
+  },
+  "supported_items": "#gd_main:mace_bow",
+  "slots": [
+    "mainhand"
+  ],
+  "weight": 1,
+  "anvil_cost": 14,
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "can_see_sky": true
+              }
+            }
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.33
+          }
+        ],
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:summon_entity",
+              "entity": "minecraft:lightning_bolt",
+              "join_team": true
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:item.trident.thunder",
+              "volume": 5,
+              "pitch": 1.6
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "id": "minecraft:enchantment.sweeping_edge",
+        "amount": {
+          "type": "minecraft:fraction",
+          "numerator": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          },
+          "denominator": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 1
+          }
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

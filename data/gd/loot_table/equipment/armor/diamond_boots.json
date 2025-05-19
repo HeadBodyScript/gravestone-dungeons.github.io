@@ -1,0 +1,117 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 55
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 5,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+                ],
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Reinforced Diamond Boots\"}",
+                "minecraft:max_damage": 858
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 24000
+              }
+            },
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true,
+              "thundering": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 3,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2,
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+                ],
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Reinforced Diamond Boots\"}",
+                "minecraft:max_damage": 1716
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 24000
+              }
+            },
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true,
+              "thundering": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 3,
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very High Durability\"}"
+                ],
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Reinforced Diamond Boots\"}",
+                "minecraft:max_damage": 3432,
+                "minecraft:fire_resistant": {}
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 24000
+              }
+            },
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true,
+              "thundering": true
+            }
+          ]
+        }
+      ],
+      "rolls": 1,
+      "conditions": []
+    }
+  ],
+  "random_sequence": "gd:equipment/armor/diamond_boots"
+}

@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:bow",
+          "value": "gd:equipment/weapon/bow",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 15
+              },
+              "options": "#minecraft:enchantment_hot_ranged",
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 0,
+                    "max": 12000
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 15,
+                "max": 45
+              },
+              "options": "#minecraft:enchantment_hot_ranged",
+              "conditions": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12001,
+                    "max": 24000
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "id": "health-time-armor",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true,
+                  "thundering": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "id": "health-time-armor",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true,
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:enchantment_hot_ranged",
+              "only_compatible": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1,
+      "conditions": []
+    }
+  ],
+  "random_sequence": "gd:equipment/weapon/spawner_hot_bow"
+}

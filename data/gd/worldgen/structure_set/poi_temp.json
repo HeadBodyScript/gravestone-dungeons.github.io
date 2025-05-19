@@ -1,0 +1,18 @@
+{
+  
+  "structures": [
+    {
+      "structure": "gd:temps",
+      "weight": 2
+    },{
+      "structure": "gd:templ",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 120,
+    "separation": 40,
+    "salt": 316458144
+  }
+}

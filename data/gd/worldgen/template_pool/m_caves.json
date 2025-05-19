@@ -694,6 +694,22 @@
       "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/cedric1",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/cedric2",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/m_caves100",
         "projection": "rigid",
         "processors": "gd:m_caves"

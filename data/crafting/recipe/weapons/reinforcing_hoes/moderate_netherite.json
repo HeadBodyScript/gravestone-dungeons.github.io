@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "minecraft:copper_block"
+  },
+  "template": {
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_hoe",
+    "components": {
+      "minecraft:max_damage": 3031,
+      "minecraft:lore": [
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+      ]
+    },
+    "count": 1
+  }
+}

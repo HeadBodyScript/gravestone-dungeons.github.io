@@ -1,0 +1,101 @@
+{
+  "name": "gd:poi/arcane_node",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_1",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_2",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_3",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_4",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_5",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_6",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_7",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_8",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_9",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_10",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/arcane_node/node_11",
+        "projection": "rigid",
+        "processors": "gd:temp"
+      }
+    }
+
+
+
+
+
+
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "shield",
+          "weight": 55,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 1,
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very Low Durability\"}"
+                ],
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Wooden Club\"}",
+                "minecraft:max_damage": 168
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shield",
+          "weight": 55
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shield",
+          "weight": 5,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2,
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Moderate Durability\"}"
+                ],
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Reinforced Shield\"}",
+                "minecraft:max_damage": 672
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 24000
+              }
+            },
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true,
+              "thundering": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shield",
+          "weight": 3,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 3,
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"High Durability\"}"
+                ],
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Reinforced Shield\"}",
+                "minecraft:max_damage": 1344
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 24000
+              }
+            },
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true,
+              "thundering": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shield",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:lore": [
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very High Durability\"}"
+                ],
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Reinforced Shield\"}",
+                "minecraft:max_damage": 2688,
+                "minecraft:fire_resistant": {}
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 24000
+              }
+            },
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true,
+              "thundering": true
+            }
+          ]
+        }
+      ],
+      "rolls": 1,
+      "conditions": []
+    }
+  ],
+  "random_sequence": "gd:equipment/armor/shield"
+}

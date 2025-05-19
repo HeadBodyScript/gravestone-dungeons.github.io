@@ -12,3 +12,4 @@ bossbar set minecraft:boss.arena players
 summon item ~ ~1 ~ {Item:{id:ghast_tear,count:1,components:{custom_name:'[{"text":"Soul Tear","color":"#bdfffb"}]',lore:['[{"text":"Contains the soul of a fallen enemy.","italic":false,"color":"gray"}]'],custom_model_data:1,custom_data:{boss_lvl_4:1b},enchantments:{levels:{binding_curse:1}},max_stack_size:1}},Motion:[0.0,0.3,0.0]}
 
 function gd_boss:arena/reset
+

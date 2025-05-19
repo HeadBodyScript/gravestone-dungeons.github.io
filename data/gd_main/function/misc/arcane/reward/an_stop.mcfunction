@@ -7,4 +7,8 @@ effect clear @s minecraft:speed
 effect clear @s minecraft:strength
 effect clear @s minecraft:water_breathing
 effect clear @s minecraft:wind_charged
+
+tag @s remove an_frostborn
+tag @s remove an_duneborn
+
 scoreboard players reset @s mana_boost_duration

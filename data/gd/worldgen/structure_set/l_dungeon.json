@@ -13,6 +13,9 @@
     },{
       "structure": "gd:netherrock",
       "weight": 1
+    },{
+      "structure": "gd:catacombs",
+      "weight": 1
     }
   ],
   "placement": {

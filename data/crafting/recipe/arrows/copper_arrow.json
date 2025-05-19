@@ -15,22 +15,10 @@
     "components": {
       "minecraft:custom_name": "{\"color\":\"#FF7045\",\"italic\":true,\"text\":\"Copper Arrow\"}",
       "minecraft:lore": [
-        "{\"text\":\"+35% Damage to living victims\",\"italic\":false,\"color\":\"gray\"}"
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"+33% Damage\"}"
       ],
-      "minecraft:potion_contents": {
-        "custom_color": 16740421,
-        "custom_effects": [
-          {
-            "id": "minecraft:instant_damage",
-            "amplifier": 0,
-            "duration": 10,
-            "ambient": false,
-            "show_particles": false,
-            "show_icon": false
-          }
-        ]
-      },
-      "minecraft:custom_model_data": 2
+      "minecraft:custom_model_data": 2,
+      "minecraft:custom_data": "{arrow_1:1b}"
     }
   }
 }

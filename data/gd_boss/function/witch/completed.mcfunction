@@ -18,5 +18,5 @@ execute as @s[tag=witch_3] run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft
 function gd_boss:witch/reset
 
 execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..32,limit=1,sort=nearest] at @s run kill @s
-# execute at @s as @e[type=minecraft:marker,tag=marker.minion,distance=..32,limit=0,sort=nearest] at @s run kill @s
+# execute at @s as @e[type=minecraft:marker,tag=marker.minion,distance=..32,limit=1,sort=nearest] at @s run kill @s
 # execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32,limit=1,sort=nearest] at @s run kill @s

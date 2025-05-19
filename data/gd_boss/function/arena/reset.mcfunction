@@ -6,6 +6,14 @@ tag @s remove FALSE
 tag @s remove arena_1
 tag @s remove arena_2
 tag @s remove arena_3
+tag @s remove arena_4
+tag @s remove arena_5
+tag @s remove arena_6
+tag @s remove arena_7
+tag @s remove arena_8
+tag @s remove arena_9
+tag @s remove arena_10
+
 
 execute store result score @s randomNumber run random value 1..2
 

@@ -1,0 +1,11 @@
+summon zombie ~ ~ ~ {Team:"ENEMY",Health:100f,CanBreakDoors:1b,Tags:["minion.arena","boss.arena"],CustomName:'{"color":"#72DB16","italic":false,"text":"The Oozing Lad"}',HandItems:[{id:"minecraft:iron_axe",count:1,components:{"minecraft:enchantments":{levels:{"minecraft:knockback":2,"minecraft:sharpness":2,"minecraft:sweeping_edge":3,"gd_enchantment:poisoning":1}},"minecraft:enchantment_glint_override":false}},{id:"minecraft:golden_hoe",count:1}],HandDropChances:[0.0F,0.0F],ArmorItems:[{},{id:"minecraft:leather_leggings",count:1},{id:"minecraft:chainmail_chestplate",count:1},{id:"minecraft:leather_helmet",count:1}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],attributes:[{id:"minecraft:generic.armor",base:8},{id:"minecraft:generic.armor_toughness",base:1},{id:"minecraft:generic.follow_range",base:64},{id:"minecraft:generic.knockback_resistance",base:0.6},{id:"minecraft:generic.max_health",base:100},{id:"minecraft:generic.movement_speed",base:0.25},{id:"minecraft:generic.scale",base:1.1},{id:"minecraft:generic.water_movement_efficiency",base:0.9}]}
+
+summon zombie ~ ~ ~ {IsBaby:1b,Team:"ENEMY",Health:25f,CanBreakDoors:1b,Tags:["minion.arena"],CustomName:'{"color":"#72DB16","italic":false,"text":"Minion"}',HandItems:[{id:"minecraft:stone_sword",count:1},{}],HandDropChances:[0.0F,0.0F],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],attributes:[{id:"minecraft:generic.max_health",base:25}]}
+
+summon zombie ~ ~ ~ {IsBaby:1b,Team:"ENEMY",Health:25f,CanBreakDoors:1b,Tags:["minion.arena"],CustomName:'{"color":"#72DB16","italic":false,"text":"Minion"}',HandItems:[{id:"minecraft:stone_sword",count:1},{}],HandDropChances:[0.0F,0.0F],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],attributes:[{id:"minecraft:generic.max_health",base:25}]}
+
+summon zombie ~ ~ ~ {IsBaby:1b,Team:"ENEMY",Health:25f,CanBreakDoors:1b,Tags:["minion.arena"],CustomName:'{"color":"#72DB16","italic":false,"text":"Minion"}',HandItems:[{id:"minecraft:stone_sword",count:1},{}],HandDropChances:[0.0F,0.0F],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],attributes:[{id:"minecraft:generic.max_health",base:25}]}
+
+
+playsound minecraft:entity.zombie.converted_to_drowned master @a[tag=fighting.arena] ~ ~ ~ 1 .5
+
