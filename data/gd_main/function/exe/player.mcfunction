@@ -66,5 +66,5 @@ execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={companion1:1b}] run function gd_main:misc/rune/companion/display
 
 scoreboard players set @s companionCount 0
-execute as @e[tag=companion,distance=..24] if score @s UUID = @p UUID run scoreboard players add @p companionCount 1
-execute if score @s companionCount >= @s rune.max_companionCount_MAX as @e[tag=companion,limit=1,sort=furthest] if score @s UUID = @p UUID run kill @s
+execute as @e[tag=companion] if score @s UUID = @p UUID run scoreboard players add @p companionCount 1
+execute if score @s companionCount > @s rune.max_companionCount as @e[tag=companion,limit=1,sort=random] as @s if score @s UUID = @p UUID run kill @s
