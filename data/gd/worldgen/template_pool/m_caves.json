@@ -571,7 +571,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 15,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest1",
@@ -579,7 +579,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 13,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest2",
@@ -587,7 +587,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 11,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest3",
@@ -595,7 +595,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 9,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest4",
@@ -603,7 +603,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 7,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest5",
@@ -611,7 +611,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 5,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest6",
@@ -619,7 +619,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 3,
+      "weight": 20,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest7",
@@ -627,7 +627,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 1,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest8",
@@ -635,7 +635,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 40,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest9",
@@ -643,7 +643,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 40,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest10",
@@ -651,7 +651,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 50,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest11",
@@ -659,7 +659,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 50,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest12",
@@ -667,7 +667,7 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 50,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:m_caves/chest13",
@@ -675,10 +675,98 @@
         "processors": "gd:m_caves"
       }
     },{
-      "weight": 100,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "gd:m_caves/spawner",
+        "location": "gd:m_caves/chest14",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest15",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest16",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest17",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest18",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest19",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest20",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest21",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest22",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest23",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest24",
+        "projection": "rigid",
+        "processors": "gd:m_caves"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:m_caves/chest25",
         "projection": "rigid",
         "processors": "gd:m_caves"
       }

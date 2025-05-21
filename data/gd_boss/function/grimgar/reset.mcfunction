@@ -13,6 +13,11 @@ stopsound @a record minecraft:skellige_battle_grimgar
 
 scoreboard players reset @s bossTick
 scoreboard players reset @s tick
+
+
+
+
+
 scoreboard players reset @s playerCount
 scoreboard players reset grimgar.minion.count_dummy INT
 bossbar set minecraft:boss.grimgar players
@@ -21,12 +26,9 @@ execute at @s as @e[type=minecraft:marker,tag=marker.barrier,tag=grimgar,distanc
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,tag=grimgar,distance=..32] at @s run setblock ~ ~1 ~ air
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,tag=grimgar,distance=..32] at @s run setblock ~ ~2 ~ air
 
-kill @e[type=armor_stand,tag=VFX.spark]
-execute at @s as @e[type=minecraft:armor_stand,tag=skull.grimgar,distance=..32] at @s run kill @s
-kill @e[type=minecraft:skeleton,distance=..32]
-execute as @e[type=minecraft:silverfish,distance=..32] run tp @s ~ ~-300 ~
-# kill @e[type=minecraft:silverfish,distance=..32]
-kill @e[type=minecraft:wither_skeleton,distance=..32]
+kill @e[type=armor_stand,tag=VFX.spark,distance=..32]
+kill @e[type=minecraft:armor_stand,tag=skull.grimgar,distance=..32]
+kill @e[tag=minion.grimgar]
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=grimgar,distance=..32] run kill @s
 execute as @e[type=minecraft:evoker,limit=1,sort=nearest,tag=boss.grimgar,distance=..64] run tp @s ~ ~-300 ~
