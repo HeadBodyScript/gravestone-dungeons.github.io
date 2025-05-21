@@ -14,7 +14,8 @@ execute if score @s bossTick matches 90 run data merge entity @e[type=minecraft:
 execute if score @s bossTick matches 90 run effect clear @e[type=minecraft:evoker,tag=boss.grimgar,limit=1,sort=nearest] minecraft:resistance
 execute if score @s bossTick matches 1 run tellraw @a ["",{"text":"Grimgar","color":"#009999"},{"text":" : Ahhhhhrg! Buggers like you bother me here over and over again!"}]
 execute if score @s bossTick matches 90 run tellraw @a ["",{"text":"Grimgar","color":"#009999"},{"text":" : None of your predecessors will ever bother anyone again and now it's time for you to... disappear."}]
-execute if score @s bossTick matches 90 run bossbar set minecraft:boss.grimgar players @a[distance=..32,tag=fighting.grimgar]
+execute if score @s bossTick matches 90 store result bossbar minecraft:boss.grimgar max run scoreboard players get grimgar.boss.health INT
+execute if score @s bossTick matches 90 run bossbar set minecraft:boss.grimgar players @a[tag=fighting.grimgar]
 execute if score @s bossTick matches 90 run bossbar set minecraft:boss.grimgar name {"text":"Grimgar the Ferocious Bugbear","color":"gray"}
 execute if score @s bossTick matches 90 run bossbar set boss.grimgar color blue
 execute if score @s bossTick matches 100 run tag @s remove phase_5
