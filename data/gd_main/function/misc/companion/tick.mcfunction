@@ -8,19 +8,24 @@ execute as @e[tag=companion] at @s if score @s UUID matches 1.. run scoreboard p
 #execute as @e[tag=companion] if score @s UUID = @p UUID run execute store result score @p companionCount if entity @e[tag=companion]
 #execute as @a[scores={companionCount=2..}] as @e[tag=companion,limit=1,sort=nearest] if score @s UUID = @p UUID run kill @s
 
+# OLD: this adds one score per tick per companion alive that is bound to a player
+# execute as @a at @s as @e[tag=companion,distance=..24] if score @s UUID = @p UUID run scoreboard players add @p companionCount 1
+# NEW: set the score based on the amount of companions that exists with the same UUID as the player
+# moved to player.exe for  better performance
 
-execute as @a at @s as @e[tag=companion,distance=..24] if score @s UUID = @p UUID run scoreboard players add @p companionCount 1
+# OLD: 
+# execute as @p[scores={rune.max_companionCount=1,companionCount=2..}] at @s as @e[tag=companion,limit=1,sort=furthest] if score @s UUID = @p UUID run kill @s
+# execute as @p[scores={rune.max_companionCount=1,companionCount=2..}] as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run scoreboard players remove @p companionCount 1
+# execute as @p[scores={rune.max_companionCount=2,companionCount=3..}] at @s as @e[tag=companion,limit=1,sort=furthest] if score @s UUID = @p UUID run kill @s
+# execute as @p[scores={rune.max_companionCount=2,companionCount=3..}] as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run scoreboard players remove @p companionCount 1
+# execute as @p[scores={rune.max_companionCount=3,companionCount=4..}] at @s as @e[tag=companion,limit=1,sort=furthest] if score @s UUID = @p UUID run kill @s
+# execute as @p[scores={rune.max_companionCount=3,companionCount=4..}] as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run scoreboard players remove @p companionCount 1
+# NEW:
+# moved to player.exe for  better performance
 
-execute as @p[scores={rune.max_companionCount=1,companionCount=2..}] at @s as @e[tag=companion,limit=1,sort=furthest] if score @s UUID = @p UUID run kill @s
-execute as @p[scores={rune.max_companionCount=1,companionCount=2..}] as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run scoreboard players remove @p companionCount 1
-execute as @p[scores={rune.max_companionCount=2,companionCount=3..}] at @s as @e[tag=companion,limit=1,sort=furthest] if score @s UUID = @p UUID run kill @s
-execute as @p[scores={rune.max_companionCount=2,companionCount=3..}] as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run scoreboard players remove @p companionCount 1
-execute as @p[scores={rune.max_companionCount=3,companionCount=4..}] at @s as @e[tag=companion,limit=1,sort=furthest] if score @s UUID = @p UUID run kill @s
-execute as @p[scores={rune.max_companionCount=3,companionCount=4..}] as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run scoreboard players remove @p companionCount 1
-
-execute as @p[scores={rune.max_companionCount=1,companionCount=1..}] run scoreboard players remove @p companionCount 1
-execute as @p[scores={rune.max_companionCount=2,companionCount=1..}] run scoreboard players remove @p companionCount 2
-execute as @p[scores={rune.max_companionCount=3,companionCount=1..}] run scoreboard players remove @p companionCount 3
+# execute as @p[scores={rune.max_companionCount=1,companionCount=1..}] run scoreboard players remove @p companionCount 1
+# execute as @p[scores={rune.max_companionCount=2,companionCount=1..}] run scoreboard players remove @p companionCount 2
+# execute as @p[scores={rune.max_companionCount=3,companionCount=1..}] run scoreboard players remove @p companionCount 3
 
 
 
