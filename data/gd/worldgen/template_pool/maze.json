@@ -507,7 +507,7 @@
         "processors": "gd:maze"
       }
     },{
-      "weight": 20,
+      "weight": 100,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:maze/spawner1",
@@ -515,7 +515,7 @@
         "processors": "gd:maze"
       }
     },{
-      "weight": 20,
+      "weight": 100,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:maze/spawner2",
@@ -523,7 +523,7 @@
         "processors": "gd:maze"
       }
     },{
-      "weight": 20,
+      "weight": 100,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:maze/spawner3",
@@ -531,7 +531,7 @@
         "processors": "gd:maze"
       }
     },{
-      "weight": 20,
+      "weight": 100,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "gd:maze/spawner4",

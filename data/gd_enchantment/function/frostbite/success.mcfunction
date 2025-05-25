@@ -8,5 +8,5 @@ execute if score @p oil_frostbite matches ..100 run effect give @s minecraft:slo
 execute if score @p oil_frostbite matches 101..250 run effect give @s minecraft:slowness 8 7 false
 execute if score @p oil_frostbite matches 251..500 run effect give @s minecraft:slowness 10 7 false
 
-scoreboard players reset @s enchantment.frostbite_INT
+# scoreboard players reset @s enchantment.frostbite_INT
 scoreboard players set @s enchantment.frostbite_VFX 0

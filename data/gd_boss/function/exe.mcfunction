@@ -1,9 +1,9 @@
 execute store result score INT difficulty run difficulty
 
-execute if score INT difficulty matches 1.. as @e[type=minecraft:marker,tag=marker.boss,tag=!FALSE] at @s if entity @a[distance=..42] run function gd_boss:init
-# execute as @e[type=minecraft:marker,tag=marker.boss] at @s if score @s playerCount matches 1.. unless entity @a[distance=..42] run scoreboard players reset @s playerCount
-execute as @e[type=minecraft:marker,tag=marker.boss] at @s store result score @s playerCount if entity @a[distance=..32]
-execute as @e[type=minecraft:marker,tag=marker.boss] at @s unless entity @a[distance=..32] run scoreboard players reset @s playerCount
+execute if score INT difficulty matches 1.. as @e[type=minecraft:marker,tag=marker.boss,tag=!FALSE] at @s if entity @a[distance=..50] run function gd_boss:init
+# execute as @e[type=minecraft:marker,tag=marker.boss] at @s if score @s playerCount matches 1.. unless entity @a[distance=..50] run scoreboard players reset @s playerCount
+execute as @e[type=minecraft:marker,tag=marker.boss] at @s store result score @s playerCount if entity @a[distance=..50]
+execute as @e[type=minecraft:marker,tag=marker.boss] at @s unless entity @a[distance=..50] run scoreboard players reset @s playerCount
 execute if items entity @p weapon.offhand minecraft:echo_shard[minecraft:custom_data={artifact_2:1b}] unless score @e[tag=phase_1,limit=1,sort=nearest] bossTick matches 10.. run function gd_boss:echo_shard_reset
 
 # marker traps

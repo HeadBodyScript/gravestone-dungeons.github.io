@@ -15,7 +15,7 @@ tag @s remove arena_9
 tag @s remove arena_10
 
 
-execute store result score @s randomNumber run random value 1..2
+execute store result score @s randomNumber run random value 1..10
 
 tag @a remove fighting.arena
 
@@ -28,7 +28,9 @@ bossbar set minecraft:boss.arena players
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32] at @s run setblock ~ ~ ~ air
 execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32] at @s run setblock ~ ~1 ~ air
 
-kill @e[tag=minion.arena]
+
 
 execute as @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=armor_stand.boss,tag=arena,distance=..32] run kill @s
 execute as @e[limit=1,sort=nearest,tag=boss.arena,distance=..64] run tp @s ~ ~-300 ~
+
+kill @e[tag=minion.arena]

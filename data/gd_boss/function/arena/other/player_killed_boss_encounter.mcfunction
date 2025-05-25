@@ -1,6 +1,6 @@
 advancement revoke @s only gd_boss:arena_encounter
 playsound minecraft:entity.elder_guardian.death ambient @a[distance=..20] ~ ~ ~ 20 0.5
-playsound minecraft:ui.toast.challenge_complete master @a ~ ~1 ~ 20 1
+playsound minecraft:ui.toast.challenge_complete master @a[distance=..20] ~ ~1 ~ 20 1
 title @s title [{"text":"ENEMY FELLED","color":"dark_red"}]
 
 execute as @s[tag=arena_1] run tellraw @a[tag=fighting.arena] ["",{"text":"Kaelthorian Commander","color":"#BD1BDE"},{"text":" : Retreat men! We must regroup!"}]

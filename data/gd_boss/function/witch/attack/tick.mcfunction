@@ -32,4 +32,7 @@ execute as @s[tag=potion_attack] run function gd_boss:witch/attack/attack_potion
 execute store result score @s boss.witch_health run data get entity @s Health
 execute store result bossbar minecraft:boss.witch value run data get entity @s Health
 
+execute if predicate gd_main:time_check_gauge if predicate gd_main:time_night_check run effect give @e[tag=boss.witch,limit=1,sort=nearest] minecraft:instant_health 1 0 true
+execute if predicate gd_main:time_check_gauge if predicate gd_main:weather_thunder_check run effect give @e[tag=boss.witch,limit=1,sort=nearest] minecraft:resistance 10 1 true
+
 execute if score @s tick >= witch.attack.cooldown INT run scoreboard players set @s tick 0

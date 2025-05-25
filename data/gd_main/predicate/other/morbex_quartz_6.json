@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "hotbar.*": {
+        "items": "minecraft:quartz",
+        "components": {
+          "minecraft:custom_data": {
+            "morbex_3": true
+          }
+        }
+      }
+    }
+  }
+}

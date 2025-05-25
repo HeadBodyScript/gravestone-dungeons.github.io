@@ -12,7 +12,7 @@ execute if score @s enchantment.deflect_TD matches 1.. run particle minecraft:en
 execute if score @s enchantment.deflect_TD matches 1.. as @e[type=#gd_main:projectile,nbt=!{inGround:1b},distance=..4] run data merge entity @s {Motion:[0.0,0.0,0.0]}
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=attack.witch,distance=..4]
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=projectile_bonecaller,distance=..4]
-execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=skull_grimgar,distance=..4]
+execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=skull,distance=..4]
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=projectile_knife,distance=..4]
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=projectile.star_shard,distance=..4]
 execute if score @s enchantment.deflect_TD matches 1.. run kill @e[type=minecraft:armor_stand,tag=projectile.star_shower,distance=..4]

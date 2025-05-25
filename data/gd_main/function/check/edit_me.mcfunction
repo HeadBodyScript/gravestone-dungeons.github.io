@@ -25,7 +25,9 @@ execute store result score INT difficulty run difficulty
 # Lvl 1
 
 # ARENA
-scoreboard players set arena.boss.health INT 100
+execute if score INT difficulty matches 1 run scoreboard players set arena.boss.health INT 100
+execute if score INT difficulty matches 2 run scoreboard players set arena.boss.health INT 200
+execute if score INT difficulty matches 3 run scoreboard players set arena.boss.health INT 400
 
 # Lvl 2
 
@@ -92,8 +94,13 @@ execute if score INT difficulty matches 3 run scoreboard players set shadow.atta
 # Lvl 4
 
 # MORBEX
-scoreboard players set morbex.boss.health INT 400
-scoreboard players set morbex.attack.cooldown INT 250
+execute if score INT difficulty matches 1 run scoreboard players set morbex.boss.health INT 400
+execute if score INT difficulty matches 2 run scoreboard players set morbex.boss.health INT 500
+execute if score INT difficulty matches 3 run scoreboard players set morbex.boss.health INT 700
+execute if score INT difficulty matches 1 run scoreboard players set morbex.attack.cooldown INT 250
+execute if score INT difficulty matches 2 run scoreboard players set morbex.attack.cooldown INT 230
+execute if score INT difficulty matches 3 run scoreboard players set morbex.attack.cooldown INT 210
+
 
 # DEVIL
 execute if score INT difficulty matches 1 run scoreboard players set devil.boss.health INT 400

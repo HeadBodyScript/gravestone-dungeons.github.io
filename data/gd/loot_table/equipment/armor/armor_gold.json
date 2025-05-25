@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:golden_helmet",
+          "value": "gd:equipment/armor/golden_helmet",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:golden_chestplate",
+          "value": "gd:equipment/armor/golden_chestplate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:golden_leggings",
+          "value": "gd:equipment/armor/golden_leggings",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:golden_boots",
+          "value": "gd:equipment/armor/golden_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:leather_helmet",
+          "value": "gd:equipment/armor/leather_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:leather_chestplate",
+          "value": "gd:equipment/armor/leather_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:leather_leggings",
+          "value": "gd:equipment/armor/leather_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:leather_boots",
+          "value": "gd:equipment/armor/leather_boots",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 4
+      }
+    }
+  ],
+  "random_sequence": "gd:equipment/armor/armor_gold"
+}

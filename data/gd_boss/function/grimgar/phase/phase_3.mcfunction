@@ -1,4 +1,5 @@
 execute at @e[tag=mini.grimgar] run particle dust_color_transition{from_color: [.0f, .0f, .1f], scale: 1.5f, to_color: [.2f, .2f, .2f]} ~ ~.5 ~ .3 3 .3 0 20 force
+execute as @e[type=minecraft:evoker,tag=boss.grimgar,sort=nearest,limit=1,distance=..32] at @s run function gd_boss:grimgar/attack/tick
 
 execute if score @s bossTick matches 1.. run particle dust_color_transition{from_color: [.1f, .4f, .9f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~.5 ~ .2 2 .2 0 1 force
 execute if score @s bossTick matches 1 run tellraw @a ["",{"text":"Grimgar","color":"#009999"},{"text":" : I see you're not that easy to dispatch.."}]

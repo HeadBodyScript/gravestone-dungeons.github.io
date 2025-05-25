@@ -1,7 +1,8 @@
 scoreboard players add @s bossTick 1
+execute if score @s bossTick matches 10 run function gd_main:check/edit_me
 
 tag @a add fighting.arena
-execute as @s[scores={bossTick=1..5}] store result score @s randomNumber run random value 8..10
+execute as @s[scores={bossTick=1..5}] store result score @s randomNumber run random value 1..10
 
 execute as @s[scores={bossTick=10}] if score @s randomNumber matches 1 run bossbar set boss.arena name {"text":"Kaelthorian Commander","color":"#BD1BDE"}
 execute as @s[scores={bossTick=10}] if score @s randomNumber matches 2 run bossbar set boss.arena name {"text":"Ominous Beast","color":"#B00000"}

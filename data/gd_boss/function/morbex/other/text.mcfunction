@@ -1,4 +1,4 @@
-execute store result score @s randomNumber run random value 1..12
+execute store result score @s randomNumber run random value 1..14
 execute if score @s randomNumber matches 1 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"#6F0C99"},{"text":" : Your feeble attempts at resistance only serve to amuse me. Embrace your fate."}] 
 execute if score @s randomNumber matches 2 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"#6F0C99"},{"text":" : Your defeat is inevitable."}]
 execute if score @s randomNumber matches 3 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"#6F0C99"},{"text":" : Your courage is commendable, but it will not save you from your impending demise."}]
@@ -11,3 +11,4 @@ execute if score @s randomNumber matches 9 as @s run tellraw @a[tag=fighting.mor
 execute if score @s randomNumber matches 10 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"#6F0C99"},{"text":" : The darkness consumes all! You will be no different!"}]
 execute if score @s randomNumber matches 11 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"#6F0C99"},{"text":" : Argh! You’ll regret that, worm!"}]
 execute if score @s randomNumber matches 12 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"#6F0C99"},{"text":" : Witness the true might of Morbex! There is no escape!"}]
+execute if score @s randomNumber matches 13 as @s run tellraw @a[tag=fighting.morbex] ["",{"text":"Morbex","color":"#6F0C99"},{"text":" : Why should I excuse the monster I have become?!"}]

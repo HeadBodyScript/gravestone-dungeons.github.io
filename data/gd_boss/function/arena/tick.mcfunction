@@ -1,5 +1,5 @@
 execute store result score @s playerCount if entity @a[distance=..32]
-# execute if score @s playerCount matches 0 run function gd_boss:arena/reset
+execute if score @s playerCount matches 0 run function gd_boss:arena/reset
 
 scoreboard players add @s[tag=!phase_2] bossTick 1
 

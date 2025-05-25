@@ -1,0 +1,269 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "bonus_rolls": 0,
+                "conditions": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": false,
+                    "thundering": false
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "gd:equipment/armor/armor_gold",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-time-armor",
+                            "amount": 0.5,
+                            "operation": "add_multiplied_base",
+                            "slot": "armor"
+                          },
+                          {
+                            "attribute": "minecraft:generic.armor_toughness",
+                            "id": "health-time-armor",
+                            "amount": 1,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": [
+                          {
+                            "condition": "minecraft:time_check",
+                            "value": {
+                              "min": 12000,
+                              "max": 24000
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-biome-armor",
+                            "amount": 20,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          },
+                          {
+                            "attribute": "minecraft:generic.armor",
+                            "id": "health-biome-armor",
+                            "amount": 6,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": []
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": {
+                          "type": "minecraft:uniform",
+                          "min": 20,
+                          "max": 35
+                        },
+                        "options": "#minecraft:enchantment_armor",
+                        "conditions": [
+                          {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.5
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": []
+                  }
+                ],
+                "rolls": 1
+              },
+              {
+                "bonus_rolls": 0,
+                "conditions": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true,
+                    "thundering": false
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "gd:equipment/armor/armor_gold",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-time-armor",
+                            "amount": 0.5,
+                            "operation": "add_multiplied_base",
+                            "slot": "armor"
+                          },
+                          {
+                            "attribute": "minecraft:generic.armor_toughness",
+                            "id": "health-time-armor",
+                            "amount": 1,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": [
+                          {
+                            "condition": "minecraft:time_check",
+                            "value": {
+                              "min": 12000,
+                              "max": 24000
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-biome-armor",
+                            "amount": 20,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          },
+                          {
+                            "attribute": "minecraft:generic.armor",
+                            "id": "health-biome-armor",
+                            "amount": 6,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": []
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": {
+                          "type": "minecraft:uniform",
+                          "min": 20,
+                          "max": 35
+                        },
+                        "options": "#minecraft:enchantment_armor",
+                        "conditions": [
+                          {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.75
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": []
+                  }
+                ],
+                "rolls": 1
+              },
+              {
+                "bonus_rolls": 0,
+                "conditions": [
+                  {
+                    "condition": "minecraft:weather_check",
+                    "raining": true,
+                    "thundering": true
+                  }
+                ],
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "gd:equipment/armor/armor_gold",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-time-armor",
+                            "amount": 0.5,
+                            "operation": "add_multiplied_base",
+                            "slot": "armor"
+                          },
+                          {
+                            "attribute": "minecraft:generic.armor_toughness",
+                            "id": "health-time-armor",
+                            "amount": 1,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": [
+                          {
+                            "condition": "minecraft:time_check",
+                            "value": {
+                              "min": 12000,
+                              "max": 24000
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                          {
+                            "attribute": "minecraft:generic.max_health",
+                            "id": "health-biome-armor",
+                            "amount": 20,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          },
+                          {
+                            "attribute": "minecraft:generic.armor",
+                            "id": "health-biome-armor",
+                            "amount": 6,
+                            "operation": "add_value",
+                            "slot": "armor"
+                          }
+                        ],
+                        "replace": false,
+                        "conditions": []
+                      },
+                      {
+                        "function": "minecraft:enchant_with_levels",
+                        "levels": {
+                          "type": "minecraft:uniform",
+                          "min": 20,
+                          "max": 35
+                        },
+                        "options": "#minecraft:enchantment_armor",
+                        "conditions": []
+                      }
+                    ],
+                    "conditions": []
+                  }
+                ],
+                "rolls": 1
+              }
+            ]
+          }
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "gd:equipment/armor/spawner_armor_nether"
+}

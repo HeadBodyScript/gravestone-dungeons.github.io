@@ -1,4 +1,5 @@
 execute if score @s bossTick matches 1 run bossbar set minecraft:boss.grimgar players
+execute as @e[type=minecraft:evoker,tag=boss.grimgar,sort=nearest,limit=1,distance=..32] at @s run function gd_boss:grimgar/attack/tick
 execute if score @s bossTick matches 1 run playsound minecraft:entity.ravager.hurt ambient @a ~ ~ ~ 10 1.5
 execute if score @s bossTick matches 1 run playsound minecraft:entity.enderman.stare ambient @a ~ ~ ~ 10 2
 execute if score @s bossTick matches 40 run playsound minecraft:entity.lightning_bolt.thunder ambient @a ~ ~ ~ 10 2

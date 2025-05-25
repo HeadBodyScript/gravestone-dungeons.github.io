@@ -23,6 +23,8 @@ execute if score @s tick matches 1 if score @s randomNumber matches 6.. run func
 
 execute as @e[tag=devil_flame] at @s if entity @e[type=small_fireball,distance=..2] run function gd_main:misc/companion/attack/fireatronach
 
+# execute if predicate gd_main:time_check_gauge if predicate gd_main:time_night_check run effect give @e[tag=boss.devil,limit=1,sort=nearest] minecraft:instant_health 1 0 true
+# execute if predicate gd_main:time_check_gauge if predicate gd_main:weather_thunder_check run effect give @e[tag=boss.devil,limit=1,sort=nearest] minecraft:resistance 10 1 true
 
 execute as @s[tag=dart] run function gd_boss:devil/attack/attack_dart
 execute as @s[tag=wave] run function gd_boss:devil/attack/attack_wave

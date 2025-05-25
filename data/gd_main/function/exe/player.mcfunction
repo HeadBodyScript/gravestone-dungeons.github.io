@@ -43,7 +43,7 @@ execute unless predicate gd_main:is_sneaking run scoreboard players reset @s tic
 execute as @s[tag=an_frostborn] at @s if biome ~ ~ ~ #gd:has_structure/cold run function gd_main:misc/arcane/reward/an_cold
 execute as @s[tag=an_duneborn] at @s if biome ~ ~ ~ #gd:has_structure/hot run function gd_main:misc/arcane/reward/an_hot
 
-
+execute if score @s rune.max_companionCount matches 3 as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run effect give @s minecraft:strength 12 0 false
 execute if score @s rune.block_interaction_range matches 10 run effect give @s minecraft:haste 1 0 true
 execute if score @s rune.max_health matches 20 run effect give @s minecraft:resistance 1 0 true
 execute if score @s rune.max_mana matches 16000 if predicate gd:arcane_nodes run scoreboard players set @s mana_boost_duration 48000
@@ -66,5 +66,6 @@ execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={companion1:1b}] run function gd_main:misc/rune/companion/display
 
 scoreboard players set @s companionCount 0
-execute as @e[tag=companion] if score @s UUID = @p UUID run scoreboard players add @p companionCount 1
-execute if score @s companionCount > @s rune.max_companionCount as @e[tag=companion,limit=1,sort=random] as @s if score @s UUID = @p UUID run kill @s
+execute as @e[tag=!healer,tag=companion] if score @s UUID = @p UUID run scoreboard players add @p companionCount 1
+execute if score @s companionCount > @s rune.max_companionCount as @e[tag=!healer,tag=companion,limit=1,sort=furthest] as @s if score @s UUID = @p UUID run kill @s
+

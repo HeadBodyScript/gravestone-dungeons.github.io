@@ -8,5 +8,3 @@ bossbar set minecraft:boss.marrow players
 tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : A real warrior. An honorable death that finally lets me begin my eternal sleep."}] 
 tellraw @p ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Rest in peace great warrior."}] 
 tellraw @p ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : This rose at least looks interesting. Somehow I feel like I have to hit someone with it..."}] 
-
-tag @a remove fighting.marrow

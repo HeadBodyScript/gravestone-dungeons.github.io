@@ -20,5 +20,7 @@ execute if score @s enchantment.frostbite_VFX matches 170 at @s run kill @e[type
 execute as @s[type=player,scores={enchantment.frostbite_VFX=170}] run damage @s 10
 execute as @s[type=!player,scores={enchantment.frostbite_VFX=170}] run damage @s 18 player_attack by @p
 
+execute if score @s enchantment.frostbite_VFX matches 172.. run scoreboard players reset @s enchantment.frostbite_INT
+
 execute if score @s enchantment.frostbite_VFX matches 172.. run tag @s remove frostbite
 execute if score @s enchantment.frostbite_VFX matches 172.. run scoreboard players reset @s enchantment.frostbite_VFX

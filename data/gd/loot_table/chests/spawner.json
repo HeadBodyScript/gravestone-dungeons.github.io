@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 0.5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Silver Coin\",\"italic\":true,\"color\":\"#eeeeee\"}",
+                "minecraft:custom_data": "{silver_coin:1b}",
+                "minecraft:custom_model_data": 1,
+                "minecraft:max_stack_size": 96
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/arrows",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/potions",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/food",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gd:chests/food_items",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

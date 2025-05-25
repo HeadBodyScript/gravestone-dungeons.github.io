@@ -7,6 +7,3 @@ bossbar set minecraft:boss.shadow players
 
 tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : Even a wounded shadow can stab the heart."}] 
 tellraw @p ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Not this time. And never again."}] 
- 
-
-tag @a remove fighting.shadow
