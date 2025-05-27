@@ -54,6 +54,9 @@ execute if score @s tick matches 1 if score @s randomNumber matches 8.. run func
 execute if score @s tick matches 1 if score @s randomNumber matches 3 run function gd_boss:morbex/attack/morbex_arrow
 execute if score @s tick matches 1 if score @s randomNumber matches 16 run function gd_boss:morbex/attack/morbex_arrow
 
+execute if predicate gd_main:time_check_gauge if predicate gd_main:time_night_check run effect give @e[tag=boss.morbex,limit=1,sort=nearest] minecraft:instant_damage 1 0 true
+execute if predicate gd_main:time_check_gauge if predicate gd_main:weather_thunder_check run effect give @e[tag=boss.morbex,limit=1,sort=nearest] minecraft:resistance 10 1 true
+
 execute as @s[tag=potion] at @e[type=illusioner,tag=boss.morbex,distance=..48] run function gd_boss:morbex/attack/morbex_potion
 execute as @s[tag=warp] run function gd_boss:morbex/attack/morbex_tp
 execute as @s[tag=trick] at @e[tag=marker.minion,tag=morbex,distance=..48,sort=random,limit=1] run function gd_boss:morbex/attack/morbex_trick

@@ -1,0 +1,51 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:filled_map"
+      },
+      "title": {
+        "text": "Feeling Cold Here",
+        "color": "light_blue",
+        "bold": false,
+        "italic": true
+      },
+      "description": {
+        "text": "Found the Blackwell Catacombs",
+        "color": "gray",
+        "bold": false,
+        "italic": false
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gd:gd",
+    "criteria": {
+      "in_catacombs": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "gd:catacombs"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "in_catacombs"
+      ]
+    ],
+    "rewards": {
+      "function": "gd:structure/catacombs"
+    }
+  }
+  

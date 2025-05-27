@@ -314,7 +314,97 @@
         "projection": "rigid",
         "processors": "gd:catacombs"
       }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/boris",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/boris1",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/boris2",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/thalen",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/thalen1",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/thalen2",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/villager",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/dog",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/mooshroom",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/john",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
     }
+,{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:catacombs/jana",
+        "projection": "rigid",
+        "processors": "gd:catacombs"
+      }
+    }
+
 
 
 

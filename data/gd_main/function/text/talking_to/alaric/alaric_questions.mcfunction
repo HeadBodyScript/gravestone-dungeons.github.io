@@ -27,4 +27,4 @@ tellraw @a[distance=..8] {"text":"⇨  What can you tell me about that floating 
 
 
 # last talked to number for questions
-# tellraw @a[distance=..8] {"text":"⇨ yyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 75"}}
+# tellraw @a[distance=..8] {"text":"⇨ yyyy","color":"aqua","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger trigger.talked_to_villager set 85"}}

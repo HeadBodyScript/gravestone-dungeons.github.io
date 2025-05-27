@@ -18,5 +18,7 @@ execute if entity @e[type=villager,tag=alaric,limit=1,distance=..8] run function
 
 execute if entity @e[type=villager,tag=thalen,limit=1,distance=..8] run function gd_main:text/trigger/thalen/answer
 
+execute if entity @e[type=villager,tag=boris,limit=1,distance=..8] run function gd_main:text/trigger/boris/answer
+
 
 

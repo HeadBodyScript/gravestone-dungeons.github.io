@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "in_witch_hut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "gd:witch"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_witch_hut"
+    ]
+  ],
+  "rewards": {
+    "function": "gd:hidden/adventure"
+  }
+}

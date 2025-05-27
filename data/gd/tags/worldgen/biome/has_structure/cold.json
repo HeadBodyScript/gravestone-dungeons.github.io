@@ -1,10 +1,6 @@
 {
   "values": [
 #caves cold
-    {
-      "id": "terralith:frostfire_caves",
-      "required": false
-    },
 
 #caves temperate
 
@@ -15,7 +11,6 @@
 #caves hot
 
 #water
-	"minecraft:frozen_ocean",
 
 #cold
 	"minecraft:snowy_taiga",

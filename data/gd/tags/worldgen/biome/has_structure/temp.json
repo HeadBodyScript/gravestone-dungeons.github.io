@@ -196,11 +196,33 @@
     {
       "id": "terralith:amethyst_rainforest",
       "required": false
-    }
+    },
 
 #tropical special
 
 #arid
+	"minecraft:savanna",
+	"minecraft:savanna_plateau",
+    {
+      "id": "terralith:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:fractured_savanna",
+      "required": false
+    },
+    {
+      "id": "terralith:hot_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:white_mesa",
+      "required": false
+    }
 
 #arid special
 

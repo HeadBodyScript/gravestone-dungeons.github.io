@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "No More Hide n' Seek",
+            "bold": false,
+            "italic": true,
+		"color": "gold"
+        },
+        "description": {
+            "text": "Defeat the Shadow",
+		"color": "gray"
+        },
+        "icon": {
+            "id": "minecraft:skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bossgrimgar": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[boss.shadow]}"
+                }
+            }
+        }
+    },
+    "parent": "gd:catacombs"
+}

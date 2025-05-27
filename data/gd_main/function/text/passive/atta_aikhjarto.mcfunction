@@ -1,0 +1,15 @@
+scoreboard players set @s talked_to_villager_CD 500
+execute store result score .INT0 randomNumber run random value 1..12
+
+execute if score .INT0 randomNumber matches 1 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": Mmm... another soul beneath the boughs. Mayhap one who won't gnaw at my bark... like the last few pests."}]
+execute if score .INT0 randomNumber matches 2 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": You seek... what others can't offer yet. Hrrmm... I have wares not touched by sun nor time... not found in any honest place, at least... not yet."}]
+execute if score .INT0 randomNumber matches 3 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": Hmph... What does a withered tree want with coin, you ask? Foolish twig... Mind your tongue, or I’ll plant a curse so deep it takes root in your bones."}]
+execute if score .INT0 randomNumber matches 4 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": I know many things... truths long withered, like autumn leaves in forgotten tomes. Aye... most have slipped from men’s minds... as I have, too... almost."}]
+execute if score .INT0 randomNumber matches 5 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": This temple... was mine, grown and shaped in ages long buried. And now? You folk plant your reeking hovels atop it, as if roots never ran here... oppressive little creatures."}]
+execute if score .INT0 randomNumber matches 6 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": My roots... reach deep into the stone. Do not presume I’ve not felt your meddling above. The earth tells me all..."}]
+execute if score .INT0 randomNumber matches 7 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": Ahh... this ring... holds great power. A gift from an old friend—young, by my years, barely more than a seedling. Yet... we understood one another, in ways time itself forgot."}]
+execute if score .INT0 randomNumber matches 8 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": Time... what weight has it, when you were among the first to be given soul by the gods? Seasons pass like falling leaves... yet I remain, roots tangled in the age before counting."}]
+execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": Settle thyself beneath my boughs, and share thy tale. These days, I wander not far—ha!"}]
+execute if score .INT0 randomNumber matches 9 run tellraw @s ["",{"selector":"@e[type=minecraft:villager,limit=1,tag=atta_aikhjarto]"},{"text":": Do you come to snatch my young roots, like that foul witch above? Dare such folly, and I’ll curse you, little meatling."}]
+
+

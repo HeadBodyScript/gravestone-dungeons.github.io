@@ -9,13 +9,8 @@
 #caves arid
 
 #caves hot
-    {
-      "id": "terralith:mantle_caves",
-      "required": false
-    },
 
 #water
-	"minecraft:warm_ocean",
 
 #cold
 
@@ -30,34 +25,6 @@
 #tropical special
 
 #arid
-	"minecraft:savanna",
-	"minecraft:savanna_plateau",
-	"minecraft:wooded_badlands",
-	"minecraft:badlands",
-    {
-      "id": "terralith:arid_highlands",
-      "required": false
-    },
-    {
-      "id": "terralith:fractured_savanna",
-      "required": false
-    },
-    {
-      "id": "terralith:hot_shrubland",
-      "required": false
-    },
-    {
-      "id": "terralith:savanna_badlands",
-      "required": false
-    },
-    {
-      "id": "terralith:shrubland",
-      "required": false
-    },
-    {
-      "id": "terralith:white_mesa",
-      "required": false
-    },
 
 #arid special
     {
@@ -96,10 +63,6 @@
 #hot special
     {
       "id": "terralith:desert_oasis",
-      "required": false
-    },
-    {
-      "id": "terralith:red_oasis",
       "required": false
     },
     {

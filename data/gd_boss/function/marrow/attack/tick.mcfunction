@@ -3,10 +3,10 @@ execute if score @s tick matches 1 store result score @s randomNumber run random
 
 execute if score @s[tag=!leap] tick matches 1 if score @s randomNumber matches 1..3 run tag @s add leap
 execute if score @s[tag=!throw] tick matches 1 if score @s randomNumber matches 3..7 run tag @s add throw
-execute if score @s[tag=!shout] tick matches 1 if score @s randomNumber matches 7 run tag @s add shout
+execute if score @s[tag=!shout] tick matches 1 if score @s randomNumber matches 7..9 run tag @s add shout
 execute if score @s[tag=!warp] tick matches 1 if score @s randomNumber matches 8..9 run tag @s add warp
 execute if score @s[tag=!throw] tick matches 1 if score @s randomNumber matches 9 run tag @s add throw
-execute if score @s[tag=!shout] tick matches 1 if score @s randomNumber matches 8..9 run tag @s add shout
+execute if score @s[tag=!leap] tick matches 1 if score @s randomNumber matches 8..9 run tag @s add leap
 execute if score @s tick matches 1 if score @s randomNumber matches 6.. run function gd_boss:marrow/other/text
 execute if score @s[tag=!throw] tick matches 1 if score @s randomNumber matches 6 run function gd_boss:marrow/other/minion
 

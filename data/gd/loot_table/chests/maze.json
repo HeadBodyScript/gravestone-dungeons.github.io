@@ -9,7 +9,7 @@
             "weight": 1000,
             "functions": [
               {
-                "decoration": "jungle_temple",
+                "decoration": "trial_chambers",
                 "function": "minecraft:exploration_map",
                 "destination" : "gd:maze",
                 "skip_existing_chunks": true,

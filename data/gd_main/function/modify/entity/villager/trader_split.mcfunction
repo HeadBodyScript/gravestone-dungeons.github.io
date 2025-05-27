@@ -22,4 +22,5 @@ execute if entity @e[tag=ysembert] run function gd_main:modify/entity/villager/y
 execute if entity @e[tag=armor_smith_1] run function gd_main:modify/entity/villager/armor_smith_1
 execute if entity @e[tag=atta_aikhjarto] run function gd_main:modify/entity/villager/atta_aikhjarto
 execute if entity @e[tag=alchemist_1] run function gd_main:modify/entity/villager/alchemist_1
+execute if entity @e[tag=dog_breeder_1] run function gd_main:modify/entity/villager/dog_breeder_1
 

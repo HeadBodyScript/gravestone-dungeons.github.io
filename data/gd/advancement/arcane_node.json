@@ -31,7 +31,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "structures": "gd:arcane_nodes"
+                  "structures": "gd:arcane_node"
                 }
               }
             }

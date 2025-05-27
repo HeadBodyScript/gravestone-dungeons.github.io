@@ -626,6 +626,14 @@
         "projection": "rigid",
         "processors": "gd:direwood"
       }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:direwood/atta_aikhjarto",
+        "projection": "rigid",
+        "processors": "gd:direwood"
+      }
     }
 
   ]

@@ -13,8 +13,6 @@ execute as @s[scores={mana_boost_duration=0..}] run scoreboard players remove @s
 execute if score @s foodLevel matches 8.. if predicate gd_main:item_artifact_4 unless score @s mana >= @s mana_max run scoreboard players add @s mana 1
 
 execute as @s[scores={trigger.talked_to_villager=1..}] run function gd_main:text/trigger
-execute as @s[scores={talked_to_villager=1..},tag=!talking_to_villager] run function gd_main:text/init
-execute as @s[tag=talking_to_villager] run function gd_main:text/tick
 
 execute as @s[scores={leave_game=1}] run function gd_main:check/leave_game
 execute if score @s deathCount matches 1.. run function gd_main:check/death
@@ -24,6 +22,7 @@ execute as @s[scores={talked_to_sword_CD=0..}] run scoreboard players remove @s 
 execute as @s[scores={talked_to_villager_CD=0..}] run scoreboard players remove @s talked_to_villager_CD 1
 execute as @s[scores={node_CD=0..}] run scoreboard players remove @s node_CD 1
 execute if entity @e[type=minecraft:villager,distance=..4,tag=villager] run function gd_main:text/passive
+execute at @s as @e[tag=atta_aikhjarto,distance=..8] run function gd_main:text/passive/atta_aura
 
 execute if predicate gd_main:rideable/is_riding run function gd_main:misc/saddle/test_saddle
 
@@ -40,8 +39,8 @@ execute if predicate gd_main:tag_test/armor_amethyst if predicate gd_main:is_sne
 
 execute unless predicate gd_main:is_sneaking run scoreboard players reset @s tick6
 
-execute as @s[tag=an_frostborn] at @s if biome ~ ~ ~ #gd:has_structure/cold run function gd_main:misc/arcane/reward/an_cold
-execute as @s[tag=an_duneborn] at @s if biome ~ ~ ~ #gd:has_structure/hot run function gd_main:misc/arcane/reward/an_hot
+execute as @s[tag=an_frostborn] at @s if biome ~ ~ ~ #gd:has_structure/cold_test run function gd_main:misc/arcane/reward/an_cold
+execute as @s[tag=an_duneborn] at @s if biome ~ ~ ~ #gd:has_structure/hot_test run function gd_main:misc/arcane/reward/an_hot
 
 execute if score @s rune.max_companionCount matches 3 as @e[tag=companion,limit=1,sort=random] if score @s UUID = @p UUID run effect give @s minecraft:strength 12 0 false
 execute if score @s rune.block_interaction_range matches 10 run effect give @s minecraft:haste 1 0 true

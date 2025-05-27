@@ -1,0 +1,87 @@
+{
+  "name": "gd:poi_hotl_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_1",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_2",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_3",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_4",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_5",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_6",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_7",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_8",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_9",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/high/hotl_10",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    }
+  ]
+}

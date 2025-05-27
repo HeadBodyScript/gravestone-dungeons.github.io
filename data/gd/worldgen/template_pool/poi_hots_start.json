@@ -1,0 +1,215 @@
+{
+  "name": "gd:poi_hots_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_1",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_2",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_3",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_4",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_5",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_6",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_7",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_8",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_9",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_10",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_11",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_12",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_13",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_14",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_15",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_16",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_17",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_18",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_19",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_20",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_21",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+      },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_22",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+      },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_23",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+      },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_24",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+      },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_25",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+      },{
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/hot/low/hots_26",
+        "projection": "rigid",
+        "processors": "gd:hot"
+      }
+    }
+  ]
+}

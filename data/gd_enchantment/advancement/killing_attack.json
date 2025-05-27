@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "killing_attack": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#gd_main:entity"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killing_attack"
+    ]
+  ],
+  "rewards": {
+    "function": "gd_enchantment:inner_echo/killing_attack_test"
+  }
+}

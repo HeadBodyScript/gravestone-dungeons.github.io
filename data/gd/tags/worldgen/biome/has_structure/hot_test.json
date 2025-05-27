@@ -1,0 +1,110 @@
+{
+  "values": [
+#caves cold
+
+#caves temperate
+
+#caves tropical
+
+#caves arid
+
+#caves hot
+    {
+      "id": "terralith:mantle_caves",
+      "required": false
+    },
+
+#water
+	"minecraft:warm_ocean",
+
+#cold
+
+#cold special
+
+#temperate
+
+#temperate special
+
+#tropical
+
+#tropical special
+
+#arid
+	"minecraft:savanna",
+	"minecraft:savanna_plateau",
+	"minecraft:wooded_badlands",
+	"minecraft:badlands",
+    {
+      "id": "terralith:arid_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:fractured_savanna",
+      "required": false
+    },
+    {
+      "id": "terralith:hot_shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_badlands",
+      "required": false
+    },
+    {
+      "id": "terralith:shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:white_mesa",
+      "required": false
+    },
+
+#arid special
+    {
+      "id": "terralith:ashen_savanna",
+      "required": false
+    },
+    {
+      "id": "terralith:savanna_slopes",
+      "required": false
+    },
+    {
+      "id": "terralith:yellowstone",
+      "required": false
+    },
+
+#hot
+	"minecraft:desert",
+	"minecraft:savanna",
+    {
+      "id": "terralith:ancient_sands",
+      "required": false
+    },
+    {
+      "id": "terralith:bryce_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:desert_canyon",
+      "required": false
+    },
+    {
+      "id": "terralith:lush_desert",
+      "required": false
+    },
+
+#hot special
+    {
+      "id": "terralith:desert_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:red_oasis",
+      "required": false
+    },
+    {
+      "id": "terralith:sandstone_valley",
+      "required": false
+    }
+  ]
+}
