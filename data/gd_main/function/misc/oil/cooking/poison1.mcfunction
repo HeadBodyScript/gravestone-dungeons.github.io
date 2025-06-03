@@ -7,8 +7,8 @@ particle minecraft:small_gust ~ ~1.3 ~ 0.25 1 0.25 0.1 20
 particle minecraft:composter ~ ~.3 ~ 0.3 0.1 0.3 0.1 40
 particle minecraft:totem_of_undying ~ ~2 ~ 0.1 0.3 0.1 0.1 10
 
-playsound minecraft:block.fire.extinguish player @a[distance=..10] ~ ~ ~ 10 1.6
-playsound advancementplaques:ui.toast.task_complete player @a[distance=..10] ~ ~ ~ 10 2
+playsound minecraft:block.fire.extinguish master @a[distance=..10] ~ ~ ~ 10 1.6
+playsound advancementplaques:ui.toast.task_complete master @a[distance=..10] ~ ~ ~ 10 2
 
 kill @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{fish_oil:1b}}}},sort=nearest,distance=..1.5]
 kill @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:poison"}}}},sort=nearest,distance=..1.5]

@@ -1,4 +1,4 @@
-playsound minecraft:entity.player.attack.weak master @s ~1 ~ ~ 10 2
+playsound minecraft:entity.player.attack.weak master @a[distance=..12] ~1 ~ ~ 10 2
 particle minecraft:happy_villager ^ ^.2 ^ 2 0 2 .1 10 force
 scoreboard players set @s enchantment.cultivation_CD 17
 

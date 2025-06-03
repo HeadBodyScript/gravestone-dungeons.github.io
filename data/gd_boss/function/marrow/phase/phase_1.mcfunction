@@ -11,7 +11,7 @@ execute if score @s bossTick matches 60 run playsound minecraft:entity.wither_sk
 execute if score @s bossTick matches 100 run playsound minecraft:entity.zombie.death master @a[distance=..32] ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 100 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : A challenger? Terrific!  Why do you disturb my everlasting watch?"}]
 execute if score @s bossTick matches 100 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : Don't disturb my everlasting watch! Otherwise I will crush your bones."}]
-execute if score @s bossTick matches 120 run playsound minecraft:entity.ravager.stunned ambient @a[distance=..32] ~ ~ ~ 50 0.5
+execute if score @s bossTick matches 120 run playsound minecraft:entity.ravager.stunned master @a[distance=..32] ~ ~ ~ 50 0.5
 execute if score @s bossTick matches 200 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : Are you sure you want to challenge me, little guy?"}]
 execute if score @s bossTick matches 200 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : Leave. NOW! Otherwise, I will ensure that you remain here forever as my servant in eternity."}]
 execute if score @s bossTick matches 260 run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..32] ~ ~ ~ 10 0.5
@@ -64,7 +64,7 @@ execute if score @s bossTick matches 320 at @p[tag=fighting.marrow] run tp @a[ta
 
 execute if score @s bossTick matches 300.. run particle falling_dust{block_state:{Name:green_terracotta}} ~ ~2 ~ 1 3 1 0 1 force
 execute if score @s bossTick matches 290 run playsound minecraft:block.sculk_shrieker.shriek master @a[distance=..32] ~ ~ ~ 10 .5
-execute if score @s bossTick matches 310 run playsound minecraft:entity.ravager.stunned ambient @a[distance=..32] ~ ~ ~ 10 0.5
+execute if score @s bossTick matches 310 run playsound minecraft:entity.ravager.stunned master @a[distance=..32] ~ ~ ~ 10 0.5
 execute if score @s bossTick matches ..318 run particle dust_color_transition{from_color: [.0f, .3f, .0f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~3 ~ .1 3 .1 0 15 force
 execute if score @s bossTick matches ..318 run particle minecraft:soul ~ ~1 ~ 0.1 2 .1 0.05 1
 execute if score @s bossTick matches ..318 run particle minecraft:ash ~ ~4 ~ 6 6 6 .3 5

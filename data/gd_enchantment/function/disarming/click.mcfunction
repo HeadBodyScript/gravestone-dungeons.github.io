@@ -1,2 +1,3 @@
 advancement revoke @s only gd_enchantment:disarming
-execute if score @s mana matches 4000.. unless score @s enchantment.disarming_CD matches 0.. at @s run function gd_enchantment:disarming/success
+execute if score @s mana matches 4000.. unless score @s enchantment.disarming_CD matches 0.. at @s if entity @e[type=#gd_main:entity,tag=!companion,distance=..4] run function gd_enchantment:disarming/success
+# execute if score @s mana matches 4000.. unless score @s enchantment.disarming_CD matches 0.. at @s if entity @e[type=player,distance=.1..4] run function gd_enchantment:disarming/success

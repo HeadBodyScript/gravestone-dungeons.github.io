@@ -13,62 +13,64 @@ playsound minecraft:entity.breeze.wind_burst master @a[distance=..20] ~ ~ ~ 20
 effect give @e[distance=..5] minecraft:wind_charged 4 2 false
 effect give @e[distance=..5] minecraft:slowness 3 7 true
 
-execute at @s run effect give @a[distance=..1.5] minecraft:levitation 1 60 true
+# execute at @s run effect give @a[distance=..1.5] minecraft:levitation 1 60 true
 
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @s {Motion:[0.0,2.6,0.0]}
 
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=.1..1] {Motion:[0.0,2.3,0.0]}
 
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=1..2] {Motion:[0.0,2.0,0.0]}
 
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=2..3] {Motion:[0.0,1.7,0.0]}
 
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
-data merge entity @e[type=!item,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=3..4] {Motion:[0.0,1.4,0.0]}
+
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
+data merge entity @e[type=#gd_main:entity,limit=1,sort=random,distance=4..5] {Motion:[0.0,1.1,0.0]}
 
 execute if score @s tick matches 4.. run effect clear @a[distance=..20] minecraft:levitation
 

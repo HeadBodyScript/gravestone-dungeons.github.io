@@ -6,7 +6,7 @@
       "inventory.*": {
         "items": "minecraft:emerald",
         "components": {
-          "minecraft:custom_data": "{artifact_4:1b}"
+          "minecraft:custom_data": "{artifact_3:1b}"
         }
       }
     }

@@ -8,8 +8,8 @@ execute as @a[scores={tick2=1}] at @e[type=armor_stand,tag=spawnmorbexbox] run s
 # execute as @a[scores={tick2=100..}] at @e[type=armor_stand,tag=morbex_void_sphere] run function gd:signs/vfx_sphere
 execute as @s[scores={tick2=100..}] at @e[type=armor_stand,tag=morbex_void_sphere] run tp @e[type=armor_stand,tag=morbex_void_sphere] ~ ~ ~ ~5 ~
 
-execute as @a[scores={tick2=2}] at @e[type=armor_stand,tag=morbex_void_sphere] run playsound minecraft:entity.ghast.death ambient @a[distance=..32] ~ ~ ~ 20 .5
-execute as @a[scores={tick2=75}] at @e[type=armor_stand,tag=morbex_void_sphere] run playsound minecraft:entity.illusioner.cast_spell ambient @a[distance=..32] ~ ~ ~ 20 1
+execute as @a[scores={tick2=2}] at @e[type=armor_stand,tag=morbex_void_sphere] run playsound minecraft:entity.ghast.death master @a[distance=..32] ~ ~ ~ 20 .5
+execute as @a[scores={tick2=75}] at @e[type=armor_stand,tag=morbex_void_sphere] run playsound minecraft:entity.illusioner.cast_spell master @a[distance=..32] ~ ~ ~ 20 1
 execute as @a[scores={tick2=150}] at @e[type=armor_stand,tag=morbex_void_sphere] run playsound minecraft:entity.enderman.death master @a[distance=..32] ~ ~ ~ 60 .1
 
 execute as @e[scores={tick2=1..50}] at @e[type=armor_stand,tag=morbex_void_sphere] run particle minecraft:smoke ~ ~ ~ .1 .1 .1 .1 1

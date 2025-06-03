@@ -1,6 +1,6 @@
 scoreboard players add @s[type=#gd_main:living] enchantment.poisoning_INT 1
 execute as @s[tag=boss,scores={enchantment.poisoning_INT=6..}] run function gd_enchantment:poisoning/success
-execute as @s[type=!player,tag=!boss,scores={enchantment.poisoning_INT=3..}] run function gd_enchantment:poisoning/success
+execute as @s[tag=!boss,tag=!companion,scores={enchantment.poisoning_INT=3..}] run function gd_enchantment:poisoning/success
 execute as @s[type=player,scores={enchantment.poisoning_INT=6..}] run function gd_enchantment:poisoning/success
 
 execute if score @p oil_poison matches ..100 run effect give @s minecraft:poison 3 1 false

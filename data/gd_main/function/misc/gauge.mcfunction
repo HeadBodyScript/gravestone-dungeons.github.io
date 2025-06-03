@@ -1,8 +1,8 @@
 execute if score @s enchantment.bleeding_INT matches 1.. run scoreboard players remove @s enchantment.bleeding_INT 1
 execute if score @s enchantment.bleeding_INT matches 1.. run title @s actionbar [{"score":{"name":"@s","objective":"enchantment.bleeding_INT"}},{"text":" / 6 "},{"text":"Bleeding Effect","color":"#990000"}]
 
-# scoreboard players remove @s enchantment.blessing_INT 1
-# execute if score @s enchantment.blessing_INT matches 1.. run title @s actionbar [{"score":{"name":"@s","objective":"enchantment.blessing_INT"}},{"text":" / 6"},{"text":"Blessing Effect","color":"#ffff33"}]
+# execute if score @s enchantment.holy_INT matches 1.. run scoreboard players remove @s enchantment.holy_INT 1
+# execute if score @s enchantment.holy_INT matches 1.. run title @s actionbar [{"score":{"name":"@s","objective":"enchantment.holy_INT"}},{"text":" / 6"},{"text":"Holy Effect","color":"#ffff33"}]
 
 execute if score @s enchantment.floating_INT matches 1.. run scoreboard players remove @s enchantment.floating_INT 1
 execute if score @s enchantment.floating_INT matches 1.. run title @s actionbar [{"score":{"name":"@s","objective":"enchantment.floating_INT"}},{"text":" / 6 "},{"text":"Floating Effect","color":"#00ccff"}]

@@ -14,13 +14,13 @@ execute at @e[type=marker,tag=marker.minion,tag=devil] run particle minecraft:la
 execute at @e[type=marker,tag=marker.minion,tag=devil] run effect give @a[distance=..48] minecraft:darkness 2 0 true
 
 
-execute if score @s tick2 matches 1..3 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
-execute if score @s tick2 matches 18..20 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
-execute if score @s tick2 matches 40..43 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
-execute if score @s tick2 matches 72..75 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
-execute if score @s tick2 matches 94..95 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
-execute if score @s tick2 matches 121..124 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
-execute if score @s tick2 matches 143..145 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
-execute if score @s tick2 matches 156..160 run playsound minecraft:entity.vex.charge ambient @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 1..3 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 18..20 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 40..43 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 72..75 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 94..95 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 121..124 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 143..145 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
+execute if score @s tick2 matches 156..160 run playsound minecraft:entity.vex.charge master @a[distance=..48] ~ ~ ~ 30 .5
 execute if score @s tick2 matches 200 run tag @s remove init
 scoreboard players set @s[scores={tick2=200}] tick2 0

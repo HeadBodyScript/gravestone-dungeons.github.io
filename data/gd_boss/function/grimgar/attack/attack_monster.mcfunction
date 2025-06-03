@@ -1,4 +1,4 @@
-execute at @e[type=minecraft:evoker,tag=boss.grimgar] run playsound minecraft:entity.evoker.prepare_attack ambient @a[distance=..32] ~ ~ ~ 10 2
+execute at @e[type=minecraft:evoker,tag=boss.grimgar] run playsound minecraft:entity.evoker.prepare_attack master @a[distance=..32] ~ ~ ~ 10 2
 execute store result score .INT0 randomNumber run random value 1..3
 
 execute if score .INT0 randomNumber matches 1 at @e[type=minecraft:evoker,tag=boss.grimgar] run summon silverfish ~ ~ ~1 {Team:ENEMY,Health:20f,active_effects:[{id:"minecraft:wind_charged",amplifier:0,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"minecraft:infested",amplifier:0,duration:-1,show_particles:0b,show_icon:1b,ambient:0b}],attributes:[{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:5},{id:"minecraft:generic.water_movement_efficiency",base:1},{id:"minecraft:generic.scale",base:1.2}],Motion:[0.0,0.2,0.5]}
@@ -14,5 +14,5 @@ execute if score .INT0 randomNumber matches 3 at @e[type=minecraft:evoker,tag=bo
 execute if score .INT0 randomNumber matches 3 at @e[type=minecraft:evoker,tag=boss.grimgar] run summon endermite ~-1 ~ ~1 {Team:ENEMY,Health:20f,active_effects:[{id:"minecraft:infested",amplifier:0,duration:-1,show_particles:0b,show_icon:0b,ambient:0b},{id:"minecraft:infested",amplifier:0,duration:-1,show_particles:0b,show_icon:1b,ambient:0b}],attributes:[{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.max_health",base:5},{id:"minecraft:generic.water_movement_efficiency",base:1},{id:"minecraft:generic.scale",base:1.2}],Motion:[-0.5,0.2,0.0]}
 
 execute at @e[type=minecraft:evoker,tag=boss.grimgar] run particle minecraft:infested ~ ~ ~ 0 0 0 .1 30
-execute at @e[type=minecraft:evoker,tag=boss.grimgar] run playsound minecraft:entity.evoker.cast_spell ambient @a[distance=..32] ~ ~ ~ 10 1
+execute at @e[type=minecraft:evoker,tag=boss.grimgar] run playsound minecraft:entity.evoker.cast_spell master @a[distance=..32] ~ ~ ~ 10 1
 

@@ -2,7 +2,5 @@ tellraw @s [{"text":"You walk under the sign of fast healing.","color":"light_pu
 particle minecraft:cherry_leaves ~ ~1 ~ 0.5 1 0.5 0.05 20 force
 
 function gd_main:misc/arcane/reward/an_stop
-playsound minecraft:block.beacon.power_select master @s ~ ~ ~ 1 1.7
-effect give @s minecraft:regeneration 3600 0 true
-
-#scoreboard players operation @s node_CD = ARCANE.node INT
+playsound minecraft:block.beacon.power_select master @a[distance=..12] ~ ~ ~ 1 1.7
+effect give @s minecraft:regeneration 72000 0 true

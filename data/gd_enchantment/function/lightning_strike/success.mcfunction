@@ -11,6 +11,8 @@ summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:
 summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike11","projectile.lightning_strike"]}
 summon armor_stand ~ ~1 ~ {DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:["projectile.lightning_strike12","projectile.lightning_strike"]}
 
+execute as @e[tag=projectile.lightning_strike,distance=..3] at @s unless score @s UUID matches 1.. run scoreboard players operation @s UUID = @p UUID
+
 execute at @e[type=armor_stand,tag=projectile.lightning_strike1] run tp @e[type=armor_stand,tag=projectile.lightning_strike1] ^ ^ ^ ~ ~
 execute at @e[type=armor_stand,tag=projectile.lightning_strike2] run tp @e[type=armor_stand,tag=projectile.lightning_strike2] ^ ^ ^ ~30 ~
 execute at @e[type=armor_stand,tag=projectile.lightning_strike3] run tp @e[type=armor_stand,tag=projectile.lightning_strike3] ^ ^ ^ ~60 ~
@@ -24,6 +26,6 @@ execute at @e[type=armor_stand,tag=projectile.lightning_strike10] run tp @e[type
 execute at @e[type=armor_stand,tag=projectile.lightning_strike11] run tp @e[type=armor_stand,tag=projectile.lightning_strike11] ^ ^ ^ ~300 ~
 execute at @e[type=armor_stand,tag=projectile.lightning_strike12] run tp @e[type=armor_stand,tag=projectile.lightning_strike12] ^ ^ ^ ~330 ~
 
-scoreboard players remove @s mana 3000
+scoreboard players remove @s mana 2000
 scoreboard players set @e[tag=projectile.lightning_strike] enchantment.lightning_strike_VFX 0
-scoreboard players set @s enchantment.lightning_strike_CD 60
+scoreboard players set @s enchantment.lightning_strike_CD 600

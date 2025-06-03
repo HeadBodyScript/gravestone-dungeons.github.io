@@ -1,4 +1,4 @@
-playsound minecraft:entity.player.attack.weak master @s ~1 ~ ~ 10 .5
+playsound minecraft:entity.player.attack.weak master @a[distance=..12] ~1 ~ ~ 10 .5
 particle minecraft:sweep_attack ^ ^1.2 ^.5
 scoreboard players set @s enchantment.cultivation_CD 17
 

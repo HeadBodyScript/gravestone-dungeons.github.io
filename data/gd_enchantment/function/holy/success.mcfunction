@@ -1,6 +1,6 @@
 scoreboard players add @s enchantment.holy_VFX 0
 scoreboard players reset @s enchantment.holy_INT
-damage @s[type=!minecraft:player] 22 minecraft:player_attack
+damage @s 22 minecraft:player_attack
 # damage @s[type=minecraft:player] 8 minecraft:player_attack
 data merge entity @s {Fire:300s}
 

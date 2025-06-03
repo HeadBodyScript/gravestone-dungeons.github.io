@@ -17,12 +17,12 @@ execute if score @s tick0 matches 10 at @p[tag=shadow.trap_respawn] run effect g
 # execute if score @s tick0 matches 240 at @p[tag=shadow.trap_respawn] run damage @p 1 minecraft:in_wall
 
 execute if score @s tick0 matches 10..120 run tp @p[tag=shadow.trap_respawn] ~ -70 ~
-execute if score @s tick0 matches 12 at @p[tag=shadow.trap_respawn] run playsound minecraft:ambient.warped_forest.mood ambient @p ~ ~ ~ 1 .5
-execute if score @s tick0 matches 120 at @p[tag=shadow.trap_respawn] run playsound minecraft:entity.breeze.idle_ground ambient @p ~ ~ ~ 1 .5
-execute if score @s tick0 matches 12 at @p[tag=shadow.trap_respawn] run playsound minecraft:entity.enderman.teleport ambient @p ~ ~ ~ 1 1
+execute if score @s tick0 matches 12 at @p[tag=shadow.trap_respawn] run playsound minecraft:ambient.warped_forest.mood master @p ~ ~ ~ 1 .5
+execute if score @s tick0 matches 120 at @p[tag=shadow.trap_respawn] run playsound minecraft:entity.breeze.idle_ground master @p ~ ~ ~ 1 .5
+execute if score @s tick0 matches 12 at @p[tag=shadow.trap_respawn] run playsound minecraft:entity.enderman.teleport master @p ~ ~ ~ 1 1
 execute if score @s tick0 matches 20..290 at @p[tag=shadow.trap_respawn] run particle minecraft:large_smoke ~ ~-1 ~ 0.3 1.5 0.3 0.1 1
 execute if score @s tick0 matches 290 at @s run tp @p[tag=shadow.trap_respawn] ~ ~ ~
-execute if score @s tick0 matches 292 at @p[tag=shadow.trap_respawn] run playsound minecraft:entity.enderman.teleport ambient @p ~ ~ ~ 1 1
+execute if score @s tick0 matches 292 at @p[tag=shadow.trap_respawn] run playsound minecraft:entity.enderman.teleport master @p ~ ~ ~ 1 1
 
 execute if score @s tick0 matches 295.. run particle minecraft:flash ~ ~ ~ .2 .3 .2 1 15
 execute if score @s tick0 matches 295.. run particle minecraft:large_smoke ~ ~1 ~ 0.3 1.5 0.3 0.1 30

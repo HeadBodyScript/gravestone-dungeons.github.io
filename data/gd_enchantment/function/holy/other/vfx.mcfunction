@@ -19,7 +19,7 @@ particle minecraft:crit ~ ~-1 ~ 0.2 1 0.2 1 1
 particle minecraft:electric_spark ~ ~-1 ~ 0.2 .5 0.2 1 1
 particle minecraft:small_flame ~ ~-1 ~ 0.2 .5 0.2 .03 2
 
-execute as @s[scores={enchantment.holy_VFX=2}] run playsound block.beacon.power_select master @a ~ ~ ~ 20 2 1
-execute as @s[scores={enchantment.holy_VFX=2}] run playsound minecraft:entity.player.attack.knockback master @a ~ ~ ~ 20 .5 1
+execute as @s[scores={enchantment.holy_VFX=2}] run playsound block.beacon.power_select master @a[distance=..10] ~ ~ ~ 20 2 1
+execute as @s[scores={enchantment.holy_VFX=2}] run playsound minecraft:entity.player.attack.knockback master @a[distance=..10] ~ ~ ~ 20 .5 1
 
 scoreboard players reset @s[scores={enchantment.holy_VFX=20}] enchantment.holy_VFX

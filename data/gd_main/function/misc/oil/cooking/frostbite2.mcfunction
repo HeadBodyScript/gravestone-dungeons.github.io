@@ -8,8 +8,8 @@ particle minecraft:instant_effect ~ ~.3 ~ 0.3 0.1 0.3 0.1 40
 particle minecraft:snowflake ~ ~2 ~ 0.1 0.3 0.1 0.1 10
 particle minecraft:sonic_boom ~ ~1 ~ 0.1 0.1 0.1 0.1 1
 
-playsound minecraft:block.amethyst_block.chime player @a[distance=..10] ~ ~ ~ 10 1.6
-playsound advancementplaques:ui.toast.task_complete player @a[distance=..10] ~ ~ ~ 10 2
+playsound minecraft:block.amethyst_block.chime master @a[distance=..10] ~ ~ ~ 10 1.6
+playsound advancementplaques:ui.toast.task_complete master @a[distance=..10] ~ ~ ~ 10 2
 
 kill @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{fish_oil:1b}}}},sort=nearest,distance=..1.5]
 kill @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:slowness"}}}},sort=nearest,distance=..1.5]

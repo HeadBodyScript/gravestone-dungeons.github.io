@@ -54,6 +54,18 @@
         },
         "enchanted": "attacker",
         "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:resistance",
+          "min_duration": 2,
+          "max_duration": 2,
+          "min_amplifier": 5,
+          "max_amplifier": 5
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
       }
     ],
     "minecraft:attributes": [

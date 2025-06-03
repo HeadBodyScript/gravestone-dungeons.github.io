@@ -25,6 +25,7 @@ scoreboard objectives add tick5 dummy
 scoreboard objectives add tick6 dummy
 scoreboard objectives add tick7 dummy
 scoreboard objectives add tick8 dummy
+scoreboard objectives add tick9 dummy
 
 scoreboard objectives add deathCount deathCount
 scoreboard objectives add playerCount dummy
@@ -72,6 +73,7 @@ scoreboard objectives add enchantment.deflect_TD dummy
 scoreboard objectives add enchantment.deflect_CD dummy
 
 scoreboard objectives add enchantment.evoker_fangs_TICK dummy
+scoreboard objectives add enchantment.evoker_fangs_TD dummy
 scoreboard objectives add enchantment.evoker_fangs_CD dummy
 
 scoreboard objectives add enchantment.fire_burst_CD dummy
@@ -90,6 +92,7 @@ scoreboard objectives add enchantment.greatblade_defense_DL dummy
 
 scoreboard objectives add enchantment.illumination_CD dummy
 scoreboard objectives add enchantment.illumination_VFX dummy
+scoreboard objectives add enchantment.illumination_VFX1 dummy
 
 scoreboard objectives add enchantment.knife_pouch_VFX dummy
 scoreboard objectives add enchantment.knife_pouch_INT dummy

@@ -7,14 +7,14 @@ effect give @a[distance=..32] minecraft:slowness 1 2 true
 execute if score @s bossTick matches 10 run function gd_main:check/edit_me
 
 execute if score @s bossTick matches 10 as @a[tag=fighting.grimgar] run function gd:boss/grimgar
-execute if score @s bossTick matches 1 run playsound minecraft:block.bell.resonate ambient @a[distance=..32] ~ ~ ~ 10 1
-execute if score @s bossTick matches 1 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Something has changed. I feel weak... What is happening? What the..."}]
+execute if score @s bossTick matches 2 run playsound minecraft:block.bell.resonate master @a[distance=..32] ~ ~ ~ 10 1
+execute if score @s bossTick matches 2 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"selector":"@a[limit=1,sort=random,distance=..32]"},{"text":" : Something has changed. I feel weak... What is happening? What the..."}]
 execute if score @s bossTick matches 10 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"text":"Grimgar","color":"#009999"},{"text":" : You are not welcome.. leave now!"}]
 execute if score @s bossTick matches 20 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}
-execute if score @s bossTick matches 30 run playsound minecraft:entity.lightning_bolt.thunder ambient @a[distance=..32] ~ ~ ~ 10 2
+execute if score @s bossTick matches 30 run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..32] ~ ~ ~ 10 2
 execute if score @s bossTick matches 30..32 run particle minecraft:flash ~ ~ ~ 0.1 .1 0.1 0.5 3
 execute if score @s bossTick matches 60 run tellraw @a[distance=..32,tag=fighting.grimgar] ["",{"text":"Grimgar","color":"#009999"},{"text":" : Argh, another challenger? Pathetic."}]
-execute if score @s bossTick matches 60 run playsound minecraft:entity.lightning_bolt.thunder ambient @a[distance=..32] ~ ~ ~ 10 2
+execute if score @s bossTick matches 60 run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..32] ~ ~ ~ 10 2
 execute if score @s bossTick matches 60..62 run particle minecraft:flash ~ ~ ~ 0.1 .1 0.1 0.5 3
 execute if score @s bossTick matches 30..83 run particle large_smoke ^ ^-2 ^3 .1 0 .1 0.01 10 force
 execute if score @s bossTick matches 81..133 run particle large_smoke ^ ^-1.75 ^2 .1 0 .1 0.01 10 force
@@ -22,16 +22,16 @@ execute if score @s bossTick matches 131..183 run particle large_smoke ^ ^-1.5 ^
 execute if score @s bossTick matches 181..233 run particle large_smoke ^ ^-1.25 ^1 .1 0 .1 0.01 8 force
 execute if score @s bossTick matches 231..283 run particle large_smoke ^ ^-1 ^1 .1 0 .1 0.01 8 force
 execute if score @s bossTick matches 281.. run particle large_smoke ^ ^-0.75 ^1 .1 0 .1 0.2 6 force
-execute if score @s bossTick matches 80 run playsound minecraft:entity.enderman.stare ambient @a[distance=..32] ~ ~ ~ 10 2
+execute if score @s bossTick matches 80 run playsound minecraft:entity.enderman.stare master @a[distance=..32] ~ ~ ~ 10 2
 execute if score @s bossTick matches 80 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}
-execute if score @s bossTick matches 80 run playsound minecraft:entity.lightning_bolt.thunder ambient @a[distance=..32] ~ ~ ~ 10 2
+execute if score @s bossTick matches 80 run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..32] ~ ~ ~ 10 2
 execute if score @s bossTick matches 80..92 run particle minecraft:flash ~ ~ ~ 0.1 .1 0.1 0.5 3
 execute if score @s bossTick matches 90..120 run particle minecraft:soul ~ ~1 ~ 0.7 2 0.7 0.01 1
 execute if score @s bossTick matches 121..140 run particle minecraft:soul ~ ~1 ~ 0.7 2 0.7 0.02 3
 execute if score @s bossTick matches 141..150 run particle minecraft:soul ~ ~1 ~ 0.7 2 0.7 0.03 5
-execute if score @s bossTick matches 140 run playsound minecraft:block.bell.use ambient @a[distance=..32] ~ ~ ~ 10 1
-execute if score @s bossTick matches 150 run playsound minecraft:block.bell.resonate ambient @a[distance=..32] ~ ~ ~ 10 1
-execute if score @s bossTick matches 155 run playsound minecraft:entity.lightning_bolt.thunder ambient @a[distance=..32] ~ ~ ~ 10 2
+execute if score @s bossTick matches 140 run playsound minecraft:block.bell.use master @a[distance=..32] ~ ~ ~ 10 1
+execute if score @s bossTick matches 150 run playsound minecraft:block.bell.resonate master @a[distance=..32] ~ ~ ~ 10 1
+execute if score @s bossTick matches 155 run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..32] ~ ~ ~ 10 2
 execute if score @s bossTick matches 100 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}
 execute if score @s bossTick matches 110 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}
 execute if score @s bossTick matches 130 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}
@@ -45,10 +45,10 @@ execute if score @s bossTick matches 150 at @e[type=minecraft:marker,tag=marker.
 execute if score @s bossTick matches 150 at @p[tag=fighting.grimgar] run tp @a[tag=fighting.grimgar] ~ ~ ~
 execute if score @s bossTick matches 150.. at @e[type=armor_stand,tag=grimgar_wall] run particle dust_color_transition{from_color: [.1f, .4f, .9f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~.5 ~ .2 2 .2 0 1 force
 execute if score @s bossTick matches 150 run playsound minecraft:skellige_battle_grimgar record @a[distance=..32] ~ ~1 ~ 50
-execute if score @s bossTick matches 170 run playsound minecraft:entity.pillager.celebrate ambient @a[distance=..32] ~ ~ ~ 10 0.5
-execute if score @s bossTick matches 170 run playsound minecraft:entity.ravager.roar ambient @a[distance=..32] ~ ~ ~ 10 0.5
+execute if score @s bossTick matches 170 run playsound minecraft:entity.pillager.celebrate master @a[distance=..32] ~ ~ ~ 10 0.5
+execute if score @s bossTick matches 170 run playsound minecraft:entity.ravager.roar master @a[distance=..32] ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 180 run summon armor_stand ^ ^ ^-1.05 {Invisible:1b,Marker:1b,Tags:["VFX.spark"]}
-execute if score @s bossTick matches 200 run playsound minecraft:entity.lightning_bolt.thunder ambient @a[distance=..32] ~ ~ ~ 10 2
+execute if score @s bossTick matches 200 run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..32] ~ ~ ~ 10 2
 execute if score @s bossTick matches 140..250 run particle dust_color_transition{from_color: [.0f, .0f, .1f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~4 ~ .1 3 .1 0 5 force
 execute if score @s bossTick matches 150..300 run particle minecraft:soul ~ ~1 ~ 0.7 2 0.7 0.1 2
 execute if score @s bossTick matches ..300 run particle minecraft:warped_spore ~ ~1 ~ 0.1 2 0.1 0.3 10
@@ -68,7 +68,7 @@ execute if score @s bossTick matches 290..292 run summon firework_rocket ~ ~1 ~ 
 execute if score @s bossTick matches 290..305 run particle minecraft:flash ~ ~ ~ 0.1 .1 0.1 0.5 3
 execute if score @s bossTick matches 300 run effect give @a[distance=..30,tag=fighting.grimgar] minecraft:darkness 7 1 true
 execute if score @s bossTick matches 280..300 run particle minecraft:flash ~ ~ ~ 0.3 .5 0.3 0.5 1
-execute if score @s bossTick matches 290 run playsound minecraft:entity.pillager.celebrate ambient @a[distance=..32] ~ ~ ~ 10 0.5
+execute if score @s bossTick matches 290 run playsound minecraft:entity.pillager.celebrate master @a[distance=..32] ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 260 at @e[tag=marker.minion,sort=random,limit=1] run summon lightning_bolt ~ ~ ~
 execute if score @s bossTick matches 270 at @e[tag=marker.minion,sort=random,limit=1] run summon lightning_bolt ~ ~ ~
 execute if score @s bossTick matches 275 at @e[tag=marker.minion,sort=random,limit=2] run summon lightning_bolt ~ ~ ~

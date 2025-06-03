@@ -3,8 +3,8 @@ scoreboard players add @s tick7 1
 execute as @s[scores={tick7=100..}] run function gd_enchantment:void_sphere/other/init
 execute as @s[scores={tick7=100..}] run tp @s ~ ~ ~ ~5 ~
 
-execute as @s[scores={tick7=1}] run playsound minecraft:entity.ghast.death ambient @a[distance=..32] ~ ~ ~ 20 .5
-execute as @s[scores={tick7=75}] run playsound minecraft:entity.illusioner.cast_spell ambient @a[distance=..32] ~ ~ ~ 20 1
+execute as @s[scores={tick7=1}] run playsound minecraft:entity.ghast.death master @a[distance=..32] ~ ~ ~ 20 .5
+execute as @s[scores={tick7=75}] run playsound minecraft:entity.illusioner.cast_spell master @a[distance=..32] ~ ~ ~ 20 1
 execute as @s[scores={tick7=150}] run playsound minecraft:entity.enderman.death master @a[distance=..32] ~ ~ ~ 60 .1
 
 execute as @s[scores={tick7=1..50}] run particle minecraft:smoke ~ ~ ~ .1 .1 .1 .1 1

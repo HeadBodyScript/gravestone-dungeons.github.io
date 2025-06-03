@@ -2,16 +2,16 @@ scoreboard players add @s tick 1
 execute if entity @s[scores={tick=1}] store result score .INT0 randomNumber run random value 1..255
 execute if entity @s[scores={tick=1}] run scoreboard players operation @s UUID = .INT0 UUID
 
-execute as @e[type=#gd_main:entity,distance=..5] run function gd_main:ability/thunder/damage
+execute as @e[type=#gd_main:entity,tag=!companion,distance=..5] run function gd_main:ability/thunder/damage
 # execute as @e[type=#gd_main:entity,distance=..5] at @s unless score @s UUID = @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=marker_ability_thunder] UUID run function gd_main:ability/thunder/damage
 particle minecraft:electric_spark ~ ~2 ~ 3 2 3 0.001 1
 
 # execute as @e[type=arrow,nbt=!{inGround:1b},distance=..5] run data merge entity @s[type=arrow] {item:{components:{"minecraft:custom_data":{fire_arrow:0b,freezing_arrow:0b,lightning_arrow:1b}}}}
 
-execute if entity @s[scores={tick=1}] run playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 40 .1
-execute if entity @s[scores={tick=1}] run weather thunder
-execute if entity @s[scores={tick=600}] run playsound minecraft:entity.wind_charge.wind_burst master @a ~ ~ ~ 40 .5
-execute if entity @s[scores={tick=600}] run weather clear
+execute if entity @s[scores={tick=1}] run playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..20] ~ ~ ~ 40 .1
+# execute if entity @s[scores={tick=1}] run weather thunder
+execute if entity @s[scores={tick=600}] run playsound minecraft:entity.wind_charge.wind_burst master @a[distance=..20] ~ ~ ~ 40 .5
+# execute if entity @s[scores={tick=600}] run weather clear
 
 scoreboard objectives add thunderfield_sound dummy
 scoreboard players add @e[type=armor_stand,tag=thunderfield,limit=1,sort=nearest] thunderfield_sound 1

@@ -1,1 +1,1 @@
-execute at @s as @e[type=marker,limit=1,sort=nearest] if entity @s[tag=FALSE] if entity @p[gamemode=survival] run gamemode adventure @p
+# execute at @s as @e[type=marker,limit=1,sort=nearest] if entity @s[tag=FALSE] if entity @p[gamemode=survival] run gamemode adventure @p

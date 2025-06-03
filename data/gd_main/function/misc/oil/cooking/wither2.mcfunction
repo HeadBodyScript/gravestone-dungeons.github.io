@@ -8,8 +8,8 @@ particle minecraft:infested ~ ~.3 ~ 0.3 0.1 0.3 0.1 40
 particle minecraft:vault_connection ~ ~2 ~ 0.1 0.3 0.1 0.1 20
 particle minecraft:smoke ~ ~1 ~ 0.1 0.1 0.1 0.1 20
 
-playsound minecraft:entity.warden.agitated player @a[distance=..10] ~ ~ ~ 10 1.5
-playsound advancementplaques:ui.toast.task_complete player @a[distance=..10] ~ ~ ~ 10 2
+playsound minecraft:entity.warden.agitated master @a[distance=..10] ~ ~ ~ 10 1.5
+playsound advancementplaques:ui.toast.task_complete master @a[distance=..10] ~ ~ ~ 10 2
 
 kill @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:custom_data":{fish_oil:1b}}}},sort=nearest,distance=..1.5]
 kill @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:harming"}}}},sort=nearest,distance=..1.5]

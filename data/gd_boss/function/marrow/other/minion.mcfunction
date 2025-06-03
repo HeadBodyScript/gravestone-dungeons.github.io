@@ -7,6 +7,6 @@ execute if score @s randomNumber matches 5 run summon bogged ~ ~ ~ {CustomName:'
 execute if score @s randomNumber matches 6 run summon bogged ~ ~ ~ {CustomName:'[{"text":"Undead Servant","color":"#50A100"}]',Health:20,Tags:["minion.marrow"],HandItems:[{id:stone_hoe,count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{id:iron_chestplate},{}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:20f}]}
 execute if score @s randomNumber matches 7 run summon zombie ~ ~ ~ {CustomName:'[{"text":"Undead Servant","color":"#50A100"}]',Health:24,Tags:["minion.marrow"],HandItems:[{id:iron_axe,count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{},{id:iron_helmet}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:24f}]}
 execute if score @s randomNumber matches 8 run summon zombie ~ ~ ~ {CustomName:'[{"text":"Undead Servant","color":"#50A100"}]',Health:16,Tags:["minion.marrow"],HandItems:[{id:stone_sword,count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{},{},{id:chainmail_chestplate},{id:iron_helmet}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:16f}]}
-playsound minecraft:entity.skeleton.converted_to_stray ambient @a[distance=..32] ~ ~ ~ 10 1
-playsound minecraft:entity.skeleton_horse.death ambient @a[distance=..32] ~ ~ ~ 10 2
+playsound minecraft:entity.skeleton.converted_to_stray master @a[distance=..32] ~ ~ ~ 10 1
+playsound minecraft:entity.skeleton_horse.death master @a[distance=..32] ~ ~ ~ 10 2
 particle dust_color_transition{from_color: [.0f, .9f, .0f], scale: 1.4f, to_color: [.2f, .6f, .2f]} ~ ~1 ~ .2 .5 .2 .1 100 force

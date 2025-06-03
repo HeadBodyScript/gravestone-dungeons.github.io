@@ -4,13 +4,13 @@ execute unless score @s UUID matches 1.. store result score @s UUID run scoreboa
 
 execute if score s.stat INT matches 1 unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b}] unless items entity @s weapon.mainhand #gd_main:modify[minecraft:custom_data={modified:1b,enchantment:1b}] run function gd_main:modify/item/check
 
-execute as @a at @s unless entity @e[tag=companion,distance=..24] if score @s UUID = @p UUID run scoreboard players reset @p companionCount
+
 
 execute as @s store result score @s foodLevel run data get entity @s foodLevel
 execute if score @s foodLevel matches 8.. unless score @s mana >= @s mana_max run scoreboard players operation @s mana += @s mana_boost
 execute if score @s foodLevel matches 8.. as @s[scores={mana_boost_duration=0..}] unless score @s mana >= @s mana_max run scoreboard players add @s mana 1
 execute as @s[scores={mana_boost_duration=0..}] run scoreboard players remove @s mana_boost_duration 1
-execute if score @s foodLevel matches 8.. if predicate gd_main:item_artifact_4 unless score @s mana >= @s mana_max run scoreboard players add @s mana 1
+execute if score @s foodLevel matches 8.. if predicate gd_main:item_artifact_3 unless score @s mana >= @s mana_max run scoreboard players add @s mana 1
 
 execute as @s[scores={trigger.talked_to_villager=1..}] run function gd_main:text/trigger
 
@@ -33,7 +33,7 @@ execute if predicate gd_main:tag_test/armor_earthdweller if predicate gd_main:is
 execute if predicate gd_main:tag_test/armor_merchant run function gd_main:misc/armor_sets/merchant
 
 execute if predicate gd_main:tag_test/armor_armadillo if predicate gd_main:is_sneaking if score @s mana matches 600.. run function gd_main:misc/armor_sets/armadillo
-execute if predicate gd_main:tag_test/armor_guardian if predicate gd_main:is_sneaking if score @s mana matches 4000.. run function gd_main:misc/armor_sets/guardian
+execute if predicate gd_main:tag_test/armor_guardian if predicate gd_main:is_sneaking if score @s mana matches 2000.. run function gd_main:misc/armor_sets/guardian
 execute if predicate gd_main:tag_test/armor_wither if predicate gd_main:is_on_fire run function gd_main:misc/armor_sets/wither
 execute if predicate gd_main:tag_test/armor_amethyst if predicate gd_main:is_sneaking run function gd_main:misc/armor_sets/amethyst
 
@@ -63,6 +63,8 @@ execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={oxygen1:1b}] run function gd_main:misc/rune/oxygen_bonus/display
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={falldistance1:1b}] run function gd_main:misc/rune/safe_fall_distance/display
 execute if items entity @s weapon.mainhand minecraft:sentry_armor_trim_smithing_template[minecraft:custom_data={companion1:1b}] run function gd_main:misc/rune/companion/display
+
+execute as @a at @s unless entity @e[tag=companion,distance=..24] if score @s UUID = @p UUID run scoreboard players reset @p companionCount
 
 scoreboard players set @s companionCount 0
 execute as @e[tag=!healer,tag=companion] if score @s UUID = @p UUID run scoreboard players add @p companionCount 1

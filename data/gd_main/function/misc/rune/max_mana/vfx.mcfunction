@@ -6,10 +6,10 @@ tp @s ~ ~0.1 ~ ~.2 ~
 # execute as @s[scores={tick=1}] at @s[type=armor_stand,tag=tick] run summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:0b,ShowArms:0b,NoBasePlate:1b,Small:1b,Tags:["tick3","tickx"],Motion:[0.0,0.2,2.0]}
 # execute as @s[scores={tick=1}] at @s[type=armor_stand,tag=tick] run summon armor_stand ~ ~ ~ {Invisible:1b,NoGravity:0b,ShowArms:0b,NoBasePlate:1b,Small:1b,Tags:["tick4","tickx"],Motion:[0.0,0.2,-2.0]}
 execute as @s[scores={tick=1..5}] run function gd_main:misc/rune/max_mana/vfx1
-execute as @s[scores={tick=1}] run playsound minecraft:block.respawn_anchor.set_spawn master @a ~ ~ ~ 10 1
-execute as @s[scores={tick=15}] run playsound minecraft:block.beacon.activate master @a ~ ~ ~ 10 1
-execute as @s[scores={tick=25}] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 10 .6
-execute as @s[scores={tick=1}] run playsound minecraft:block.amethyst_block.resonate master @a ~ ~ ~ 10 1
+execute as @s[scores={tick=1}] run playsound minecraft:block.respawn_anchor.set_spawn master @a[distance=..12] ~ ~ ~ 10 1
+execute as @s[scores={tick=15}] run playsound minecraft:block.beacon.activate master @a[distance=..12] ~ ~ ~ 10 1
+execute as @s[scores={tick=25}] run playsound minecraft:block.beacon.power_select master @a[distance=..12] ~ ~ ~ 10 .6
+execute as @s[scores={tick=1}] run playsound minecraft:block.amethyst_block.resonate master @a[distance=..12] ~ ~ ~ 10 1
 execute as @s[scores={tick=0..5}] run particle minecraft:sonic_boom ~ ~1 ~ .5 .5 .5 0.1 1
 execute as @s[scores={tick=0..10}] run particle minecraft:sonic_boom ~ ~1 ~ 1 1 1 0.1 1
 execute as @s[scores={tick=0..15}] run particle minecraft:sonic_boom ~ ~1 ~ 1.5 1.5 1.5 0.1 1

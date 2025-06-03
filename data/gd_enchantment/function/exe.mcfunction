@@ -7,11 +7,11 @@ execute as @e[scores={enchantment.bleeding_VFX=0..}] at @s run function gd_encha
 # breeding_stone
 execute as @a[scores={breeding_stone_CD=0..}] run scoreboard players remove @s breeding_stone_CD 1
 
-# blessing
-execute as @e[scores={enchantment.blessing_VFX=0..}] at @s run function gd_enchantment:blessing/other/vfx
-
 # bonecaller
-execute as @e[scores={enchantment.bonecaller_TD=0..}] at @s run function gd_enchantment:bonecaller/other/td
+execute as @e[tag=projectile_bonecaller1] at @s run function gd_enchantment:bonecaller/other/td1
+execute as @e[tag=projectile_bonecaller2] at @s run function gd_enchantment:bonecaller/other/td2
+execute as @e[tag=projectile_bonecaller3] at @s run function gd_enchantment:bonecaller/other/td3
+execute as @e[tag=projectile_bonecaller4] at @s run function gd_enchantment:bonecaller/other/td4
 execute as @a[scores={enchantment.bonecaller_CD=0..}] run scoreboard players remove @s enchantment.bonecaller_CD 1
 
 # cultivation
@@ -25,7 +25,10 @@ execute as @a[scores={enchantment.deflect_CD=0..}] run scoreboard players remove
 execute as @a[scores={enchantment.disarming_CD=0..}] run scoreboard players remove @s enchantment.disarming_CD 1
 
 # evoker_fangs
-execute as @e[scores={enchantment.evoker_fangs_TICK=0..}] at @s run function gd_enchantment:evoker_fangs/other/tick
+execute as @e[scores={enchantment.evoker_fangs_TICK=0..}] at @s run function gd_enchantment:evoker_fangs/other/tick1
+execute as @e[tag=projectile.evoker_fangs1] at @s run function gd_enchantment:evoker_fangs/other/tick2
+execute as @e[tag=projectile.evoker_fangs2] at @s run function gd_enchantment:evoker_fangs/other/tick3
+
 execute as @a[scores={enchantment.evoker_fangs_CD=0..}] run scoreboard players remove @s enchantment.evoker_fangs_CD 1
 
 # fire_burst
@@ -46,10 +49,14 @@ execute as @a[scores={enchantment.greatblade_defense_CD=0..}] run scoreboard pla
 
 # horse
 
+# holy
+execute as @e[scores={enchantment.holy_VFX=0..}] at @s run function gd_enchantment:holy/other/vfx
+
 #inner_echo
 
 # illumination
 execute as @e[scores={enchantment.illumination_VFX=0..}] at @s run function gd_enchantment:illumination/other/vfx
+execute as @e[scores={enchantment.illumination_VFX1=0..}] at @s run function gd_enchantment:illumination/other/vfx1
 execute as @a[scores={enchantment.illumination_CD=0..}] run scoreboard players remove @s enchantment.illumination_CD 1
 
 # knife_pouch
@@ -60,7 +67,7 @@ execute as @a[scores={enchantment.knife_pouch_CD=0..}] run scoreboard players re
 execute as @a[scores={enchantment.levitation_CD=0..}] run scoreboard players remove @s enchantment.levitation_CD 1
 
 # light_wave
-execute if entity @e[scores={enchantment.light_wave_TD=25..}] at @e[tag=projectile.light_wave,limit=1,sort=random] run function gd_enchantment:light_wave/other/hit
+execute if entity @e[scores={enchantment.light_wave_TD=0..}] as @e[tag=projectile.light_wave,limit=1,sort=random] at @s run function gd_enchantment:light_wave/other/hit
 execute as @e[scores={enchantment.light_wave_TD=0..}] at @s run function gd_enchantment:light_wave/other/vfx
 execute as @a[scores={enchantment.light_wave_CD=0..}] run scoreboard players remove @s enchantment.light_wave_CD 1
 
@@ -87,7 +94,8 @@ execute as @e[type=minecraft:armor_stand,tag=marker.retaliation_pulse] at @s run
 execute as @a[scores={enchantment.seppuku_CD=0..}] run scoreboard players remove @s enchantment.seppuku_CD 1
 
 # star_shard
-execute as @e[scores={enchantment.star_shard_TD=0..}] at @s run function gd_enchantment:star_shard/other/td
+execute as @e[tag=projectile.star_shard] at @s run function gd_enchantment:star_shard/other/td
+execute as @e[tag=projectile.star_shard1] at @s run function gd_enchantment:star_shard/other/td1
 execute as @a[scores={enchantment.star_shard_CD=0..}] run scoreboard players remove @s enchantment.star_shard_CD 1
 
 # star_shower

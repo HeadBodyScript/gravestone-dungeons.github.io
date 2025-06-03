@@ -3,15 +3,15 @@
 
 
 # arcane stats
-scoreboard players set ARCANE.mana_regen INT 1
-scoreboard players set ARCANE.mana_max INT 100
-scoreboard players set ARCANE.mana INT 0
-scoreboard players set ARCANE.node INT 0
+# scoreboard players set ARCANE.mana_regen INT 1
+# scoreboard players set ARCANE.mana_max INT 100
+# scoreboard players set ARCANE.mana INT 0
+# scoreboard players set ARCANE.node INT 0
 
 # knife pouch
 scoreboard players set DAGGER.reload INT 300
-scoreboard players set DAGGER.cooldown INT 3
-scoreboard players set DAGGER.max INT 3
+scoreboard players set DAGGER.cooldown INT 2
+scoreboard players set DAGGER.max INT 5
 
 # Companion
 scoreboard players set companion.TD INT 18000

@@ -38,6 +38,7 @@
         "minecraft:guardian",
         "minecraft:elder_guardian",
         "minecraft:phantom",
-        "minecraft:warden"
+        "minecraft:warden",
+        "minecraft:iron_golem"
     ]
 }

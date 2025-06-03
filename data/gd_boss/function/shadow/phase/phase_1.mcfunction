@@ -36,26 +36,26 @@ execute if score @s bossTick matches 10 as @a[distance=..32] run playsound minec
 
 
 execute if score @s bossTick matches 10 run execute store result score @s randomNumber run random value 1..2
-execute if score @s bossTick matches 10 run playsound minecraft:entity.ravager.stunned ambient @a[distance=..32] ~ ~ ~ 50 0.5
+execute if score @s bossTick matches 10 run playsound minecraft:entity.ravager.stunned master @a[distance=..32] ~ ~ ~ 50 0.5
 execute if score @s bossTick matches 10 run playsound minecraft:entity.wither_skeleton.ambient master @a[distance=..32] ~ ~ ~ 10 0.5
 execute if score @s bossTick matches 30 as @a[tag=fighting.shadow] run function gd:boss/shadow
 execute if score @s bossTick matches 30 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : It's been a long time... since any soul dared step this deep into the catacombs."}]
 execute if score @s bossTick matches 30 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : What is it you hope to find... in the depths of darkness?"}]
-execute if score @s bossTick matches 30 run playsound minecraft:entity.enderman.ambient ambient @a[distance=..32] ~ ~ ~ 10 1
+execute if score @s bossTick matches 30 run playsound minecraft:entity.enderman.ambient master @a[distance=..32] ~ ~ ~ 10 1
 execute if score @s bossTick matches 150 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : Did your mother never warn you... to keep clear of shadows?"}]
 execute if score @s bossTick matches 150 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : If it's treasure you seek... I must sadly disappoint you."}]
-execute if score @s bossTick matches 150 run playsound minecraft:entity.enderman.ambient ambient @a[distance=..32] ~ ~ ~ 10 1
+execute if score @s bossTick matches 150 run playsound minecraft:entity.enderman.ambient master @a[distance=..32] ~ ~ ~ 10 1
 
 execute if score @s bossTick matches 280 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : I'm afraid... the point of no return has long passed."}]
 execute if score @s bossTick matches 280 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : What you've found, unfortunate soul... is only agony and death."}]
-execute if score @s bossTick matches 280 run playsound minecraft:entity.ravager.stunned ambient @a[distance=..32] ~ ~ ~ 50 0.5
+execute if score @s bossTick matches 280 run playsound minecraft:entity.ravager.stunned master @a[distance=..32] ~ ~ ~ 50 0.5
 execute if score @s bossTick matches 360 if score @s randomNumber matches 1 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : Come... linger in the shadows. Let them embrace you."}]
 execute if score @s bossTick matches 360 if score @s randomNumber matches 2 run tellraw @a[tag=fighting.shadow] ["",{"text":"Shadow","color":"#003952"},{"text":" : And it will be my task... to see your end."}]
 execute if score @s bossTick matches 360 run playsound minecraft:entity.evoker.cast_spell master @s ~ ~ ~ 10 0.5
 
 execute if score @s bossTick matches 360 at @p[tag=fighting.shadow] run tp @a[tag=fighting.shadow,distance=..64] ~ ~ ~
 execute if score @s bossTick matches 360..570 as @e[tag=marker.boss,sort=nearest,limit=1] run function gd_boss:shadow/attack/attack_light
-execute if score @s bossTick matches 420 run playsound minecraft:entity.enderman.scream ambient @a[distance=..32] ~ ~ ~ 10 .7
+execute if score @s bossTick matches 420 run playsound minecraft:entity.enderman.scream master @a[distance=..32] ~ ~ ~ 10 .7
 
 execute if score @s bossTick matches 568 run playsound minecraft:block.sculk_shrieker.shriek master @a[distance=..32] ~ ~ ~ 10 .7
 execute if score @s bossTick matches 560 run playsound minecraft:entity.enderman.ambient master @a[distance=..32] ~ ~ ~ 10 0.8
@@ -68,7 +68,7 @@ execute if score @s bossTick matches 568 run particle minecraft:flash ~1 ~1 ~ 0.
 execute if score @s bossTick matches 568 run particle minecraft:large_smoke ~ ~1 ~ 0.1 1 0.1 0.3 100
 execute if score @s bossTick matches 568 run particle minecraft:smoke ~-1 ~1 ~ .1 1 .1 0.4 100
 execute if score @s bossTick matches 560 run playsound minecraft:entity.elder_guardian.curse master @a[distance=..32] ~ ~ ~ 10 0.1
-execute if score @s bossTick matches 550 run playsound minecraft:entity.enderman.scream ambient @a[distance=..32] ~ ~ ~ 10 .7
+execute if score @s bossTick matches 550 run playsound minecraft:entity.enderman.scream master @a[distance=..32] ~ ~ ~ 10 .7
 
 execute if score @s bossTick matches 570 at @s run summon wither_skeleton ~ ~ ~ {Team:ENEMY,PersistenceRequired:1b,Health:1024f,Tags:["boss.shadow","boss"],CustomName:'{"color":"#003952","text":"The Shadow"}',HandItems:[{id:"minecraft:diamond_sword",count:1,components:{"minecraft:custom_model_data":9,"minecraft:enchantments":{levels:{"gd_enchantment:frostbite":1}},"minecraft_enchantment:glint_override":false}},{}],HandDropChances:[0.0F,0.0F],ArmorItems:[{},{},{id:"minecraft:netherite_chestplate",count:1},{}],attributes:[{id:"minecraft:generic.armor",base:14},{id:"minecraft:generic.armor_toughness",base:2},{id:"minecraft:generic.attack_damage",base:12},{id:"minecraft:generic.follow_range",base:32},{id:"minecraft:generic.jump_strength",base:0.6},{id:"minecraft:generic.knockback_resistance",base:0.2},{id:"minecraft:generic.max_health",base:1024},{id:"minecraft:generic.movement_speed",base:0.25},{id:"minecraft:generic.safe_fall_distance",base:10},{id:"minecraft:generic.scale",base:1.1},{id:"minecraft:generic.water_movement_efficiency",base:0.8}]}
 

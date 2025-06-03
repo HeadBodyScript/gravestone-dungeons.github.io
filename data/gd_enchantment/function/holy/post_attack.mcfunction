@@ -1,8 +1,8 @@
 scoreboard players add @s[type=#gd_main:undead] enchantment.holy_INT 1
 # scoreboard players add @s[type=player] enchantment.holy_INT 1
 execute as @s[tag=boss,scores={enchantment.holy_INT=6..}] run function gd_enchantment:holy/success
-execute as @s[type=!player,tag=!boss,scores={enchantment.holy_INT=3..}] run function gd_enchantment:holy/success
-execute as @s[type=player,scores={enchantment.holy_INT=6..}] run function gd_enchantment:holy/success
+execute as @s[tag=!boss,tag=!companion,scores={enchantment.holy_INT=3..}] run function gd_enchantment:holy/success
+# execute as @s[type=player,scores={enchantment.holy_INT=6..}] run function gd_enchantment:holy/success
 
 effect give @s minecraft:weakness 2 1 true
 

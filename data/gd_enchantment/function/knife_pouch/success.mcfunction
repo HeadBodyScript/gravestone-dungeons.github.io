@@ -8,7 +8,7 @@ scoreboard players set @s enchantment.knife_pouch_CD 60
 
 scoreboard players remove @s enchantment.knife_pouch_INT 1
 effect give @s slowness 1 7 true
-playsound minecraft:entity.player.attack.sweep player @s ~ ~ ~ 30 2
+playsound minecraft:entity.player.attack.sweep master @a[distance=..10] ~ ~ ~ 30 2
 particle minecraft:wax_off ~ ~1 ~ .1 .5 .1 1 10
 execute store result storage damage item double 1 run attribute @s minecraft:generic.attack_damage get
 scoreboard players set @e[type=minecraft:armor_stand,tag=projectile_knife,sort=nearest,limit=1] enchantment.knife_pouch_VFX 0

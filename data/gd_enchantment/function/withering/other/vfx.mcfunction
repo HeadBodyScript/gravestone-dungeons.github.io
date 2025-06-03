@@ -27,7 +27,7 @@ execute as @s[scores={enchantment.withering_VFX=12}] run playsound minecraft:ent
 execute as @s[scores={enchantment.withering_VFX=19}] run playsound minecraft:entity.warden.agitated master @a[distance=..20] ~ ~ ~ 20 2
 
 execute as @s[scores={enchantment.withering_VFX=20..65}] run particle falling_dust{block_state:{Name:black_concrete}} ~ ~.8 ~ 0.3 .5 0.3 0.1 50
-execute as @s[scores={enchantment.withering_VFX=65}] run playsound minecraft:entity.ghast.hurt master @s ~ ~ ~ 10 .5
+execute as @s[scores={enchantment.withering_VFX=65}] run playsound minecraft:entity.ghast.hurt master @a[distance=..20] ~ ~ ~ 10 .5
 
 execute as @s[scores={enchantment.withering_VFX=80}] run particle dust_color_transition{from_color: [.0f, .0f, .0f], scale: 1.5f, to_color: [.1f, .1f, .1f]} ~ ~ ~ .25 1 .25 0.1 5 force
 # execute at @e[scores={enchantment.withering_VFX=80},type=armor_stand,tag=marker_withering_animation] run kill @e[type=minecraft:item_display]

@@ -1,5 +1,5 @@
 scoreboard players add @s tick4 1
-execute if score @s tick4 matches 1 run playsound entity.illusioner.cast_spell ambient @a[distance=..48] ~ ~ ~ 20 .5
+execute if score @s tick4 matches 1 run playsound entity.illusioner.cast_spell master @a[distance=..48] ~ ~ ~ 20 .5
 execute if score @s tick4 matches 1 at @s run summon armor_stand ~ ~ ~ {HasVisualFire:1b,Invisible:1b,NoGravity:1b,Tags:["fire_wave1","fire_wavea"]}
 execute if score @s tick4 matches 1 at @s run summon armor_stand ~ ~ ~ {HasVisualFire:1b,Invisible:1b,NoGravity:1b,Tags:["fire_wave2","fire_wavea"]}
 execute if score @s tick4 matches 1 at @s run summon armor_stand ~ ~ ~ {HasVisualFire:1b,Invisible:1b,NoGravity:1b,Tags:["fire_wave3","fire_wavea"]}

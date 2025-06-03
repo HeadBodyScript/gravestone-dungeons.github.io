@@ -1,10 +1,10 @@
-execute if score @s bossTick matches 1 run playsound minecraft:entity.ravager.roar ambient @a[distance=..32] ~ ~ ~ 10 .7
+execute if score @s bossTick matches 1 run playsound minecraft:entity.ravager.roar master @a[distance=..32] ~ ~ ~ 10 .7
 execute if score @s bossTick matches 1 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : You performed well! You are a worthy challenger. I'm thrilled."}] 
 execute if score @s bossTick matches 80 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : Looks like I'll have an interesting fight after all..."}] 
 execute if score @s bossTick matches 140 run tellraw @a[tag=fighting.marrow] ["",{"text":"Marrow","color":"dark_green"},{"text":" : Get ready."}] 
-execute if score @s bossTick matches 140 run playsound minecraft:entity.ravager.roar ambient @a[distance=..32] ~ ~ ~ 10 .7
-execute if score @s bossTick matches 150 run playsound minecraft:entity.ravager.roar ambient @a[distance=..32] ~ ~ ~ 10 .9
-execute if score @s bossTick matches 170 run playsound minecraft:entity.ravager.stunned ambient @a[distance=..32] ~ ~ ~ 10 0.5
+execute if score @s bossTick matches 140 run playsound minecraft:entity.ravager.roar master @a[distance=..32] ~ ~ ~ 10 .7
+execute if score @s bossTick matches 150 run playsound minecraft:entity.ravager.roar master @a[distance=..32] ~ ~ ~ 10 .9
+execute if score @s bossTick matches 170 run playsound minecraft:entity.ravager.stunned master @a[distance=..32] ~ ~ ~ 10 0.5
 execute if score @s bossTick matches ..170 run particle dust_color_transition{from_color: [.0f, .3f, .0f], scale: 1f, to_color: [.2f, .2f, .2f]} ~ ~3 ~ .1 3 .1 0 15 force
 execute if score @s bossTick matches ..170 run particle minecraft:soul ~ ~1 ~ 0.2 0.2 0.2 0.1 1
 execute if score @s bossTick matches ..170 run particle minecraft:ash ~ ~4 ~ 6 6 6 .3 5

@@ -72,7 +72,7 @@ execute if score @s tick matches 40 at @s if entity @s[tag=an_cold] run particle
 execute if score @s tick matches 40 at @s if entity @s[tag=an_hot] run particle minecraft:white_ash ~ ~1 ~ 3 2 3 0.01 10
 # execute if score @s tick matches 40 at @s if entity @s[tag=an_temp] run particle minecraft:spore_blossom_air ~ ~1 ~ 3 2 3 0.01 10
 
-execute if score @s tick matches 12 if entity @s[tag=arcane_nodes] unless entity @a[scores={mana_boost_duration=200..},distance=..12] as @a[distance=..12] run scoreboard players set @s mana_boost_duration 200
+execute if score @s tick matches 12 if entity @s[tag=arcane_nodes] unless entity @a[scores={mana_boost_duration=200..},distance=..12] as @a[distance=..12] run scoreboard players set @s mana_boost_duration 1200
 
 
 function gd_main:misc/arcane/vfx/init

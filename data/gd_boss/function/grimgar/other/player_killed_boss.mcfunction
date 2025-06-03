@@ -1,5 +1,5 @@
 advancement revoke @s only gd_boss:grimgar_boss
-playsound minecraft:entity.ravager.death ambient @a[distance=..32] ~ ~ ~ 20 1.5
+playsound minecraft:entity.ravager.death master @a[distance=..32] ~ ~ ~ 20 1.5
 playsound minecraft:ui.toast.challenge_complete master @a[distance=..32] ~ ~1 ~ 20 1
 title @a[tag=fighting.grimgar] title [{"text":"MAJOR ENEMY FELLED","color":"dark_red"}]
 tellraw @a[tag=fighting.grimgar] ["",{"text":"Grimgar","color":"#009999"},{"text":" : That's impossible! You cannot defeat me, I have the power of the gods! And you're just a pathetic... arrggh.."}]
