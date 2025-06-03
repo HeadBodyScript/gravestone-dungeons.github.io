@@ -12,7 +12,7 @@ execute if score @s tick7 matches 20 run playsound minecraft:entity.illusioner.p
 execute if score @s tick7 matches 20 at @e[tag=marker.boss,distance=..50,sort=nearest,limit=1] run tp @s ~ ~-10 ~
 
 execute if score @s tick7 matches 80 if score @s randomNumber matches 1 at @a[distance=..20,sort=random,limit=1] run tp @s ^ ^ ^-1
-execute if score @s tick7 matches 81 if score @s randomNumber matches 1 run tp @s ~ ~2 ~ 
+execute if score @s tick7 matches 81 if score @s randomNumber matches 1 run tp @s ~ ~2 ~
 
 execute if score @s tick7 matches 80 if score @s randomNumber matches 2 run playsound minecraft:entity.enderman.scream master @a[distance=..32] ~ ~ ~ 1 .1
 execute if score @s tick7 matches 80 if score @s randomNumber matches 2 at @a[distance=..20,sort=random,limit=1] run tp @s ~ ~-2 ~

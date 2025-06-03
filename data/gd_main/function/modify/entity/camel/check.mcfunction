@@ -105,7 +105,7 @@ execute if score @p INT1 matches 451..500 if score .INT1 randomNumber matches 4 
 execute if score @p INT1 matches 451..500 if score .INT1 randomNumber matches 5 run function gd_main:modify/entity/camel/agility/6_1
 execute if score @p INT1 matches 451..500 if score .INT1 randomNumber matches 6 run function gd_main:modify/entity/camel/agility/6_2
 
-effect give @s minecraft:instant_health 1 10 
+effect give @s minecraft:instant_health 1 10
 
 execute run particle minecraft:egg_crack ~ ~1 ~ 1 1 1 0.1 40
 execute run particle minecraft:electric_spark ~ ~1 ~ 1 0.1 1 0.1 20

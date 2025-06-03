@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#gd:has_structure/cold_biome",
+  "biomes": "#gd:has_structure/cold",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "none",
