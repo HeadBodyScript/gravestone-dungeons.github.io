@@ -186,7 +186,80 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_5",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_6",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_7",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_8",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },{
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "gd:poi/ore/geode_9",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
+
 
 
 
