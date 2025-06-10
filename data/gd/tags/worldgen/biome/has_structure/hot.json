@@ -42,7 +42,6 @@
 
 #hot
 	"minecraft:desert",
-	"minecraft:savanna",
     {
       "id": "terralith:ancient_sands",
       "required": false

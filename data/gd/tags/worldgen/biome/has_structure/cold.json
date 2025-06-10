@@ -63,11 +63,7 @@
 
 
 #cold special
-	"minecraft:ice_spikes",
-    {
-      "id": "terralith:skylands_winter",
-      "required": false
-    }
+	"minecraft:ice_spikes"
 
 #temperate
 
