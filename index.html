@@ -1,94 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Wiki Page</title>
-  <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      margin: 0;
-      background-color: #f8f9fa;
-      color: #202122;
-      line-height: 1.6;
-    }
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Gravestone Dungeons - Wiki</title>
 
-    header {
-      background-color: #ffffff;
-      border-bottom: 1px solid #a2a9b1;
-      padding: 1rem 2rem;
-    }
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Gravestone Dungeons">
+	<meta name="twitter:description" content="Gravestone Dungeons">
+	<meta name="twitter:image" content="apple-touch-icon.png">
 
-    header h1 {
-      font-size: 1.8rem;
-      margin: 0;
-    }
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Gravestone Dungeons">
+	<meta property="og:url" content="https://headbodyscript.github.io/gravestone-dungeons.github.io/">
+	<meta property="og:image" content="apple-touch-icon.png">
+	<meta property="og:description" content="Gravestone Dungeons">
 
-    .container {
-      display: flex;
-      flex-direction: row;
-      /* max-width: 1200px; */
-      margin: 0 auto;
-      padding: 1rem;
-    }
+	<meta name="description" content="Gravestone Dungeons">
+	<meta name="keywords" content="Minecraft, Datapacks, Texturepack, Maps, HeadBodyScript">
+	<meta name="author" content="Gravestone Dungeons">
+	<meta name="language" content="EN">
 
-    nav {
-      width: 180px;
-      padding-right: 1rem;
-      border-right: 1px solid #ccc;
-    }
-
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    nav ul li {
-      margin: 0.5rem 0;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #0645ad;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      flex: 1;
-      padding: 0 1rem;
-    }
-
-    main h2 {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 0.3rem;
-      margin-top: 1.5rem;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #555;
-      padding: 1rem;
-      border-top: 1px solid #ccc;
-      margin-top: 2rem;
-    }
-
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-      }
-
-      nav {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #ccc;
-        margin-bottom: 1rem;
-      }
-    }
-  </style>
+  	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+ 	<link rel="stylesheet" href="assets/app.css" />
 </head>
 <body>
 
@@ -124,15 +61,18 @@
     <main>
       <section id="introduction">
         <h2>What is Gravestone Dungeons</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur rem velit enim laborum natus sequi in autem dolorem repellendus quia facilis ea alias suscipit itaque, nobis tempora minima. Et, ullam?</p>
+        <p>This datapack adds many things, always missed in a medieval styled playthrough.
+I added a lot of small and large dungeons like "Dungeon Crawl" or "When Dungeons Arise" in all biomes and dimensions, which set a new challenge for the game.
+Every dungeon contains lootchests with custom loot, spawners with modified mobs and a unique boss, who drops special weapons, tools or items, which aren't craftable in vanilla.
+The weapons and items change attributes, spawn particle effects and give potioneffects, or have special abilities. Every weapon has a secondary attack which is used by charging it up. Either by time, hitting enemies, earning xp or charging it up by sneaking. Some may cost xp to use.
+
+The center of the datapack is the new added Direwood Keep, where you meet a lot of traders, which sell fun items or buy materials in exchange for gold or silver coins. These are the new currency to trade with all added traders in the game like Rogue Merchants, Cloud Nomads or various characters.
+I also added a few modified items, which can be reinforced by different methods.
+
+At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the way to reinforce these items. He also holds a few books with short descriptions about the new dungeons und structures in his library. Also there lives Eldrid, who sells maps, to locate the dungeons.</p>
       </section>
 
 	  <iframe width="560" height="315" src="https://www.youtube.com/embed/q4a6l8l7Y4Q?si=5ZZ6aErDlilL9X8b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-      <section id="history">
-        <h2>History</h2>
-        <p>Wiki pages became popular with the advent of platforms like Wikipedia. Their design emphasizes readability and ease of editing.</p>
-      </section>
 
       <section id="features">
         <h2>Structures</h2>
@@ -152,12 +92,252 @@
 
       <section id="features">
         <h2>Enchantments</h2>
-		<p>Star Shard</p>
+		<table>
+		<tr>
+			<th>Name</th>
+			<th>Summary</th>
+			<th>Incompatable With</th>
+			<th>Max Level</th>
+			<th>Items</th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Uses<span style="color: blue;"> Magika </span>to summon a shard of a star that guides itself to the nearest enemy mob dealing 8 <img src="https://minecraft.wiki/images/Heart_%28icon%29.png?faf83s" alt=""> damage</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		<tr>
+			<td>Star Shard</td>
+			<td>Summon a shard of a star that guides itself to the nearest enemy mob</td>
+			<td>Spells</td>
+			<th>1</th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+		</tr>
+		</table>
+		<!-- <p>Star Shard</p>
         <ul>
           <li>Compatible With: </li>
           <li>click to 'throw' a copy on your Sword in the direction you are facing</li>
           <code>this enchantment scales with attack damage</code>
-        </ul>
+        </ul> -->
       </section>
 
       <section id="features">
@@ -214,7 +394,7 @@
 
       <section id="references">
         <h2>Contributors</h2>
-		<p>Zacc, HeadBodyScript</p>
+		<p>Zacc || <a href="https://www.planetminecraft.com/member/headbodyscript/">headbodyscript</a></p>
       </section>
     </main>
   </div>
