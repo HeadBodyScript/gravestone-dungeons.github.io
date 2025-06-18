@@ -102,3 +102,9 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.item{
+  position: relative;
+  top: 4px;
+  width: 24px; height: 24px;
+}
