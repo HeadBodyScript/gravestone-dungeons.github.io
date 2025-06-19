@@ -6,6 +6,10 @@
       line-height: 1.6;
     }
 
+    li{
+      list-style: none;
+    }
+
     header {
       background-color: #ffffff;
       border-bottom: 1px solid #a2a9b1;
@@ -107,4 +111,56 @@ tr:nth-child(even) {
   position: relative;
   top: 4px;
   width: 24px; height: 24px;
+}
+.item-big{
+  position: relative;
+  top: 64px;
+  height: 48px;
+  transform: rotate(180deg);
+  /* margin-right: 8px; */
+}
+.bit-64{
+  width: 256px; height: 256px;
+}
+.tier-dark-blue{
+  color: #0000AA;
+}
+.tier-dark-green{
+  color: #00AA00;
+}
+.tier-dark-aqua{
+  color: #00AAAA;
+}
+.tier-dark-red{
+  color: #AA0000;
+}
+.tier-dark-purple{
+  color: #AA00AA;
+}
+.tier-gold{
+  color: #FFAA00;
+}
+.tier-gray{
+  color: #AAAAAA;
+}
+.tier-dark-gray{
+  color: #555555;
+}
+.tier-blue{
+  color: #5555FF;
+}
+.tier-green{
+  color: #55FF55;
+}
+.tier-aqua{
+  color: #55FFFF;
+}
+.tier-red{
+  color: #FF5555;
+}
+.tier-light-purple{
+  color: #FF55FF;
+}
+.tier-yellow{
+  color: #FFFF55;
 }
