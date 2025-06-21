@@ -15,7 +15,7 @@
                 "minecraft:lore": [
                   "{\"color\":\"gray\",\"italic\":false,\"text\":\"Very Low Durability\"}"
                 ],
-                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Wooden Club\"}",
+                "minecraft:custom_name": "{\"italic\":false,\"text\":\"Wooden Shield\"}",
                 "minecraft:max_damage": 168
               }
             }

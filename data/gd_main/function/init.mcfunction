@@ -41,6 +41,8 @@ scoreboard objectives add ability.link dummy
 scoreboard objectives add warp_y dummy
 scoreboard objectives add breeding_stone_CD dummy
 
+scoreboard objectives add bardquestcounter dummy
+
 #oils
 scoreboard objectives add oil_poison dummy
 scoreboard objectives add oil_holy dummy
