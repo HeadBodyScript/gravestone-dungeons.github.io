@@ -21,6 +21,8 @@ execute at @e[type=armor_stand,tag=armor_stand.monk] run summon villager ~ ~ ~ {
 
 function gd_boss:grimgar/reset
 
+scoreboard players set @a[distance=..64] bardquestcounter 1
+
 execute at @s as @e[type=minecraft:marker,tag=marker.boss,distance=..32,limit=1,sort=nearest] at @s run kill @s
 # execute at @s as @e[type=minecraft:marker,tag=marker.minion,distance=..32,limit=8,sort=nearest] at @s run kill @s
 # execute at @s as @e[type=minecraft:marker,tag=marker.barrier,distance=..32,limit=1,sort=nearest] at @s run kill @s

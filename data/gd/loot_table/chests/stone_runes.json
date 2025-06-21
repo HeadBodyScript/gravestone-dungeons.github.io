@@ -78,7 +78,7 @@
               "components": {
                 "minecraft:custom_name": "{\"color\":\"#339900\",\"italic\":true,\"text\":\"Stone Rune of Lesser Fall Damage\"}",
                 "minecraft:lore": [
-                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Unlocking +1 Save Fall Distance\"}]"
+                  "[{\"color\":\"gray\",\"italic\":false,\"text\":\"Unlocking +1 Safe Fall Distance\"}]"
                 ],
            	"minecraft:max_stack_size": 1,
                 "minecraft:custom_model_data": 3,
