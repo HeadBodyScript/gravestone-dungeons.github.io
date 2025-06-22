@@ -47,6 +47,7 @@
         <li><a href="#companions">Companions</a></li>
         <li><a href="#arrows">Arrows</a></li>
         <li><a href="#potions">Potions</a></li>
+        <li><a href="#weapons">Weapons</a></li>
         <li><a href="#armor">Armor</a></li>
         <li><a href="#horse">Horse Equipment</a></li>
         <li><a href="#modifier">Modifiers</a></li>
@@ -62,7 +63,18 @@
     <main>
       <section id="introduction">
         <h2>What is Gravestone Dungeons</h2>
-        <p>This datapack adds many things, always missed in a medieval styled playthrough.
+		<br><iframe width="560" height="315" src="https://www.youtube.com/embed/q4a6l8l7Y4Q?si=5ZZ6aErDlilL9X8b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+		<div>In a world where swords clash, shadows rise, and ancient secrets lie buried...</div>
+		<div>An epic adventure awaits.</div>
+		<div>From the darkest depths of forgotten tombs to the icy peaks of untamed dimensions, this datapack breathes life into the medieval Minecraft experience. A realm reborn with challenge, mystery, and untold power.</div>
+		<div>Dungeons now tower and sprawl across every biome and realm. Inspired by Dungeon Crawl and When Dungeons Arise, each stronghold teems with traps, treasure, and terror. Face off against custom bosses, conquer cursed halls, and unearth loot unlike anything seen in vanilla. Enchanted blades, arcane relics, and uncraftable tools that shimmer with elemental fury.</div>
+		<div>Each weapon is more than steel. It’s a legend forged. With secondary abilities powered by experience, time, or shadow, wielders unleash particle storms, potion effects, and devastating techniques. But power comes at a cost… some blades hunger for your XP.</div>
+		<div>At the heart of it all lies Direwood Keep... a fortress bustling with traders, wanderers, and secrets. Here, gold and silver coins are currency, and merchants like Cloud Nomads and Rogue Traders deal in exotic wares. Among them is Monk Zaccarius, guardian of the ancient tomes, guiding heroes on how to reinforce weapons through forgotten arts. And Eldrid, the mapkeeper, who holds the keys to every dungeon’s doorstep.</div>
+		<div>Magic, mystery, and mercenaries.</div>
+		<div>Glory, gold, and grim battles.</div>
+		<div>This is no ordinary datapack.</div>
+		<div>This is your medieval saga.</div>
+        <!-- <p>This datapack adds many things, always missed in a medieval styled playthrough.
 I added a lot of small and large dungeons like "Dungeon Crawl" or "When Dungeons Arise" in all biomes and dimensions, which set a new challenge for the game.
 Every dungeon contains lootchests with custom loot, spawners with modified mobs and a unique boss, who drops special weapons, tools or items, which aren't craftable in vanilla.
 The weapons and items change attributes, spawn particle effects and give potioneffects, or have special abilities. Every weapon has a secondary attack which is used by charging it up. Either by time, hitting enemies, earning xp or charging it up by sneaking. Some may cost xp to use.
@@ -70,10 +82,9 @@ The weapons and items change attributes, spawn particle effects and give potione
 The center of the datapack is the new added Direwood Keep, where you meet a lot of traders, which sell fun items or buy materials in exchange for gold or silver coins. These are the new currency to trade with all added traders in the game like Rogue Merchants, Cloud Nomads or various characters.
 I also added a few modified items, which can be reinforced by different methods.
 
-At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the way to reinforce these items. He also holds a few books with short descriptions about the new dungeons und structures in his library. Also there lives Eldrid, who sells maps, to locate the dungeons.</p>
+At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the way to reinforce these items. He also holds a few books with short descriptions about the new dungeons und structures in his library. Also there lives Eldrid, who sells maps, to locate the dungeons.</p> -->
       </section>
 
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/q4a6l8l7Y4Q?si=5ZZ6aErDlilL9X8b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       <section id="structures">
         <h2>Structures</h2>
@@ -138,6 +149,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>
 				<h3>Direwood Keep</h3>
+				<div class="hidden" id="ysembert"></div>
 				<div>Ysembert</div>
 				<table class="villager">
 					<tr>
@@ -302,6 +314,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 					</tr>
 				</table>
 				<div>Alaric</div>
+				<div class="hidden" id="alaric"></div>
 				<table class="villager">
 					<tr>
 						<th><img src="assets/img/silver_coin.png" alt=""></th>
@@ -855,305 +868,348 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 			<th>Items</th>
 		</tr>
 		<tr>
+			<div class="hidden" id="adrenaline_boost"></div>
 			<td>Adrenaline Boost</td>
-			<td><strong>Requirement:</strong> Sneaking 3 seconds. <strong>Reward:</strong> jump boost 4 8 | speed 8 2</td>
-			<td>Spells</td>
+			<td><strong>Requirement:</strong> Sneaking for 3 seconds. <strong>Reward:</strong> jump boost 4 8 | speed 8 2</td>
+			<td>Sneaking</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-helmet.png?063b1" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-chestplate.png?e5b4b" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-leggings.png?f0d9c" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-boots.png?4da93" alt=""><img src="https://minecraft.wiki/images/ItemSprite_turtle-shell.png?b1b96" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="chorus_void"></div>
 			<td>Chorus Void</td>
 			<td><strong>Passive:</strong> Turn shot arrows into <a href="#arrows">ender arrows</a></td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
 			<th><img src="https://minecraft.wiki/images/ItemSprite_bow.png?07eed" alt=""><img src="https://minecraft.wiki/images/ItemSprite_crossbow.png?6a299" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="cultivation"></div>
 			<td>Cultivation</td>
 			<td>Ultimate farming tool. Auto-harvest and -planting of seeds in inventory.</td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-hoe.png?6d274" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="experience_boost"></div>
 			<td>Experience Boost</td>
 			<td><strong>Passive:</strong> Ores and mobs drop additional experience</td>
-			<td>Spells</td>
+			<td>Bow</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_bow.png?07eed" alt=""><img src="https://minecraft.wiki/images/ItemSprite_crossbow.png?6a299" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""><img src="https://minecraft.wiki/images/ItemSprite_mace.png?e61a2" alt=""><img src="https://minecraft.wiki/images/ItemSprite_trident.png?ad9cf" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="holy"></div>
 			<td>Holy</td>
-			<td>On-hit: on target weakness 3 1 | add +1 stack of 'holy'. Information: when a target has 3 stacks of 'holy' apply weakness 4 2 </td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target weakness 3 1 | add +1 stack of 'holy'. Information: when a target has 3 stacks of 'holy' apply weakness 4 2 </td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="horseenchant1"></div>
 			<td>Horse I</td>
 			<td></td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-boots.png?4da93" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="horseenchant2"></div>
 			<td>Horse II</td>
 			<td></td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-boots.png?4da93" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="horeseenchant3"></div>
 			<td>Horse III</td>
 			<td></td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-boots.png?4da93" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="illumination"></div>
 			<td>Illumination</td>
 			<td><strong>Active:</strong> requires 1000 <span class="tier-blue"> Magika</span>. While not sneaking: on targets near player apply glowing 60 1 | slowness 10 1</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""><img src="https://minecraft.wiki/images/ItemSprite_mace.png?e61a2" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="inner_echo"></div>
 			<td>Inner Echo</td>
 			<td><strong>Passive:</strong> uhhh, who's talking?</td>
-			<td>Spells</td>
+			<td>Experience Boost, Sweeping Edge</td>
 			<th>1</th>
 			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="lightning_rod"></div>
 			<td>Lightning Rod</td>
 			<td>???</td>
-			<td>Spells</td>
+			<td>Bow</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_bow.png?07eed" alt=""><img src="https://minecraft.wiki/images/ItemSprite_mace.png?e61a2" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="molten_touch"></div>
 			<td>Molten Touch</td>
 			<td><strong>Passive:</strong> Instantly melts ores into ingots and logs into charcoal</td>
-			<td>Spells</td>
+			<td>Slik Touch</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-pickaxe.png?77536" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="potion_bag"></div>
 			<td>Potion Bag</td>
 			<td><strong>Passive:</strong> Increased max stack of potions</td>
-			<td>Spells</td>
+			<td>Quiver</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-chestplate.png?e5b4b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="quiver"></div>
 			<td>Quiver</td>
 			<td><strong>Passive:</strong> Increased max stack of arrows</td>
-			<td>Spells</td>
+			<td>Potion Bag</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-chestplate.png?e5b4b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="telekinesis"></div>
 			<td>Telekinesis</td>
 			<td><strong>Active:</strong> Requires 000 <span class="tier-blue"> Magika</span>. Teleports surrounding items to the player</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-pickaxe.png?77536" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-shovel.png?2f7d1" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-hoe.png?6d274" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="veild_of_shadows"></div>
 			<td>Veil of Shadows</td>
 			<td><strong>Requirement:</strong> Sneaking for 3 seconds. <strong>Reward:</strong></td>
-			<td>Spells</td>
+			<td>Sneaking</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_turtle-shell.png?b1b96" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="warpstrike"></div>
 			<td>Warpstrike</td>
 			<td><strong>Passive:</strong> Teleport the owner to the landing place of the trident</td>
-			<td>Spells</td>
+			<td>channeling, riptide</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_trident.png?ad9cf" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="bleeding"></div>
 			<td class="tier-green">Bleeding</td>
-			<td>On-hit: on target add +1 stack of 'bleeding'. <strong>Passive:</strong> At 6 stacks give slowness 6 1 | 12 damage physical</td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target add +1 stack of 'bleeding'. <strong>Passive:</strong> At 6 stacks give slowness 6 1 | 12 damage physical</td>
+			<td>Floating</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="bounty_claim"></div>
 			<td class="tier-green">Bounty Claim</td>
 			<td><strong>Passive:</strong> Increased drop rate of 'Silver Coin' from raid mobs</td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="deflect_projectiles"></div>
 			<td class="tier-green">Deflect Projectiles</td>
 			<td><strong>Active:</strong> Requires 000 <span class="tier-blue"> Magika</span>. Create a field around the player that deflects all projectiles</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="fire_burst"></div>
 			<td class="tier-green">Fire Burst</td>
 			<td><strong>Requirement:</strong> Sneaking for 3 seconds. <strong>Reward:</strong> Summon beams of fire dealing 10 damage physical</td>
-			<td>Spells</td>
+			<td>Shield, Sneaking</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_shield.png?67b36" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="floating"></div>
 			<td class="tier-green">Floating</td>
-			<td>On-hit: on target add +1 stack of 'floating'. <strong>Passive:</strong> at 6 stacks give levitation 8 3</td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target add +1 stack of 'floating'. <strong>Passive:</strong> at 6 stacks give levitation 8 3</td>
+			<td>Bleeding</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="frostbite"></div>
 			<td class="tier-green">Frostbite</td>
-			<td>On-hit: on target add +1 stack of 'freezing'. <strong>Passive:</strong> at x stacks</td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target add +1 stack of 'freezing'. <strong>Passive:</strong> at x stacks</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="greatblade_defence"></div>
 			<td class="tier-green">Greatblade Defence</td>
 			<td><strong>Active:</strong> Requires 000 <span class="tier-blue"> Magika</span>. Summons 3 blades above the player. While <strong>Active:</strong> click to launch blade forward</td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="knife_pouch"></div>
 			<td class="tier-green">Knife Pouch</td>
 			<td><strong>Active:</strong> Throw a copy of your sword forward</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
 			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="levitation"></div>
 			<td class="tier-green">Levitation</td>
 			<td><strong>Requirement:</strong> Sneaking for 3 seconds. <strong>Reward:</strong> Requires 000 <span class="tier-blue"> Magika</span>. Give levitation 6 4</td>
-			<td>Spells</td>
+			<td>Shield, Sneaking</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_shield.png?67b36" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="magma_walker"></div>
 			<td class="tier-green">Magma Walker</td>
 			<td><strong>Passive:</strong> Turns lava into basalt</td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_turtle-shell.png?b1b96" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="poisoning"></div>
 			<td class="tier-green">Poisoning</td>
-			<td>On-hit: on target add +1 stack of 'freezing'. <strong>Passive:</strong> at x stacks</td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target add +1 stack of 'freezing'. <strong>Passive:</strong> at x stacks</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""><img src="https://minecraft.wiki/images/ItemSprite_trident.png?ad9cf" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="seaborn"></div>
 			<td class="tier-green">Seaborn</td>
 			<td>Improves attributes and gives effects when in water or raining. Other way round the exact opposite.</td>
-			<td>Spells</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_trident.png?ad9cf" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="blackthorn_arrow"></div>
 			<td class="tier-light-purple">Blackthorn Arrow</td>
-			<td>On-hit: on target give wither 8 1</td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target give wither 8 1</td>
+			<td>Bow</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_bow.png?07eed" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_bow.png?07eed" alt=""><img src="https://minecraft.wiki/images/ItemSprite_crossbow.png?6a299" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="bonecaller"></div>
 			<td class="tier-light-purple">Bonecaller</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Summon a skull that circles the owner for 20 seconds. Targets hit by this skull gain wither 10 3 and slowness 10 1</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="disarming"></div>
 			<td class="tier-light-purple">Disarming</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Makes non-boss enemies drow their weapon </td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="evoker_fangs"></div>
 			<td class="tier-light-purple">Evoker Fangs</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. While sneaking: Summon waves evoker fangs on nearby enemies that deal 6 damage magic. While not sneaking: Summon a line of evoker fangs that deal 6 magic damage</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="lightning_strike"></div>
 			<td class="tier-light-purple">Lightning Strike</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Cast an expanding circle of lightning around player</td>
-			<td>Spells</td>
+			<td>Active, Void Sphere</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_mace.png?e61a2" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="retaliation_pulse"></div>
 			<td class="tier-light-purple">Retaliation Pulse</td>
 			<td><strong>Passive:</strong> Charges up by blocking attacks. <strong>Reward:</strong> create a magic circle that stops all motions from projectiles for 30 seconds</td>
-			<td>Spells</td>
+			<td>Shield</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_shield.png?67b36" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="seppuku"></div>
 			<td class="tier-light-purple">Seppuku</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Sacrifice a large portion of your health. Give strength 60 2</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="star_shard"></div>
 			<td class="tier-light-purple">Star Shard</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Summon a star shard that locates the nearest enemy and deals 14 damage physical</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="tongue_of_fire"></div>
 			<td class="tier-light-purple">Tongue of Fire</td>
-			<td>On-hit: on target add +1 stack of 'tongue_of_fire'. <strong>Passive:</strong> at x stacks</td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target add +1 stack of 'tongue_of_fire'. <strong>Passive:</strong> at x stacks</td>
+			<td>Bow</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_bow.png?07eed" alt=""><img src="https://minecraft.wiki/images/ItemSprite_crossbow.png?6a299" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="withering"></div>
 			<td class="tier-light-purple">Withering</td>
-			<td>On-hit: on target add +1 stack of 'wither'. <strong>Passive:</strong> at x stacks</td>
-			<td>Spells</td>
+			<td><strong>On-hit:</strong> on target add +1 stack of 'wither'. <strong>Passive:</strong> at x stacks</td>
+			<td></td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="light_wave"></div>
 			<td class="tier-gold">Light Wave</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Create a moving and expanding light wall that deals 12 damage physical</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="mistbreaker"></div>
 			<td class="tier-gold">Mistbreaker</td>
 			<td>Lets the player teleport between dimensions if he hold an according item for that dimension. (netherrock for nether,..) Magicka cost. Some use magicka to work, some may be charged via crouching/ blocking attacks or by building up an gauge for each victim. Magicka will be taken from the player if enough regenerated, charged equipment will decharge and you get a cooldown until next usage and if an enemy has been hit enough for a full gauge, they will get extra damage, depending on enchantment.</td>
-			<td>Spells</td>
+			<td>Mending</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_elytra.png?047ea" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="star_shower"></div>
 			<td class="tier-gold">Star Shower</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Conjure a sun that summons flares that hunt down nearby enemies dealing 10 damage physcial</td>
-			<td>Spells</td>
+			<td>Active</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""><img src="https://minecraft.wiki/images/ItemSprite_iron-axe.png?51f8b" alt=""></th>
 		</tr>
 		<tr>
+			<div class="hidden" id="void_sphere"></div>
 			<td class="tier-gold">Void Sphere</td>
 			<td><strong>Active:</strong> Requires 1000 <span class="tier-blue">Magika</span>. Conjure a black hole that pulls in enemies dealing 10 damage</td>
-			<td>Spells</td>
+			<td>Active, Lightning Strike</td>
 			<th>1</th>
-			<th><img src="https://minecraft.wiki/images/ItemSprite_iron-sword.png?a37a6" alt=""></th>
+			<th><img src="https://minecraft.wiki/images/ItemSprite_mace.png?e61a2" alt=""></th>
 		</tr>
 	</table>
 </section>
@@ -1168,7 +1224,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 			<ul>
 				<li>Rune of Greater Health</li>
 				<li>Grants the player +2 Max Health when consumed (Max = 20 Max Health)</li>
-				<li>Aquired from Alaric Stormweaver for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
+				<li>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
 			</ul>
 		</div>
 		<div class="row">
@@ -1178,7 +1234,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 			<ul>
 				<li>Rune of Magicka</li>
 				<li>Grants the player +1000 Max Magicka when consumed (Max = 16000)</li>
-				<li>Aquired from Alaric Stormweaver for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
+				<li>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
 			</ul>
 		</div>
 		<div class="row">
@@ -1188,7 +1244,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 			<ul>
 				<li>Rune of Lesser Fall Damage</li>
 				<li>Grants the player +1 block Safe Fall Distance when consumed (Max = 10)</li>
-				<li>Aquired from Alaric Stormweaver for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
+				<li>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
 			</ul>
 		</div>
 		<div class="row">
@@ -1198,7 +1254,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 			<ul>
 				<li>Rune of Higher Ranger</li>
 				<li>Grants the player +1 Interaction Range when consumed (Max = 10)</li>
-				<li>Aquired from Alaric Stormweaver for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
+				<li>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
 			</ul>
 		</div>
 		<div class="row">
@@ -1208,7 +1264,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 			<ul>
 				<li>Rune of Longer Breath</li>
 				<li>Grants the player +20% Longer Breath when consumed (Max = 200%)</li>
-				<li>Aquired from Alaric Stormweaver for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
+				<li>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
 			</ul>
 		</div>
 		<div class="row">
@@ -1218,7 +1274,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 			<ul>
 				<li>Rune of Concinnity</li>
 				<li>Resets all runes for the player when consumed</li>
-				<li>Aquired from Alaric Stormweaver for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
+				<li>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 2 <img class="item" src="assets/img/gold_coin.png" alt=""> Gold Coins and boss loot</li><br>
 			</ul>
 		</div>
 	</ul>
@@ -1229,23 +1285,23 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 	<ul>
 		<li>Emberfield Spell</li>
 			<ul>Sets enemies on fire within it's range. Also ignites arrows that pass through. This spell lasts 30 seconds</ul>
-			<ul>Aquired from Alaric Stormweaver for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
 			<ul><img class="bit-64" src="assets/img/ritual_fire.png" alt=""></ul><br>
 		<li>Icefield Spell</li>
 			<ul>Deals 0.5 frozen damage every second and gives the slowness 2 effect for 3 seconds. Also extinguish arrows that are on fire that pass through. This spell lasts 30 seconds</ul>
-			<ul>Aquired from Alaric Stormweaver for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
 			<ul><img class="bit-64" style="background-color: black;" src="assets/img/ritual_ice.png" alt=""></ul><br>
 		<li>Thunderfield Spell</li>
 			<ul>Has a 1 in 8 chance to summon lightning at enemies within it's range every seconds. This spell lasts 30 seconds</ul>
-			<ul>Aquired from Alaric Stormweaver for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
 			<ul><img class="bit-64" src="assets/img/ritual_thunder.png" alt=""></ul><br>
 		<li>Forcefield Spell</li>
 			<ul>Disables all motion from projectiles. This spell lasts 30 seconds</ul>
-			<ul>Aquired from Alaric Stormweaver for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
 			<ul><img class="bit-64" src="assets/img/ritual_protection.png" alt=""></ul><br>
 		<li>Teleportation Spell</li>
 			<ul>Allows you to teleport to the saved location</ul>
-			<ul>Aquired from Alaric Stormweaver for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 24 <img class="item" src="assets/img/silver_coin.png" alt=""> silver</ul>
 			<ul><img class="bit-64" src="assets/img/ritual_warp1.png" alt=""></ul><br>
 	</ul>
 </section>
@@ -1387,34 +1443,34 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Cursed Arrow</li>
 			<ul class="hover">The horror......</ul>
 			<ul class="hide">Turn any non-boss enemy into a random creature</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Shockwave Arrow</li>
 			<ul>Summon a ghust of wind. Knocking enemies away and stunning them for 3 seconds</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Bonfire Arrow</li>
 			<ul>Summon a hail of arrows down at the location of the arrow</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Fire Arrow</li>
 			<ul>Ignites anything that is struck by the arrow</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Ender Arrow</li>
 			<ul>Teleport to the location of the arrow</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Freezing Arrow</li>
 			<ul>Freezes anything hit by the arrow for 6 seconds</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Lightning Arrow</li>
 			<ul>Summon multiple lightning bolts at the arrow</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Transforming Arrow</li>
 			<ul>Summon nature at the target</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Hypnotizing Arrow</li>
 			<ul>Hypnotize the target to fight for you</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul><br>
 		<li><img class="item" src="assets/img/arrows/amethyst_arrow.png" alt="">Weaving Arrow</li>
 			<ul>Summon a cobweb at the target</ul>
-			<ul>Aquired from Alaric Stormweaver for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul>
+			<ul>Aquired from <a href="#alaric">Alaric Stormweaver</a> for 3 silver <img class="item" src="assets/img/silver_coin.png" alt="">  (8 Arrows)</ul>
 	</ul>
 </section>
 
@@ -1452,7 +1508,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Ram Guild Armor</li>
 			<li>Full set: Grants a stacking jump boost</li>
-			<li>High Durability</li>
+			<li><a href="#reinforeced">High Durability</a></li>
 			<li>+0.15 Jump Boost	+5 Safe Fall Distance</li>
 		</ul>
 		</div><br>
@@ -1463,7 +1519,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Axolotol Guild Armor</li>
 			<li>Full set: Grants swimming speed in water</li>
-			<li>High Durability</li>
+			<li><a href="#reinforeced">High Durability</a></li>
 			<li>+3 Oxygen Bonus		+0.25 Water Movement Efficiency</li>
 		</ul>
 		</div><br>
@@ -1474,7 +1530,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Stalion Guild Armor</li>
 			<li>Full set: Grants Faster Magicka regeneration</li>
-			<li>High Durability</li>
+			<li><a href="#reinforeced">High Durability</a></li>
 			<li>+0.03 Speed		+0.25 Step Height</li>
 		</ul>
 		</div><br>
@@ -1485,7 +1541,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Earthdweller Guild Armor</li>
 			<li>Full set: Grants Telekinesis</li>
-			<li>High Durability</li>
+			<li><a href="#reinforeced">High Durability</a></li>
 			<li>+0.25 Sneaking Speed	+0.25 Block Break Speed</li>
 		</ul>
 		</div><br>
@@ -1496,7 +1552,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Merchant Guild Armor</li>
 			<li>Full set: Grants better offers from traders</li>
-			<li>High Durability</li>
+			<li><a href="#reinforeced">High Durability</a></li>
 			<li>+2 Luck</li>
 		</ul>
 		</div><br>
@@ -1507,7 +1563,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Armadillo Order Armor</li>
 			<li>Full set: Grants Iron skin</li>
-			<li>Very High Durability</li>
+			<li><a href="#reinforeced">Very High Durability</a></li>
 			<li>+3 Max Health	+4 Armor Toughness</li>
 		</ul>
 		</div><br>
@@ -1518,7 +1574,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Guardian Order Armor</li>
 			<li>Full set: Grants Deflext Projectiles</li>
-			<li>Very High Durability</li>
+			<li><a href="#reinforeced">Very High Durability</a></li>
 			<li>+1 Attck Damage		+0.25 Attack Knockback</li>
 		</ul>
 		</div><br>
@@ -1529,7 +1585,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Wither Order Armor</li>
 			<li>Full set: Grants regeneration when on fire</li>
-			<li>Very High Durability</li>
+			<li><a href="#reinforeced">Very High Durability</a></li>
 			<li>+2.5 Knockback Resistance	-0.25 Burding Time</li>
 		</ul>
 		</div><br>
@@ -1540,7 +1596,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<ul>
 			<li>Amethyst Order Armor</li>
 			<li>Full set: Grants immunity to nagative effects</li>
-			<li>Very High Durability</li>
+			<li><a href="#reinforeced">Very High Durability</a></li>
 			<li>+2.5 Knockback Resistance	+0.25 Explosion Knockback Resistance</li>
 		</ul>
 		</div>
@@ -1595,7 +1651,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<div>Low durability: 1x</div>
 		<div>Moderate durability: 2x</div>
 		<div>High durability: 4x</div>
-		<div>Very high durability: 8x</div>
+		<div>Very High Durability: 8x</div>
       </section>
 
       <section id="currency">
@@ -1617,7 +1673,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Heavy Battle Mace</div>
-					<div>Lightning Strike <br> Ram Guild <br> Very High Durability</div>
+					<div><a href="#lighting_strike">Lightning Strike</a> <br> Ram Guild <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:
 						<div class="tier-blue">0.03 Speed</div>
 						<div class="tier-blue">+0.5 Jump Strength</div>
@@ -1633,7 +1689,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Echo of the Deep</div>
-					<div>Seaborn <br> Axolotl Guild <br> Very High Durability</div>
+					<div><a href="#seaborn">Seaborn</a> <br> Axolotl Guild <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:
 						<div class="tier-blue">+16 Attack Damage</div>
 						<div class="tier-red">-3.1 Attack Speed</div>
@@ -1647,7 +1703,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Dark Moon Greatsword</div>
-					<div>Greatblade Defence <br> Stallion Guild <br> Very High Durability</div>
+					<div><a href="#greatblade_defence">Greatblade Defence</a> <br> Stallion Guild <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-red">-0.01 Speed</div>
 					<div class="tier-blue">+26 Attack Damage</div>
@@ -1662,7 +1718,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Dark Moon Greatsword</div>
-					<div>Greatblade Defence <br> Stallion Guild <br> Very High Durability</div>
+					<div><a href="#greatblade_defence">Greatblade Defence</a> <br> Stallion Guild <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-red">-0.01 Speed</div>
 					<div class="tier-blue">+26 Attack Damage</div>
@@ -1677,7 +1733,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Miner's Talon</div>
-					<div>Earthdweller Guild <br> Very High Durability</div>
+					<div>Earthdweller Guild <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-blue">+0.6 Sneaking Speed</div>
 					<div class="tier-blue">+0.5 Submerged Mining Speed</div>
@@ -1693,7 +1749,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Miner's Talon</div>
-					<div>Earthdweller Guild <br> Very High Durability</div>
+					<div>Earthdweller Guild <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-blue">+0.6 Sneaking Speed</div>
 					<div class="tier-blue">+0.5 Submerged Mining Speed</div>
@@ -1709,7 +1765,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Gilded Dagger</div>
-					<div>Bounty Claim <br> Merchant Guild <br> Very High Durability</div>
+					<div><a href="#bounty_claim">Bounty Claim</a> <br> Merchant Guild <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-blue">+7 Attack Damage</div>
 					<div class="tier-red">-1.7 Attack Speed</div>
@@ -1723,7 +1779,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Soulpiercer</div>
-					<div>Power XIIV <br> Piercing VIII <br> Armadillo Order <br> Very High Durability</div>
+					<div>Power XIIV <br> Piercing VIII <br> Armadillo Order <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-red">-0.01 Speed</div>
 					<div class="tier-blue">+100% Armor</div>
@@ -1736,7 +1792,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Moonveil Katana</div>
-					<div>Bleeding <br> Seppuku <br> Guardian Order <br> Very High Durability</div>
+					<div><a href="#bleeding">Bleeding</a> <br> <a href="#seppuku">Seppuku</a> <br> Guardian Order <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-blue">+0.01 Speed</div>
 					<div class="tier-blue">+8 Attack Damage</div>
@@ -1751,7 +1807,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Moonveil Katana</div>
-					<div>Bleeding <br> Seppuku <br> Guardian Order <br> Very High Durability</div>
+					<div>Bleeding <br> Seppuku <br> Guardian Order <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-blue">+0.01 Speed</div>
 					<div class="tier-blue">+8 Attack Damage</div>
@@ -1766,7 +1822,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Nightshade Bow</div>
-					<div>Blackthorn Arrow <br> Wither Order <br> Very High Durability</div>
+					<div><a href="#blackthorn_arrow">Blackthorn Arrow</a> <br> Wither Order <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-blue">+50% Armor</div>
 					<div class="tier-blue">+0.25 Jump Strength</div>
@@ -1779,7 +1835,7 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 				</div>
 				<div>
 					<div>Crystal Shield</div>
-					<div>Retaliation Pulse <br> Amethyst Order <br> Very High Durability</div>
+					<div><a href="#retaliation_pulse">Retaliation Pulse</a> <br> Amethyst Order <br> <a href="#reinforeced">Very High Durability</a></div>
 					<div>When in Main Hand:</div>
 					<div class="tier-blue">+10 Armor</div>
 					<div class="tier-blue">+4 Max Health</div>
@@ -1803,63 +1859,63 @@ At Direwood Keep lives Monk Zaccarius, who sells the books, which desribes the w
 		<p>Drops from normal enemies from dungeons</p>
 		<ul>
 			<li>Family Portrait <img class="item" src="assets/img/trinkets/family_photo.png" alt="">
-				<ul>sells for 1 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
+				<ul>sells for 1 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
 				<ul></ul><br>
 			</li>
 			<li>Blackened Feather <img class="item" src="assets/img/trinkets/blackened_feather.png" alt="">
-				<ul>sells for 1 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
+				<ul>sells for 1 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
 				<ul></ul><br>
 			</li>
 			<li>Silver Ring <img class="item" src="assets/img/trinkets/silver_ring.png" alt="">
-				<ul>sells for 2 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
+				<ul>sells for 2 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
 				<ul></ul><br>
 			</li>
 			<li>Amulet <img class="item" src="assets/img/trinkets/amulet.png" alt="">
-				<ul>sells for 4 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
+				<ul>sells for 4 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
 				<ul></ul><br>
 			</li>
 			<li>Golden Ring <img class="item" src="assets/img/trinkets/gold_ring.png" alt="">
-				<ul>sells for 5 gold <img class="item" src="assets/img/gold_coin.png" alt=""> at Ysembert</ul>
+				<ul>sells for 5 gold <img class="item" src="assets/img/gold_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
 				<ul></ul>
 			</li>
 		</ul>
 		<p>Mob Drops</p>
 		<ul>
 			<li>Goathide <img class="item" src="assets/img/trinkets/goat_hide.png" alt="">
-				<ul>Sells for 2 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
+				<ul>Sells for 2 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
 				<ul>Drops from slain Goats</ul><br>
 			</li>
 			<li>Red Muchroom Leather <img class="item" src="assets/img/trinkets/red_mooshroom_leather.png" alt="">
-				<ul>sells for 3 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
+				<ul>sells for 3 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
 				<ul>Drops from slain Mooshroom Cows</ul><br>
 			</li>
 			<li>Brown Mushroom Leather <img class="item" src="assets/img/trinkets/brown_mooshroom_leather.png" alt="">
-				<ul>sells for 4 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
-				<ul>Drops from slain </ul><br>
+				<ul>sells for 4 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
+				<ul>Drops from slain Brown Mushrooms</ul><br>
 			</li>
 			<li>Fox Pelt <img class="item" src="assets/img/trinkets/fox_pelt.png" alt="">
-				<ul>sells for 8 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
-				<ul>Drops from slain </ul><br>
+				<ul>sells for 8 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
+				<ul>Drops from slain Foxes</ul><br>
 			</li>
 			<li>White Fox Pelt <img class="item" src="assets/img/trinkets/white_fox_pelt.png" alt="">
-				<ul>sells for 10 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
-				<ul>Drops from slain </ul><br>
+				<ul>sells for 10 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
+				<ul>Drops from slain White Foxes</ul><br>
 			</li>
 			<li>Prime Phantom Membrane <img class="item" src="assets/img/trinkets/prime_phantom_membrane.png" alt="">
-				<ul>sells for 20 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
-				<ul>Drops from slain </ul><br>
+				<ul>sells for 20 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
+				<ul>Drops from slain Phantoms</ul><br>
 			</li>
 			<li>Panda Pelt <img class="item" src="assets/img/trinkets/panda_pelt.png" alt="">
-				<ul>sells for 20 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
-				<ul>Drops from slain </ul><br>
+				<ul>sells for 20 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
+				<ul>Drops from slain Pandas</ul><br>
 			</li>
 			<li>Sniffer Pelt <img class="item" src="assets/img/trinkets/sniffer_pelt.png" alt="">
-				<ul>sells for 25 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at Ysembert</ul>
-				<ul>Drops from slain </ul><br>
+				<ul>sells for 25 silver <img class="item" src="assets/img/silver_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
+				<ul>Drops from slain Sniffers</ul><br>
 			</li>
 			<li>Polar Bear Pelt <img class="item" src="assets/img/trinkets/polar_bear_pelt.png" alt=""> 
-				<ul>sells for 1 gold <img class="item" src="assets/img/gold_coin.png" alt=""> at Ysembert</ul>
-				<ul>Drops from slain </ul>
+				<ul>sells for 1 gold <img class="item" src="assets/img/gold_coin.png" alt=""> at <a href="#ysembert">ysembert</a></ul>
+				<ul>Drops from slain Polar Bears</ul>
 			</li>
 		</ul>
       </section>
