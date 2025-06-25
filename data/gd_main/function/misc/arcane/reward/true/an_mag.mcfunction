@@ -5,4 +5,4 @@ playsound minecraft:block.beacon.power_select master @a[distance=..12] ~ ~ ~ 1 1
 
 scoreboard players set @s mana_boost_duration 72000
 
-effect give @s minecraft:wind_charged 72000 0 true
+effect give @s minecraft:wind_charged 3600 0 true

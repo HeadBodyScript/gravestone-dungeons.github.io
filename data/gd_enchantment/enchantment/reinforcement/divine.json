@@ -1,0 +1,51 @@
+{
+  "description": {
+    "translate": "enchantment.minecraft.divine",
+    "fallback": "Divine",
+    "with": [],
+    "color": "#33ffff"
+  },
+  "supported_items": "#gd_main:melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "weight": 1,
+  "anvil_cost": 12,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "id": "melee_weapon",
+        "amount": 9,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:generic.attack_knockback",
+        "id": "melee_weapon",
+        "amount": 0.75,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "id": "melee_weapon",
+        "amount": 0.2,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:player.sweeping_damage_ratio",
+        "id": "melee_weapon",
+        "amount": 1,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

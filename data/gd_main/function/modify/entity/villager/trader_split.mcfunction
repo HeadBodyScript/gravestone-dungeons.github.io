@@ -1,6 +1,6 @@
 execute if entity @e[tag=wizard_1] run function gd_main:modify/entity/villager/wizard_1
 execute if entity @e[tag=farmer_1] run function gd_main:modify/entity/villager/farmer_1
-execute if entity @e[tag=cedric] run function gd_main:modify/entity/villager/cedric
+execute as @a[scores={bardquestcounter=1..}] run function gd_main:modify/entity/villager/cedric
 execute if entity @e[tag=elana] run function gd_main:modify/entity/villager/elana
 execute if entity @e[tag=cartographer_1] run function gd_main:modify/entity/villager/cartographer_1
 execute if entity @e[tag=faendal] run function gd_main:modify/entity/villager/faendal
